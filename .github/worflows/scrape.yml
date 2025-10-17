@@ -1,9 +1,9 @@
 name: Scrape calendário e publicar dados
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch: {}      # <— isto habilita o botão "Run workflow"
   schedule:
-    - cron: "25 10 * * *"   # roda todo dia 07:25 BRT (~10:25 UTC). Ajuste se quiser.
+    - cron: "25 10 * * *"    # diário ~07:25 BRT (10:25 UTC), ajuste se quiser
   push:
     paths:
       - "scraper/**"
@@ -11,7 +11,7 @@ on:
       - "requirements.txt"
 
 permissions:
-  contents: write
+  contents: write            # precisa para commitar data/ de volta no repo
 
 jobs:
   scrape:
