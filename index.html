@@ -42,50 +42,52 @@
     </tbody>
   </table>
 
-  <script>
-    async function loadTabela() {
-      try {
-        const resp = await fetch("/data/calendario_residencia.json");
-        if (!resp.ok) {
-          throw new Error("Falha ao carregar JSON: " + resp.statusText);
-        }
-        const dados = await resp.json();
-        const tbody = document.querySelector("#tabela-calendario tbody");
+<script>
+  async function loadTabela() {
+    try {
+      // Resolve a URL relativa ao caminho atual do site no GitHub Pages
+      const base = new URL('.', window.location);
+      const dataUrl = new URL('data/calendario_residencia.json', base);
 
-        dados.forEach(item => {
-          const tr = document.createElement("tr");
-          const tdUf = document.createElement("td");
-          tdUf.textContent = item.UF;
-          tr.appendChild(tdUf);
+      const resp = await fetch(dataUrl.toString(), { cache: 'no-store' });
+      if (!resp.ok) throw new Error(`HTTP ${resp.status} - ${resp.statusText}`);
 
-          const tdInst = document.createElement("td");
-          tdInst.textContent = item["INSTITUIÇÃO"];
-          tr.appendChild(tdInst);
+      const dados = await resp.json();
+      const tbody = document.querySelector("#tabela-calendario tbody");
 
-          const tdInscr = document.createElement("td");
-          tdInscr.textContent = item["INSCRIÇÕES"];
-          tr.appendChild(tdInscr);
-
-          const tdProva = document.createElement("td");
-          tdProva.textContent = item["PROVA_OBJETIVA"];
-          tr.appendChild(tdProva);
-
-          tbody.appendChild(tr);
-        });
-      } catch (err) {
-        console.error("Erro ao carregar a tabela:", err);
-        const tbody = document.querySelector("#tabela-calendario tbody");
+      dados.forEach(item => {
         const tr = document.createElement("tr");
-        const td = document.createElement("td");
-        td.setAttribute("colspan", 4);
-        td.textContent = "Erro ao carregar os dados.";
-        tr.appendChild(td);
-        tbody.appendChild(tr);
-      }
-    }
+        const tdUf = document.createElement("td");
+        tdUf.textContent = item.UF || "";
+        tr.appendChild(tdUf);
 
-    // ao carregar a página
-    window.addEventListener("DOMContentLoaded", loadTabela);
-  </script>
+        const tdInst = document.createElement("td");
+        tdInst.textContent = item["INSTITUIÇÃO"] || "";
+        tr.appendChild(tdInst);
+
+        const tdInscr = document.createElement("td");
+        tdInscr.textContent = item["INSCRIÇÕES"] || "";
+        tr.appendChild(tdInscr);
+
+        const tdProva = document.createElement("td");
+        tdProva.textContent = item["PROVA_OBJETIVA"] || "";
+        tr.appendChild(tdProva);
+
+        tbody.appendChild(tr);
+      });
+    } catch (err) {
+      console.error("Erro ao carregar a tabela:", err);
+      const tbody = document.querySelector("#tabela-calendario tbody");
+      const tr = document.createElement("tr");
+      const td = document.createElement("td");
+      td.colSpan = 4;
+      td.textContent = "Erro ao carregar os dados.";
+      tr.appendChild(td);
+      tbody.appendChild(tr);
+    }
+  }
+  window.addEventListener("DOMContentLoaded", loadTabela);
+</script>
+
 </body>
 </html>
