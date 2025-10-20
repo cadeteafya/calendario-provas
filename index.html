@@ -1,114 +1,132 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8" />
-  <title>Calendário de Residência — Lista Completa</title>
+  <title>Calendário de Residência Médica — Lista Completa</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 2rem;
-    }
-    table {
-      border-collapse: collapse;
-      width: 100%;
-    }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 0.5rem;
-      text-align: left;
-    }
-    th {
-      background-color: #f4f4f4;
-    }
-    tr:nth-child(even) {
-      background-color: #fafafa;
-    }
+    :root { --border:#ddd; --bg:#f6f6f6; --fg:#222; }
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: var(--fg); margin: 24px; }
+    h1 { margin: 0 0 10px; font-size: clamp(22px, 4vw, 40px); }
+    .sub { margin: 6px 0 18px; opacity: .85; }
+    table { width: 100%; border-collapse: collapse; }
+    thead th { background: var(--bg); }
+    th, td { border: 1px solid var(--border); padding: 10px 12px; text-align: left; vertical-align: top; }
+    tbody tr:nth-child(even){ background: #fafafa; }
+    .nowrap { white-space: nowrap; }
+    .muted { opacity:.8; }
   </style>
 </head>
 <body>
   <h1>Calendário de Residência Médica — Lista Completa:</h1>
-  <p id="last-update" style="margin: 12px 0; opacity:.85">Atualizado em --/--/---- --:--</p>
-  <table id="tabela-calendario">
+  <p id="last-update" class="sub">Atualizado em --/--/---- --:--</p>
+
+  <table id="tabela-calendario" aria-describedby="last-update">
     <thead>
       <tr>
-        <th>UF</th>
+        <th class="nowrap">UF</th>
         <th>INSTITUIÇÃO</th>
-        <th>INSCRIÇÕES</th>
-        <th>PROVA OBJETIVA</th>
+        <th class="nowrap">INSCRIÇÕES</th>
+        <th class="nowrap">PROVA OBJETIVA</th>
+        <th class="nowrap">GABARITO PRELIMINAR</th>
+        <th class="nowrap">RESULTADO FINAL</th>
       </tr>
     </thead>
     <tbody>
-      <!-- linhas serão inseridas por JS -->
+      <!-- preenchido via JS -->
     </tbody>
   </table>
 
-<script>
-  async function loadTabela() {
-    try {
-      // Resolve a URL relativa ao caminho atual do site no GitHub Pages
-      const base = new URL('.', window.location);
-      const dataUrl = new URL('data/calendario_residencia.json', base);
+  <script>
+    // Evita rodar duas vezes se o arquivo for incluído/acessado de formas diferentes
+    if (!window.__CAL_TAB_INIT__) {
+      window.__CAL_TAB_INIT__ = true;
 
-      const resp = await fetch(dataUrl.toString(), { cache: 'no-store' });
-      if (!resp.ok) throw new Error(`HTTP ${resp.status} - ${resp.statusText}`);
+      function baseUrl(path){
+        const base = new URL('.', window.location.href);
+        return new URL(path, base).toString();
+      }
 
-      const dados = await resp.json();
-      const tbody = document.querySelector("#tabela-calendario tbody");
+      async function loadLastUpdate(){
+        try{
+          const resp = await fetch(baseUrl('data/meta.json'), { cache: 'no-store' });
+          if (!resp.ok) return;
+          const meta = await resp.json();
+          if (meta.last_update_brt){
+            document.getElementById('last-update').textContent = `Atualizado em ${meta.last_update_brt}`;
+          }
+        }catch(e){}
+      }
 
-      dados.forEach(item => {
-        const tr = document.createElement("tr");
-        const tdUf = document.createElement("td");
-        tdUf.textContent = item.UF || "";
-        tr.appendChild(tdUf);
+      async function loadTabela(){
+        const tbody = document.querySelector('#tabela-calendario tbody');
+        // limpa o tbody para evitar duplicações caso a função seja chamada novamente
+        while (tbody.firstChild) tbody.removeChild(tbody.firstChild);
 
-        const tdInst = document.createElement("td");
-        tdInst.textContent = item["INSTITUIÇÃO"] || "";
-        tr.appendChild(tdInst);
+        try{
+          const resp = await fetch(baseUrl('data/calendario_residencia.json'), { cache: 'no-store' });
+          if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
 
-        const tdInscr = document.createElement("td");
-        tdInscr.textContent = item["INSCRIÇÕES"] || "";
-        tr.appendChild(tdInscr);
+          const dados = await resp.json();
 
-        const tdProva = document.createElement("td");
-        tdProva.textContent = item["PROVA_OBJETIVA"] || "";
-        tr.appendChild(tdProva);
+          // Dedupe defensivo no cliente (além do dedupe do scraper)
+          const seen = new Set();
+          const key = r => [
+            (r.UF||'').toUpperCase(),
+            (r['INSTITUIÇÃO']||'').toUpperCase(),
+            (r['INSCRIÇÕES']||'').trim(),
+            (r['PROVA_OBJETIVA']||'').trim(),
+            (r['GABARITO_PRELIMINAR']||'').trim(),
+            (r['RESULTADO_FINAL']||'').trim(),
+          ].join(' | ');
 
-        tbody.appendChild(tr);
-      });
-    } catch (err) {
-      console.error("Erro ao carregar a tabela:", err);
-      const tbody = document.querySelector("#tabela-calendario tbody");
-      const tr = document.createElement("tr");
-      const td = document.createElement("td");
-      td.colSpan = 4;
-      td.textContent = "Erro ao carregar os dados.";
-      tr.appendChild(td);
-      tbody.appendChild(tr);
-    }
+          for (const item of dados){
+            const k = key(item);
+            if (seen.has(k)) continue;
+            seen.add(k);
 
-  }
-  window.addEventListener("DOMContentLoaded", loadTabela);
+            const tr = document.createElement('tr');
+            const cells = [
+              item.UF || '',
+              item['INSTITUIÇÃO'] || '',
+              item['INSCRIÇÕES'] || '',
+              item['PROVA_OBJETIVA'] || '',
+              item['GABARITO_PRELIMINAR'] || '-',
+              item['RESULTADO_FINAL'] || '-',
+            ];
+            for (const val of cells){
+              const td = document.createElement('td');
+              td.textContent = val;
+              tr.appendChild(td);
+            }
+            tbody.appendChild(tr);
+          }
 
-    async function loadLastUpdate() {
-      try {
-        const base = new URL('.', window.location);
-        const metaUrl = new URL('data/meta.json', base);
-        const resp = await fetch(metaUrl.toString(), { cache: 'no-store' });
-        if (!resp.ok) return;
-        const meta = await resp.json();
-        if (meta.last_update_brt) {
-          document.getElementById('last-update').textContent =
-            `Atualizado em ${meta.last_update_brt}`;
+          if (tbody.children.length === 0){
+            const tr = document.createElement('tr');
+            const td = document.createElement('td');
+            td.colSpan = 6; td.className = 'muted';
+            td.textContent = 'Sem registros.';
+            tr.appendChild(td);
+            tbody.appendChild(tr);
+          }
+        }catch(err){
+          console.error('Erro ao carregar a tabela:', err);
+          const tr = document.createElement('tr');
+          const td = document.createElement('td');
+          td.colSpan = 6;
+          td.textContent = 'Erro ao carregar os dados.';
+          tr.appendChild(td);
+          tbody.appendChild(tr);
         }
-      } catch (e) {}
+      }
+
+      (async function init(){
+        await loadLastUpdate();
+        await loadTabela();
+      })();
     }
-  
-    window.addEventListener("DOMContentLoaded", async () => {
-      await loadLastUpdate();
-      await loadTabela();   // sua função que já popula a tabela
-    });
-
-</script>
-
+  </script>
 </body>
 </html>
