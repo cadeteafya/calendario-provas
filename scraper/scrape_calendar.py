@@ -16,70 +16,74 @@ import requests
 from bs4 import BeautifulSoup
 
 URL = "https://med.estrategia.com/portal/residencia-medica/calendario-de-residencia-medica-confira-as-datas-das-proximas-provas/"
-HEADERS_WANTED = ["UF", "SELEÇÃO", "INSCRIÇÕES", "PROVA OBJETIVA", "EDITAL"]
 
-# ------------------ Rede ------------------
+# ------------------ Rede (com retries) ------------------
+
+def _req_get(url, params=None, timeout=30, tries=4, base_sleep=0.8):
+    last_err = None
+    for i in range(tries):
+        try:
+            resp = requests.get(
+                url,
+                params=params,
+                headers={
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) CalendarioBot/1.2",
+                    "Cache-Control": "no-cache",
+                    "Pragma": "no-cache",
+                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                },
+                timeout=timeout,
+            )
+            if resp.status_code >= 500:
+                raise requests.HTTPError(f"HTTP {resp.status_code}")
+            resp.raise_for_status()
+            return resp
+        except Exception as e:
+            last_err = e
+            sleep = base_sleep * (2 ** i)
+            time.sleep(sleep)
+    raise last_err
 
 def fetch_html(url: str) -> str:
-    """GET com cache-buster e headers para evitar CDN cacheada."""
-    resp = requests.get(
-        url,
-        params={"_": int(time.time())},  # cache-buster
-        headers={
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) CalendarioBot/1.1",
-            "Cache-Control": "no-cache",
-            "Pragma": "no-cache",
-        },
-        timeout=30,
-    )
-    resp.raise_for_status()
+    resp = _req_get(url, params={"_": int(time.time())})
     return resp.text
 
-# ------------------ Util ------------------
+# ------------------ Utils ------------------
 
 DATE_RE = re.compile(r"\b(\d{2})/(\d{2})/(\d{4})\b")
 
-def normalize_label(s: str) -> str:
+def normalize_text(s: str) -> str:
     s = (s or "").strip().lower()
     s = unicodedata.normalize("NFKD", s)
     s = "".join(c for c in s if not unicodedata.combining(c))
+    # normaliza espaços
+    s = re.sub(r"\s+", " ", s)
     return s
 
 def anos_meses_de(texto: str):
-    """Retorna lista de (ano, mes) encontrados no texto."""
     out = []
     for _d, m, y in DATE_RE.findall(texto or ""):
         out.append((int(y), int(m)))
     return out
 
 def ajustar_ano_prova_pelo_periodo_inscricao(inscricoes: str, prova: str) -> str:
-    """
-    Se houver inscrição em out/nov/dez de ano Y e prova em jan/fev/mar do mesmo Y,
-    ajusta prova para ano Y+1.
-    """
     if not prova:
         return prova
-
     ins = anos_meses_de(inscricoes)
     prv = list(DATE_RE.finditer(prova))
     if not ins or not prv:
         return prova
-
     anos_q4 = {y for (y, m) in ins if m >= 10}
     new_prova = prova
-
-    # substitui de trás pra frente para manter índices corretos
     for m in reversed(prv):
         d, mm, yy = map(int, m.groups())
         if yy in anos_q4 and 1 <= mm <= 3:
             yy_new = yy + 1
             start, end = m.span()
             new_prova = new_prova[:start] + f"{d:02d}/{mm:02d}/{yy_new}" + new_prova[end:]
-
     return new_prova
 
 def parse_date_br_first(s: str):
-    """Primeira data dd/mm/yyyy no texto -> datetime (ou None)."""
     m = DATE_RE.search(s or "")
     if not m:
         return None
@@ -89,54 +93,99 @@ def parse_date_br_first(s: str):
     except ValueError:
         return None
 
-# ------------------ Parsing página principal ------------------
+# ------------------ Parsing tabela principal (robusto) ------------------
+
+# chaves que aceitamos como equivalentes
+ALIASES = {
+    "uf": {"uf"},
+    "selecao": {"selecao", "selecao/instituicao", "instituicao", "instituicao/seleção", "selecao - instituicao"},
+    "inscricoes": {"inscricoes", "inscricao", "periodo de inscricoes"},
+    "prova": {"prova objetiva", "data da prova", "prova", "data prova"},
+    "edital": {"edital", "link do edital"},
+}
+
+def header_key(h_txt: str):
+    h = normalize_text(h_txt)
+    for k, opts in ALIASES.items():
+        for opt in opts:
+            if opt in h:
+                return k
+    return None
 
 def find_calendar_table(soup: BeautifulSoup):
-    """Tenta encontrar a tabela correta por cabeçalhos."""
-    tables = soup.find_all("table")
-    for tb in tables:
+    # tenta por thead
+    candidates = []
+    for tb in soup.find_all("table"):
         thead = tb.find("thead")
         tbody = tb.find("tbody")
-        if not thead or not tbody:
+        if not tbody:
             continue
-        headers = [th.get_text(strip=True).upper() for th in thead.find_all("th")]
-        score = sum(1 for h in HEADERS_WANTED if h in headers)
-        if score >= 3:
-            return tb, headers
-    return None, None
+        headers = []
+        if thead:
+            headers = [th.get_text(strip=True) for th in thead.find_all("th")]
+        else:
+            # fallback: pega primeira linha como cabeçalho
+            first_tr = tb.find("tr")
+            if first_tr:
+                headers = [td.get_text(strip=True) for td in first_tr.find_all(["td", "th"])]
 
-def parse_main_table(table, headers_upper):
-    """Extrai colunas desejadas + URL do EDITAL (para scraping detalhado)."""
-    idx = {h: headers_upper.index(h) if h in headers_upper else None for h in HEADERS_WANTED}
+        keys = set(filter(None, (header_key(h) for h in headers)))
+        score = len({"uf", "selecao", "inscricoes", "prova"} & keys)
+        if score >= 3:  # tolerante
+            candidates.append((score, tb, headers))
+
+    if not candidates:
+        return None, []
+
+    # escolhe a de maior score
+    candidates.sort(key=lambda x: x[0], reverse=True)
+    return candidates[0][1], candidates[0][2]
+
+def parse_main_table(table, headers_texts):
+    # mapeia índice de cada coluna conhecida
+    header_map = {}
+    if headers_texts:
+        for idx, h in enumerate(headers_texts):
+            k = header_key(h)
+            if k and k not in header_map:
+                header_map[k] = idx
 
     rows_out = []
-    for tr in table.find("tbody").find_all("tr"):
+    body_rows = table.find_all("tr")
+    # se tinha thead, normalmente a primeira linha é o cabeçalho — pular
+    if table.find("thead") and body_rows:
+        body_rows = body_rows[1:]
+
+    for tr in body_rows:
         tds = tr.find_all(["td", "th"])
-        if not tds:
+        if not tds or len(tds) < 3:
             continue
 
-        def get_text(h):
-            i = idx[h]
+        def col_text(k):
+            i = header_map.get(k)
             if i is None or i >= len(tds):
                 return ""
             return tds[i].get_text(strip=True)
 
-        def get_edital_href():
-            i = idx.get("EDITAL")
-            if i is None or i >= len(tds):
-                return None
-            a = tds[i].find("a")
+        uf = col_text("uf")
+        selecao = col_text("selecao") or tds[1].get_text(strip=True)  # fallback
+        inscr = col_text("inscricoes")
+        prova = col_text("prova")
+
+        # link do edital
+        edital_url = None
+        i_edital = header_map.get("edital")
+        if i_edital is not None and i_edital < len(tds):
+            a = tds[i_edital].find("a")
             if a and a.get("href"):
-                return a["href"].strip()
-            return None
+                edital_url = a["href"].strip()
+        if not edital_url:
+            # fallback: primeiro link da linha
+            a = tr.find("a")
+            if a and a.get("href"):
+                edital_url = a["href"].strip()
 
-        uf = get_text("UF")
-        selecao = get_text("SELEÇÃO")
-        inscr = get_text("INSCRIÇÕES")
-        prova = get_text("PROVA OBJETIVA")
-        edital_href = get_edital_href()
-
-        if not uf or not selecao:
+        if not (uf and selecao):
             continue
 
         rows_out.append({
@@ -144,49 +193,35 @@ def parse_main_table(table, headers_upper):
             "INSTITUIÇÃO": selecao,
             "INSCRIÇÕES": inscr,
             "PROVA_OBJETIVA": prova,
-            "_EDITAL_URL": edital_href,   # campo interno, não sai no CSV/JSON final
+            "_EDITAL_URL": edital_url,
         })
+
     return rows_out
 
 # ------------------ Parsing página de edital ------------------
 
-DETAIL_KEYS = {
-    "data da prova": "data_prova",
-    "gabarito preliminar": "gabarito_preliminar",
-    "resultado final": "resultado_final",
-}
-
 def parse_detail_page(edital_url: str) -> dict:
-    """
-    Acessa a página de notícias do edital e tenta ler a tabela "Resumo edital ...".
-    Retorna dict com possíveis chaves: data_prova, gabarito_preliminar, resultado_final.
-    """
     if not edital_url:
         return {}
-
-    html = fetch_html(edital_url if edital_url.startswith("http") else urljoin(URL, edital_url))
+    full = edital_url if edital_url.startswith("http") else urljoin(URL, edital_url)
+    html = fetch_html(full)
     soup = BeautifulSoup(html, "lxml")
 
-    # Heurística: procurar por tabelas onde a 1ª coluna parece "rótulo" e a 2ª o "valor".
     out = {}
     for tb in soup.find_all("table"):
-        trs = tb.find_all("tr")
-        if not trs:
-            continue
-        for tr in trs:
+        for tr in tb.find_all("tr"):
             tds = tr.find_all(["td", "th"])
             if len(tds) < 2:
                 continue
-            label = normalize_label(tds[0].get_text(" ", strip=True))
+            label = normalize_text(tds[0].get_text(" ", strip=True))
             value = tds[1].get_text(" ", strip=True)
 
-            if label in DETAIL_KEYS:
-                out[DETAIL_KEYS[label]] = value
-
-        # Se já encontramos o trio, podemos parar
-        if any(k in out for k in ("data_prova", "gabarito_preliminar", "resultado_final")):
-            # não quebra: outras tabelas podem complementar, mas isso já cobre o normal
-            pass
+            if "data da prova" in label or "prova objetiva" in label or "data prova" in label:
+                out["data_prova"] = value
+            elif "gabarito preliminar" in label:
+                out["gabarito_preliminar"] = value
+            elif "resultado final" in label:
+                out["resultado_final"] = value
 
     return out
 
@@ -205,7 +240,6 @@ def save_json(data, path_json):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 def save_meta():
-    """Grava meta.json com horário de Brasília fixado em 07:00 do dia da execução."""
     Path("data").mkdir(exist_ok=True)
     hoje_brt = datetime.now(ZoneInfo("America/Sao_Paulo")).date()
     meta_dt = datetime(hoje_brt.year, hoje_brt.month, hoje_brt.day, 7, 0, tzinfo=ZoneInfo("America/Sao_Paulo"))
@@ -216,50 +250,46 @@ def save_meta():
 # ------------------ Main ------------------
 
 def main():
-    # 1) Página principal
-    html = fetch_html(URL)
-    soup = BeautifulSoup(html, "lxml")
+    try:
+        html = fetch_html(URL)
+    except Exception as e:
+        print(f"[ERRO] Falha ao baixar página principal: {e}", file=sys.stderr)
+        html = ""
 
+    soup = BeautifulSoup(html or "", "lxml")
     table, headers = find_calendar_table(soup)
     if not table:
-        print("[ERRO] Tabela do calendário não encontrada.", file=sys.stderr)
-        sys.exit(1)
+        title = soup.title.get_text(strip=True) if soup and soup.title else "(sem título)"
+        print(f"[ERRO] Tabela do calendário não encontrada. HTML title: {title}", file=sys.stderr)
+        rows = []
+    else:
+        rows = parse_main_table(table, headers_texts=headers)
 
-    rows = parse_main_table(table, headers_upper=[h.upper() for h in headers])
-
-    # 2) Para cada linha, abrir o EDITAL e coletar dados extras
+    # Detalhes por edital
     for r in rows:
         edital_url = r.get("_EDITAL_URL")
         if not edital_url:
             r["GABARITO_PRELIMINAR"] = "-"
             r["RESULTADO_FINAL"] = "-"
             continue
-
         try:
             detail = parse_detail_page(edital_url)
-            # Reconcilia Data da Prova (prioriza a do detalhe se existir)
             if detail.get("data_prova"):
                 r["PROVA_OBJETIVA"] = detail["data_prova"]
-            # Novas colunas:
             r["GABARITO_PRELIMINAR"] = detail.get("gabarito_preliminar", "-") or "-"
             r["RESULTADO_FINAL"] = detail.get("resultado_final", "-") or "-"
-            # Respeita site; se vier vazio, mantém "-"
         except Exception as e:
-            # Se algo falhar no detalhe, não quebra o pipeline
             r["GABARITO_PRELIMINAR"] = "-"
             r["RESULTADO_FINAL"] = "-"
-            # opcional: printar erro no stderr
-            print(f"[WARN] Falha ao coletar detalhe {edital_url}: {e}", file=sys.stderr)
-        # Acesso educado (evita bater forte na origem)
+            print(f"[WARN] Falha ao detalhar {edital_url}: {e}", file=sys.stderr)
         time.sleep(0.4)
 
-    # 3) Ajuste de virada de ano (após reconciliação da prova)
+    # Ajuste de virada de ano
     for r in rows:
         r["PROVA_OBJETIVA"] = ajustar_ano_prova_pelo_periodo_inscricao(r.get("INSCRIÇÕES", ""), r.get("PROVA_OBJETIVA", ""))
 
-    # 4) Deduplicação (evita linhas repetidas por flutuação na origem)
+    # Dedup
     seen = set()
-    unique_rows = []
     def key_of(x):
         return (
             (x.get("UF") or "").strip().upper(),
@@ -267,25 +297,24 @@ def main():
             (x.get("INSCRIÇÕES") or "").strip(),
             (x.get("PROVA_OBJETIVA") or "").strip(),
         )
+    unique_rows = []
     for r in rows:
         k = key_of(r)
-        if k in seen:
+        if k in seen: 
             continue
         seen.add(k)
         unique_rows.append(r)
 
-    # 5) Ordena pela primeira data detectada na prova (quando houver)
+    # Ordenação
     unique_rows.sort(key=lambda r: (parse_date_br_first(r.get("PROVA_OBJETIVA", "")) or datetime.max))
 
-    # 6) Salva
+    # Salvar
     Path("data").mkdir(exist_ok=True)
     save_csv(unique_rows, "data/calendario_residencia.csv")
-    # Remove campo interno antes do JSON final
     for r in unique_rows:
         r.pop("_EDITAL_URL", None)
     save_json(unique_rows, "data/calendario_residencia.json")
     save_meta()
-
     print(f"[OK] Registros salvos: {len(unique_rows)} (antes: {len(rows)})")
 
 if __name__ == "__main__":
