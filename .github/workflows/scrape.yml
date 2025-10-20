@@ -1,9 +1,9 @@
 name: Scrape calendário e publicar dados
 
 on:
-  workflow_dispatch: {}      # habilita o botão Run workflow
+  workflow_dispatch: {}
   schedule:
-    - cron: "25 10 * * *"    # diário ~07:25 BRT (10:25 UTC) — ajuste se quiser
+    - cron: "0 10 * * *"   # 10:00 UTC = 07:00 BRT (sem DST)
   push:
     paths:
       - "scraper/**"
@@ -11,12 +11,11 @@ on:
       - "requirements.txt"
 
 permissions:
-  contents: write            # permite commitar no repo
+  contents: write
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -39,6 +38,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/calendario_residencia.json data/calendario_residencia.csv || true
-          git commit -m "chore(data): atualizar calendário via Actions" || echo "Nada para commitar"
+          git add data/calendario_residencia.json data/calendario_residencia.csv data/meta.json || true
+          git commit -m "chore(data): atualizar calendário e meta.json" || echo "Nada para commitar"
           git push
