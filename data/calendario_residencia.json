@@ -390,6 +390,12 @@
     "PROVA_OBJETIVA": "30/11/2025"
   },
   {
+    "UF": "SP/RJ",
+    "INSTITUIÇÃO": "Amil",
+    "INSCRIÇÕES": "03 a 13/11/2025",
+    "PROVA_OBJETIVA": "30/11/2025"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "Santa Casa de Araçatuba",
     "INSCRIÇÕES": "21/09 a 16/11/2025",
@@ -753,6 +759,12 @@
     "UF": "PA",
     "INSTITUIÇÃO": "UEPA",
     "INSCRIÇÕES": "16 a 30/10/2025",
+    "PROVA_OBJETIVA": "18/01/2026"
+  },
+  {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "SCM Barra Mansa",
+    "INSCRIÇÕES": "20/10 a 11/12/2025",
     "PROVA_OBJETIVA": "18/01/2026"
   },
   {
