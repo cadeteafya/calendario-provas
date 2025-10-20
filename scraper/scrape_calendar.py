@@ -4,6 +4,12 @@ from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
 
+from datetime import datetime
+from zoneinfo import ZoneInfo
+import json, os
+from pathlib import Path
+
+
 URL = "https://med.estrategia.com/portal/residencia-medica/calendario-de-residencia-medica-confira-as-datas-das-proximas-provas/"
 
 HEADERS_WANTED = ["UF", "SELEÇÃO", "INSCRIÇÕES", "PROVA OBJETIVA"]
@@ -87,6 +93,17 @@ def save_csv(data, path_csv):
 def save_json(data, path_json):
     with open(path_json, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+Path("data").mkdir(exist_ok=True)
+
+# horário da última atualização em Brasília (BRT)
+hoje_brt = datetime.now(ZoneInfo("America/Sao_Paulo")).date()
+meta_dt = datetime(hoje_brt.year, hoje_brt.month, hoje_brt.day, 7, 0, tzinfo=ZoneInfo("America/Sao_Paulo"))
+meta = {"last_update_brt": meta_dt.strftime("%d/%m/%Y %H:%M")}
+
+with open("data/meta.json", "w", encoding="utf-8") as f:
+    json.dump(meta, f, ensure_ascii=False, indent=2)
+
 
 def main():
     html = fetch_html(URL)
