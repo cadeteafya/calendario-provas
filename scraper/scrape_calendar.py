@@ -5,6 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from datetime import datetime
+import time
 from zoneinfo import ZoneInfo
 import json, os
 from pathlib import Path
@@ -17,8 +18,11 @@ HEADERS_WANTED = ["UF", "SELEÇÃO", "INSCRIÇÕES", "PROVA OBJETIVA"]
 def fetch_html(url: str) -> str:
     resp = requests.get(
         url,
+        params={"_": int(time.time())},  # cache-buster
         headers={
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) CalendarioBot/1.0"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) CalendarioBot/1.0",
+            "Cache-Control": "no-cache",
+            "Pragma": "no-cache",
         },
         timeout=30,
     )
