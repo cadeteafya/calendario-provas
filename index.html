@@ -26,8 +26,8 @@
   </style>
 </head>
 <body>
-  <h1>Calendário de Residência Médica — Lista Completa</h1>
-  <p>Fonte: med.estrategia.com — últimas atualizações via scraper</p>
+  <h1>Calendário de Residência Médica — Lista Completa:</h1>
+  <p id="last-update" style="margin: 12px 0; opacity:.85">Atualizado em --/--/---- --:--</p>
   <table id="tabela-calendario">
     <thead>
       <tr>
@@ -85,8 +85,29 @@
       tr.appendChild(td);
       tbody.appendChild(tr);
     }
+
   }
   window.addEventListener("DOMContentLoaded", loadTabela);
+
+    async function loadLastUpdate() {
+      try {
+        const base = new URL('.', window.location);
+        const metaUrl = new URL('data/meta.json', base);
+        const resp = await fetch(metaUrl.toString(), { cache: 'no-store' });
+        if (!resp.ok) return;
+        const meta = await resp.json();
+        if (meta.last_update_brt) {
+          document.getElementById('last-update').textContent =
+            `Atualizado em ${meta.last_update_brt}`;
+        }
+      } catch (e) {}
+    }
+  
+    window.addEventListener("DOMContentLoaded", async () => {
+      await loadLastUpdate();
+      await loadTabela();   // sua função que já popula a tabela
+    });
+
 </script>
 
 </body>
