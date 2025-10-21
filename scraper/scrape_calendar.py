@@ -320,7 +320,7 @@ def main():
             r["RESULTADO_FINAL"] = "-"
             continue
         #try:
-        #    detail = parse_detail_page(edital_url)
+            detail = parse_detail_page(edital_url)
 
             # (a) Reconciliação de "Data da Prova": só substitui se detalhe tiver data válida
          #   detail_dp = detail.get("data_prova")
