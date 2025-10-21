@@ -17,7 +17,9 @@ from bs4 import BeautifulSoup
 
 URL = "https://med.estrategia.com/portal/residencia-medica/calendario-de-residencia-medica-confira-as-datas-das-proximas-provas/"
 
-# ------------------ Rede (com retries) ------------------
+# =========================
+# Rede (GET com retries)
+# =========================
 
 def _req_get(url, params=None, timeout=30, tries=4, base_sleep=0.8):
     last_err = None
@@ -27,7 +29,7 @@ def _req_get(url, params=None, timeout=30, tries=4, base_sleep=0.8):
                 url,
                 params=params,
                 headers={
-                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) CalendarioBot/1.4",
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) CalendarioBot/1.5",
                     "Cache-Control": "no-cache",
                     "Pragma": "no-cache",
                     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -44,9 +46,13 @@ def _req_get(url, params=None, timeout=30, tries=4, base_sleep=0.8):
     raise last_err
 
 def fetch_html(url: str) -> str:
+    # cache-buster via timestamp
     return _req_get(url, params={"_": int(time.time())}).text
 
-# ------------------ Utils ------------------
+
+# =========================
+# Utils
+# =========================
 
 DATE_RE = re.compile(r"\b(\d{2})/(\d{2})/(\d{4})\b")
 
@@ -67,6 +73,7 @@ def anos_meses_de(texto: str):
     return out
 
 def ajustar_ano_prova_pelo_periodo_inscricao(inscricoes: str, prova: str) -> str:
+    # Se inscrição em out/nov/dez do ano Y e prova em jan/fev/mar do mesmo Y -> prova ano Y+1
     if not prova:
         return prova
     ins = anos_meses_de(inscricoes)
@@ -93,7 +100,10 @@ def parse_date_br_first(s: str):
     except ValueError:
         return None
 
-# ------------------ Parsing tabela principal (robusto) ------------------
+
+# ======================================
+# Parsing da tabela principal (robusto)
+# ======================================
 
 ALIASES = {
     "uf": {"uf"},
@@ -167,7 +177,7 @@ def parse_main_table(table, headers_texts):
         inscr = col_text("inscricoes")
         prova = col_text("prova")
 
-        # Captura do link do edital (prioridade: EDITAL > INSTITUIÇÃO > 1º link da linha)
+        # Link do edital (prioridade: EDITAL > INSTITUIÇÃO > 1º link da linha)
         edital_url = None
         i_edital = header_map.get("edital")
         if i_edital is not None and i_edital < len(tds):
@@ -191,24 +201,27 @@ def parse_main_table(table, headers_texts):
         })
     return rows_out
 
-# ------------------ Parsing página de edital ------------------
+
+# ======================================
+# Parsing da página do edital (detalhe)
+# ======================================
 
 def _extract_detail_from_soup(soup: BeautifulSoup) -> dict:
+    """
+    Captura:
+      - gabarito_preliminar (precisa ter data)
+      - resultado_final (ou 'classificação final') (precisa ter data)
+    NÃO atualiza 'data_prova' para não sobrescrever o calendário.
+    """
     out = {}
 
-    def accept_data_da_prova(label_norm: str) -> bool:
-        # Aceita APENAS os rótulos corretos para data da prova
-        return label_norm in {"data da prova", "prova objetiva", "data prova"}
-
     def accept_gabarito(label_norm: str) -> bool:
-        # precisa conter "gabarito" e "preliminar"
         return "gabarito" in label_norm and "preliminar" in label_norm
 
     def accept_resultado(label_norm: str) -> bool:
-        # aceita "resultado final" OU "classificacao final"
         return ("resultado final" in label_norm) or ("classificacao final" in label_norm)
 
-    # 1) Tabelas
+    # Tabelas
     for tb in soup.find_all("table"):
         for tr in tb.find_all("tr"):
             tds = tr.find_all(["td", "th"])
@@ -217,35 +230,23 @@ def _extract_detail_from_soup(soup: BeautifulSoup) -> dict:
             label_norm = normalize_text(tds[0].get_text(" ", strip=True))
             value = tds[1].get_text(" ", strip=True)
 
-            if accept_data_da_prova(label_norm):
-                # Só aceita se houver ao menos uma data
-                if has_date(value):
-                    out["data_prova"] = value
-            elif accept_gabarito(label_norm):
-                if has_date(value):
-                    out["gabarito_preliminar"] = value
-            elif accept_resultado(label_norm):
-                if has_date(value):
-                    out["resultado_final"] = value
+            if accept_gabarito(label_norm) and has_date(value):
+                out["gabarito_preliminar"] = value
+            elif accept_resultado(label_norm) and has_date(value):
+                out["resultado_final"] = value
 
-    # 2) <dl> (algumas páginas usam esse formato)
-    if not any(k in out for k in ("data_prova", "gabarito_preliminar", "resultado_final")):
+    # <dl>
+    if not any(k in out for k in ("gabarito_preliminar", "resultado_final")):
         for dl in soup.find_all("dl"):
             dts = dl.find_all("dt")
             dds = dl.find_all("dd")
             for dt, dd in zip(dts, dds):
                 label_norm = normalize_text(dt.get_text(" ", strip=True))
                 value = dd.get_text(" ", strip=True)
-
-                if accept_data_da_prova(label_norm):
-                    if has_date(value):
-                        out["data_prova"] = value
-                elif accept_gabarito(label_norm):
-                    if has_date(value):
-                        out["gabarito_preliminar"] = value
-                elif accept_resultado(label_norm):
-                    if has_date(value):
-                        out["resultado_final"] = value
+                if accept_gabarito(label_norm) and has_date(value):
+                    out["gabarito_preliminar"] = value
+                elif accept_resultado(label_norm) and has_date(value):
+                    out["resultado_final"] = value
 
     return out
 
@@ -265,13 +266,16 @@ def parse_detail_page(edital_url: str) -> dict:
             html = fetch_html(u)
             soup = BeautifulSoup(html, "lxml")
             out = _extract_detail_from_soup(soup)
-            if any(k in out for k in ("data_prova", "gabarito_preliminar", "resultado_final")):
+            if any(k in out for k in ("gabarito_preliminar", "resultado_final")):
                 break
         except Exception:
             continue
     return out
 
-# ------------------ Persistência ------------------
+
+# =========================
+# Persistência
+# =========================
 
 def save_csv(data, path_csv):
     keys = ["UF", "INSTITUIÇÃO", "INSCRIÇÕES", "PROVA_OBJETIVA", "GABARITO_PRELIMINAR", "RESULTADO_FINAL"]
@@ -293,7 +297,10 @@ def save_meta():
     with open("data/meta.json", "w", encoding="utf-8") as f:
         json.dump(meta, f, ensure_ascii=False, indent=2)
 
-# ------------------ Main ------------------
+
+# =========================
+# Main
+# =========================
 
 def main():
     # 1) Página principal
@@ -312,28 +319,22 @@ def main():
     else:
         rows = parse_main_table(table, headers_texts=headers)
 
-    # 2) Detalhes por edital
+    # 2) Detalhes por edital (NÃO alteramos PROVA_OBJETIVA; só novos campos)
     for r in rows:
         edital_url = r.get("_EDITAL_URL")
         if not edital_url:
             r["GABARITO_PRELIMINAR"] = "-"
             r["RESULTADO_FINAL"] = "-"
             continue
-        #try:
+        try:
             detail = parse_detail_page(edital_url)
-
-            # (a) Reconciliação de "Data da Prova": só substitui se detalhe tiver data válida
-         #   detail_dp = detail.get("data_prova")
-         #   if detail_dp and has_date(detail_dp):
-         #       r["PROVA_OBJETIVA"] = detail_dp
-            # (b) Novos campos: só aceita se tiver data
             r["GABARITO_PRELIMINAR"] = detail.get("gabarito_preliminar") if has_date(detail.get("gabarito_preliminar", "")) else "-"
             r["RESULTADO_FINAL"] = detail.get("resultado_final") if has_date(detail.get("resultado_final", "")) else "-"
         except Exception as e:
             r["GABARITO_PRELIMINAR"] = "-"
             r["RESULTADO_FINAL"] = "-"
             print(f"[WARN] Falha ao detalhar {edital_url}: {e}", file=sys.stderr)
-        time.sleep(0.5)  # gentil com a origem
+        time.sleep(0.5)  # respeitar a origem
 
     # --- Hotfix pontual: SMS-SJRP com ano incorreto vindo do calendário ---
     for r in rows:
@@ -343,9 +344,11 @@ def main():
             r["PROVA_OBJETIVA"] = "26/11/2025"
     # ----------------------------------------------------------------------
 
-    # 3) Ajuste de virada de ano (após reconciliação)
+    # 3) Ajuste de virada de ano (após hotfix)
     for r in rows:
-        r["PROVA_OBJETIVA"] = ajustar_ano_prova_pelo_periodo_inscricao(r.get("INSCRIÇÕES", ""), r.get("PROVA_OBJETIVA", ""))
+        r["PROVA_OBJETIVA"] = ajustar_ano_prova_pelo_periodo_inscricao(
+            r.get("INSCRIÇÕES", ""), r.get("PROVA_OBJETIVA", "")
+        )
 
     # 4) Dedup
     seen = set()
