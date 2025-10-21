@@ -381,7 +381,7 @@
     "INSCRIÇÕES": "13/10 a 11/11/2025",
     "PROVA_OBJETIVA": "27/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "19/12/2025"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "MG",
@@ -830,6 +830,14 @@
     "PROVA_OBJETIVA": "20/12/2025",
     "GABARITO_PRELIMINAR": "20/12/2025",
     "RESULTADO_FINAL": "02/02/2026"
+  },
+  {
+    "UF": "DF",
+    "INSTITUIÇÃO": "SES-DF",
+    "INSCRIÇÕES": "05 a 30/11/2025",
+    "PROVA_OBJETIVA": "21/12/2025",
+    "GABARITO_PRELIMINAR": "21/12/2025",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
