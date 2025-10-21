@@ -319,13 +319,13 @@ def main():
             r["GABARITO_PRELIMINAR"] = "-"
             r["RESULTADO_FINAL"] = "-"
             continue
-        try:
-            detail = parse_detail_page(edital_url)
+        #try:
+        #    detail = parse_detail_page(edital_url)
 
             # (a) Reconciliação de "Data da Prova": só substitui se detalhe tiver data válida
-            detail_dp = detail.get("data_prova")
-            if detail_dp and has_date(detail_dp):
-                r["PROVA_OBJETIVA"] = detail_dp
+         #   detail_dp = detail.get("data_prova")
+         #   if detail_dp and has_date(detail_dp):
+         #       r["PROVA_OBJETIVA"] = detail_dp
             # (b) Novos campos: só aceita se tiver data
             r["GABARITO_PRELIMINAR"] = detail.get("gabarito_preliminar") if has_date(detail.get("gabarito_preliminar", "")) else "-"
             r["RESULTADO_FINAL"] = detail.get("resultado_final") if has_date(detail.get("resultado_final", "")) else "-"
@@ -334,6 +334,14 @@ def main():
             r["RESULTADO_FINAL"] = "-"
             print(f"[WARN] Falha ao detalhar {edital_url}: {e}", file=sys.stderr)
         time.sleep(0.5)  # gentil com a origem
+
+    # --- Hotfix pontual: SMS-SJRP com ano incorreto vindo do calendário ---
+    for r in rows:
+        inst = (r.get("INSTITUIÇÃO") or "").strip().upper()
+        prova = (r.get("PROVA_OBJETIVA") or "").strip()
+        if inst == "SMS-SJRP" and prova == "26/11/2026":
+            r["PROVA_OBJETIVA"] = "26/11/2025"
+    # ----------------------------------------------------------------------
 
     # 3) Ajuste de virada de ano (após reconciliação)
     for r in rows:
