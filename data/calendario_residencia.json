@@ -121,6 +121,14 @@
   },
   {
     "UF": "RS",
+    "INSTITUIÇÃO": "IC/FUC – Acesso Direto",
+    "INSCRIÇÕES": "29/08 a 01/10/2025",
+    "PROVA_OBJETIVA": "01/11/2025",
+    "GABARITO_PRELIMINAR": "08/11/2025",
+    "RESULTADO_FINAL": "19/12/2025"
+  },
+  {
+    "UF": "RS",
     "INSTITUIÇÃO": "HMV",
     "INSCRIÇÕES": "01/09 a 01/10/2025",
     "PROVA_OBJETIVA": "01/11/2025",
@@ -174,14 +182,6 @@
     "PROVA_OBJETIVA": "07/11/2025",
     "GABARITO_PRELIMINAR": "07/11/2025",
     "RESULTADO_FINAL": "-"
-  },
-  {
-    "UF": "RS",
-    "INSTITUIÇÃO": "IC/FUC – Acesso Direto",
-    "INSCRIÇÕES": "29/08 a 01/10/2025",
-    "PROVA_OBJETIVA": "08/11/2025",
-    "GABARITO_PRELIMINAR": "08/11/2025",
-    "RESULTADO_FINAL": "19/12/2025"
   },
   {
     "UF": "RS",
@@ -259,7 +259,7 @@
     "UF": "SP",
     "INSTITUIÇÃO": "A.C.Camargo (áreas de atuação e ano adicional)",
     "INSCRIÇÕES": "01/09 a 03/10/2025",
-    "PROVA_OBJETIVA": "14/11/2025, 8h às 10h",
+    "PROVA_OBJETIVA": "14/11/2025",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "12/12/2025"
   },
@@ -275,7 +275,7 @@
     "UF": "SP",
     "INSTITUIÇÃO": "UNICAMP",
     "INSCRIÇÕES": "01 a 15/10/2025",
-    "PROVA_OBJETIVA": "15/11/2025 – Pré-Requisito 16/11/2025 – Acesso Direto",
+    "PROVA_OBJETIVA": "16/11/2025",
     "GABARITO_PRELIMINAR": "16/11/2025",
     "RESULTADO_FINAL": "23/01/2026"
   },
@@ -318,6 +318,14 @@
     "PROVA_OBJETIVA": "22/11/2025",
     "GABARITO_PRELIMINAR": "22/11/2025",
     "RESULTADO_FINAL": "20/12/2025"
+  },
+  {
+    "UF": "GO",
+    "INSTITUIÇÃO": "Instituto de Olhos de Goiânia",
+    "INSCRIÇÕES": "23/10 a 13/11/2025",
+    "PROVA_OBJETIVA": "22/11/2025",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "29/12/2025"
   },
   {
     "UF": "RS",
@@ -390,6 +398,14 @@
     "PROVA_OBJETIVA": "25/11/2025",
     "GABARITO_PRELIMINAR": "25/11/2025",
     "RESULTADO_FINAL": "30/01/2026"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "SMS-SJRP",
+    "INSCRIÇÕES": "23/10 a 05/11/2025",
+    "PROVA_OBJETIVA": "26/11/2025",
+    "GABARITO_PRELIMINAR": "27/11/2025",
+    "RESULTADO_FINAL": "21/01/2026"
   },
   {
     "UF": "SP",
@@ -579,7 +595,7 @@
     "UF": "SP",
     "INSTITUIÇÃO": "UNESP (Áreas de Atuação)",
     "INSCRIÇÕES": "12 a 17/11/2025",
-    "PROVA_OBJETIVA": "04/12/2025 – às 09h",
+    "PROVA_OBJETIVA": "04/12/2025",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "até 30/01/2026"
   },
@@ -590,14 +606,6 @@
     "PROVA_OBJETIVA": "05/12/2025",
     "GABARITO_PRELIMINAR": "08/12/2025 (a partir das 15h)",
     "RESULTADO_FINAL": "12/12/2025 (a partir das 17h)"
-  },
-  {
-    "UF": "GO",
-    "INSTITUIÇÃO": "Instituto de Olhos de Goiânia",
-    "INSCRIÇÕES": "23/10 a 13/11/2025",
-    "PROVA_OBJETIVA": "06/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "29/12/2025"
   },
   {
     "UF": "SP",
@@ -627,7 +635,7 @@
     "UF": "SP",
     "INSTITUIÇÃO": "USP-SP",
     "INSCRIÇÕES": "07 a 29/10/2025",
-    "PROVA_OBJETIVA": "07/12/2025, a partir das 13h",
+    "PROVA_OBJETIVA": "07/12/2025",
     "GABARITO_PRELIMINAR": "08/12/2025",
     "RESULTADO_FINAL": "10/02/2026"
   },
@@ -763,7 +771,7 @@
     "UF": "PR",
     "INSTITUIÇÃO": "Hospital Angelina Caron",
     "INSCRIÇÕES": "05/09 a 29/11/2025",
-    "PROVA_OBJETIVA": "13/12/2025 das 14h às 18h – UNIBRASIL",
+    "PROVA_OBJETIVA": "13/12/2025",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
@@ -771,7 +779,7 @@
     "UF": "SP/RJ/AL/SE/MA",
     "INSTITUIÇÃO": "IDOR",
     "INSCRIÇÕES": "15/10 a 08/12/2025",
-    "PROVA_OBJETIVA": "13/12/2025 – 15h",
+    "PROVA_OBJETIVA": "13/12/2025",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
@@ -1078,13 +1086,5 @@
     "PROVA_OBJETIVA": "02/02/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "18/02/2026"
-  },
-  {
-    "UF": "SP",
-    "INSTITUIÇÃO": "SMS-SJRP",
-    "INSCRIÇÕES": "23/10 a 05/11/2025",
-    "PROVA_OBJETIVA": "26/11/2026",
-    "GABARITO_PRELIMINAR": "27/11/2025",
-    "RESULTADO_FINAL": "21/01/2026"
   }
 ]
