@@ -5,6 +5,24 @@
   <title>Calendário de Residência Médica — Lista Completa</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+    }
+    
+    .header .logo {
+      height: 64px;
+      width: auto;
+      object-fit: contain;
+    }
+    
+    @media (max-width: 600px){
+      .header .logo { height: 44px; }
+    }
+    
     :root { --border:#ddd; --bg:#f6f6f6; --fg:#222; }
     * { box-sizing: border-box; }
     body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: var(--fg); margin: 24px; }
@@ -35,7 +53,15 @@
   </style>
 </head>
 <body>
+  <div class="header">
   <h1>Calendário de Residência Médica — Lista Completa:</h1>
+
+  <a href="https://educacaomedica.afya.com.br/" target="_blank" rel="noopener"
+     aria-label="Abrir site Afya Educação Médica">
+    <img src="afya.png" alt="Afya Educação Médica" class="logo">
+  </a>
+</div>
+
   <p id="last-update" class="sub">Atualizado em --/--/---- --:--</p>
 
   <div class="filters-wrap">
