@@ -18,7 +18,7 @@
     .muted { opacity:.8; }
 
     /* Filtro */
-    .filters-wrap { display:flex; align-items:center; gap:10px; margin: 6px 0 14px; }
+    .filters-wrap { display:flex; align-items:center; gap:10px; margin: 6px 0 14px; flex-wrap: wrap; }
     .filter-title { font-weight:600; }
     .dropdown { position: relative; display: inline-block; }
     .btn { cursor: pointer; padding: 8px 12px; border: 1px solid var(--border); background:#fff; border-radius:8px; }
@@ -51,6 +51,9 @@
       </div>
     </div>
     <div id="activeChips"></div>
+
+    <!-- NOVO: botão exportar -->
+    <button class="btn" id="btnExport">Gerar Excel</button>
   </div>
 
   <table id="tabela-calendario" aria-describedby="last-update">
@@ -183,7 +186,6 @@
 
       function renderFilterPanel(){
         const panel = document.getElementById('panel');
-        // limpa opções (mantém a barra de ações fixa no topo)
         panel.querySelectorAll('.row.opt').forEach(n=>n.remove());
 
         state.monthIndex.forEach(({key,label})=>{
@@ -202,7 +204,7 @@
           span.textContent = label;
           row.appendChild(cb);
           row.appendChild(span);
-          panel.insertBefore(row, panel.firstChild.nextSibling); // antes das ações fixas
+          panel.insertBefore(row, panel.firstChild.nextSibling);
         });
       }
 
@@ -245,10 +247,86 @@
         renderFilterPanel();
       }
 
+      // -------- Exportação (CSV que abre no Excel) --------
+      function getFilteredRows(){
+        const out = [];
+        const seen = new Set();
+        const key = r => [
+          (r.UF||'').toUpperCase(),
+          (r['INSTITUIÇÃO']||'').toUpperCase(),
+          (r['INSCRIÇÕES']||'').trim(),
+          (r['PROVA_OBJETIVA']||'').trim(),
+          (r['GABARITO_PRELIMINAR']||'').trim(),
+          (r['RESULTADO_FINAL']||'').trim(),
+        ].join(' | ');
+        for (const item of state.allRows){
+          if (!shouldShow(item)) continue;
+          const k = key(item);
+          if (seen.has(k)) continue;
+          seen.add(k);
+          out.push(item);
+        }
+        return out;
+      }
+
+      function toCSV(rows){
+        const headers = ["UF","INSTITUIÇÃO","INSCRIÇÕES","PROVA OBJETIVA","GABARITO PRELIMINAR","RESULTADO FINAL"];
+        const sep = ";"; // amigável ao Excel BR
+        const esc = v => {
+          const s = (v==null ? "" : String(v));
+          // escapa aspas
+          const ss = s.replace(/"/g,'""');
+          return `"${ss}"`;
+        };
+        const lines = [];
+        lines.push(headers.map(esc).join(sep));
+        for (const r of rows){
+          lines.push([
+            esc(r.UF||""),
+            esc(r["INSTITUIÇÃO"]||""),
+            esc(r["INSCRIÇÕES"]||""),
+            esc(r["PROVA_OBJETIVA"]||""),
+            esc(r["GABARITO_PRELIMINAR"]||"-"),
+            esc(r["RESULTADO_FINAL"]||"-"),
+          ].join(sep));
+        }
+        // BOM para Excel entender UTF-8
+        const bom = "\ufeff";
+        return bom + lines.join("\r\n");
+      }
+
+      function downloadCSV(csvText){
+        const now = new Date();
+        const pad = n => String(n).padStart(2,"0");
+        const filename = `calendario_residencia_${now.getFullYear()}${pad(now.getMonth()+1)}${pad(now.getDate())}_${pad(now.getHours())}${pad(now.getMinutes())}.csv`;
+        const blob = new Blob([csvText], {type: "text/csv;charset=utf-8;"});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        setTimeout(()=>{ URL.revokeObjectURL(url); a.remove(); }, 0);
+      }
+
+      function bindExport(){
+        document.getElementById('btnExport').onclick = ()=>{
+          const rows = getFilteredRows();
+          if (rows.length === 0){
+            alert("Nenhum registro para exportar com o filtro atual.");
+            return;
+          }
+          const csv = toCSV(rows);
+          downloadCSV(csv);
+        };
+      }
+      // ----------------------------------------------------
+
       (async function init(){
         await loadLastUpdate();
         await fetchDados();
         bindFilterUI();
+        bindExport();
         renderActiveChips();
         renderTable();
       })();
