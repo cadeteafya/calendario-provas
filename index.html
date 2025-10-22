@@ -16,11 +16,42 @@
     tbody tr:nth-child(even){ background: #fafafa; }
     .nowrap { white-space: nowrap; }
     .muted { opacity:.8; }
+
+    /* Filtro */
+    .filters-wrap { display:flex; align-items:center; gap:10px; margin: 6px 0 14px; }
+    .filter-title { font-weight:600; }
+    .dropdown { position: relative; display: inline-block; }
+    .btn { cursor: pointer; padding: 8px 12px; border: 1px solid var(--border); background:#fff; border-radius:8px; }
+    .panel {
+      position: absolute; top: 42px; left: 0; min-width: 260px; max-height: 320px; overflow:auto;
+      border: 1px solid var(--border); background:#fff; border-radius:10px; box-shadow:0 6px 24px rgba(0,0,0,.08); display:none; z-index: 20;
+    }
+    .panel.open { display:block; }
+    .panel .row { display:flex; align-items:center; gap:8px; padding:8px 10px; }
+    .panel .row:hover { background:#f8f8f8; }
+    .panel .actions { display:flex; gap:8px; padding:8px 10px; border-top:1px solid var(--border); position:sticky; bottom:0; background:#fff; }
+    .chip { display:inline-flex; align-items:center; gap:6px; padding:4px 8px; border:1px solid var(--border); border-radius:999px; background:#fff; font-size: 12px; }
+    .chip button { border:none; background:transparent; cursor:pointer; font-size:12px; }
   </style>
 </head>
 <body>
   <h1>Calendário de Residência Médica — Lista Completa:</h1>
   <p id="last-update" class="sub">Atualizado em --/--/---- --:--</p>
+
+  <div class="filters-wrap">
+    <span class="filter-title">Provas no mês:</span>
+    <div class="dropdown" id="monthFilter">
+      <button class="btn" id="togglePanel">Selecionar mês/ano</button>
+      <div class="panel" id="panel">
+        <div class="actions">
+          <button class="btn" id="btnClear">Limpar</button>
+          <button class="btn" id="btnClose">Fechar</button>
+        </div>
+        <!-- opções geradas via JS -->
+      </div>
+    </div>
+    <div id="activeChips"></div>
+  </div>
 
   <table id="tabela-calendario" aria-describedby="last-update">
     <thead>
@@ -33,19 +64,48 @@
         <th class="nowrap">RESULTADO FINAL</th>
       </tr>
     </thead>
-    <tbody>
-      <!-- preenchido via JS -->
-    </tbody>
+    <tbody><!-- preenchido via JS --></tbody>
   </table>
 
   <script>
-    // Evita rodar duas vezes se o arquivo for incluído/acessado de formas diferentes
     if (!window.__CAL_TAB_INIT__) {
       window.__CAL_TAB_INIT__ = true;
+
+      const PT_BR_MONTHS = ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"];
+      const DATE_RE = /\b(\d{2})\/(\d{2})\/(\d{4})\b/; // primeira data dd/mm/aaaa
+
+      const state = {
+        allRows: [],              // dados completos
+        activeMonths: new Set(),  // chaves 'YYYY-MM' selecionadas
+        monthIndex: []            // lista [{key:'YYYY-MM', label:'MMM - YYYY'}]
+      };
 
       function baseUrl(path){
         const base = new URL('.', window.location.href);
         return new URL(path, base).toString();
+      }
+
+      function getMonthKeyFromText(txt){
+        const m = (txt||"").match(DATE_RE);
+        if (!m) return null;
+        const dd = m[1], mm = m[2], yyyy = m[3];
+        return `${yyyy}-${mm}`;
+      }
+      function keyToLabel(key){ // 'YYYY-MM' -> 'MMM - YYYY'
+        const [y, mm] = key.split("-");
+        const mIdx = parseInt(mm,10)-1;
+        const mLabel = PT_BR_MONTHS[mIdx] || mm;
+        return `${mLabel} - ${y}`;
+      }
+
+      function buildMonthIndex(data){
+        const set = new Set();
+        data.forEach(r=>{
+          const k = getMonthKeyFromText(r["PROVA_OBJETIVA"]);
+          if (k) set.add(k);
+        });
+        const arr = Array.from(set).sort((a,b)=> a.localeCompare(b)); // 'YYYY-MM' ordena corretamente
+        state.monthIndex = arr.map(k=>({key:k, label:keyToLabel(k)}));
       }
 
       async function loadLastUpdate(){
@@ -59,72 +119,138 @@
         }catch(e){}
       }
 
-      async function loadTabela(){
+      async function fetchDados(){
+        const resp = await fetch(baseUrl('data/calendario_residencia.json'), { cache: 'no-store' });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        const dados = await resp.json();
+        state.allRows = Array.isArray(dados) ? dados : [];
+        buildMonthIndex(state.allRows);
+      }
+
+      function shouldShow(row){
+        if (state.activeMonths.size === 0) return true;
+        const k = getMonthKeyFromText(row["PROVA_OBJETIVA"]);
+        return k && state.activeMonths.has(k);
+      }
+
+      function renderTable(){
         const tbody = document.querySelector('#tabela-calendario tbody');
-        // limpa o tbody para evitar duplicações caso a função seja chamada novamente
         while (tbody.firstChild) tbody.removeChild(tbody.firstChild);
 
-        try{
-          const resp = await fetch(baseUrl('data/calendario_residencia.json'), { cache: 'no-store' });
-          if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        const seen = new Set(); // dedupe defensivo
+        const key = r => [
+          (r.UF||'').toUpperCase(),
+          (r['INSTITUIÇÃO']||'').toUpperCase(),
+          (r['INSCRIÇÕES']||'').trim(),
+          (r['PROVA_OBJETIVA']||'').trim(),
+          (r['GABARITO_PRELIMINAR']||'').trim(),
+          (r['RESULTADO_FINAL']||'').trim(),
+        ].join(' | ');
 
-          const dados = await resp.json();
+        let count = 0;
+        for (const item of state.allRows){
+          if (!shouldShow(item)) continue;
+          const k = key(item);
+          if (seen.has(k)) continue;
+          seen.add(k);
 
-          // Dedupe defensivo no cliente (além do dedupe do scraper)
-          const seen = new Set();
-          const key = r => [
-            (r.UF||'').toUpperCase(),
-            (r['INSTITUIÇÃO']||'').toUpperCase(),
-            (r['INSCRIÇÕES']||'').trim(),
-            (r['PROVA_OBJETIVA']||'').trim(),
-            (r['GABARITO_PRELIMINAR']||'').trim(),
-            (r['RESULTADO_FINAL']||'').trim(),
-          ].join(' | ');
-
-          for (const item of dados){
-            const k = key(item);
-            if (seen.has(k)) continue;
-            seen.add(k);
-
-            const tr = document.createElement('tr');
-            const cells = [
-              item.UF || '',
-              item['INSTITUIÇÃO'] || '',
-              item['INSCRIÇÕES'] || '',
-              item['PROVA_OBJETIVA'] || '',
-              item['GABARITO_PRELIMINAR'] || '-',
-              item['RESULTADO_FINAL'] || '-',
-            ];
-            for (const val of cells){
-              const td = document.createElement('td');
-              td.textContent = val;
-              tr.appendChild(td);
-            }
-            tbody.appendChild(tr);
-          }
-
-          if (tbody.children.length === 0){
-            const tr = document.createElement('tr');
+          const tr = document.createElement('tr');
+          const cells = [
+            item.UF || '',
+            item['INSTITUIÇÃO'] || '',
+            item['INSCRIÇÕES'] || '',
+            item['PROVA_OBJETIVA'] || '',
+            item['GABARITO_PRELIMINAR'] || '-',
+            item['RESULTADO_FINAL'] || '-',
+          ];
+          for (const val of cells){
             const td = document.createElement('td');
-            td.colSpan = 6; td.className = 'muted';
-            td.textContent = 'Sem registros.';
+            td.textContent = val;
             tr.appendChild(td);
-            tbody.appendChild(tr);
           }
-        }catch(err){
-          console.error('Erro ao carregar a tabela:', err);
+          tbody.appendChild(tr);
+          count++;
+        }
+        if (count === 0){
           const tr = document.createElement('tr');
           const td = document.createElement('td');
-          td.colSpan = 6;
-          td.textContent = 'Erro ao carregar os dados.';
+          td.colSpan = 6; td.className = 'muted';
+          td.textContent = 'Sem registros para o(s) filtro(s) selecionado(s).';
           tr.appendChild(td);
           tbody.appendChild(tr);
         }
       }
 
+      function renderFilterPanel(){
+        const panel = document.getElementById('panel');
+        // limpa opções (mantém a barra de ações fixa no topo)
+        panel.querySelectorAll('.row.opt').forEach(n=>n.remove());
+
+        state.monthIndex.forEach(({key,label})=>{
+          const row = document.createElement('label');
+          row.className = 'row opt';
+          const cb = document.createElement('input');
+          cb.type = 'checkbox';
+          cb.checked = state.activeMonths.has(key);
+          cb.addEventListener('change', ()=>{
+            if (cb.checked) state.activeMonths.add(key);
+            else state.activeMonths.delete(key);
+            renderActiveChips();
+            renderTable();
+          });
+          const span = document.createElement('span');
+          span.textContent = label;
+          row.appendChild(cb);
+          row.appendChild(span);
+          panel.insertBefore(row, panel.firstChild.nextSibling); // antes das ações fixas
+        });
+      }
+
+      function renderActiveChips(){
+        const wrap = document.getElementById('activeChips');
+        wrap.innerHTML = '';
+        if (state.activeMonths.size === 0) return;
+        Array.from(state.activeMonths).sort().forEach(k=>{
+          const chip = document.createElement('span');
+          chip.className = 'chip';
+          chip.textContent = keyToLabel(k);
+          const btn = document.createElement('button');
+          btn.textContent = '×';
+          btn.title = 'Remover filtro';
+          btn.onclick = ()=>{ state.activeMonths.delete(k); renderActiveChips(); renderTable(); };
+          chip.appendChild(btn);
+          wrap.appendChild(chip);
+        });
+      }
+
+      function bindFilterUI(){
+        const dd = document.getElementById('monthFilter');
+        const panel = document.getElementById('panel');
+        const btn = document.getElementById('togglePanel');
+        const btnClear = document.getElementById('btnClear');
+        const btnClose = document.getElementById('btnClose');
+
+        btn.onclick = ()=> panel.classList.toggle('open');
+        btnClose.onclick = ()=> panel.classList.remove('open');
+        btnClear.onclick = ()=>{
+          state.activeMonths.clear();
+          renderActiveChips();
+          renderTable();
+          panel.classList.remove('open');
+        };
+        document.addEventListener('click', (e)=>{
+          if (!dd.contains(e.target)) panel.classList.remove('open');
+        });
+
+        renderFilterPanel();
+      }
+
       (async function init(){
         await loadLastUpdate();
-        await loadTabela();
+        await fetchDados();
+        bindFilterUI();
+        renderActiveChips();
+        renderTable();
       })();
     }
   </script>
