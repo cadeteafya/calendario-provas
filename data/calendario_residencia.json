@@ -330,7 +330,7 @@
   {
     "UF": "RS",
     "INSTITUIÇÃO": "AMRIGS",
-    "INSCRIÇÕES": "09/09 a 24/10/2025",
+    "INSCRIÇÕES": "09/09 a 30/10/2025",
     "PROVA_OBJETIVA": "23/11/2025",
     "GABARITO_PRELIMINAR": "24/11/2025",
     "RESULTADO_FINAL": "-"
@@ -728,6 +728,14 @@
     "RESULTADO_FINAL": "04/02/2026 após às 16h"
   },
   {
+    "UF": "MS",
+    "INSTITUIÇÃO": "HCMS",
+    "INSCRIÇÕES": "06 a 23/11/2025",
+    "PROVA_OBJETIVA": "08/12/2025",
+    "GABARITO_PRELIMINAR": "Das 14h de 09/12 até 14h de 11/12/2025",
+    "RESULTADO_FINAL": "05/02/2026"
+  },
+  {
     "UF": "PR",
     "INSTITUIÇÃO": "Universidade Estadual de Maringá",
     "INSCRIÇÕES": "29/09 a 31/10/2025",
@@ -1054,6 +1062,14 @@
     "PROVA_OBJETIVA": "17/01/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "26/01/2026"
+  },
+  {
+    "UF": "MT",
+    "INSTITUIÇÃO": "UNIVAG",
+    "INSCRIÇÕES": "06/11/2025 a 04/01/2026",
+    "PROVA_OBJETIVA": "18/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
