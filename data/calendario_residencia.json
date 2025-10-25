@@ -544,6 +544,14 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "MT",
+    "INSTITUIÇÃO": "Hospital Santa Rosa",
+    "INSCRIÇÕES": "08 a 16/11/2025",
+    "PROVA_OBJETIVA": "30/11/2025",
+    "GABARITO_PRELIMINAR": "Das 14h do dia 01 até as 14h do dia 03/12/2025",
+    "RESULTADO_FINAL": "30/01/2026"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "Santa Casa de Araçatuba",
     "INSCRIÇÕES": "21/09 a 16/11/2025",
@@ -888,6 +896,14 @@
     "RESULTADO_FINAL": "02/02/2026"
   },
   {
+    "UF": "AC",
+    "INSTITUIÇÃO": "Hospital do Rim",
+    "INSCRIÇÕES": "05/11 a 05/12/2025",
+    "PROVA_OBJETIVA": "20/12/2025",
+    "GABARITO_PRELIMINAR": "02/01/2026",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "DF",
     "INSTITUIÇÃO": "SES-DF",
     "INSCRIÇÕES": "05 a 30/11/2025",
@@ -1068,8 +1084,8 @@
     "INSTITUIÇÃO": "UNIVAG",
     "INSCRIÇÕES": "06/11/2025 a 04/01/2026",
     "PROVA_OBJETIVA": "18/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "19/01/2026",
+    "RESULTADO_FINAL": "19/02/2026"
   },
   {
     "UF": "SP",
@@ -1118,6 +1134,14 @@
     "PROVA_OBJETIVA": "25/01/2026",
     "GABARITO_PRELIMINAR": "25/01/2026 (vide item 13.1)",
     "RESULTADO_FINAL": "13/02/2026"
+  },
+  {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "CEPOA",
+    "INSCRIÇÕES": "22/10 a 29/12/2025",
+    "PROVA_OBJETIVA": "26/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "02/02/2026 (19h)"
   },
   {
     "UF": "PR",
