@@ -165,7 +165,7 @@
     "INSCRIÇÕES": "03 a 17/10/2025",
     "PROVA_OBJETIVA": "02/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "28/01/2026"
   },
   {
     "UF": "RJ",
@@ -668,8 +668,8 @@
     "INSTITUIÇÃO": "Hospital de Olhos Aparecida (HOA)",
     "INSCRIÇÕES": "29/10 a 26/11/2025",
     "PROVA_OBJETIVA": "07/12/2025",
-    "GABARITO_PRELIMINAR": "08/12/2025, após as 14h",
-    "RESULTADO_FINAL": "05/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "GO",
@@ -749,7 +749,7 @@
     "INSCRIÇÕES": "29/09 a 31/10/2025",
     "PROVA_OBJETIVA": "09/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "17/12/2025"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "AC",
@@ -1068,8 +1068,8 @@
     "INSTITUIÇÃO": "Grupo VIV",
     "INSCRIÇÕES": "28/10 a 07/12/2025",
     "PROVA_OBJETIVA": "17/01/2026",
-    "GABARITO_PRELIMINAR": "24/01/2026",
-    "RESULTADO_FINAL": "20/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
