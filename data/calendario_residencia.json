@@ -424,6 +424,14 @@
     "RESULTADO_FINAL": "19/12/2025"
   },
   {
+    "UF": "PR",
+    "INSTITUIÇÃO": "Santa Casa de Campo Mourão",
+    "INSCRIÇÕES": "15/10 a 05/11/2025",
+    "PROVA_OBJETIVA": "27/11/2025",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "22/12/2025"
+  },
+  {
     "UF": "PB",
     "INSTITUIÇÃO": "Unimed-JP",
     "INSCRIÇÕES": "13/10 a 14/11/2025",
@@ -454,6 +462,14 @@
     "PROVA_OBJETIVA": "29/11/2025",
     "GABARITO_PRELIMINAR": "01/12/2025",
     "RESULTADO_FINAL": "30/01/2026"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Instituto Penido Burnier",
+    "INSCRIÇÕES": "22/10 a 22/11/2025",
+    "PROVA_OBJETIVA": "29/11/2025",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "até o dia 21/12/2025"
   },
   {
     "UF": "SP",
@@ -668,8 +684,8 @@
     "INSTITUIÇÃO": "Hospital de Olhos Aparecida (HOA)",
     "INSCRIÇÕES": "29/10 a 26/11/2025",
     "PROVA_OBJETIVA": "07/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "08/12/2025, após as 14h",
+    "RESULTADO_FINAL": "05/02/2026"
   },
   {
     "UF": "GO",
@@ -749,7 +765,7 @@
     "INSCRIÇÕES": "29/09 a 31/10/2025",
     "PROVA_OBJETIVA": "09/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "17/12/2025"
   },
   {
     "UF": "AC",
@@ -806,6 +822,14 @@
     "PROVA_OBJETIVA": "13/12/2025",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "PR",
+    "INSTITUIÇÃO": "Hospital CEMIL",
+    "INSCRIÇÕES": "04/11 a 04/12/2025",
+    "PROVA_OBJETIVA": "13/12/2025",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "19/12/2025"
   },
   {
     "UF": "SP/RJ/AL/SE/MA",
@@ -1068,8 +1092,8 @@
     "INSTITUIÇÃO": "Grupo VIV",
     "INSCRIÇÕES": "28/10 a 07/12/2025",
     "PROVA_OBJETIVA": "17/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "24/01/2026",
+    "RESULTADO_FINAL": "20/02/2026"
   },
   {
     "UF": "SP",
@@ -1158,6 +1182,14 @@
     "PROVA_OBJETIVA": "28/01/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "02/02/2026"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "USCS",
+    "INSCRIÇÕES": "10/11/2025 a 12/01/2026",
+    "PROVA_OBJETIVA": "01/02/2026",
+    "GABARITO_PRELIMINAR": "05/02/2026",
+    "RESULTADO_FINAL": "06/02/2026 (a partir das 17h)"
   },
   {
     "UF": "SP",
