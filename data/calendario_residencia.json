@@ -424,14 +424,6 @@
     "RESULTADO_FINAL": "19/12/2025"
   },
   {
-    "UF": "PR",
-    "INSTITUIÇÃO": "Santa Casa de Campo Mourão",
-    "INSCRIÇÕES": "15/10 a 05/11/2025",
-    "PROVA_OBJETIVA": "27/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "22/12/2025"
-  },
-  {
     "UF": "PB",
     "INSTITUIÇÃO": "Unimed-JP",
     "INSCRIÇÕES": "13/10 a 14/11/2025",
@@ -630,6 +622,14 @@
     "PROVA_OBJETIVA": "04/12/2025",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "até 30/01/2026"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Santa Casa de Campo Mourão",
+    "INSCRIÇÕES": "15/10/2025 à 20/11/2025",
+    "PROVA_OBJETIVA": "04/12/2025",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "20/01/2026"
   },
   {
     "UF": "RJ",
@@ -1108,8 +1108,8 @@
     "INSTITUIÇÃO": "UNIVAG",
     "INSCRIÇÕES": "06/11/2025 a 04/01/2026",
     "PROVA_OBJETIVA": "18/01/2026",
-    "GABARITO_PRELIMINAR": "19/01/2026",
-    "RESULTADO_FINAL": "19/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
