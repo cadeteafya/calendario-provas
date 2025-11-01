@@ -650,7 +650,7 @@
   {
     "UF": "SP",
     "INSTITUIÇÃO": "ISCMSP",
-    "INSCRIÇÕES": "01 a 31/10/2025",
+    "INSCRIÇÕES": "01/10 a 04/11/2025",
     "PROVA_OBJETIVA": "06/12/2025",
     "GABARITO_PRELIMINAR": "08/12/2025",
     "RESULTADO_FINAL": "13/02/2026"
@@ -742,6 +742,14 @@
     "PROVA_OBJETIVA": "08/12/2025",
     "GABARITO_PRELIMINAR": "09/12/2025",
     "RESULTADO_FINAL": "06/02/2026"
+  },
+  {
+    "UF": "RS",
+    "INSTITUIÇÃO": "UNIPAMPA",
+    "INSCRIÇÕES": "21/10 a 21/11/2025",
+    "PROVA_OBJETIVA": "08/12/2025",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "Até 16/01/2026"
   },
   {
     "UF": "SP",
@@ -984,6 +992,14 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "GO",
+    "INSTITUIÇÃO": "PAX Clínica Psiquiátrica",
+    "INSCRIÇÕES": "17 a 24/11/2025",
+    "PROVA_OBJETIVA": "09/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "05/02/2026"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "Santa Casa de Birigui",
     "INSCRIÇÕES": "08/10 a 28/12/205",
@@ -1222,5 +1238,13 @@
     "PROVA_OBJETIVA": "02/02/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "18/02/2026"
+  },
+  {
+    "UF": "RS",
+    "INSTITUIÇÃO": "UNIJUÍ/FUMSSAR",
+    "INSCRIÇÕES": "21/10 a 01/02/2026",
+    "PROVA_OBJETIVA": "07/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "13/02/2026"
   }
 ]
