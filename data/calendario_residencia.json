@@ -413,7 +413,7 @@
     "INSCRIÇÕES": "25/09 a 26/10/2025",
     "PROVA_OBJETIVA": "27/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "15/01/2026"
   },
   {
     "UF": "BA",
@@ -484,8 +484,8 @@
     "INSTITUIÇÃO": "CERMAM",
     "INSCRIÇÕES": "28/10 a 14/11/2025",
     "PROVA_OBJETIVA": "30/11/2025",
-    "GABARITO_PRELIMINAR": "30/11/2025",
-    "RESULTADO_FINAL": "09/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "ES/MT/GO",
@@ -573,7 +573,7 @@
     "INSCRIÇÕES": "09/10 a 16/11/2025",
     "PROVA_OBJETIVA": "02/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "23/12/2025"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "ES",
@@ -589,7 +589,7 @@
     "INSCRIÇÕES": "01/10 a 17/11/2025",
     "PROVA_OBJETIVA": "02/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "23/12/2025"
   },
   {
     "UF": "RJ",
@@ -1144,6 +1144,14 @@
     "RESULTADO_FINAL": "26/01/2026"
   },
   {
+    "UF": "SP",
+    "INSTITUIÇÃO": "SCMSJC",
+    "INSCRIÇÕES": "31/10 a 22/12/2025",
+    "PROVA_OBJETIVA": "17/01/2026",
+    "GABARITO_PRELIMINAR": "18/01/2026",
+    "RESULTADO_FINAL": "10/02/2026"
+  },
+  {
     "UF": "MT",
     "INSTITUIÇÃO": "UNIVAG",
     "INSCRIÇÕES": "06/11/2025 a 04/01/2026",
@@ -1197,7 +1205,7 @@
     "INSCRIÇÕES": "01/11/2025 a 16/01/2026",
     "PROVA_OBJETIVA": "24/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "04/02/2026 – Após as 17hs"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "BA",
