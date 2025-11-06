@@ -484,8 +484,8 @@
     "INSTITUIÇÃO": "CERMAM",
     "INSCRIÇÕES": "28/10 a 14/11/2025",
     "PROVA_OBJETIVA": "30/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "30/11/2025",
+    "RESULTADO_FINAL": "09/01/2026"
   },
   {
     "UF": "ES/MT/GO",
@@ -573,7 +573,7 @@
     "INSCRIÇÕES": "09/10 a 16/11/2025",
     "PROVA_OBJETIVA": "02/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "23/12/2025"
   },
   {
     "UF": "ES",
@@ -1088,6 +1088,14 @@
     "RESULTADO_FINAL": "06/02/2026 (até o final do dia)"
   },
   {
+    "UF": "PR",
+    "INSTITUIÇÃO": "Hospital San Julian",
+    "INSCRIÇÕES": "31/10/2025 a 12/01/2025",
+    "PROVA_OBJETIVA": "13/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "10/02/2026"
+  },
+  {
     "UF": "SC",
     "INSTITUIÇÃO": "Hospital e Maternidade OASE",
     "INSCRIÇÕES": "14/10/2025 a 04/01/2026",
@@ -1205,7 +1213,7 @@
     "INSCRIÇÕES": "01/11/2025 a 16/01/2026",
     "PROVA_OBJETIVA": "24/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "04/02/2026 – Após as 17hs"
   },
   {
     "UF": "BA",
