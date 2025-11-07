@@ -736,6 +736,14 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "ES",
+    "INSTITUIÇÃO": "EMESCAM",
+    "INSCRIÇÕES": "24/10 a 28/11/2025",
+    "PROVA_OBJETIVA": "07/12/2025",
+    "GABARITO_PRELIMINAR": "07/12/2025",
+    "RESULTADO_FINAL": "19/12/2025"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "FAMEMA",
     "INSCRIÇÕES": "16/10 a 04/11/2025",
@@ -1160,6 +1168,14 @@
     "RESULTADO_FINAL": "10/02/2026"
   },
   {
+    "UF": "SP",
+    "INSTITUIÇÃO": "CVV Francisca Júlia",
+    "INSCRIÇÕES": "03/11 a 22/12/2025",
+    "PROVA_OBJETIVA": "17/01/2026",
+    "GABARITO_PRELIMINAR": "18/01/2026",
+    "RESULTADO_FINAL": "13/02/2026"
+  },
+  {
     "UF": "MT",
     "INSTITUIÇÃO": "UNIVAG",
     "INSCRIÇÕES": "06/11/2025 a 04/01/2026",
@@ -1222,6 +1238,14 @@
     "PROVA_OBJETIVA": "25/01/2026",
     "GABARITO_PRELIMINAR": "25/01/2026 (vide item 13.1)",
     "RESULTADO_FINAL": "13/02/2026"
+  },
+  {
+    "UF": "RS",
+    "INSTITUIÇÃO": "HSA – Tenente Portela",
+    "INSCRIÇÕES": "18/11/2025 a 18/01/2026",
+    "PROVA_OBJETIVA": "25/01/2026",
+    "GABARITO_PRELIMINAR": "25/01/2026",
+    "RESULTADO_FINAL": "04/02/2026"
   },
   {
     "UF": "RJ",
