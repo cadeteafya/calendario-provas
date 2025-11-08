@@ -920,6 +920,14 @@
     "RESULTADO_FINAL": "06/02/2026"
   },
   {
+    "UF": "MT",
+    "INSTITUIÇÃO": "SMS-LRV",
+    "INSCRIÇÕES": "07/11 a 03/12/2025",
+    "PROVA_OBJETIVA": "14/12/2025",
+    "GABARITO_PRELIMINAR": "15/12/2025 a 17/12/2025",
+    "RESULTADO_FINAL": "09/01/2026"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "Centro Médico de Campinas (CMC)",
     "INSCRIÇÕES": "24/10 a 30/11/2025",
@@ -956,7 +964,7 @@
     "INSTITUIÇÃO": "Hospital do Rim",
     "INSCRIÇÕES": "05/11 a 05/12/2025",
     "PROVA_OBJETIVA": "20/12/2025",
-    "GABARITO_PRELIMINAR": "02/01/2026",
+    "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -966,6 +974,14 @@
     "PROVA_OBJETIVA": "20/12/2025",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "09/01/2026 – Após as 17h (no site)"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "UNIFACEF",
+    "INSCRIÇÕES": "14/11 a 14/12/2025",
+    "PROVA_OBJETIVA": "20/12/2025",
+    "GABARITO_PRELIMINAR": "22/12/2025",
+    "RESULTADO_FINAL": "30/12/2025"
   },
   {
     "UF": "DF",
@@ -1020,8 +1036,8 @@
     "INSTITUIÇÃO": "Santa Casa de Birigui",
     "INSCRIÇÕES": "08/10 a 28/12/205",
     "PROVA_OBJETIVA": "10/01/2026",
-    "GABARITO_PRELIMINAR": "12/01/2026 após 14h até 14/01/2026 às 14h",
-    "RESULTADO_FINAL": "13/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1204,8 +1220,8 @@
     "INSTITUIÇÃO": "UNIP",
     "INSCRIÇÕES": "09/09 a 27/11/2025",
     "PROVA_OBJETIVA": "18/01/2026",
-    "GABARITO_PRELIMINAR": "20/01/2026",
-    "RESULTADO_FINAL": "19/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PA",
@@ -1253,7 +1269,7 @@
     "INSCRIÇÕES": "22/10 a 29/12/2025",
     "PROVA_OBJETIVA": "26/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "02/02/2026 (19h)"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PR",
@@ -1270,6 +1286,14 @@
     "PROVA_OBJETIVA": "28/01/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "02/02/2026"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "UNILASER",
+    "INSCRIÇÕES": "17/11/2025 a 28/01/2026",
+    "PROVA_OBJETIVA": "31/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
