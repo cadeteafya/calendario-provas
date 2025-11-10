@@ -812,8 +812,8 @@
     "INSTITUIÇÃO": "Nova Benê",
     "INSCRIÇÕES": "30/10 a 30/11/2025",
     "PROVA_OBJETIVA": "10/12/2025",
-    "GABARITO_PRELIMINAR": "11/12/2025, após as 9h",
-    "RESULTADO_FINAL": "29/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SE",
@@ -1196,8 +1196,8 @@
     "INSTITUIÇÃO": "UNIVAG",
     "INSCRIÇÕES": "06/11/2025 a 04/01/2026",
     "PROVA_OBJETIVA": "18/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "19/01/2026",
+    "RESULTADO_FINAL": "19/02/2026"
   },
   {
     "UF": "SP",
