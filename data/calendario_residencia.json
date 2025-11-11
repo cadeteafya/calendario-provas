@@ -668,8 +668,8 @@
     "INSTITUIÇÃO": "Unimed-Rio",
     "INSCRIÇÕES": "30/09 a 27/10/2025",
     "PROVA_OBJETIVA": "06/12/2025",
-    "GABARITO_PRELIMINAR": "08/12/2025",
-    "RESULTADO_FINAL": "23/12/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -784,6 +784,14 @@
     "RESULTADO_FINAL": "17/12/2025"
   },
   {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Hospital Edmundo Vasconcelos",
+    "INSCRIÇÕES": "07/11 a 01/12/2025",
+    "PROVA_OBJETIVA": "09/12/2025",
+    "GABARITO_PRELIMINAR": "09/12/2025",
+    "RESULTADO_FINAL": "19/01/2026"
+  },
+  {
     "UF": "AC",
     "INSTITUIÇÃO": "FUNDHACRE",
     "INSCRIÇÕES": "05 a 26/11/2025",
@@ -812,8 +820,8 @@
     "INSTITUIÇÃO": "Nova Benê",
     "INSCRIÇÕES": "30/10 a 30/11/2025",
     "PROVA_OBJETIVA": "10/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "11/12/2025, após as 9h",
+    "RESULTADO_FINAL": "29/01/2026"
   },
   {
     "UF": "SE",
@@ -884,7 +892,7 @@
     "INSTITUIÇÃO": "Hospital de Amor de Barretos",
     "INSCRIÇÕES": "21/09 a 30/11/2025",
     "PROVA_OBJETIVA": "14/12/2025",
-    "GABARITO_PRELIMINAR": "15/12/2025 às 14h até 17/12/2025 às 14h",
+    "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -1110,6 +1118,22 @@
     "PROVA_OBJETIVA": "11/01/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "06/02/2026 (até o final do dia)"
+  },
+  {
+    "UF": "GO",
+    "INSTITUIÇÃO": "Hospital Ruy Azeredo",
+    "INSCRIÇÕES": "18/11 a 21/12/2025",
+    "PROVA_OBJETIVA": "11/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "15/01/2026 – a partir das 15h00"
+  },
+  {
+    "UF": "PE",
+    "INSTITUIÇÃO": "SES-PE",
+    "INSCRIÇÕES": "24/11 a 09/12/2025",
+    "PROVA_OBJETIVA": "11/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PR",
