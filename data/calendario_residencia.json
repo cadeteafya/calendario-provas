@@ -373,7 +373,7 @@
     "INSCRIÇÕES": "20/09 a 09/11/2025",
     "PROVA_OBJETIVA": "23/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "15/12/2025 após 18h"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "ES",
@@ -434,7 +434,7 @@
   {
     "UF": "MG",
     "INSTITUIÇÃO": "SCMBH",
-    "INSCRIÇÕES": "16/09 a 10/11/2025",
+    "INSCRIÇÕES": "16/09 a 14/11/2025",
     "PROVA_OBJETIVA": "29/11/2025",
     "GABARITO_PRELIMINAR": "30/11/2025",
     "RESULTADO_FINAL": "14/01/2026"
@@ -498,7 +498,7 @@
   {
     "UF": "MG",
     "INSTITUIÇÃO": "PSU-MG",
-    "INSCRIÇÕES": "09 a 20/10/2025",
+    "INSCRIÇÕES": "09 a 22/10/2025",
     "PROVA_OBJETIVA": "30/11/2025",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
@@ -668,8 +668,8 @@
     "INSTITUIÇÃO": "Unimed-Rio",
     "INSCRIÇÕES": "30/09 a 27/10/2025",
     "PROVA_OBJETIVA": "06/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "08/12/2025",
+    "RESULTADO_FINAL": "23/12/2025"
   },
   {
     "UF": "SP",
@@ -742,6 +742,14 @@
     "PROVA_OBJETIVA": "07/12/2025",
     "GABARITO_PRELIMINAR": "07/12/2025",
     "RESULTADO_FINAL": "19/12/2025"
+  },
+  {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "SMS-Macaé",
+    "INSCRIÇÕES": "10 a 21/11/2025",
+    "PROVA_OBJETIVA": "07/12/2025",
+    "GABARITO_PRELIMINAR": "07/12/2025",
+    "RESULTADO_FINAL": "22/12/2025"
   },
   {
     "UF": "SP",
@@ -844,8 +852,8 @@
     "INSTITUIÇÃO": "Hospital Vera Cruz",
     "INSCRIÇÕES": "26/09 a 17/11/2025",
     "PROVA_OBJETIVA": "12/12/2025",
-    "GABARITO_PRELIMINAR": "19/12/2025",
-    "RESULTADO_FINAL": "06/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PR",
@@ -892,7 +900,7 @@
     "INSTITUIÇÃO": "Hospital de Amor de Barretos",
     "INSCRIÇÕES": "21/09 a 30/11/2025",
     "PROVA_OBJETIVA": "14/12/2025",
-    "GABARITO_PRELIMINAR": "-",
+    "GABARITO_PRELIMINAR": "15/12/2025 às 14h até 17/12/2025 às 14h",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -1108,8 +1116,8 @@
     "INSTITUIÇÃO": "Hospital Regional Hilda Strenger Ribeiro",
     "INSCRIÇÕES": "03/11 a 28/12/2025",
     "PROVA_OBJETIVA": "11/01/2026",
-    "GABARITO_PRELIMINAR": "11/01/2026",
-    "RESULTADO_FINAL": "20/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1125,7 +1133,15 @@
     "INSCRIÇÕES": "18/11 a 21/12/2025",
     "PROVA_OBJETIVA": "11/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "15/01/2026 – a partir das 15h00"
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Hospital Infantil Gonzaga",
+    "INSCRIÇÕES": "05/11 a 29/12/2025",
+    "PROVA_OBJETIVA": "11/01/2026",
+    "GABARITO_PRELIMINAR": "12/01/2026",
+    "RESULTADO_FINAL": "06/02/2026"
   },
   {
     "UF": "PE",
@@ -1134,6 +1150,14 @@
     "PROVA_OBJETIVA": "11/01/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "PR",
+    "INSTITUIÇÃO": "Hospital Vida",
+    "INSCRIÇÕES": "27/10/2025 a 08/01/2026",
+    "PROVA_OBJETIVA": "12/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "06/02/2026"
   },
   {
     "UF": "PR",
@@ -1172,8 +1196,8 @@
     "INSTITUIÇÃO": "Hospital de Olhos de Guarapuava",
     "INSCRIÇÕES": "06/10/2025 a 08/01/2026",
     "PROVA_OBJETIVA": "16/01/2026",
-    "GABARITO_PRELIMINAR": "21/01/2026",
-    "RESULTADO_FINAL": "30/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
