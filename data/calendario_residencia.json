@@ -373,7 +373,7 @@
     "INSCRIÇÕES": "20/09 a 09/11/2025",
     "PROVA_OBJETIVA": "23/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "15/12/2025 após 18h"
   },
   {
     "UF": "ES",
@@ -381,7 +381,7 @@
     "INSCRIÇÕES": "20/10 a 19/11/2025",
     "PROVA_OBJETIVA": "24/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "03/12/2025"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "ES",
@@ -852,8 +852,8 @@
     "INSTITUIÇÃO": "Hospital Vera Cruz",
     "INSCRIÇÕES": "26/09 a 17/11/2025",
     "PROVA_OBJETIVA": "12/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "19/12/2025",
+    "RESULTADO_FINAL": "06/02/2026"
   },
   {
     "UF": "PR",
@@ -950,6 +950,14 @@
     "PROVA_OBJETIVA": "15/12/2025",
     "GABARITO_PRELIMINAR": "15/12/2025",
     "RESULTADO_FINAL": "16/02/2026"
+  },
+  {
+    "UF": "PR",
+    "INSTITUIÇÃO": "SMS-Maringá",
+    "INSCRIÇÕES": "27/10 a 28/11/2025",
+    "PROVA_OBJETIVA": "15/12/2025",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1116,8 +1124,8 @@
     "INSTITUIÇÃO": "Hospital Regional Hilda Strenger Ribeiro",
     "INSCRIÇÕES": "03/11 a 28/12/2025",
     "PROVA_OBJETIVA": "11/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "11/01/2026",
+    "RESULTADO_FINAL": "20/01/2026"
   },
   {
     "UF": "SP",
@@ -1133,7 +1141,7 @@
     "INSCRIÇÕES": "18/11 a 21/12/2025",
     "PROVA_OBJETIVA": "11/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "15/01/2026 – a partir das 15h00"
   },
   {
     "UF": "SP",
@@ -1172,8 +1180,16 @@
     "INSTITUIÇÃO": "Hospital e Maternidade OASE",
     "INSCRIÇÕES": "14/10/2025 a 04/01/2026",
     "PROVA_OBJETIVA": "14/01/2026",
-    "GABARITO_PRELIMINAR": "15/01/2026 (após as 14h) até 17/01/2026 (até as 14h)",
-    "RESULTADO_FINAL": "10/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "PB",
+    "INSTITUIÇÃO": "SOS Otorrino",
+    "INSCRIÇÕES": "10/11/2025 a 12/01/2026",
+    "PROVA_OBJETIVA": "14/01/2026",
+    "GABARITO_PRELIMINAR": "14/01/2026",
+    "RESULTADO_FINAL": "até 19/01/2026"
   },
   {
     "UF": "SP",
@@ -1196,8 +1212,8 @@
     "INSTITUIÇÃO": "Hospital de Olhos de Guarapuava",
     "INSCRIÇÕES": "06/10/2025 a 08/01/2026",
     "PROVA_OBJETIVA": "16/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "21/01/2026",
+    "RESULTADO_FINAL": "30/01/2026"
   },
   {
     "UF": "SP",
@@ -1288,6 +1304,14 @@
     "RESULTADO_FINAL": "13/02/2026"
   },
   {
+    "UF": "SP",
+    "INSTITUIÇÃO": "IPEPO",
+    "INSCRIÇÕES": "03/11 a 02/12/2025",
+    "PROVA_OBJETIVA": "19/01/2026",
+    "GABARITO_PRELIMINAR": "20/01/2026",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "PR",
     "INSTITUIÇÃO": "HONORP",
     "INSCRIÇÕES": "01/11/2025 a 16/01/2026",
@@ -1310,6 +1334,14 @@
     "PROVA_OBJETIVA": "25/01/2026",
     "GABARITO_PRELIMINAR": "25/01/2026",
     "RESULTADO_FINAL": "04/02/2026"
+  },
+  {
+    "UF": "PI",
+    "INSTITUIÇÃO": "Grupo Med Imagem",
+    "INSCRIÇÕES": "26/11/2025 a 11/01/2026",
+    "PROVA_OBJETIVA": "25/01/2026",
+    "GABARITO_PRELIMINAR": "25/01/2026, a partir das 16h",
+    "RESULTADO_FINAL": "21/02/2026"
   },
   {
     "UF": "RJ",
