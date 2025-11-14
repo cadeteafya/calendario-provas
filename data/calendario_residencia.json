@@ -381,7 +381,7 @@
     "INSCRIÇÕES": "20/10 a 19/11/2025",
     "PROVA_OBJETIVA": "24/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "03/12/2025"
   },
   {
     "UF": "ES",
@@ -717,7 +717,7 @@
     "INSCRIÇÕES": "08/10 a 06/11/2025",
     "PROVA_OBJETIVA": "07/12/2025",
     "GABARITO_PRELIMINAR": "07/12/2025",
-    "RESULTADO_FINAL": "30/01/2026"
+    "RESULTADO_FINAL": "28/01/2026"
   },
   {
     "UF": "RJ",
@@ -1180,8 +1180,8 @@
     "INSTITUIÇÃO": "Hospital e Maternidade OASE",
     "INSCRIÇÕES": "14/10/2025 a 04/01/2026",
     "PROVA_OBJETIVA": "14/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "15/01/2026 (após as 14h) até 17/01/2026 (até as 14h)",
+    "RESULTADO_FINAL": "10/02/2026"
   },
   {
     "UF": "PB",
@@ -1398,5 +1398,13 @@
     "PROVA_OBJETIVA": "07/02/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "13/02/2026"
+  },
+  {
+    "UF": "MT",
+    "INSTITUIÇÃO": "Centro Oftalmológico Hospital Dia",
+    "INSCRIÇÕES": "22/11/2025 a 02/02/2026",
+    "PROVA_OBJETIVA": "08/02/2026",
+    "GABARITO_PRELIMINAR": "08/02/2026 – 12h",
+    "RESULTADO_FINAL": "11/02/2026 a 12/02/2026"
   }
 ]
