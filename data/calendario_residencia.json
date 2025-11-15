@@ -554,7 +554,7 @@
   {
     "UF": "SP/RJ",
     "INSTITUIÇÃO": "Amil",
-    "INSCRIÇÕES": "03 a 13/11/2025",
+    "INSCRIÇÕES": "03 a 17/11/2025",
     "PROVA_OBJETIVA": "30/11/2025",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
@@ -1304,6 +1304,14 @@
     "RESULTADO_FINAL": "13/02/2026"
   },
   {
+    "UF": "AC",
+    "INSTITUIÇÃO": "Hospital Oftalmológico Velloso (HOV)",
+    "INSCRIÇÕES": "10/11/2025 a 12/01/2026",
+    "PROVA_OBJETIVA": "18/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "09/02/2026"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "IPEPO",
     "INSCRIÇÕES": "03/11 a 02/12/2025",
@@ -1318,6 +1326,14 @@
     "PROVA_OBJETIVA": "24/01/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "04/02/2026 – Após as 17hs"
+  },
+  {
+    "UF": "PB",
+    "INSTITUIÇÃO": "Centro Universitário de João Pessoa (UNIPÊ)",
+    "INSCRIÇÕES": "26/11/2025 a 09/01/2026",
+    "PROVA_OBJETIVA": "24/01/2026",
+    "GABARITO_PRELIMINAR": "26/01/2026",
+    "RESULTADO_FINAL": "05/02/2026"
   },
   {
     "UF": "BA",
