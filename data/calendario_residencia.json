@@ -428,8 +428,8 @@
     "INSTITUIÇÃO": "Unimed-JP",
     "INSCRIÇÕES": "13/10 a 14/11/2025",
     "PROVA_OBJETIVA": "28/11/2025",
-    "GABARITO_PRELIMINAR": "01/12/2025",
-    "RESULTADO_FINAL": "27/12/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "MG",
@@ -1180,8 +1180,8 @@
     "INSTITUIÇÃO": "Hospital e Maternidade OASE",
     "INSCRIÇÕES": "14/10/2025 a 04/01/2026",
     "PROVA_OBJETIVA": "14/01/2026",
-    "GABARITO_PRELIMINAR": "15/01/2026 (após as 14h) até 17/01/2026 (até as 14h)",
-    "RESULTADO_FINAL": "10/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PB",
@@ -1196,8 +1196,8 @@
     "INSTITUIÇÃO": "Centro Universitário de Adamantina – FAI",
     "INSCRIÇÕES": "16/10/2025 a 04/01/2026",
     "PROVA_OBJETIVA": "14/01/2026",
-    "GABARITO_PRELIMINAR": "14/01/2026",
-    "RESULTADO_FINAL": "18/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
