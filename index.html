@@ -5,6 +5,24 @@
   <title>Calendário de Residência Médica — Lista Completa</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+    }
+    
+    .header .logo {
+      height: 27px;
+      width: auto;
+      object-fit: contain;
+    }
+    
+    @media (max-width: 600px){
+      .header .logo { height: 44px; }
+    }
+    
     :root { --border:#ddd; --bg:#f6f6f6; --fg:#222; --past:#ec4899; } /* rosa moderno */
     * { box-sizing: border-box; }
     body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: var(--fg); margin: 24px; }
