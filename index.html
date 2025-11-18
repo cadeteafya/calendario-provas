@@ -5,25 +5,7 @@
   <title>Calendário de Residência Médica — Lista Completa</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-
-    .header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: 16px;
-    }
-    
-    .header .logo {
-      height: 27px;
-      width: auto;
-      object-fit: contain;
-    }
-    
-    @media (max-width: 600px){
-      .header .logo { height: 44px; }
-    }
-    
-    :root { --border:#ddd; --bg:#f6f6f6; --fg:#222; }
+    :root { --border:#ddd; --bg:#f6f6f6; --fg:#222; --past:#ec4899; } /* rosa moderno */
     * { box-sizing: border-box; }
     body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: var(--fg); margin: 24px; }
     h1 { margin: 0 0 10px; font-size: clamp(22px, 4vw, 40px); }
@@ -34,6 +16,9 @@
     tbody tr:nth-child(even){ background: #fafafa; }
     .nowrap { white-space: nowrap; }
     .muted { opacity:.8; }
+
+    /* primeira coluna (#) */
+    th.colnum, td.colnum { width: 1%; text-align: center; }
 
     /* Filtro */
     .filters-wrap { display:flex; align-items:center; gap:10px; margin: 6px 0 14px; flex-wrap: wrap; }
@@ -50,18 +35,17 @@
     .panel .actions { display:flex; gap:8px; padding:8px 10px; border-top:1px solid var(--border); position:sticky; bottom:0; background:#fff; }
     .chip { display:inline-flex; align-items:center; gap:6px; padding:4px 8px; border:1px solid var(--border); border-radius:999px; background:#fff; font-size: 12px; }
     .chip button { border:none; background:transparent; cursor:pointer; font-size:12px; }
+
+    /* célula de prova já ocorrida */
+    td.past {
+      background: var(--past);
+      color: #fff;
+      font-weight: 600;
+    }
   </style>
 </head>
 <body>
-  <div class="header">
-  <h2>Calendário de Residência Médica — Lista Completa:</h2>
-
-  <a href="https://educacaomedica.afya.com.br/" target="_blank" rel="noopener"
-     aria-label="Abrir site Afya Educação Médica">
-    <img src="afya.png" alt="Afya Educação Médica" class="logo">
-  </a>
-</div>
-
+  <h1>Calendário de Residência Médica — Lista Completa:</h1>
   <p id="last-update" class="sub">Atualizado em --/--/---- --:--</p>
 
   <div class="filters-wrap">
@@ -78,13 +62,13 @@
     </div>
     <div id="activeChips"></div>
 
-    <!-- NOVO: botão exportar -->
     <button class="btn" id="btnExport">Gerar Excel</button>
   </div>
 
   <table id="tabela-calendario" aria-describedby="last-update">
     <thead>
       <tr>
+        <th class="colnum">#</th>
         <th class="nowrap">UF</th>
         <th>INSTITUIÇÃO</th>
         <th class="nowrap">INSCRIÇÕES</th>
@@ -104,9 +88,9 @@
       const DATE_RE = /\b(\d{2})\/(\d{2})\/(\d{4})\b/; // primeira data dd/mm/aaaa
 
       const state = {
-        allRows: [],              // dados completos
-        activeMonths: new Set(),  // chaves 'YYYY-MM' selecionadas
-        monthIndex: []            // lista [{key:'YYYY-MM', label:'MMM - YYYY'}]
+        allRows: [],
+        activeMonths: new Set(),
+        monthIndex: []
       };
 
       function baseUrl(path){
@@ -114,17 +98,32 @@
         return new URL(path, base).toString();
       }
 
+      function parseFirstDate(txt){
+        const m = (txt||"").match(DATE_RE);
+        if (!m) return null;
+        const [_, dd, mm, yyyy] = m;
+        return new Date(parseInt(yyyy,10), parseInt(mm,10)-1, parseInt(dd,10));
+      }
       function getMonthKeyFromText(txt){
         const m = (txt||"").match(DATE_RE);
         if (!m) return null;
-        const dd = m[1], mm = m[2], yyyy = m[3];
+        const mm = m[2], yyyy = m[3];
         return `${yyyy}-${mm}`;
       }
-      function keyToLabel(key){ // 'YYYY-MM' -> 'MMM - YYYY'
+      function keyToLabel(key){
         const [y, mm] = key.split("-");
         const mIdx = parseInt(mm,10)-1;
         const mLabel = PT_BR_MONTHS[mIdx] || mm;
         return `${mLabel} - ${y}`;
+      }
+      function isPastDateCell(txt){
+        const d = parseFirstDate(txt);
+        if (!d) return false;
+        const today = new Date();
+        // zera horário para comparação por dia
+        today.setHours(0,0,0,0);
+        d.setHours(0,0,0,0);
+        return d.getTime() < today.getTime();
       }
 
       function buildMonthIndex(data){
@@ -133,7 +132,7 @@
           const k = getMonthKeyFromText(r["PROVA_OBJETIVA"]);
           if (k) set.add(k);
         });
-        const arr = Array.from(set).sort((a,b)=> a.localeCompare(b)); // 'YYYY-MM' ordena corretamente
+        const arr = Array.from(set).sort((a,b)=> a.localeCompare(b));
         state.monthIndex = arr.map(k=>({key:k, label:keyToLabel(k)}));
       }
 
@@ -166,7 +165,7 @@
         const tbody = document.querySelector('#tabela-calendario tbody');
         while (tbody.firstChild) tbody.removeChild(tbody.firstChild);
 
-        const seen = new Set(); // dedupe defensivo
+        const seen = new Set();
         const key = r => [
           (r.UF||'').toUpperCase(),
           (r['INSTITUIÇÃO']||'').toUpperCase(),
@@ -176,6 +175,7 @@
           (r['RESULTADO_FINAL']||'').trim(),
         ].join(' | ');
 
+        let idx = 0;
         let count = 0;
         for (const item of state.allRows){
           if (!shouldShow(item)) continue;
@@ -183,8 +183,11 @@
           if (seen.has(k)) continue;
           seen.add(k);
 
+          idx++; // número visível (1…n)
           const tr = document.createElement('tr');
+
           const cells = [
+            idx,                                 // #
             item.UF || '',
             item['INSTITUIÇÃO'] || '',
             item['INSCRIÇÕES'] || '',
@@ -192,18 +195,23 @@
             item['GABARITO_PRELIMINAR'] || '-',
             item['RESULTADO_FINAL'] || '-',
           ];
-          for (const val of cells){
+
+          cells.forEach((val, i)=>{
             const td = document.createElement('td');
             td.textContent = val;
+            if (i === 0) td.className = 'colnum';                  // coluna #
+            if (i === 4 && isPastDateCell(val)) td.classList.add('past'); // PROVA OBJETIVA (índice 4)
             tr.appendChild(td);
-          }
+          });
+
           tbody.appendChild(tr);
           count++;
         }
+
         if (count === 0){
           const tr = document.createElement('tr');
           const td = document.createElement('td');
-          td.colSpan = 6; td.className = 'muted';
+          td.colSpan = 7; td.className = 'muted';
           td.textContent = 'Sem registros para o(s) filtro(s) selecionado(s).';
           tr.appendChild(td);
           tbody.appendChild(tr);
@@ -273,7 +281,7 @@
         renderFilterPanel();
       }
 
-      // -------- Exportação (CSV que abre no Excel) --------
+      // -------- Exportação (CSV) --------
       function getFilteredRows(){
         const out = [];
         const seen = new Set();
@@ -296,18 +304,14 @@
       }
 
       function toCSV(rows){
-        const headers = ["UF","INSTITUIÇÃO","INSCRIÇÕES","PROVA OBJETIVA","GABARITO PRELIMINAR","RESULTADO FINAL"];
-        const sep = ";"; // amigável ao Excel BR
-        const esc = v => {
-          const s = (v==null ? "" : String(v));
-          // escapa aspas
-          const ss = s.replace(/"/g,'""');
-          return `"${ss}"`;
-        };
+        const headers = ["#","UF","INSTITUIÇÃO","INSCRIÇÕES","PROVA OBJETIVA","GABARITO PRELIMINAR","RESULTADO FINAL"];
+        const sep = ";";
+        const esc = v => `"${String(v==null?"":v).replace(/"/g,'""')}"`;
         const lines = [];
         lines.push(headers.map(esc).join(sep));
-        for (const r of rows){
+        rows.forEach((r,i)=>{
           lines.push([
+            esc(i+1),
             esc(r.UF||""),
             esc(r["INSTITUIÇÃO"]||""),
             esc(r["INSCRIÇÕES"]||""),
@@ -315,12 +319,10 @@
             esc(r["GABARITO_PRELIMINAR"]||"-"),
             esc(r["RESULTADO_FINAL"]||"-"),
           ].join(sep));
-        }
-        // BOM para Excel entender UTF-8
+        });
         const bom = "\ufeff";
         return bom + lines.join("\r\n");
       }
-
       function downloadCSV(csvText){
         const now = new Date();
         const pad = n => String(n).padStart(2,"0");
@@ -328,13 +330,11 @@
         const blob = new Blob([csvText], {type: "text/csv;charset=utf-8;"});
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
-        a.href = url;
-        a.download = filename;
+        a.href = url; a.download = filename;
         document.body.appendChild(a);
         a.click();
         setTimeout(()=>{ URL.revokeObjectURL(url); a.remove(); }, 0);
       }
-
       function bindExport(){
         document.getElementById('btnExport').onclick = ()=>{
           const rows = getFilteredRows();
@@ -342,11 +342,10 @@
             alert("Nenhum registro para exportar com o filtro atual.");
             return;
           }
-          const csv = toCSV(rows);
-          downloadCSV(csv);
+          downloadCSV(toCSV(rows));
         };
       }
-      // ----------------------------------------------------
+      // -----------------------------------
 
       (async function init(){
         await loadLastUpdate();
