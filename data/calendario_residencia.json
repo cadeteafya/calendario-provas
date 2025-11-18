@@ -69,7 +69,7 @@
     "INSCRIÇÕES": "19/08 a 17/10/2025",
     "PROVA_OBJETIVA": "26/10/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "10/02/2026"
   },
   {
     "UF": "SP",
@@ -808,6 +808,14 @@
     "RESULTADO_FINAL": "22/01/2026"
   },
   {
+    "UF": "PI",
+    "INSTITUIÇÃO": "Unimed Teresina",
+    "INSCRIÇÕES": "10 a 30/11/2025",
+    "PROVA_OBJETIVA": "10/12/2025",
+    "GABARITO_PRELIMINAR": "11/12/2025",
+    "RESULTADO_FINAL": "14/01/2026"
+  },
+  {
     "UF": "RJ/SP/DF/MA",
     "INSTITUIÇÃO": "Rede Américas",
     "INSCRIÇÕES": "02/11 a 30/11/2025",
@@ -882,7 +890,7 @@
   {
     "UF": "SP",
     "INSTITUIÇÃO": "FMABC / SMS-SBC",
-    "INSCRIÇÕES": "09/10 a 18/11/2025",
+    "INSCRIÇÕES": "09/10 a 21/11/2025",
     "PROVA_OBJETIVA": "13/12/2025",
     "GABARITO_PRELIMINAR": "15/12/2025",
     "RESULTADO_FINAL": "10/02/2026"
@@ -1096,14 +1104,6 @@
     "RESULTADO_FINAL": "13/02/2026"
   },
   {
-    "UF": "SP",
-    "INSTITUIÇÃO": "Hospital Santo Amaro (HSA)",
-    "INSCRIÇÕES": "24/10 a 28/12/2025",
-    "PROVA_OBJETIVA": "11/01/2026",
-    "GABARITO_PRELIMINAR": "12/01/2026",
-    "RESULTADO_FINAL": "19/02/2026"
-  },
-  {
     "UF": "MA",
     "INSTITUIÇÃO": "UEMA",
     "INSCRIÇÕES": "20/10 a 21/11/2025",
@@ -1224,6 +1224,14 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Hospital Santa Catarina",
+    "INSCRIÇÕES": "27/11/2025 a 07/01/2026",
+    "PROVA_OBJETIVA": "16/01/2026",
+    "GABARITO_PRELIMINAR": "16/01/2026, após às 18h",
+    "RESULTADO_FINAL": "10/02/2026"
+  },
+  {
     "UF": "Várias",
     "INSTITUIÇÃO": "Grupo VIV",
     "INSCRIÇÕES": "28/10 a 07/12/2025",
@@ -1320,6 +1328,14 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "RO",
+    "INSTITUIÇÃO": "UNIR",
+    "INSCRIÇÕES": "10/11 a 08/12/2025",
+    "PROVA_OBJETIVA": "20/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "02/02/2026"
+  },
+  {
     "UF": "PR",
     "INSTITUIÇÃO": "HONORP",
     "INSCRIÇÕES": "01/11/2025 a 16/01/2026",
@@ -1342,6 +1358,14 @@
     "PROVA_OBJETIVA": "25/01/2026",
     "GABARITO_PRELIMINAR": "25/01/2026 (vide item 13.1)",
     "RESULTADO_FINAL": "13/02/2026"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Hospital Santo Amaro (HSA)",
+    "INSCRIÇÕES": "24/10/2025 a 11/01/2026",
+    "PROVA_OBJETIVA": "25/01/2026",
+    "GABARITO_PRELIMINAR": "26/01/2026",
+    "RESULTADO_FINAL": "24/02/2026"
   },
   {
     "UF": "RS",
