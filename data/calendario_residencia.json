@@ -1161,6 +1161,14 @@
   },
   {
     "UF": "PR",
+    "INSTITUIÇÃO": "Santa Casa de Maringá",
+    "INSCRIÇÕES": "01 a 30/12/2025",
+    "PROVA_OBJETIVA": "11/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "02/02/2026"
+  },
+  {
+    "UF": "PR",
     "INSTITUIÇÃO": "Hospital Vida",
     "INSCRIÇÕES": "27/10/2025 a 08/01/2026",
     "PROVA_OBJETIVA": "12/01/2026",
@@ -1350,6 +1358,14 @@
     "PROVA_OBJETIVA": "24/01/2026",
     "GABARITO_PRELIMINAR": "26/01/2026",
     "RESULTADO_FINAL": "05/02/2026"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Santa Casa de Fernandópolis",
+    "INSCRIÇÕES": "03/12/2025 a 11/01/2026",
+    "PROVA_OBJETIVA": "24/01/2026",
+    "GABARITO_PRELIMINAR": "26/01 (após 10h) a 28/01/2026 (10h)",
+    "RESULTADO_FINAL": "23/02/2026"
   },
   {
     "UF": "BA",
