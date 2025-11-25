@@ -985,6 +985,14 @@
   },
   {
     "UF": "SP",
+    "INSTITUIÇÃO": "Camp-Imagem Nuclear",
+    "INSCRIÇÕES": "15/11 a 16/12/2025",
+    "PROVA_OBJETIVA": "18/12/2025",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "30/12/2025"
+  },
+  {
+    "UF": "SP",
     "INSTITUIÇÃO": "IAMSPE",
     "INSCRIÇÕES": "30/10 a 24/11/2025",
     "PROVA_OBJETIVA": "20/12/2025",
@@ -1312,6 +1320,14 @@
     "RESULTADO_FINAL": "17/02/2026"
   },
   {
+    "UF": "MS",
+    "INSTITUIÇÃO": "SESAU Campo Grande",
+    "INSCRIÇÕES": "01 a 30/12/2025",
+    "PROVA_OBJETIVA": "18/01/2026",
+    "GABARITO_PRELIMINAR": "19/01/2026",
+    "RESULTADO_FINAL": "13/02/2026"
+  },
+  {
     "UF": "RJ",
     "INSTITUIÇÃO": "SCM Barra Mansa",
     "INSCRIÇÕES": "20/10 a 11/12/2025",
@@ -1422,6 +1438,22 @@
     "PROVA_OBJETIVA": "28/01/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "02/02/2026"
+  },
+  {
+    "UF": "RN",
+    "INSTITUIÇÃO": "Hospital Memorial São Francisco",
+    "INSCRIÇÕES": "18/11 a 31/12/2025",
+    "PROVA_OBJETIVA": "29/01/2026",
+    "GABARITO_PRELIMINAR": "30/01/2026",
+    "RESULTADO_FINAL": "06/02/2026"
+  },
+  {
+    "UF": "RN",
+    "INSTITUIÇÃO": "Hospital Rio Grande",
+    "INSCRIÇÕES": "18/11 a 31/12/2025",
+    "PROVA_OBJETIVA": "29/01/2026",
+    "GABARITO_PRELIMINAR": "30/01/2026",
+    "RESULTADO_FINAL": "06/02/2026"
   },
   {
     "UF": "SP",
