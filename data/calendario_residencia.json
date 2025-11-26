@@ -1192,6 +1192,14 @@
     "RESULTADO_FINAL": "10/02/2026"
   },
   {
+    "UF": "PR",
+    "INSTITUIÇÃO": "Hoftalon Hospital de Olhos",
+    "INSCRIÇÕES": "24/11 a 29/12/25",
+    "PROVA_OBJETIVA": "13/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "SC",
     "INSTITUIÇÃO": "Hospital e Maternidade OASE",
     "INSCRIÇÕES": "14/10/2025 a 04/01/2026",
@@ -1246,6 +1254,14 @@
     "PROVA_OBJETIVA": "16/01/2026",
     "GABARITO_PRELIMINAR": "16/01/2026, após às 18h",
     "RESULTADO_FINAL": "10/02/2026"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Instituto Maniglia – HIORP",
+    "INSCRIÇÕES": "01/12 a 19/12/2025",
+    "PROVA_OBJETIVA": "16/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "Várias",
