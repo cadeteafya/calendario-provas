@@ -1264,6 +1264,14 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "MT",
+    "INSTITUIÇÃO": "Hospital Amecor",
+    "INSCRIÇÕES": "24/11 a 22/12/2025",
+    "PROVA_OBJETIVA": "16/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "Várias",
     "INSTITUIÇÃO": "Grupo VIV",
     "INSCRIÇÕES": "28/10 a 07/12/2025",
@@ -1360,6 +1368,14 @@
     "RESULTADO_FINAL": "09/02/2026"
   },
   {
+    "UF": "PB",
+    "INSTITUIÇÃO": "SMS-Patos",
+    "INSCRIÇÕES": "08/12 a 15/12/2025",
+    "PROVA_OBJETIVA": "18/01/2026",
+    "GABARITO_PRELIMINAR": "19/01/2026",
+    "RESULTADO_FINAL": "09/02/2026"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "IPEPO",
     "INSCRIÇÕES": "03/11 a 02/12/2025",
@@ -1430,6 +1446,14 @@
     "PROVA_OBJETIVA": "25/01/2026",
     "GABARITO_PRELIMINAR": "25/01/2026, a partir das 16h",
     "RESULTADO_FINAL": "21/02/2026"
+  },
+  {
+    "UF": "Várias",
+    "INSTITUIÇÃO": "RESIMED",
+    "INSCRIÇÕES": "08/12/2025 a 19/01/2026",
+    "PROVA_OBJETIVA": "25/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "11/02/2026 – após 18h"
   },
   {
     "UF": "RJ",
