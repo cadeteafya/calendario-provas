@@ -52,8 +52,8 @@
     "INSTITUIÇÃO": "HOS/BOS",
     "INSCRIÇÕES": "19/08 a 17/09/2025",
     "PROVA_OBJETIVA": "26/10/2025",
-    "GABARITO_PRELIMINAR": "27/10/2025",
-    "RESULTADO_FINAL": "19/12/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RS",
@@ -341,7 +341,7 @@
     "INSCRIÇÕES": "22/09 a 15/10/2025",
     "PROVA_OBJETIVA": "23/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "26/01/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -621,7 +621,7 @@
     "INSCRIÇÕES": "12 a 17/11/2025",
     "PROVA_OBJETIVA": "04/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "até 30/01/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -636,8 +636,8 @@
     "INSTITUIÇÃO": "Hospital São José do Avaí (HSJA)",
     "INSCRIÇÕES": "01/10 a 28/11/2025",
     "PROVA_OBJETIVA": "05/12/2025",
-    "GABARITO_PRELIMINAR": "08/12/2025 (a partir das 15h)",
-    "RESULTADO_FINAL": "12/12/2025 (a partir das 17h)"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -725,7 +725,7 @@
     "INSCRIÇÕES": "08/10 a 06/11/2025",
     "PROVA_OBJETIVA": "07/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "22/01/2026"
   },
   {
     "UF": "RJ",
@@ -1092,8 +1092,8 @@
     "INSTITUIÇÃO": "Hospital Visão Laser",
     "INSCRIÇÕES": "31/10 a 28/12/2025",
     "PROVA_OBJETIVA": "10/01/2026",
-    "GABARITO_PRELIMINAR": "25/01/2026 (vide item 13.1)",
-    "RESULTADO_FINAL": "13/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1204,8 +1204,8 @@
     "INSTITUIÇÃO": "Hospital e Maternidade OASE",
     "INSCRIÇÕES": "14/10/2025 a 04/01/2026",
     "PROVA_OBJETIVA": "14/01/2026",
-    "GABARITO_PRELIMINAR": "15/01/2026 (após as 14h) até 17/01/2026 (até as 14h)",
-    "RESULTADO_FINAL": "10/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PB",
@@ -1436,16 +1436,16 @@
     "INSTITUIÇÃO": "Santa Casa de Fernandópolis",
     "INSCRIÇÕES": "03/12/2025 a 11/01/2026",
     "PROVA_OBJETIVA": "24/01/2026",
-    "GABARITO_PRELIMINAR": "26/01 (após 10h) a 28/01/2026 (10h)",
-    "RESULTADO_FINAL": "23/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "BA",
     "INSTITUIÇÃO": "CEOQ",
     "INSCRIÇÕES": "31/10 a 11/01/2026",
     "PROVA_OBJETIVA": "25/01/2026",
-    "GABARITO_PRELIMINAR": "25/01/2026 (vide item 13.1)",
-    "RESULTADO_FINAL": "13/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
