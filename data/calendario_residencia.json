@@ -20,8 +20,8 @@
     "INSTITUIÇÃO": "UNESC",
     "INSCRIÇÕES": "18/08 a 2/10/2025",
     "PROVA_OBJETIVA": "12/10/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "12/10/2025",
+    "RESULTADO_FINAL": "até 26/10/2025"
   },
   {
     "UF": "CE",
@@ -708,8 +708,8 @@
     "INSTITUIÇÃO": "Santa Casa de Campo Grande",
     "INSCRIÇÕES": "08/10 A 16/11/2025",
     "PROVA_OBJETIVA": "07/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "08/12/2025",
+    "RESULTADO_FINAL": "03/02/2026"
   },
   {
     "UF": "RJ",
@@ -780,8 +780,8 @@
     "INSTITUIÇÃO": "HCMS",
     "INSCRIÇÕES": "06 a 23/11/2025",
     "PROVA_OBJETIVA": "08/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "Das 14h de 09/12 até 14h de 11/12/2025",
+    "RESULTADO_FINAL": "05/02/2026"
   },
   {
     "UF": "PR",
@@ -812,8 +812,8 @@
     "INSTITUIÇÃO": "Unimed Teresina",
     "INSCRIÇÕES": "10 a 30/11/2025",
     "PROVA_OBJETIVA": "10/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "11/12/2025",
+    "RESULTADO_FINAL": "14/01/2026"
   },
   {
     "UF": "RJ/SP/DF/MA",
@@ -917,7 +917,7 @@
     "INSCRIÇÕES": "12/09 a 10/10/2025",
     "PROVA_OBJETIVA": "14/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "30/01/2026"
   },
   {
     "UF": "SP",
@@ -980,8 +980,8 @@
     "INSTITUIÇÃO": "Hospital Estadual Dr. Jayme Santos Neves (HEJSN)",
     "INSCRIÇÕES": "14/11 a 01/12/2025",
     "PROVA_OBJETIVA": "18/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "19 e 20/12/2025",
+    "RESULTADO_FINAL": "14/01/2026"
   },
   {
     "UF": "SP",
@@ -1020,8 +1020,8 @@
     "INSTITUIÇÃO": "UNIFACEF",
     "INSCRIÇÕES": "14/11 a 14/12/2025",
     "PROVA_OBJETIVA": "20/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "22/12/2025",
+    "RESULTADO_FINAL": "30/12/2025"
   },
   {
     "UF": "DF",
@@ -1252,8 +1252,8 @@
     "INSTITUIÇÃO": "Hospital Santa Catarina",
     "INSCRIÇÕES": "27/11/2025 a 07/01/2026",
     "PROVA_OBJETIVA": "16/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "16/01/2026, após às 18h",
+    "RESULTADO_FINAL": "10/02/2026"
   },
   {
     "UF": "SP",
@@ -1428,8 +1428,8 @@
     "INSTITUIÇÃO": "Centro Universitário de João Pessoa (UNIPÊ)",
     "INSCRIÇÕES": "26/11/2025 a 09/01/2026",
     "PROVA_OBJETIVA": "24/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "26/01/2026",
+    "RESULTADO_FINAL": "05/02/2026"
   },
   {
     "UF": "SP",
