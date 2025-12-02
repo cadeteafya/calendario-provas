@@ -1069,7 +1069,7 @@
     "INSCRIÇÕES": "17 a 24/11/2025",
     "PROVA_OBJETIVA": "09/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "05/02/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1478,6 +1478,14 @@
     "PROVA_OBJETIVA": "25/01/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "11/02/2026 – após 18h"
+  },
+  {
+    "UF": "AL",
+    "INSTITUIÇÃO": "PSU-AL",
+    "INSCRIÇÕES": "12/12/2025 a 19/01/2026",
+    "PROVA_OBJETIVA": "25/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RJ",
