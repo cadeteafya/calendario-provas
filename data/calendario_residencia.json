@@ -1026,7 +1026,7 @@
   {
     "UF": "DF",
     "INSTITUIÇÃO": "SES-DF",
-    "INSCRIÇÕES": "05 a 30/11/2025",
+    "INSCRIÇÕES": "05/11 a 11/12/2025",
     "PROVA_OBJETIVA": "21/12/2025",
     "GABARITO_PRELIMINAR": "21/12/2025",
     "RESULTADO_FINAL": "-"
@@ -1069,7 +1069,7 @@
     "INSCRIÇÕES": "17 a 24/11/2025",
     "PROVA_OBJETIVA": "09/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "05/02/2026"
   },
   {
     "UF": "SP",
@@ -1094,6 +1094,14 @@
     "PROVA_OBJETIVA": "10/01/2026",
     "GABARITO_PRELIMINAR": "25/01/2026 (vide item 13.1)",
     "RESULTADO_FINAL": "13/02/2026"
+  },
+  {
+    "UF": "DF",
+    "INSTITUIÇÃO": "Hospital HOME",
+    "INSCRIÇÕES": "04/12/2025 a 04/01/2026",
+    "PROVA_OBJETIVA": "10/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1304,17 +1312,17 @@
     "RESULTADO_FINAL": "13/02/2026"
   },
   {
-    "UF": "SP",
-    "INSTITUIÇÃO": "Policlin",
-    "INSCRIÇÕES": "17/11 a 22/12/2025",
-    "PROVA_OBJETIVA": "17/01/2026",
-    "GABARITO_PRELIMINAR": "18/01/2026",
-    "RESULTADO_FINAL": "10/02/2026"
-  },
-  {
     "UF": "RJ",
     "INSTITUIÇÃO": "FMS Campos dos Goytacazes",
     "INSCRIÇÕES": "27/11/2025 a 09/01/2025",
+    "PROVA_OBJETIVA": "17/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "sp",
+    "INSTITUIÇÃO": "Hospital Policlin",
+    "INSCRIÇÕES": "17/11 a 22/12/2025",
     "PROVA_OBJETIVA": "17/01/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
@@ -1400,11 +1408,27 @@
     "RESULTADO_FINAL": "10/02/2026"
   },
   {
+    "UF": "PI",
+    "INSTITUIÇÃO": "Hospital Estadual Dirceu Arcoverde (HEDA)",
+    "INSCRIÇÕES": "12/12/2025 a 12/01/2026",
+    "PROVA_OBJETIVA": "18/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "IPEPO",
     "INSCRIÇÕES": "03/11 a 02/12/2025",
     "PROVA_OBJETIVA": "19/01/2026",
     "GABARITO_PRELIMINAR": "20/01/2026",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "HO Redentora",
+    "INSCRIÇÕES": "09/12/2025 a 15/01/2026",
+    "PROVA_OBJETIVA": "19/01/2026",
+    "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -1414,6 +1438,14 @@
     "PROVA_OBJETIVA": "20/01/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "02/02/2026"
+  },
+  {
+    "UF": "TO",
+    "INSTITUIÇÃO": "Universidade de Gurupi (UNIRG)",
+    "INSCRIÇÕES": "28/11/2025 a 15/01/2026",
+    "PROVA_OBJETIVA": "23/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PR",
@@ -1488,6 +1520,14 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "MT",
+    "INSTITUIÇÃO": "Empresa Cuiabana de Saúde Pública",
+    "INSCRIÇÕES": "15/12/2025 a 11/01/2026",
+    "PROVA_OBJETIVA": "25/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "RJ",
     "INSTITUIÇÃO": "CEPOA",
     "INSCRIÇÕES": "22/10 a 29/12/2025",
@@ -1536,12 +1576,28 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "Hospital Universitário de Vassouras",
+    "INSCRIÇÕES": "22/12/2025 a 22/01/2026",
+    "PROVA_OBJETIVA": "31/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "13/02/2026"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "USCS",
     "INSCRIÇÕES": "10/11/2025 a 12/01/2026",
     "PROVA_OBJETIVA": "01/02/2026",
     "GABARITO_PRELIMINAR": "05/02/2026",
     "RESULTADO_FINAL": "06/02/2026 (a partir das 17h)"
+  },
+  {
+    "UF": "PR",
+    "INSTITUIÇÃO": "Universidade Cesumar(UNICESUMAR)",
+    "INSCRIÇÕES": "20/11/2025 a 23/01/2026",
+    "PROVA_OBJETIVA": "01/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1560,11 +1616,43 @@
     "RESULTADO_FINAL": "13/02/2026"
   },
   {
+    "UF": "PR",
+    "INSTITUIÇÃO": "Hospital Santa Clarade Colorado",
+    "INSCRIÇÕES": "02/12/2025 a 30/01/2026 (SEDEX) ou02/12/2025a06/02/2026 (Presencial)",
+    "PROVA_OBJETIVA": "07/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "MT",
     "INSTITUIÇÃO": "Centro Oftalmológico Hospital Dia",
     "INSCRIÇÕES": "22/11/2025 a 02/02/2026",
     "PROVA_OBJETIVA": "08/02/2026",
     "GABARITO_PRELIMINAR": "08/02/2026 – 12h",
     "RESULTADO_FINAL": "11/02/2026 a 12/02/2026"
+  },
+  {
+    "UF": "MT",
+    "INSTITUIÇÃO": "Hospital Santo Antônio",
+    "INSCRIÇÕES": "19 e 23/01/2026",
+    "PROVA_OBJETIVA": "08/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "20/02/2026"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "COHR Hospital Dia Oftalmológico",
+    "INSCRIÇÕES": "11/11/2025 a 15/01/2026",
+    "PROVA_OBJETIVA": "09/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "AM",
+    "INSTITUIÇÃO": "Centro Universitário Metropolitano da Amazônia (UNIFAMAZ)",
+    "INSCRIÇÕES": "26/11 a 17/12/2026",
+    "PROVA_OBJETIVA": "13/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   }
 ]
