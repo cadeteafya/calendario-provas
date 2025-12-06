@@ -116,8 +116,8 @@
     "INSTITUIÇÃO": "UFCSPA",
     "INSCRIÇÕES": "29/08 a 02/10/2025",
     "PROVA_OBJETIVA": "01/11/2025",
-    "GABARITO_PRELIMINAR": "03/11/2025",
-    "RESULTADO_FINAL": "20/01/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RS",
@@ -613,7 +613,7 @@
     "INSCRIÇÕES": "29/09 a 02/12/2025",
     "PROVA_OBJETIVA": "04/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "12/12/2025"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1053,7 +1053,7 @@
     "INSCRIÇÕES": "13/10 a 26/11/2025",
     "PROVA_OBJETIVA": "08/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "18/02/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1340,8 +1340,8 @@
     "INSTITUIÇÃO": "Hospital Carlos Fernando Malzoni",
     "INSCRIÇÕES": "05/09 a 28/12/2025",
     "PROVA_OBJETIVA": "18/01/2026",
-    "GABARITO_PRELIMINAR": "19/01/2026",
-    "RESULTADO_FINAL": "20/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "AL",
@@ -1437,7 +1437,7 @@
     "INSCRIÇÕES": "10/11 a 08/12/2025",
     "PROVA_OBJETIVA": "20/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "02/02/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "TO",
@@ -1542,6 +1542,14 @@
     "PROVA_OBJETIVA": "25/01/2026",
     "GABARITO_PRELIMINAR": "25/01/2026 (20h)",
     "RESULTADO_FINAL": "19/02/2026"
+  },
+  {
+    "UF": "ES",
+    "INSTITUIÇÃO": "HEUE",
+    "INSCRIÇÕES": "19/12/2025 a11/01/2026",
+    "PROVA_OBJETIVA": "25/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RJ",
