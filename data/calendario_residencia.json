@@ -364,8 +364,8 @@
     "INSTITUIÇÃO": "PSU-BA (SUS-BA)",
     "INSCRIÇÕES": "17/10 a 18/11/2025",
     "PROVA_OBJETIVA": "23/11/2025",
-    "GABARITO_PRELIMINAR": "26/11/2025",
-    "RESULTADO_FINAL": "10/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "MT",
@@ -1240,6 +1240,14 @@
     "RESULTADO_FINAL": "13/02/2026"
   },
   {
+    "UF": "SP",
+    "INSTITUIÇÃO": "HMASP",
+    "INSCRIÇÕES": "10 a 30/12/2025",
+    "PROVA_OBJETIVA": "14/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "12/02/2026"
+  },
+  {
     "UF": "PR",
     "INSTITUIÇÃO": "Hospital de Olhos de Guarapuava",
     "INSCRIÇÕES": "06/10/2025 a 08/01/2026",
@@ -1340,8 +1348,8 @@
     "INSTITUIÇÃO": "Hospital Carlos Fernando Malzoni",
     "INSCRIÇÕES": "05/09 a 28/12/2025",
     "PROVA_OBJETIVA": "18/01/2026",
-    "GABARITO_PRELIMINAR": "19/01/2026",
-    "RESULTADO_FINAL": "20/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "AL",
@@ -1557,7 +1565,7 @@
     "INSCRIÇÕES": "22/10 a 29/12/2025",
     "PROVA_OBJETIVA": "26/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "02/02/2026 (19h)"
   },
   {
     "UF": "PR",
@@ -1640,6 +1648,14 @@
     "RESULTADO_FINAL": "18/02/2026"
   },
   {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "Instituto Benjamin Constant",
+    "INSCRIÇÕES": "05/12/2025 a26/01/2026",
+    "PROVA_OBJETIVA": "02/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "RS",
     "INSTITUIÇÃO": "UNIJUÍ/FUMSSAR",
     "INSCRIÇÕES": "21/10 a 01/02/2026",
@@ -1675,6 +1691,14 @@
     "UF": "SP",
     "INSTITUIÇÃO": "COHR Hospital Dia Oftalmológico",
     "INSCRIÇÕES": "11/11/2025 a 15/01/2026",
+    "PROVA_OBJETIVA": "09/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "DF",
+    "INSTITUIÇÃO": "IMEB – Imagens Médicas de Brasília",
+    "INSCRIÇÕES": "01/12/2025 a 06/02/2026",
     "PROVA_OBJETIVA": "09/02/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
