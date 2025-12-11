@@ -413,7 +413,7 @@
     "INSCRIÇÕES": "25/09 a 26/10/2025",
     "PROVA_OBJETIVA": "27/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "15/01/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "BA",
@@ -564,8 +564,8 @@
     "INSTITUIÇÃO": "Santa Casa de Araçatuba",
     "INSCRIÇÕES": "21/09 a 16/11/2025",
     "PROVA_OBJETIVA": "02/12/2025",
-    "GABARITO_PRELIMINAR": "03/12/2025 (após as 14h) até 05/12/2025 (14h)",
-    "RESULTADO_FINAL": "23/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1032,6 +1032,14 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "PI",
+    "INSTITUIÇÃO": "Secretaria de Estado de Saúde do Piauí (SESAPI)",
+    "INSCRIÇÕES": "09/12 a 11/12/2025",
+    "PROVA_OBJETIVA": "21/12/2025",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "Hospital Alemão Oswaldo Cruz (HAOC)",
     "INSCRIÇÕES": "17/10 a 09/12/2025",
@@ -1054,6 +1062,14 @@
     "PROVA_OBJETIVA": "08/01/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "18/02/2026"
+  },
+  {
+    "UF": "ES",
+    "INSTITUIÇÃO": "Centro de Ensino e Pesquisa da Rede Primavera (CEP)",
+    "INSCRIÇÕES": "05/12/25 a 05/01/2026",
+    "PROVA_OBJETIVA": "08/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1283,6 +1299,14 @@
     "UF": "MT",
     "INSTITUIÇÃO": "Hospital Amecor",
     "INSCRIÇÕES": "24/11 a 22/12/2025",
+    "PROVA_OBJETIVA": "16/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Santa Casa de Assis",
+    "INSCRIÇÕES": "09/12/2025 a 09/01/2026",
     "PROVA_OBJETIVA": "16/01/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
@@ -1555,6 +1579,14 @@
     "UF": "ES",
     "INSTITUIÇÃO": "HEUE",
     "INSCRIÇÕES": "19/12/2025 a11/01/2026",
+    "PROVA_OBJETIVA": "25/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "USP Bauru (Cirurgia Plástica)",
+    "INSCRIÇÕES": "05/01 a 16/01/2026",
     "PROVA_OBJETIVA": "25/01/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
