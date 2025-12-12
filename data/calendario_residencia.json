@@ -413,7 +413,7 @@
     "INSCRIÇÕES": "25/09 a 26/10/2025",
     "PROVA_OBJETIVA": "27/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "15/01/2026"
   },
   {
     "UF": "BA",
@@ -564,8 +564,8 @@
     "INSTITUIÇÃO": "Santa Casa de Araçatuba",
     "INSCRIÇÕES": "21/09 a 16/11/2025",
     "PROVA_OBJETIVA": "02/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "03/12/2025 (após as 14h) até 05/12/2025 (14h)",
+    "RESULTADO_FINAL": "23/01/2026"
   },
   {
     "UF": "SP",
@@ -1360,6 +1360,14 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "H. Olhos",
+    "INSCRIÇÕES": "06 a 22/12/2025",
+    "PROVA_OBJETIVA": "17/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "MT",
     "INSTITUIÇÃO": "UNIVAG",
     "INSCRIÇÕES": "06/11/2025 a 04/01/2026",
@@ -1699,6 +1707,14 @@
     "UF": "PR",
     "INSTITUIÇÃO": "Hospital Santa Clarade Colorado",
     "INSCRIÇÕES": "02/12/2025 a 30/01/2026 (SEDEX) ou02/12/2025a06/02/2026 (Presencial)",
+    "PROVA_OBJETIVA": "07/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "PR",
+    "INSTITUIÇÃO": "Instituto Ofta Card – Hospital Oftalmológico deUmuarama",
+    "INSCRIÇÕES": "26/12/2025 a25/01/2026",
     "PROVA_OBJETIVA": "07/02/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
