@@ -12,8 +12,8 @@
     "INSTITUIÇÃO": "PUC-PR",
     "INSCRIÇÕES": "22/08 a 22/09/2025",
     "PROVA_OBJETIVA": "09/10/2025",
-    "GABARITO_PRELIMINAR": "09/10/2025",
-    "RESULTADO_FINAL": "18/12/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "ES",
@@ -580,8 +580,8 @@
     "INSTITUIÇÃO": "Universidade Vila Velha (UVV)",
     "INSCRIÇÕES": "15/10 e 24/11/2025",
     "PROVA_OBJETIVA": "02/12/2025",
-    "GABARITO_PRELIMINAR": "02/12/2025",
-    "RESULTADO_FINAL": "17/12/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -772,8 +772,8 @@
     "INSTITUIÇÃO": "PUC-Campinas",
     "INSCRIÇÕES": "20/10 a 12/11/2025",
     "PROVA_OBJETIVA": "08/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "08/12/2025 após às 16h",
+    "RESULTADO_FINAL": "04/02/2026 após às 16h"
   },
   {
     "UF": "MS",
@@ -908,7 +908,7 @@
     "INSTITUIÇÃO": "Hospital de Amor de Barretos",
     "INSCRIÇÕES": "21/09 a 30/11/2025",
     "PROVA_OBJETIVA": "14/12/2025",
-    "GABARITO_PRELIMINAR": "-",
+    "GABARITO_PRELIMINAR": "15/12/2025 às 14h até 17/12/2025 às 14h",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -1061,7 +1061,7 @@
     "INSCRIÇÕES": "13/10 a 26/11/2025",
     "PROVA_OBJETIVA": "08/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "18/02/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "ES",
@@ -1244,8 +1244,8 @@
     "INSTITUIÇÃO": "Centro Universitário de Adamantina – FAI",
     "INSCRIÇÕES": "16/10/2025 a 04/01/2026",
     "PROVA_OBJETIVA": "14/01/2026",
-    "GABARITO_PRELIMINAR": "14/01/2026",
-    "RESULTADO_FINAL": "18/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1261,7 +1261,7 @@
     "INSCRIÇÕES": "10 a 30/12/2025",
     "PROVA_OBJETIVA": "14/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "12/02/2026"
   },
   {
     "UF": "PR",
@@ -1388,8 +1388,8 @@
     "INSTITUIÇÃO": "Hospital Carlos Fernando Malzoni",
     "INSCRIÇÕES": "05/09 a 28/12/2025",
     "PROVA_OBJETIVA": "18/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "19/01/2026",
+    "RESULTADO_FINAL": "20/02/2026"
   },
   {
     "UF": "AL",
@@ -1468,7 +1468,7 @@
     "INSTITUIÇÃO": "IPEPO",
     "INSCRIÇÕES": "03/11 a 02/12/2025",
     "PROVA_OBJETIVA": "19/01/2026",
-    "GABARITO_PRELIMINAR": "20/01/2026",
+    "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
   {
