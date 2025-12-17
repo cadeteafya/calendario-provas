@@ -20,8 +20,8 @@
     "INSTITUIÇÃO": "UNESC",
     "INSCRIÇÕES": "18/08 a 2/10/2025",
     "PROVA_OBJETIVA": "12/10/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "12/10/2025",
+    "RESULTADO_FINAL": "até 26/10/2025"
   },
   {
     "UF": "CE",
@@ -229,7 +229,7 @@
     "INSCRIÇÕES": "16 a 25/08/2025 (Ações Afirmativas)16/09 a 06/10/2025 (Ampla Concorrência)",
     "PROVA_OBJETIVA": "09/11/2025",
     "GABARITO_PRELIMINAR": "09/11/2025 – 20h",
-    "RESULTADO_FINAL": "17/12/2025"
+    "RESULTADO_FINAL": "22/12/2025"
   },
   {
     "UF": "RJ",
@@ -1026,7 +1026,7 @@
   {
     "UF": "DF",
     "INSTITUIÇÃO": "SES-DF",
-    "INSCRIÇÕES": "05/11 a 11/12/2025",
+    "INSCRIÇÕES": "05/11 a 14/12/2025",
     "PROVA_OBJETIVA": "21/12/2025",
     "GABARITO_PRELIMINAR": "21/12/2025",
     "RESULTADO_FINAL": "-"
@@ -1262,6 +1262,14 @@
     "PROVA_OBJETIVA": "14/01/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "12/02/2026"
+  },
+  {
+    "UF": "DF",
+    "INSTITUIÇÃO": "Rede Américas DF – Hospital Águas Claras",
+    "INSCRIÇÕES": "28/12/2025 a 06/01/2026",
+    "PROVA_OBJETIVA": "14/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PR",
