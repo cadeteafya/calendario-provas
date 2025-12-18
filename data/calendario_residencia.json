@@ -540,8 +540,8 @@
     "INSTITUIÇÃO": "Hospital São Lucas de Ribeirão Preto",
     "INSCRIÇÕES": "18/09 a 16/11/2025",
     "PROVA_OBJETIVA": "30/11/2025",
-    "GABARITO_PRELIMINAR": "01/12/2025 às 10h",
-    "RESULTADO_FINAL": "12/12/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RO",
@@ -1252,8 +1252,8 @@
     "INSTITUIÇÃO": "Santa Casa de São Carlos",
     "INSCRIÇÕES": "15/10/2025 a 04/01/2026",
     "PROVA_OBJETIVA": "14/01/2026",
-    "GABARITO_PRELIMINAR": "14/01/2026",
-    "RESULTADO_FINAL": "13/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1493,7 +1493,7 @@
     "INSCRIÇÕES": "10/11 a 08/12/2025",
     "PROVA_OBJETIVA": "20/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "02/02/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "TO",
