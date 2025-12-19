@@ -540,8 +540,8 @@
     "INSTITUIÇÃO": "Hospital São Lucas de Ribeirão Preto",
     "INSCRIÇÕES": "18/09 a 16/11/2025",
     "PROVA_OBJETIVA": "30/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "01/12/2025 às 10h",
+    "RESULTADO_FINAL": "12/12/2025"
   },
   {
     "UF": "RO",
@@ -1252,8 +1252,8 @@
     "INSTITUIÇÃO": "Santa Casa de São Carlos",
     "INSCRIÇÕES": "15/10/2025 a 04/01/2026",
     "PROVA_OBJETIVA": "14/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "14/01/2026",
+    "RESULTADO_FINAL": "13/02/2026"
   },
   {
     "UF": "SP",
@@ -1268,6 +1268,14 @@
     "INSTITUIÇÃO": "Rede Américas DF – Hospital Águas Claras",
     "INSCRIÇÕES": "28/12/2025 a 06/01/2026",
     "PROVA_OBJETIVA": "14/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "Sociedade Portuguesa Beneficência de Campo",
+    "INSCRIÇÕES": "03/12/2025 a 06/01/2026",
+    "PROVA_OBJETIVA": "15/01/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
@@ -1384,6 +1392,14 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "PI",
+    "INSTITUIÇÃO": "Hospital Marques Bastos",
+    "INSCRIÇÕES": "16/12/2025 a 10/01/2026",
+    "PROVA_OBJETIVA": "17/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "MT",
     "INSTITUIÇÃO": "UNIVAG",
     "INSCRIÇÕES": "06/11/2025 a 04/01/2026",
@@ -1493,7 +1509,7 @@
     "INSCRIÇÕES": "10/11 a 08/12/2025",
     "PROVA_OBJETIVA": "20/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "02/02/2026"
   },
   {
     "UF": "TO",
@@ -1526,6 +1542,22 @@
     "PROVA_OBJETIVA": "24/01/2026",
     "GABARITO_PRELIMINAR": "26/01 (após 10h) a 28/01/2026 (10h)",
     "RESULTADO_FINAL": "23/02/2026"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Hospital Casa de Saúde de Santos",
+    "INSCRIÇÕES": "16/12/2025 a 16/01/2026",
+    "PROVA_OBJETIVA": "24/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "PR",
+    "INSTITUIÇÃO": "Associação Medimagem de Paranavaí",
+    "INSCRIÇÕES": "01/12/2025 a 20/01/2026",
+    "PROVA_OBJETIVA": "24/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "BA",
@@ -1616,6 +1648,14 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Hospital CEMA",
+    "INSCRIÇÕES": "02 a 19/01/2026",
+    "PROVA_OBJETIVA": "25/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "RJ",
     "INSTITUIÇÃO": "CEPOA",
     "INSCRIÇÕES": "22/10 a 29/12/2025",
@@ -1680,6 +1720,14 @@
     "RESULTADO_FINAL": "13/02/2026"
   },
   {
+    "UF": "MS",
+    "INSTITUIÇÃO": "SMS-Dourados",
+    "INSCRIÇÕES": "11/12/2025 a 11/01/2026",
+    "PROVA_OBJETIVA": "31/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "USCS",
     "INSCRIÇÕES": "10/11/2025 a 12/01/2026",
@@ -1715,6 +1763,14 @@
     "UF": "RJ",
     "INSTITUIÇÃO": "Instituto Benjamin Constant",
     "INSCRIÇÕES": "05/12/2025 a26/01/2026",
+    "PROVA_OBJETIVA": "02/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "IBAP – Escola de Oftalmologia",
+    "INSCRIÇÕES": "01/2/2025 a 26/01/2026",
     "PROVA_OBJETIVA": "02/02/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
@@ -1758,6 +1814,22 @@
     "PROVA_OBJETIVA": "08/02/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "20/02/2026"
+  },
+  {
+    "UF": "PR",
+    "INSTITUIÇÃO": "SEUMED Hospital de Olhos",
+    "INSCRIÇÕES": "01 a 18/01/2026",
+    "PROVA_OBJETIVA": "08/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "PR",
+    "INSTITUIÇÃO": "SISNOR (Sistema Integrada de Saúde do Nortedo Paraná)",
+    "INSCRIÇÕES": "08/12/2025 a 30/01/2026",
+    "PROVA_OBJETIVA": "08/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
