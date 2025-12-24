@@ -174,6 +174,8 @@ RJ,FMS Campos dos Goytacazes,27/11/2025 a 09/01/2025,17/01/2026,-,-
 sp,Hospital Policlin,17/11 a 22/12/2025,17/01/2026,-,-
 RJ,H. Olhos,06 a 22/12/2025,17/01/2026,-,-
 PI,Hospital Marques Bastos,16/12/2025 a 10/01/2026,17/01/2026,-,-
+SP,Santa Casa de Misericórdia de Ituverava,16 a 22/12/2025,17/01/2026,-,-
+RJ,Policlínica Botafogo,13 a 22/12/25,17/01/2026,-,-
 MT,UNIVAG,06/11/2025 a 04/01/2026,18/01/2026,19/01/2026,19/02/2026
 SP,Hospital Carlos Fernando Malzoni,05/09 a 28/12/2025,18/01/2026,19/01/2026,20/02/2026
 AL,Santa Casa de Misericórdia de Maceió,05/09 a 28/12/2025,18/01/2026,19/01/2025,18/02/2025
@@ -209,6 +211,7 @@ SP,Hospital CEMA,02 a 19/01/2026,25/01/2026,-,-
 RJ,CEPOA,22/10 a 29/12/2025,26/01/2026,-,02/02/2026 (19h)
 PR,DR PRIME,01/08/2025 a20/01/2026,27/01/2026,-,02/02/2026
 MG,Santa Casa de Alfenas,05 a 20/01/2026,28/01/2026,-,02/02/2026
+SE,Hospital de Amor Interestadual de Lagarto/SE,07 a 20/01/2026,28/01/2026,-,-
 RN,Hospital Memorial São Francisco,18/11 a 31/12/2025,29/01/2026,30/01/2026,06/02/2026
 RN,Hospital Rio Grande,18/11 a 31/12/2025,29/01/2026,30/01/2026,06/02/2026
 SP,SMS-Franca,15/12/2025 a 14/01/2026,30/01/2026,-,-
@@ -221,12 +224,15 @@ TO,FESP-Palmas,11/12/2025 a 12/01/2026,01/02/2026,02 e 03/02/2026,-
 SP,IOEP,15/09/2025 a 26/01/2026,02/02/2026,-,18/02/2026
 RJ,Instituto Benjamin Constant,05/12/2025 a26/01/2026,02/02/2026,-,-
 RJ,IBAP – Escola de Oftalmologia,01/2/2025 a 26/01/2026,02/02/2026,-,-
+SP,Hospital de Olhos – CRO,03 a 09/01/2026,02/02/2026,-,-
+GO,Associação Hospital São Pio X,05 a 30/01/2026,06/02/2026,-,-
 RS,UNIJUÍ/FUMSSAR,21/10 a 01/02/2026,07/02/2026,-,13/02/2026
 PR,Hospital Santa Clarade Colorado,02/12/2025 a 30/01/2026 (SEDEX) ou02/12/2025a06/02/2026 (Presencial),07/02/2026,-,-
 PR,Instituto Ofta Card – Hospital Oftalmológico deUmuarama,26/12/2025 a25/01/2026,07/02/2026,-,-
 MT,Centro Oftalmológico Hospital Dia,22/11/2025 a 02/02/2026,08/02/2026,08/02/2026 – 12h,11/02/2026 a 12/02/2026
 MT,Hospital Santo Antônio,19 e 23/01/2026,08/02/2026,-,20/02/2026
 PR,SEUMED Hospital de Olhos,01 a 18/01/2026,08/02/2026,-,-
+TO,UNITINS,07 a 25/01/2026,08/02/2026,-,-
 PR,SISNOR (Sistema Integrada de Saúde do Nortedo Paraná),08/12/2025 a 30/01/2026,08/02/2026,-,-
 SP,COHR Hospital Dia Oftalmológico,11/11/2025 a 15/01/2026,09/02/2026,-,-
 DF,IMEB – Imagens Médicas de Brasília,01/12/2025 a 06/02/2026,09/02/2026,-,-

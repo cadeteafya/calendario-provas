@@ -1400,6 +1400,22 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Santa Casa de Misericórdia de Ituverava",
+    "INSCRIÇÕES": "16 a 22/12/2025",
+    "PROVA_OBJETIVA": "17/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "Policlínica Botafogo",
+    "INSCRIÇÕES": "13 a 22/12/25",
+    "PROVA_OBJETIVA": "17/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "MT",
     "INSTITUIÇÃO": "UNIVAG",
     "INSCRIÇÕES": "06/11/2025 a 04/01/2026",
@@ -1680,6 +1696,14 @@
     "RESULTADO_FINAL": "02/02/2026"
   },
   {
+    "UF": "SE",
+    "INSTITUIÇÃO": "Hospital de Amor Interestadual de Lagarto/SE",
+    "INSCRIÇÕES": "07 a 20/01/2026",
+    "PROVA_OBJETIVA": "28/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "RN",
     "INSTITUIÇÃO": "Hospital Memorial São Francisco",
     "INSCRIÇÕES": "18/11 a 31/12/2025",
@@ -1776,6 +1800,22 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Hospital de Olhos – CRO",
+    "INSCRIÇÕES": "03 a 09/01/2026",
+    "PROVA_OBJETIVA": "02/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "GO",
+    "INSTITUIÇÃO": "Associação Hospital São Pio X",
+    "INSCRIÇÕES": "05 a 30/01/2026",
+    "PROVA_OBJETIVA": "06/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "RS",
     "INSTITUIÇÃO": "UNIJUÍ/FUMSSAR",
     "INSCRIÇÕES": "21/10 a 01/02/2026",
@@ -1819,6 +1859,14 @@
     "UF": "PR",
     "INSTITUIÇÃO": "SEUMED Hospital de Olhos",
     "INSCRIÇÕES": "01 a 18/01/2026",
+    "PROVA_OBJETIVA": "08/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "TO",
+    "INSTITUIÇÃO": "UNITINS",
+    "INSCRIÇÕES": "07 a 25/01/2026",
     "PROVA_OBJETIVA": "08/02/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
