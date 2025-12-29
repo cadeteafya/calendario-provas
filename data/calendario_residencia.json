@@ -108,8 +108,8 @@
     "INSTITUIÇÃO": "SES-RJ",
     "INSCRIÇÕES": "29/08 a 29/09/2025",
     "PROVA_OBJETIVA": "26/10/2025",
-    "GABARITO_PRELIMINAR": "27/10/2025",
-    "RESULTADO_FINAL": "09/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RS",
@@ -468,8 +468,8 @@
     "INSTITUIÇÃO": "Hospital Santa Rosa",
     "INSCRIÇÕES": "08 a 16/11/2025",
     "PROVA_OBJETIVA": "29/11/2025",
-    "GABARITO_PRELIMINAR": "Das 14h do dia 01 até as 14h do dia 03/12/2025",
-    "RESULTADO_FINAL": "30/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -708,8 +708,8 @@
     "INSTITUIÇÃO": "Santa Casa de Campo Grande",
     "INSCRIÇÕES": "08/10 A 16/11/2025",
     "PROVA_OBJETIVA": "07/12/2025",
-    "GABARITO_PRELIMINAR": "08/12/2025",
-    "RESULTADO_FINAL": "03/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RJ",
