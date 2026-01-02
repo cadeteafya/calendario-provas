@@ -284,8 +284,8 @@
     "INSTITUIÇÃO": "PUC-SP",
     "INSCRIÇÕES": "13/10 a 07/11/2025",
     "PROVA_OBJETIVA": "16/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "17/11/2025",
+    "RESULTADO_FINAL": "22/01/2026"
   },
   {
     "UF": "PR",
@@ -404,8 +404,8 @@
     "INSTITUIÇÃO": "SMS-SJRP",
     "INSCRIÇÕES": "23/10 a 05/11/2025",
     "PROVA_OBJETIVA": "26/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "27/11/2025",
+    "RESULTADO_FINAL": "21/01/2026"
   },
   {
     "UF": "SP",
@@ -445,7 +445,7 @@
     "INSCRIÇÕES": "15/09 a 10/10/2025",
     "PROVA_OBJETIVA": "29/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "15/12/2025"
   },
   {
     "UF": "SP",
@@ -692,8 +692,8 @@
     "INSTITUIÇÃO": "SES-GO",
     "INSCRIÇÕES": "01 a 23/10/2025",
     "PROVA_OBJETIVA": "07/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "08/12/2025",
+    "RESULTADO_FINAL": "06/02/2026"
   },
   {
     "UF": "MG",
@@ -708,8 +708,8 @@
     "INSTITUIÇÃO": "Santa Casa de Campo Grande",
     "INSCRIÇÕES": "08/10 A 16/11/2025",
     "PROVA_OBJETIVA": "07/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "08/12/2025",
+    "RESULTADO_FINAL": "03/02/2026"
   },
   {
     "UF": "RJ",
@@ -908,7 +908,7 @@
     "INSTITUIÇÃO": "Hospital de Amor de Barretos",
     "INSCRIÇÕES": "21/09 a 30/11/2025",
     "PROVA_OBJETIVA": "14/12/2025",
-    "GABARITO_PRELIMINAR": "15/12/2025 às 14h até 17/12/2025 às 14h",
+    "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -1004,7 +1004,7 @@
     "INSTITUIÇÃO": "Hospital do Rim",
     "INSCRIÇÕES": "05/11 a 05/12/2025",
     "PROVA_OBJETIVA": "20/12/2025",
-    "GABARITO_PRELIMINAR": "-",
+    "GABARITO_PRELIMINAR": "02/01/2026",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -1148,8 +1148,8 @@
     "INSTITUIÇÃO": "Santa Casa de Adamantina",
     "INSCRIÇÕES": "24/10 a 28/12/2025",
     "PROVA_OBJETIVA": "11/01/2026",
-    "GABARITO_PRELIMINAR": "12/01/2026 (após 14h) até 13/01/2026 (23h59)",
-    "RESULTADO_FINAL": "20/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "MT",
@@ -1364,8 +1364,8 @@
     "INSTITUIÇÃO": "CVV Francisca Júlia",
     "INSCRIÇÕES": "03/11 a 22/12/2025",
     "PROVA_OBJETIVA": "17/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "18/01/2026",
+    "RESULTADO_FINAL": "13/02/2026"
   },
   {
     "UF": "RJ",
@@ -1541,7 +1541,7 @@
     "INSCRIÇÕES": "01/11/2025 a 16/01/2026",
     "PROVA_OBJETIVA": "24/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "04/02/2026 – Após as 17hs"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PB",
@@ -1588,8 +1588,8 @@
     "INSTITUIÇÃO": "Hospital Santo Amaro (HSA)",
     "INSCRIÇÕES": "24/10/2025 a 11/01/2026",
     "PROVA_OBJETIVA": "25/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "26/01/2026",
+    "RESULTADO_FINAL": "24/02/2026"
   },
   {
     "UF": "RS",
@@ -1685,7 +1685,7 @@
     "INSCRIÇÕES": "01/08/2025 a20/01/2026",
     "PROVA_OBJETIVA": "27/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "02/02/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "MG",
