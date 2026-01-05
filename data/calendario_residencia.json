@@ -124,8 +124,8 @@
     "INSTITUIÇÃO": "IC/FUC – Acesso Direto",
     "INSCRIÇÕES": "29/08 a 01/10/2025",
     "PROVA_OBJETIVA": "01/11/2025",
-    "GABARITO_PRELIMINAR": "08/11/2025",
-    "RESULTADO_FINAL": "19/12/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RS",
@@ -188,8 +188,8 @@
     "INSTITUIÇÃO": "IC/FUC – Pré-Requisito",
     "INSCRIÇÕES": "10/09 a 25/09/2025",
     "PROVA_OBJETIVA": "08/11/2025",
-    "GABARITO_PRELIMINAR": "08/11/2025",
-    "RESULTADO_FINAL": "19/12/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "ES",
@@ -613,7 +613,7 @@
     "INSCRIÇÕES": "29/09 a 02/12/2025",
     "PROVA_OBJETIVA": "04/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "12/12/2025"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -621,7 +621,7 @@
     "INSCRIÇÕES": "12 a 17/11/2025",
     "PROVA_OBJETIVA": "04/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "até 30/01/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -684,8 +684,8 @@
     "INSTITUIÇÃO": "Hospital de Olhos Aparecida (HOA)",
     "INSCRIÇÕES": "29/10 a 26/11/2025",
     "PROVA_OBJETIVA": "07/12/2025",
-    "GABARITO_PRELIMINAR": "08/12/2025, após as 14h",
-    "RESULTADO_FINAL": "05/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "GO",
@@ -1028,7 +1028,7 @@
     "INSTITUIÇÃO": "SES-DF",
     "INSCRIÇÕES": "05/11 a 14/12/2025",
     "PROVA_OBJETIVA": "21/12/2025",
-    "GABARITO_PRELIMINAR": "21/12/2025",
+    "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
   {
