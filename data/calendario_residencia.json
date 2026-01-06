@@ -124,8 +124,8 @@
     "INSTITUIÇÃO": "IC/FUC – Acesso Direto",
     "INSCRIÇÕES": "29/08 a 01/10/2025",
     "PROVA_OBJETIVA": "01/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "08/11/2025",
+    "RESULTADO_FINAL": "19/12/2025"
   },
   {
     "UF": "RS",
@@ -188,8 +188,8 @@
     "INSTITUIÇÃO": "IC/FUC – Pré-Requisito",
     "INSCRIÇÕES": "10/09 a 25/09/2025",
     "PROVA_OBJETIVA": "08/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "08/11/2025",
+    "RESULTADO_FINAL": "19/12/2025"
   },
   {
     "UF": "ES",
@@ -613,7 +613,7 @@
     "INSCRIÇÕES": "29/09 a 02/12/2025",
     "PROVA_OBJETIVA": "04/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "12/12/2025"
   },
   {
     "UF": "SP",
@@ -621,7 +621,7 @@
     "INSCRIÇÕES": "12 a 17/11/2025",
     "PROVA_OBJETIVA": "04/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "até 30/01/2026"
   },
   {
     "UF": "SP",
@@ -684,8 +684,8 @@
     "INSTITUIÇÃO": "Hospital de Olhos Aparecida (HOA)",
     "INSCRIÇÕES": "29/10 a 26/11/2025",
     "PROVA_OBJETIVA": "07/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "08/12/2025, após as 14h",
+    "RESULTADO_FINAL": "05/02/2026"
   },
   {
     "UF": "GO",
@@ -1028,7 +1028,7 @@
     "INSTITUIÇÃO": "SES-DF",
     "INSCRIÇÕES": "05/11 a 14/12/2025",
     "PROVA_OBJETIVA": "21/12/2025",
-    "GABARITO_PRELIMINAR": "-",
+    "GABARITO_PRELIMINAR": "21/12/2025",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -1528,6 +1528,14 @@
     "RESULTADO_FINAL": "02/02/2026"
   },
   {
+    "UF": "MG",
+    "INSTITUIÇÃO": "Centro Universitário Atenas (UniAtenas)",
+    "INSCRIÇÕES": "14/01/2025 a18/01/2026",
+    "PROVA_OBJETIVA": "21/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "TO",
     "INSTITUIÇÃO": "Universidade de Gurupi (UNIRG)",
     "INSCRIÇÕES": "28/11/2025 a 15/01/2026",
@@ -1664,6 +1672,22 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "RN",
+    "INSTITUIÇÃO": "UERN",
+    "INSCRIÇÕES": "02 a 14/01/2026",
+    "PROVA_OBJETIVA": "25/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "RN",
+    "INSTITUIÇÃO": "Liga Mossoroense de Estudos e Combate ao Câncer – LMECC",
+    "INSCRIÇÕES": "06 a 15/01/2026",
+    "PROVA_OBJETIVA": "25/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "Hospital CEMA",
     "INSCRIÇÕES": "02 a 19/01/2026",
@@ -1686,6 +1710,14 @@
     "PROVA_OBJETIVA": "27/01/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "02/02/2026"
+  },
+  {
+    "UF": "MG",
+    "INSTITUIÇÃO": "Universidade Federal de Lavras (UFLA)",
+    "INSCRIÇÕES": "30/12/2025 a15/01/2026",
+    "PROVA_OBJETIVA": "27/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "MG",
@@ -1736,6 +1768,14 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "RR",
+    "INSTITUIÇÃO": "Hospital Ville Roy",
+    "INSCRIÇÕES": "05 a 12/01/2026",
+    "PROVA_OBJETIVA": "31/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "RJ",
     "INSTITUIÇÃO": "Hospital Universitário de Vassouras",
     "INSCRIÇÕES": "22/12/2025 a 22/01/2026",
@@ -1747,6 +1787,14 @@
     "UF": "MS",
     "INSTITUIÇÃO": "SMS-Dourados",
     "INSCRIÇÕES": "11/12/2025 a 11/01/2026",
+    "PROVA_OBJETIVA": "31/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "PR",
+    "INSTITUIÇÃO": "Oftalcam – Hospital de Olhos de Campo Mourão",
+    "INSCRIÇÕES": "03/11/2025 a 23/01/2026",
     "PROVA_OBJETIVA": "31/01/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
@@ -1808,6 +1856,14 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "RN",
+    "INSTITUIÇÃO": "Hospital do Coração de Natal",
+    "INSCRIÇÕES": "23/12/2025 a 23/01/2026",
+    "PROVA_OBJETIVA": "04/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "GO",
     "INSTITUIÇÃO": "Associação Hospital São Pio X",
     "INSCRIÇÕES": "05 a 30/01/2026",
@@ -1846,6 +1902,14 @@
     "PROVA_OBJETIVA": "08/02/2026",
     "GABARITO_PRELIMINAR": "08/02/2026 – 12h",
     "RESULTADO_FINAL": "11/02/2026 a 12/02/2026"
+  },
+  {
+    "UF": "GO",
+    "INSTITUIÇÃO": "IMEC – Instituto de Medicina e Ciência de Ceres",
+    "INSCRIÇÕES": "12/01 a 30 /01/2026",
+    "PROVA_OBJETIVA": "08/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "MT",
