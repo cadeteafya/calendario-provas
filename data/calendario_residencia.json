@@ -1696,6 +1696,14 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "RS",
+    "INSTITUIÇÃO": "Hospital Unimed Erechim",
+    "INSCRIÇÕES": "05 a 18/01/2026",
+    "PROVA_OBJETIVA": "25/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "RJ",
     "INSTITUIÇÃO": "CEPOA",
     "INSCRIÇÕES": "22/10 a 29/12/2025",
@@ -1755,6 +1763,14 @@
     "UF": "SP",
     "INSTITUIÇÃO": "SMS-Franca",
     "INSCRIÇÕES": "15/12/2025 a 14/01/2026",
+    "PROVA_OBJETIVA": "30/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "RO",
+    "INSTITUIÇÃO": "SOL",
+    "INSCRIÇÕES": "22 e 23/01/2026",
     "PROVA_OBJETIVA": "30/01/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
@@ -1964,6 +1980,14 @@
     "INSTITUIÇÃO": "IMEB – Imagens Médicas de Brasília",
     "INSCRIÇÕES": "01/12/2025 a 06/02/2026",
     "PROVA_OBJETIVA": "09/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Santa Casa de São Carlos – Infectologia",
+    "INSCRIÇÕES": "21/01 a 17/02/2026",
+    "PROVA_OBJETIVA": "25/02/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
