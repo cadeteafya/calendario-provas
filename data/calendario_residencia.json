@@ -533,7 +533,7 @@
     "INSCRIÇÕES": "14/07 a 30/09/2025",
     "PROVA_OBJETIVA": "30/11/2025 (R+)",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "até 10/02/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -589,7 +589,7 @@
     "INSCRIÇÕES": "01/10 a 17/11/2025",
     "PROVA_OBJETIVA": "02/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "23/12/2025"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RJ",
@@ -684,8 +684,8 @@
     "INSTITUIÇÃO": "Hospital de Olhos Aparecida (HOA)",
     "INSCRIÇÕES": "29/10 a 26/11/2025",
     "PROVA_OBJETIVA": "07/12/2025",
-    "GABARITO_PRELIMINAR": "08/12/2025, após as 14h",
-    "RESULTADO_FINAL": "05/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "GO",
@@ -1504,6 +1504,14 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "PI",
+    "INSTITUIÇÃO": "Universidade Estadual do Piauí (UESPI)",
+    "INSCRIÇÕES": "10 a 22/12/2025",
+    "PROVA_OBJETIVA": "18/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "IPEPO",
     "INSCRIÇÕES": "03/11 a 02/12/2025",
@@ -2022,6 +2030,14 @@
     "PROVA_OBJETIVA": "12/02/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Nova Benê",
+    "INSCRIÇÕES": "25/01 a 05/02/2026",
+    "PROVA_OBJETIVA": "12/02/2026",
+    "GABARITO_PRELIMINAR": "12/02/2026 (após 14h) até 13/02/2026 às 23h59",
+    "RESULTADO_FINAL": "24/02/2026"
   },
   {
     "UF": "SP",
