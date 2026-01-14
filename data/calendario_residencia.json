@@ -573,15 +573,15 @@
     "INSCRIÇÕES": "09/10 a 16/11/2025",
     "PROVA_OBJETIVA": "02/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "23/12/2025"
   },
   {
     "UF": "ES",
     "INSTITUIÇÃO": "Universidade Vila Velha (UVV)",
     "INSCRIÇÕES": "15/10 e 24/11/2025",
     "PROVA_OBJETIVA": "02/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "02/12/2025",
+    "RESULTADO_FINAL": "17/12/2025"
   },
   {
     "UF": "SP",
@@ -613,7 +613,7 @@
     "INSCRIÇÕES": "29/09 a 02/12/2025",
     "PROVA_OBJETIVA": "04/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "12/12/2025"
   },
   {
     "UF": "SP",
@@ -892,8 +892,8 @@
     "INSTITUIÇÃO": "FMABC / SMS-SBC",
     "INSCRIÇÕES": "09/10 a 21/11/2025",
     "PROVA_OBJETIVA": "13/12/2025",
-    "GABARITO_PRELIMINAR": "15/12/2025",
-    "RESULTADO_FINAL": "10/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "MG",
@@ -908,7 +908,7 @@
     "INSTITUIÇÃO": "Hospital de Amor de Barretos",
     "INSCRIÇÕES": "21/09 a 30/11/2025",
     "PROVA_OBJETIVA": "14/12/2025",
-    "GABARITO_PRELIMINAR": "-",
+    "GABARITO_PRELIMINAR": "15/12/2025 às 14h até 17/12/2025 às 14h",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -1661,7 +1661,7 @@
     "INSCRIÇÕES": "19/12/2025 a 16/01/2026",
     "PROVA_OBJETIVA": "25/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "19/02/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1872,6 +1872,14 @@
     "RESULTADO_FINAL": "13/02/2026"
   },
   {
+    "UF": "PB",
+    "INSTITUIÇÃO": "UNIFACISA",
+    "INSCRIÇÕES": "12 a 23/01/2026",
+    "PROVA_OBJETIVA": "01/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "IOEP",
     "INSCRIÇÕES": "15/09/2025 a 26/01/2026",
@@ -2011,6 +2019,22 @@
     "UF": "SP",
     "INSTITUIÇÃO": "Santa Casa de Araçatuba – Anestesiologia",
     "INSCRIÇÕES": "24/01 a 01/02/2026",
+    "PROVA_OBJETIVA": "08/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "TO",
+    "INSTITUIÇÃO": "UNITPAC",
+    "INSCRIÇÕES": "24 a 31/01/2026",
+    "PROVA_OBJETIVA": "08/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "Hospital H.FOA",
+    "INSCRIÇÕES": "26/01 a 04/02/2026",
     "PROVA_OBJETIVA": "08/02/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"

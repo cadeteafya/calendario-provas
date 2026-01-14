@@ -70,12 +70,12 @@ SP,Hospital São Lucas de Ribeirão Preto,18/09 a 16/11/2025,30/11/2025,01/12/20
 RO,SES-RO,28/10 a 16/11/2025,30/11/2025,Das 8h de 01/12/2025 até as 19h de 03/12/2025,-
 SP/RJ,Amil,03 a 17/11/2025,30/11/2025,-,-
 SP,Santa Casa de Araçatuba,21/09 a 16/11/2025,02/12/2025,03/12/2025 (após as 14h) até 05/12/2025 (14h),23/01/2026
-SP,UNIMAR,09/10 a 16/11/2025,02/12/2025,-,-
-ES,Universidade Vila Velha (UVV),15/10 e 24/11/2025,02/12/2025,-,-
+SP,UNIMAR,09/10 a 16/11/2025,02/12/2025,-,23/12/2025
+ES,Universidade Vila Velha (UVV),15/10 e 24/11/2025,02/12/2025,02/12/2025,17/12/2025
 SP,Hcor,01/10 a 17/11/2025,02/12/2025,-,23/12/2025
 RJ,Hospital Plantadores de Cana (HPC),01/10 a 09/11/2025,02/12/2025,-,19/12/2025
 SP,Hospital Santa Marcelina,13/10 a 28/11/2025,04/12/2025,-,16/12/2025
-RS,Hospital Materno Infantil Presidente Vargas (HMIPV),29/09 a 02/12/2025,04/12/2025,-,-
+RS,Hospital Materno Infantil Presidente Vargas (HMIPV),29/09 a 02/12/2025,04/12/2025,-,12/12/2025
 SP,UNESP (Áreas de Atuação),12 a 17/11/2025,04/12/2025,-,até 30/01/2026
 SP,Santa Casa de Campo Mourão,15/10/2025 à 20/11/2025,04/12/2025,-,20/01/2026
 RJ,Hospital São José do Avaí (HSJA),01/10 a 28/11/2025,05/12/2025,08/12/2025 (a partir das 15h),12/12/2025 (a partir das 17h)
@@ -110,9 +110,9 @@ SP,Hospital Vera Cruz,26/09 a 17/11/2025,12/12/2025,19/12/2025,06/02/2026
 PR,Hospital Angelina Caron,05/09 a 29/11/2025,13/12/2025,-,-
 PR,Hospital CEMIL,04/11 a 04/12/2025,13/12/2025,-,19/12/2025
 SP/RJ/AL/SE/MA,IDOR,15/10 a 08/12/2025,13/12/2025,-,-
-SP,FMABC / SMS-SBC,09/10 a 21/11/2025,13/12/2025,15/12/2025,10/02/2026
+SP,FMABC / SMS-SBC,09/10 a 21/11/2025,13/12/2025,-,-
 MG,Hospital Dilson Godinho,07 a 19/11/2025,13/12/2025,-,09/02/2026
-SP,Hospital de Amor de Barretos,21/09 a 30/11/2025,14/12/2025,-,-
+SP,Hospital de Amor de Barretos,21/09 a 30/11/2025,14/12/2025,15/12/2025 às 14h até 17/12/2025 às 14h,-
 PR,Hospital Universitário Evangélico Mackenzie,12/09 a 10/10/2025,14/12/2025,-,30/01/2026
 SP,Rede Mário Gatti,27/10 a 19/11/2025,14/12/2025,15/12/2025,09/02/2026
 RJ,IFF/Fiocruz,22/09 a 31/10/2025,14/12/2025,16/12/2025,-
@@ -206,7 +206,7 @@ PI,Grupo Med Imagem,26/11/2025 a 11/01/2026,25/01/2026,"25/01/2026, a partir das
 Várias,RESIMED,08/12/2025 a 19/01/2026,25/01/2026,-,11/02/2026 – após 18h
 AL,PSU-AL,12/12/2025 a 19/01/2026,25/01/2026,-,-
 MT,Empresa Cuiabana de Saúde Pública,15/12/2025 a 11/01/2026,25/01/2026,-,-
-SP,USP Bauru,19/12/2025 a 16/01/2026,25/01/2026,-,19/02/2026
+SP,USP Bauru,19/12/2025 a 16/01/2026,25/01/2026,-,-
 SP,HRAC-USP,19/12/2025 a 16/01/2026,25/01/2026,25/01/2026 (20h),19/02/2026
 ES,HEUE,19/12/2025 a11/01/2026,25/01/2026,-,-
 SP,USP Bauru (Cirurgia Plástica),05/01 a 16/01/2026,25/01/2026,-,-
@@ -233,6 +233,7 @@ SP,USCS,10/11/2025 a 12/01/2026,01/02/2026,05/02/2026,06/02/2026 (a partir das 1
 PR,Universidade Cesumar(UNICESUMAR),20/11/2025 a 23/01/2026,01/02/2026,-,-
 TO,FESP-Palmas,11/12/2025 a 12/01/2026,01/02/2026,02 e 03/02/2026,-
 MS,SESAU Campo Grande (MFC),23/12/2025 a 21/01/2026,01/02/2026,02/02/2026,13/02/2026
+PB,UNIFACISA,12 a 23/01/2026,01/02/2026,-,-
 SP,IOEP,15/09/2025 a 26/01/2026,02/02/2026,-,18/02/2026
 RJ,Instituto Benjamin Constant,05/12/2025 a26/01/2026,02/02/2026,-,-
 RJ,IBAP – Escola de Oftalmologia,01/2/2025 a 26/01/2026,02/02/2026,-,-
@@ -251,6 +252,8 @@ TO,UNITINS,07 a 25/01/2026,08/02/2026,-,-
 PR,SISNOR (Sistema Integrada de Saúde do Nortedo Paraná),08/12/2025 a 30/01/2026,08/02/2026,-,-
 GO,SES-GO (suplementar),08 a 19/01/2026,08/02/2026,09/02/2026,04/03/2026
 SP,Santa Casa de Araçatuba – Anestesiologia,24/01 a 01/02/2026,08/02/2026,-,-
+TO,UNITPAC,24 a 31/01/2026,08/02/2026,-,-
+RJ,Hospital H.FOA,26/01 a 04/02/2026,08/02/2026,-,-
 SP,COHR Hospital Dia Oftalmológico,11/11/2025 a 15/01/2026,09/02/2026,-,-
 DF,IMEB – Imagens Médicas de Brasília,01/12/2025 a 06/02/2026,09/02/2026,-,-
 ES,AEBES – Anestesiologia,24/01 a 01/02/2026,12/02/2026,-,-
