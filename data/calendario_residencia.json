@@ -20,8 +20,8 @@
     "INSTITUIÇÃO": "UNESC",
     "INSCRIÇÕES": "18/08 a 2/10/2025",
     "PROVA_OBJETIVA": "12/10/2025",
-    "GABARITO_PRELIMINAR": "12/10/2025",
-    "RESULTADO_FINAL": "até 26/10/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "CE",
@@ -468,8 +468,8 @@
     "INSTITUIÇÃO": "Hospital Santa Rosa",
     "INSCRIÇÕES": "08 a 16/11/2025",
     "PROVA_OBJETIVA": "29/11/2025",
-    "GABARITO_PRELIMINAR": "Das 14h do dia 01 até as 14h do dia 03/12/2025",
-    "RESULTADO_FINAL": "30/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -516,8 +516,8 @@
     "INSTITUIÇÃO": "Hospital Adventista Silvestre",
     "INSCRIÇÕES": "15/09 a 19/11/2025",
     "PROVA_OBJETIVA": "30/11/2025",
-    "GABARITO_PRELIMINAR": "02/12/2025",
-    "RESULTADO_FINAL": "23/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SE",
@@ -717,7 +717,7 @@
     "INSCRIÇÕES": "08/10 a 06/11/2025",
     "PROVA_OBJETIVA": "07/12/2025",
     "GABARITO_PRELIMINAR": "07/12/2025",
-    "RESULTADO_FINAL": "28/01/2026"
+    "RESULTADO_FINAL": "22/01/2026"
   },
   {
     "UF": "RJ",
@@ -892,8 +892,8 @@
     "INSTITUIÇÃO": "FMABC / SMS-SBC",
     "INSCRIÇÕES": "09/10 a 21/11/2025",
     "PROVA_OBJETIVA": "13/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "15/12/2025",
+    "RESULTADO_FINAL": "10/02/2026"
   },
   {
     "UF": "MG",
@@ -1661,7 +1661,7 @@
     "INSCRIÇÕES": "19/12/2025 a 16/01/2026",
     "PROVA_OBJETIVA": "25/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "19/02/2026"
   },
   {
     "UF": "SP",
@@ -1795,6 +1795,14 @@
     "UF": "RO",
     "INSTITUIÇÃO": "SOL",
     "INSCRIÇÕES": "22 e 23/01/2026",
+    "PROVA_OBJETIVA": "30/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "HospitalSanta Marcelina (Complementar)",
+    "INSCRIÇÕES": "26 a 28/01/2026",
     "PROVA_OBJETIVA": "30/01/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
