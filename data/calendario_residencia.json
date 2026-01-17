@@ -116,8 +116,8 @@
     "INSTITUIÇÃO": "UFCSPA",
     "INSCRIÇÕES": "29/08 a 02/10/2025",
     "PROVA_OBJETIVA": "01/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "03/11/2025",
+    "RESULTADO_FINAL": "20/01/2025"
   },
   {
     "UF": "RS",
@@ -180,7 +180,7 @@
     "INSTITUIÇÃO": "IUN Urologia",
     "INSCRIÇÕES": "10/10 a 02/11/2025",
     "PROVA_OBJETIVA": "07/11/2025",
-    "GABARITO_PRELIMINAR": "-",
+    "GABARITO_PRELIMINAR": "07/11/2025",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -796,8 +796,8 @@
     "INSTITUIÇÃO": "Hospital Edmundo Vasconcelos",
     "INSCRIÇÕES": "07/11 a 01/12/2025",
     "PROVA_OBJETIVA": "09/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "09/12/2025",
+    "RESULTADO_FINAL": "19/01/2026"
   },
   {
     "UF": "AC",
@@ -892,8 +892,8 @@
     "INSTITUIÇÃO": "FMABC / SMS-SBC",
     "INSCRIÇÕES": "09/10 a 21/11/2025",
     "PROVA_OBJETIVA": "13/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "15/12/2025",
+    "RESULTADO_FINAL": "10/02/2026"
   },
   {
     "UF": "MG",
@@ -908,7 +908,7 @@
     "INSTITUIÇÃO": "Hospital de Amor de Barretos",
     "INSCRIÇÕES": "21/09 a 30/11/2025",
     "PROVA_OBJETIVA": "14/12/2025",
-    "GABARITO_PRELIMINAR": "-",
+    "GABARITO_PRELIMINAR": "15/12/2025 às 14h até 17/12/2025 às 14h",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -1013,7 +1013,7 @@
     "INSCRIÇÕES": "30/10 a 12/12/2025",
     "PROVA_OBJETIVA": "20/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "09/01/2026 – Após as 17h (no site)"
   },
   {
     "UF": "SP",
@@ -1261,7 +1261,7 @@
     "INSCRIÇÕES": "10 a 30/12/2025",
     "PROVA_OBJETIVA": "14/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "12/02/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "DF",
@@ -1420,8 +1420,8 @@
     "INSTITUIÇÃO": "UNIVAG",
     "INSCRIÇÕES": "06/11/2025 a 04/01/2026",
     "PROVA_OBJETIVA": "18/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "19/01/2026",
+    "RESULTADO_FINAL": "19/02/2026"
   },
   {
     "UF": "SP",
@@ -1516,7 +1516,7 @@
     "INSTITUIÇÃO": "IPEPO",
     "INSCRIÇÕES": "03/11 a 02/12/2025",
     "PROVA_OBJETIVA": "19/01/2026",
-    "GABARITO_PRELIMINAR": "-",
+    "GABARITO_PRELIMINAR": "20/01/2026",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -2110,6 +2110,14 @@
     "PROVA_OBJETIVA": "15/02/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "Policlínica Regional Dr. Sérgio Arouca",
+    "INSCRIÇÕES": "02 a 13/02/2026",
+    "PROVA_OBJETIVA": "23/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "27/02/2026"
   },
   {
     "UF": "SP",
