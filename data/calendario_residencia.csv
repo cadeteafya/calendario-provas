@@ -130,13 +130,13 @@ SP,UNIFACEF,14/11 a 14/12/2025,20/12/2025,22/12/2025,30/12/2025
 DF,SES-DF,05/11 a 14/12/2025,21/12/2025,21/12/2025,-
 PI,Secretaria de Estado de Saúde do Piauí (SESAPI),09/12 a 11/12/2025,21/12/2025,-,-
 SP,Hospital Alemão Oswaldo Cruz (HAOC),17/10 a 09/12/2025,04/01/2026,-,09/02/2026
-RN,Hospital Varela Santiago,10 a 21/11/2025,05 e 06/01/2026,-,11/02/2026
+RN,Hospital Varela Santiago,10 a 21/11/2025,05 e 06/01/2026,-,-
 SP,UNIFIPA/FAMECA,13/10 a 26/11/2025,08/01/2026,-,18/02/2026
 ES,Centro de Ensino e Pesquisa da Rede Primavera (CEP),05/12/25 a 05/01/2026,08/01/2026,-,-
 SP,CEO Bauru,03/11 a 05/12/2025,09/01/2026,-,-
 GO,PAX Clínica Psiquiátrica,17 a 24/11/2025,09/01/2026,-,05/02/2026
 SP,Santa Casa de Birigui,08/10 a 28/12/205,10/01/2026,12/01/2026 após 14h até 14/01/2026 às 14h,13/02/2026
-SP,Hospital Infantil Sabará,06/10 a 10/12/2025,10/01/2026,11 a 12/01/2026,02/02/2026
+SP,Hospital Infantil Sabará,06/10 a 10/12/2025,10/01/2026,-,-
 SP,Hospital Visão Laser,31/10 a 28/12/2025,10/01/2026,25/01/2026 (vide item 13.1),13/02/2026
 DF,Hospital HOME,04/12/2025 a 04/01/2026,10/01/2026,-,-
 SP,Hospital IGESP,25/10 a 28/12/2025,10 e 11/01/2026,12/01/2026,13/02/2026
@@ -149,14 +149,14 @@ GO,Hospital Ruy Azeredo,18/11 a 21/12/2025,11/01/2026,-,15/01/2026 – a partir 
 SP,Hospital Infantil Gonzaga,05/11 a 29/12/2025,11/01/2026,12/01/2026,06/02/2026
 PE,SES-PE,29/11 a 14/12/2025,11/01/2026,-,04/02/2026
 PR,Santa Casa de Maringá,01 a 30/12/2025,11/01/2026,-,02/02/2026
-PR,Hospital Vida,27/10/2025 a 08/01/2026,12/01/2026,-,06/02/2026
+PR,Hospital Vida,27/10/2025 a 08/01/2026,12/01/2026,-,-
 PR,Hospital San Julian,31/10/2025 a 12/01/2025,13/01/2026,-,10/02/2026
 PR,Hoftalon Hospital de Olhos,24/11 a 29/12/25,13/01/2026,-,-
 SC,Hospital e Maternidade OASE,14/10/2025 a 04/01/2026,14/01/2026,15/01/2026 (após as 14h) até 17/01/2026 (até as 14h),10/02/2026
 PB,SOS Otorrino,10/11/2025 a 12/01/2026,14/01/2026,14/01/2026,até 19/01/2026
 SP,Centro Universitário de Adamantina – FAI,16/10/2025 a 04/01/2026,14/01/2026,14/01/2026,18/02/2026
 SP,Santa Casa de São Carlos,15/10/2025 a 04/01/2026,14/01/2026,14/01/2026,13/02/2026
-SP,HMASP,10 a 30/12/2025,14/01/2026,-,-
+SP,HMASP,10 a 30/12/2025,14/01/2026,-,12/02/2026
 DF,Rede Américas DF – Hospital Águas Claras,28/12/2025 a 06/01/2026,14/01/2026,-,-
 RJ,Sociedade Portuguesa Beneficência de Campo,03/12/2025 a 06/01/2026,15/01/2026,-,-
 PR,Hospital de Olhos de Guarapuava,06/10/2025 a 08/01/2026,16/01/2026,21/01/2026,30/01/2026
@@ -251,7 +251,7 @@ MT,Hospital Santo Antônio,19 e 23/01/2026,08/02/2026,-,20/02/2026
 PR,SEUMED Hospital de Olhos,01 a 18/01/2026,08/02/2026,-,-
 TO,UNITINS,07 a 25/01/2026,08/02/2026,-,-
 PR,SISNOR (Sistema Integrada de Saúde do Nortedo Paraná),08/12/2025 a 30/01/2026,08/02/2026,-,-
-GO,SES-GO (suplementar),08 a 19/01/2026,08/02/2026,09/02/2026,04/03/2026
+GO,SES-GO (suplementar),08 a 19/01/2026,08/02/2026,-,-
 SP,Santa Casa de Araçatuba – Anestesiologia,24/01 a 01/02/2026,08/02/2026,-,-
 TO,UNITPAC,24 a 31/01/2026,08/02/2026,-,-
 RJ,Hospital H.FOA,26/01 a 04/02/2026,08/02/2026,-,-

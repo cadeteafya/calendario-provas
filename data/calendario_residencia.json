@@ -1053,7 +1053,7 @@
     "INSCRIÇÕES": "10 a 21/11/2025",
     "PROVA_OBJETIVA": "05 e 06/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "11/02/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1100,8 +1100,8 @@
     "INSTITUIÇÃO": "Hospital Infantil Sabará",
     "INSCRIÇÕES": "06/10 a 10/12/2025",
     "PROVA_OBJETIVA": "10/01/2026",
-    "GABARITO_PRELIMINAR": "11 a 12/01/2026",
-    "RESULTADO_FINAL": "02/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1205,7 +1205,7 @@
     "INSCRIÇÕES": "27/10/2025 a 08/01/2026",
     "PROVA_OBJETIVA": "12/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "06/02/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PR",
@@ -1261,7 +1261,7 @@
     "INSCRIÇÕES": "10 a 30/12/2025",
     "PROVA_OBJETIVA": "14/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "12/02/2026"
   },
   {
     "UF": "DF",
@@ -2020,8 +2020,8 @@
     "INSTITUIÇÃO": "SES-GO (suplementar)",
     "INSCRIÇÕES": "08 a 19/01/2026",
     "PROVA_OBJETIVA": "08/02/2026",
-    "GABARITO_PRELIMINAR": "09/02/2026",
-    "RESULTADO_FINAL": "04/03/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
