@@ -396,8 +396,8 @@
     "INSTITUIÇÃO": "FAMERP",
     "INSCRIÇÕES": "15 a 28/10/2025",
     "PROVA_OBJETIVA": "25/11/2025",
-    "GABARITO_PRELIMINAR": "25/11/2025",
-    "RESULTADO_FINAL": "30/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -812,8 +812,8 @@
     "INSTITUIÇÃO": "Unimed Teresina",
     "INSCRIÇÕES": "10 a 30/11/2025",
     "PROVA_OBJETIVA": "10/12/2025",
-    "GABARITO_PRELIMINAR": "11/12/2025",
-    "RESULTADO_FINAL": "14/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RJ/SP/DF/MA",
@@ -932,7 +932,7 @@
     "INSTITUIÇÃO": "IFF/Fiocruz",
     "INSCRIÇÕES": "22/09 a 31/10/2025",
     "PROVA_OBJETIVA": "14/12/2025",
-    "GABARITO_PRELIMINAR": "16/12/2025",
+    "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -1053,7 +1053,7 @@
     "INSCRIÇÕES": "10 a 21/11/2025",
     "PROVA_OBJETIVA": "05 e 06/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "11/02/2026"
   },
   {
     "UF": "SP",
@@ -1100,8 +1100,8 @@
     "INSTITUIÇÃO": "Hospital Infantil Sabará",
     "INSCRIÇÕES": "06/10 a 10/12/2025",
     "PROVA_OBJETIVA": "10/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "11 a 12/01/2026",
+    "RESULTADO_FINAL": "02/02/2026"
   },
   {
     "UF": "SP",
@@ -1180,8 +1180,8 @@
     "INSTITUIÇÃO": "Hospital Infantil Gonzaga",
     "INSCRIÇÕES": "05/11 a 29/12/2025",
     "PROVA_OBJETIVA": "11/01/2026",
-    "GABARITO_PRELIMINAR": "12/01/2026",
-    "RESULTADO_FINAL": "06/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PE",
@@ -1205,7 +1205,7 @@
     "INSCRIÇÕES": "27/10/2025 a 08/01/2026",
     "PROVA_OBJETIVA": "12/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "06/02/2026"
   },
   {
     "UF": "PR",
@@ -2020,8 +2020,8 @@
     "INSTITUIÇÃO": "SES-GO (suplementar)",
     "INSCRIÇÕES": "08 a 19/01/2026",
     "PROVA_OBJETIVA": "08/02/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "09/02/2026",
+    "RESULTADO_FINAL": "04/03/2026"
   },
   {
     "UF": "SP",
