@@ -396,8 +396,8 @@
     "INSTITUIÇÃO": "FAMERP",
     "INSCRIÇÕES": "15 a 28/10/2025",
     "PROVA_OBJETIVA": "25/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "25/11/2025",
+    "RESULTADO_FINAL": "30/01/2026"
   },
   {
     "UF": "SP",
@@ -812,8 +812,8 @@
     "INSTITUIÇÃO": "Unimed Teresina",
     "INSCRIÇÕES": "10 a 30/11/2025",
     "PROVA_OBJETIVA": "10/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "11/12/2025",
+    "RESULTADO_FINAL": "14/01/2026"
   },
   {
     "UF": "RJ/SP/DF/MA",
@@ -932,7 +932,7 @@
     "INSTITUIÇÃO": "IFF/Fiocruz",
     "INSCRIÇÕES": "22/09 a 31/10/2025",
     "PROVA_OBJETIVA": "14/12/2025",
-    "GABARITO_PRELIMINAR": "-",
+    "GABARITO_PRELIMINAR": "16/12/2025",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -1180,8 +1180,8 @@
     "INSTITUIÇÃO": "Hospital Infantil Gonzaga",
     "INSCRIÇÕES": "05/11 a 29/12/2025",
     "PROVA_OBJETIVA": "11/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "12/01/2026",
+    "RESULTADO_FINAL": "06/02/2026"
   },
   {
     "UF": "PE",
@@ -1808,6 +1808,14 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "Hospital Santa Helena de Cabo Frio",
+    "INSCRIÇÕES": "12 a 23/01/2026",
+    "PROVA_OBJETIVA": "30/01/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "UNILASER",
     "INSCRIÇÕES": "17/11/2025 a 28/01/2026",
@@ -1869,6 +1877,14 @@
     "INSCRIÇÕES": "11/12/2025 a 12/01/2026",
     "PROVA_OBJETIVA": "01/02/2026",
     "GABARITO_PRELIMINAR": "02 e 03/02/2026",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "PB",
+    "INSTITUIÇÃO": "SMS-Piancó",
+    "INSCRIÇÕES": "09 a 16/01/2026",
+    "PROVA_OBJETIVA": "01/02/2026",
+    "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
   {
