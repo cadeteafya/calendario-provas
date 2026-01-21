@@ -389,7 +389,7 @@
     "INSCRIÇÕES": "06/10 a 14/11/2025",
     "PROVA_OBJETIVA": "24/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "22/12/2025"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -932,7 +932,7 @@
     "INSTITUIÇÃO": "IFF/Fiocruz",
     "INSCRIÇÕES": "22/09 a 31/10/2025",
     "PROVA_OBJETIVA": "14/12/2025",
-    "GABARITO_PRELIMINAR": "16/12/2025",
+    "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -1725,7 +1725,7 @@
     "INSCRIÇÕES": "22/10 a 29/12/2025",
     "PROVA_OBJETIVA": "26/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "02/02/2026 (19h)"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PR",
@@ -2124,6 +2124,14 @@
     "INSTITUIÇÃO": "Santa Casa de São Josédos Campos",
     "INSCRIÇÕES": "14/01 a 01/02/2026",
     "PROVA_OBJETIVA": "15/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "MG",
+    "INSTITUIÇÃO": "FELUMA – HUCM (Complementar)",
+    "INSCRIÇÕES": "03 a 09/02/2026",
+    "PROVA_OBJETIVA": "22/02/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },

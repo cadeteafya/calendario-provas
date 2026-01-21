@@ -47,7 +47,7 @@ SP,Instituto Dante Pazzanese,06/10 a 12/11/2025,23/11/2025,23/11/2025,09/02/2026
 BA,PSU-BA (SUS-BA),17/10 a 18/11/2025,23/11/2025,26/11/2025,10/02/2026
 MT,HG/UNIC,20/09 a 09/11/2025,23/11/2025,-,15/12/2025 após 18h
 ES,SMS-Vitória,20/10 a 19/11/2025,24/11/2025,-,03/12/2025
-ES,Hospital Vitória Apart,06/10 a 14/11/2025,24/11/2025,-,22/12/2025
+ES,Hospital Vitória Apart,06/10 a 14/11/2025,24/11/2025,-,-
 SP,FAMERP,15 a 28/10/2025,25/11/2025,25/11/2025,30/01/2026
 SP,SMS-SJRP,23/10 a 05/11/2025,26/11/2025,27/11/2025,21/01/2026
 SP,Hospital Dr. Adolfo Bezerra de Menezes,25/09 a 26/10/2025,27/11/2025,-,15/01/2026
@@ -115,7 +115,7 @@ MG,Hospital Dilson Godinho,07 a 19/11/2025,13/12/2025,-,09/02/2026
 SP,Hospital de Amor de Barretos,21/09 a 30/11/2025,14/12/2025,15/12/2025 às 14h até 17/12/2025 às 14h,-
 PR,Hospital Universitário Evangélico Mackenzie,12/09 a 10/10/2025,14/12/2025,-,30/01/2026
 SP,Rede Mário Gatti,27/10 a 19/11/2025,14/12/2025,15/12/2025,09/02/2026
-RJ,IFF/Fiocruz,22/09 a 31/10/2025,14/12/2025,16/12/2025,-
+RJ,IFF/Fiocruz,22/09 a 31/10/2025,14/12/2025,-,-
 SP,SUS-SP,16/10 a 04/11/2025,14/12/2025,16/12/2025,06/02/2026
 MT,SMS-LRV,07/11 a 03/12/2025,14/12/2025,15/12/2025 a 17/12/2025,09/01/2026
 SP,Centro Médico de Campinas (CMC),24/10 a 30/11/2025,15/12/2025,15/12/2025,16/02/2026
@@ -214,7 +214,7 @@ RN,UERN,02 a 14/01/2026,25/01/2026,-,-
 RN,Liga Mossoroense de Estudos e Combate ao Câncer – LMECC,06 a 15/01/2026,25/01/2026,-,-
 SP,Hospital CEMA,02 a 19/01/2026,25/01/2026,-,-
 RS,Hospital Unimed Erechim,05 a 18/01/2026,25/01/2026,-,-
-RJ,CEPOA,22/10 a 29/12/2025,26/01/2026,-,02/02/2026 (19h)
+RJ,CEPOA,22/10 a 29/12/2025,26/01/2026,-,-
 PR,DR PRIME,01/08/2025 a20/01/2026,27/01/2026,-,02/02/2026
 MG,Universidade Federal de Lavras (UFLA),30/12/2025 a15/01/2026,27/01/2026,-,-
 GO,Hospital Asmigo 2026/03,21 a 23/01/2026,27/01/2026,-,-
@@ -265,6 +265,7 @@ ES,AEBES – Anestesiologia,24/01 a 01/02/2026,12/02/2026,-,-
 SP,Nova Benê,25/01 a 05/02/2026,12/02/2026,12/02/2026 (após 14h) até 13/02/2026 às 23h59,24/02/2026
 SP,Hospital São Francisco de Assis (HSFA),13/01 a 01/02/2026,15/02/2026,-,-
 SP,Santa Casa de São Josédos Campos,14/01 a 01/02/2026,15/02/2026,-,-
+MG,FELUMA – HUCM (Complementar),03 a 09/02/2026,22/02/2026,-,-
 RJ,Policlínica Regional Dr. Sérgio Arouca,02 a 13/02/2026,23/02/2026,-,27/02/2026
 SP,Santa Casa de São Carlos – Infectologia,21/01 a 17/02/2026,25/02/2026,-,-
 AM,Centro Universitário Metropolitano da Amazônia (UNIFAMAZ),26/11 a 17/12/2026,13/01/2027,-,-
