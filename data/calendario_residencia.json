@@ -389,7 +389,7 @@
     "INSCRIÇÕES": "06/10 a 14/11/2025",
     "PROVA_OBJETIVA": "24/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "22/12/2025"
   },
   {
     "UF": "SP",
@@ -820,8 +820,8 @@
     "INSTITUIÇÃO": "Rede Américas",
     "INSCRIÇÕES": "02/11 a 30/11/2025",
     "PROVA_OBJETIVA": "10/12/2025",
-    "GABARITO_PRELIMINAR": "10/12/2025, após as 14h",
-    "RESULTADO_FINAL": "04/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -932,7 +932,7 @@
     "INSTITUIÇÃO": "IFF/Fiocruz",
     "INSCRIÇÕES": "22/09 a 31/10/2025",
     "PROVA_OBJETIVA": "14/12/2025",
-    "GABARITO_PRELIMINAR": "-",
+    "GABARITO_PRELIMINAR": "16/12/2025",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -1173,7 +1173,7 @@
     "INSCRIÇÕES": "18/11 a 21/12/2025",
     "PROVA_OBJETIVA": "11/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "15/01/2026 – a partir das 15h00"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1725,7 +1725,7 @@
     "INSCRIÇÕES": "22/10 a 29/12/2025",
     "PROVA_OBJETIVA": "26/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "02/02/2026 (19h)"
   },
   {
     "UF": "PR",
