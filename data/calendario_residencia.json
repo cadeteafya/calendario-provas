@@ -820,8 +820,8 @@
     "INSTITUIÇÃO": "Rede Américas",
     "INSCRIÇÕES": "02/11 a 30/11/2025",
     "PROVA_OBJETIVA": "10/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "10/12/2025, após as 14h",
+    "RESULTADO_FINAL": "04/02/2026"
   },
   {
     "UF": "SP",
@@ -1173,7 +1173,7 @@
     "INSCRIÇÕES": "18/11 a 21/12/2025",
     "PROVA_OBJETIVA": "11/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "15/01/2026 – a partir das 15h00"
   },
   {
     "UF": "SP",
@@ -1420,8 +1420,8 @@
     "INSTITUIÇÃO": "UNIVAG",
     "INSCRIÇÕES": "06/11/2025 a 04/01/2026",
     "PROVA_OBJETIVA": "18/01/2026",
-    "GABARITO_PRELIMINAR": "19/01/2026",
-    "RESULTADO_FINAL": "19/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1984,6 +1984,14 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "SC",
+    "INSTITUIÇÃO": "Hospital Dom Joaquim",
+    "INSCRIÇÕES": "06 a 31/01/2026",
+    "PROVA_OBJETIVA": "07/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "MT",
     "INSTITUIÇÃO": "Centro Oftalmológico Hospital Dia",
     "INSCRIÇÕES": "22/11/2025 a 02/02/2026",
@@ -2096,6 +2104,14 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "RS",
+    "INSTITUIÇÃO": "HCPA Complementar",
+    "INSCRIÇÕES": "21/01 a 03/02/2026",
+    "PROVA_OBJETIVA": "09/02/2026",
+    "GABARITO_PRELIMINAR": "11/02/2026",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "ES",
     "INSTITUIÇÃO": "AEBES – Anestesiologia",
     "INSCRIÇÕES": "24/01 a 01/02/2026",
@@ -2112,9 +2128,25 @@
     "RESULTADO_FINAL": "24/02/2026"
   },
   {
+    "UF": "RO",
+    "INSTITUIÇÃO": "SMS-Vilhena",
+    "INSCRIÇÕES": "09/01 a 10/02/2026",
+    "PROVA_OBJETIVA": "13/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "Hospital São Francisco de Assis (HSFA)",
     "INSCRIÇÕES": "13/01 a 01/02/2026",
+    "PROVA_OBJETIVA": "15/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "PE",
+    "INSTITUIÇÃO": "Hospital Prontocardio",
+    "INSCRIÇÕES": "02 a 05/02/2026",
     "PROVA_OBJETIVA": "15/02/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"

@@ -101,7 +101,7 @@ PR,Universidade Estadual de Maringá,29/09 a 31/10/2025,09/12/2025,-,17/12/2025
 SP,Hospital Edmundo Vasconcelos,07/11 a 01/12/2025,09/12/2025,09/12/2025,19/01/2026
 AC,FUNDHACRE,05 a 26/11/2025,10/12/2025,-,22/01/2026
 PI,Unimed Teresina,10 a 30/11/2025,10/12/2025,11/12/2025,14/01/2026
-RJ/SP/DF/MA,Rede Américas,02/11 a 30/11/2025,10/12/2025,-,-
+RJ/SP/DF/MA,Rede Américas,02/11 a 30/11/2025,10/12/2025,"10/12/2025, após as 14h",04/02/2026
 SP,FMJ,06/10 a 06/11/2025,10/12/2025,10/12/2025,19/02/2026
 SP,Nova Benê,30/10 a 30/11/2025,10/12/2025,"11/12/2025, após as 9h",29/01/2026
 SE,HUSE,29/10 a 07/11/2025,11/12/2025,11/12/2025,16/01/2026
@@ -145,7 +145,7 @@ MA,UEMA,20/10 a 21/11/2025,11/01/2026,11/01/2026,23/02/2026
 SP,Santa Casa de Adamantina,24/10 a 28/12/2025,11/01/2026,12/01/2026 (após 14h) até 13/01/2026 (23h59),20/02/2026
 MT,Hospital Regional Hilda Strenger Ribeiro,03/11 a 28/12/2025,11/01/2026,11/01/2026,20/01/2026
 SP,ISCMSJRP,03/11 a 04/12/2025,11/01/2026,-,06/02/2026 (até o final do dia)
-GO,Hospital Ruy Azeredo,18/11 a 21/12/2025,11/01/2026,-,-
+GO,Hospital Ruy Azeredo,18/11 a 21/12/2025,11/01/2026,-,15/01/2026 – a partir das 15h00
 SP,Hospital Infantil Gonzaga,05/11 a 29/12/2025,11/01/2026,12/01/2026,06/02/2026
 PE,SES-PE,29/11 a 14/12/2025,11/01/2026,-,04/02/2026
 PR,Santa Casa de Maringá,01 a 30/12/2025,11/01/2026,-,02/02/2026
@@ -176,7 +176,7 @@ RJ,H. Olhos,06 a 22/12/2025,17/01/2026,-,-
 PI,Hospital Marques Bastos,16/12/2025 a 10/01/2026,17/01/2026,-,-
 SP,Santa Casa de Misericórdia de Ituverava,16 a 22/12/2025,17/01/2026,-,-
 RJ,Policlínica Botafogo,13 a 22/12/25,17/01/2026,-,-
-MT,UNIVAG,06/11/2025 a 04/01/2026,18/01/2026,19/01/2026,19/02/2026
+MT,UNIVAG,06/11/2025 a 04/01/2026,18/01/2026,-,-
 SP,Hospital Carlos Fernando Malzoni,05/09 a 28/12/2025,18/01/2026,19/01/2026,20/02/2026
 AL,Santa Casa de Misericórdia de Maceió,05/09 a 28/12/2025,18/01/2026,19/01/2025,18/02/2025
 SP,UNIP,09/09 a 27/11/2025,18/01/2026,20/01/2026,19/02/2026
@@ -247,6 +247,7 @@ ES,HECI – Edital Complementar,12 a 28/01/2026,06/02/2026,-,-
 RS,UNIJUÍ/FUMSSAR,21/10 a 01/02/2026,07/02/2026,-,13/02/2026
 PR,Hospital Santa Clarade Colorado,02/12/2025 a 30/01/2026 (SEDEX) ou02/12/2025a06/02/2026 (Presencial),07/02/2026,-,-
 PR,Instituto Ofta Card – Hospital Oftalmológico deUmuarama,26/12/2025 a25/01/2026,07/02/2026,-,-
+SC,Hospital Dom Joaquim,06 a 31/01/2026,07/02/2026,-,-
 MT,Centro Oftalmológico Hospital Dia,22/11/2025 a 02/02/2026,08/02/2026,08/02/2026 – 12h,11/02/2026 a 12/02/2026
 GO,IMEC – Instituto de Medicina e Ciência de Ceres,12/01 a 30 /01/2026,08/02/2026,-,-
 MT,Hospital Santo Antônio,19 e 23/01/2026,08/02/2026,-,20/02/2026
@@ -261,9 +262,12 @@ MT,Hospital São Lucas do Rio Verde,24 a 26/01/2026,08/02/2026,-,-
 SP,COHR Hospital Dia Oftalmológico,11/11/2025 a 15/01/2026,09/02/2026,-,-
 SP,USP-SP – edital complementar,28/01 a 03/02/2026,09/02/2026,-,20/02/2026
 DF,IMEB – Imagens Médicas de Brasília,01/12/2025 a 06/02/2026,09/02/2026,-,-
+RS,HCPA Complementar,21/01 a 03/02/2026,09/02/2026,11/02/2026,-
 ES,AEBES – Anestesiologia,24/01 a 01/02/2026,12/02/2026,-,-
 SP,Nova Benê,25/01 a 05/02/2026,12/02/2026,12/02/2026 (após 14h) até 13/02/2026 às 23h59,24/02/2026
+RO,SMS-Vilhena,09/01 a 10/02/2026,13/02/2026,-,-
 SP,Hospital São Francisco de Assis (HSFA),13/01 a 01/02/2026,15/02/2026,-,-
+PE,Hospital Prontocardio,02 a 05/02/2026,15/02/2026,-,-
 SP,Santa Casa de São Josédos Campos,14/01 a 01/02/2026,15/02/2026,-,-
 MG,FELUMA – HUCM (Complementar),03 a 09/02/2026,22/02/2026,-,-
 RJ,Policlínica Regional Dr. Sérgio Arouca,02 a 13/02/2026,23/02/2026,-,27/02/2026
