@@ -24,7 +24,7 @@ RJ,INTO,26/09 a 24/10/2025,05/11/2025,-,-
 SP,IUN Urologia,10/10 a 02/11/2025,07/11/2025,07/11/2025,-
 RS,IC/FUC – Pré-Requisito,10/09 a 25/09/2025,08/11/2025,08/11/2025,19/12/2025
 ES,HEVV,01 a 17/10/2025,08/11/2025,09/11/2025,02/12/2025
-PR,HONPAR,26/09 a 26/10/2025,08/11/2025,08/11/2025,08/12/2025
+PR,HONPAR,26/09 a 26/10/2025,08/11/2025,-,-
 ES,HIFA (PSU-ES/SUL),03 a 27/10/2025,09/11/2025,09/11/2025 após as 20h,23/12/2025
 ES,HECI (PSU-ES/SUL),03 a 27/10/2025,09/11/2025,09/11/2025 após as 20h,23/12/2025
 PR,UEL,16 a 25/08/2025 (Ações Afirmativas)16/09 a 06/10/2025 (Ampla Concorrência),09/11/2025,09/11/2025 – 20h,22/12/2025
@@ -41,7 +41,7 @@ SP/DF,Sírio-Libanês,10/09 a 14/10/2025,22/11/2025,25/11/2025,10/02/2026
 PB,SMS-JP,13 a 27/10/2025,22/11/2025,22/11/2025,20/12/2025
 GO,Instituto de Olhos de Goiânia,23/10 a 13/11/2025,22/11/2025,-,29/12/2025
 RS,AMRIGS,09/09 a 30/10/2025,23/11/2025,24/11/2025,-
-GO,PSU-GO,22/09 a 15/10/2025,23/11/2025,-,26/01/2026
+GO,PSU-GO,22/09 a 15/10/2025,23/11/2025,-,09/02/2026 (previsão)
 SP,Santa Casa de Misericórdia de Ribeirão Preto,05/09 a 09/10/2025,23/11/2025,25/11/2025,05/02/2026
 SP,Instituto Dante Pazzanese,06/10 a 12/11/2025,23/11/2025,23/11/2025,09/02/2026
 BA,PSU-BA (SUS-BA),17/10 a 18/11/2025,23/11/2025,26/11/2025,10/02/2026
@@ -140,8 +140,8 @@ SP,Hospital Infantil Sabará,06/10 a 10/12/2025,10/01/2026,11 a 12/01/2026,02/02
 SP,Hospital Visão Laser,31/10 a 28/12/2025,10/01/2026,25/01/2026 (vide item 13.1),13/02/2026
 DF,Hospital HOME,04/12/2025 a 04/01/2026,10/01/2026,-,-
 SP,Hospital IGESP,25/10 a 28/12/2025,10 e 11/01/2026,12/01/2026,13/02/2026
-SP,Santa Casa de Ourinhos,15/10 a 28/12/2025,11/01/2026,Das 14h do dia 12/01/2026 até as 14h do dia 14/01/2026,13/02/2026
-MA,UEMA,20/10 a 21/11/2025,11/01/2026,11/01/2026,23/02/2026
+SP,Santa Casa de Ourinhos,15/10 a 28/12/2025,11/01/2026,-,-
+MA,UEMA,20/10 a 21/11/2025,11/01/2026,-,-
 SP,Santa Casa de Adamantina,24/10 a 28/12/2025,11/01/2026,12/01/2026 (após 14h) até 13/01/2026 (23h59),20/02/2026
 MT,Hospital Regional Hilda Strenger Ribeiro,03/11 a 28/12/2025,11/01/2026,11/01/2026,20/01/2026
 SP,ISCMSJRP,03/11 a 04/12/2025,11/01/2026,-,06/02/2026 (até o final do dia)
@@ -154,14 +154,14 @@ PR,Hospital San Julian,31/10/2025 a 12/01/2025,13/01/2026,-,10/02/2026
 PR,Hoftalon Hospital de Olhos,24/11 a 29/12/25,13/01/2026,-,-
 SC,Hospital e Maternidade OASE,14/10/2025 a 04/01/2026,14/01/2026,15/01/2026 (após as 14h) até 17/01/2026 (até as 14h),10/02/2026
 PB,SOS Otorrino,10/11/2025 a 12/01/2026,14/01/2026,14/01/2026,até 19/01/2026
-SP,Centro Universitário de Adamantina – FAI,16/10/2025 a 04/01/2026,14/01/2026,14/01/2026,18/02/2026
+SP,Centro Universitário de Adamantina – FAI,16/10/2025 a 04/01/2026,14/01/2026,-,-
 SP,Santa Casa de São Carlos,15/10/2025 a 04/01/2026,14/01/2026,14/01/2026,13/02/2026
 SP,HMASP,10 a 30/12/2025,14/01/2026,-,12/02/2026
 DF,Rede Américas DF – Hospital Águas Claras,28/12/2025 a 06/01/2026,14/01/2026,-,-
 RJ,Sociedade Portuguesa Beneficência de Campo,03/12/2025 a 06/01/2026,15/01/2026,-,-
 PR,Hospital de Olhos de Guarapuava,06/10/2025 a 08/01/2026,16/01/2026,21/01/2026,30/01/2026
 SP,Hospital Universitário São Francisco (HUSF),25/10 a 28/11/2025,16/01/2026,-,-
-SP,Hospital Santa Catarina,27/11/2025 a 07/01/2026,16/01/2026,"16/01/2026, após às 18h",10/02/2026
+SP,Hospital Santa Catarina,27/11/2025 a 07/01/2026,16/01/2026,-,-
 SP,Instituto Maniglia – HIORP,01/12 a 19/12/2025,16/01/2026,-,-
 MT,Hospital Amecor,24/11 a 22/12/2025,16/01/2026,-,-
 SP,Santa Casa de Assis,09/12/2025 a 09/01/2026,16/01/2026,-,-
@@ -176,7 +176,7 @@ RJ,H. Olhos,06 a 22/12/2025,17/01/2026,-,-
 PI,Hospital Marques Bastos,16/12/2025 a 10/01/2026,17/01/2026,-,-
 SP,Santa Casa de Misericórdia de Ituverava,16 a 22/12/2025,17/01/2026,-,-
 RJ,Policlínica Botafogo,13 a 22/12/25,17/01/2026,-,-
-MT,UNIVAG,06/11/2025 a 04/01/2026,18/01/2026,-,-
+MT,UNIVAG,06/11/2025 a 04/01/2026,18/01/2026,19/01/2026,19/02/2026
 SP,Hospital Carlos Fernando Malzoni,05/09 a 28/12/2025,18/01/2026,19/01/2026,20/02/2026
 AL,Santa Casa de Misericórdia de Maceió,05/09 a 28/12/2025,18/01/2026,19/01/2025,18/02/2025
 SP,UNIP,09/09 a 27/11/2025,18/01/2026,20/01/2026,19/02/2026
@@ -201,7 +201,7 @@ SP,Hospital Casa de Saúde de Santos,16/12/2025 a 16/01/2026,24/01/2026,-,-
 PR,Associação Medimagem de Paranavaí,01/12/2025 a 20/01/2026,24/01/2026,-,-
 BA,CEOQ,31/10 a 11/01/2026,25/01/2026,25/01/2026 (vide item 13.1),13/02/2026
 SP,Hospital Santo Amaro (HSA),24/10/2025 a 11/01/2026,25/01/2026,26/01/2026,24/02/2026
-RS,HSA – Tenente Portela,18/11/2025 a 18/01/2026,25/01/2026,25/01/2026,04/02/2026
+RS,HSA – Tenente Portela,18/11/2025 a 18/01/2026,25/01/2026,-,-
 PI,Grupo Med Imagem,26/11/2025 a 11/01/2026,25/01/2026,"25/01/2026, a partir das 16h",21/02/2026
 Várias,RESIMED,08/12/2025 a 19/01/2026,25/01/2026,-,11/02/2026 – após 18h
 AL,PSU-AL,12/12/2025 a 19/01/2026,25/01/2026,-,-
@@ -269,6 +269,7 @@ RO,SMS-Vilhena,09/01 a 10/02/2026,13/02/2026,-,-
 SP,Hospital São Francisco de Assis (HSFA),13/01 a 01/02/2026,15/02/2026,-,-
 PE,Hospital Prontocardio,02 a 05/02/2026,15/02/2026,-,-
 SP,Santa Casa de São Josédos Campos,14/01 a 01/02/2026,15/02/2026,-,-
+RS,Hospital de Clínicas Ijuí,15/01 à 15/02/2026,21/02/2026,-,-
 MG,FELUMA – HUCM (Complementar),03 a 09/02/2026,22/02/2026,-,-
 RJ,Policlínica Regional Dr. Sérgio Arouca,02 a 13/02/2026,23/02/2026,-,27/02/2026
 SP,Santa Casa de São Carlos – Infectologia,21/01 a 17/02/2026,25/02/2026,-,-
