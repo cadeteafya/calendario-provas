@@ -533,7 +533,7 @@
     "INSCRIÇÕES": "14/07 a 30/09/2025",
     "PROVA_OBJETIVA": "30/11/2025 (R+)",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "até 10/02/2026"
   },
   {
     "UF": "SP",
@@ -580,8 +580,8 @@
     "INSTITUIÇÃO": "Universidade Vila Velha (UVV)",
     "INSCRIÇÕES": "15/10 e 24/11/2025",
     "PROVA_OBJETIVA": "02/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "02/12/2025",
+    "RESULTADO_FINAL": "17/12/2025"
   },
   {
     "UF": "SP",
@@ -740,24 +740,24 @@
     "INSTITUIÇÃO": "EMESCAM",
     "INSCRIÇÕES": "24/10 a 28/11/2025",
     "PROVA_OBJETIVA": "07/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "07/12/2025",
+    "RESULTADO_FINAL": "19/12/2025"
   },
   {
     "UF": "RJ",
     "INSTITUIÇÃO": "SMS-Macaé",
     "INSCRIÇÕES": "10 a 21/11/2025",
     "PROVA_OBJETIVA": "07/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "07/12/2025",
+    "RESULTADO_FINAL": "22/12/2025"
   },
   {
     "UF": "SP",
     "INSTITUIÇÃO": "FAMEMA",
     "INSCRIÇÕES": "16/10 a 04/11/2025",
     "PROVA_OBJETIVA": "08/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "09/12/2025",
+    "RESULTADO_FINAL": "06/02/2026"
   },
   {
     "UF": "RS",
@@ -901,7 +901,7 @@
     "INSCRIÇÕES": "07 a 19/11/2025",
     "PROVA_OBJETIVA": "13/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "09/02/2026"
   },
   {
     "UF": "SP",
@@ -1085,23 +1085,23 @@
     "INSCRIÇÕES": "17 a 24/11/2025",
     "PROVA_OBJETIVA": "09/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "05/02/2026"
   },
   {
     "UF": "SP",
     "INSTITUIÇÃO": "Santa Casa de Birigui",
     "INSCRIÇÕES": "08/10 a 28/12/205",
     "PROVA_OBJETIVA": "10/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "12/01/2026 após 14h até 14/01/2026 às 14h",
+    "RESULTADO_FINAL": "13/02/2026"
   },
   {
     "UF": "SP",
     "INSTITUIÇÃO": "Hospital Infantil Sabará",
     "INSCRIÇÕES": "06/10 a 10/12/2025",
     "PROVA_OBJETIVA": "10/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "11 a 12/01/2026",
+    "RESULTADO_FINAL": "02/02/2026"
   },
   {
     "UF": "SP",
@@ -1340,8 +1340,8 @@
     "INSTITUIÇÃO": "Grupo VIV",
     "INSCRIÇÕES": "28/10 a 07/12/2025",
     "PROVA_OBJETIVA": "17/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "24/01/2026",
+    "RESULTADO_FINAL": "20/02/2026"
   },
   {
     "UF": "SP",
@@ -1349,15 +1349,15 @@
     "INSCRIÇÕES": "03/11/2025 a 05/01/2026",
     "PROVA_OBJETIVA": "17/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "26/01/2026"
   },
   {
     "UF": "SP",
     "INSTITUIÇÃO": "SCMSJC",
     "INSCRIÇÕES": "31/10 a 22/12/2025",
     "PROVA_OBJETIVA": "17/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "18/01/2026",
+    "RESULTADO_FINAL": "10/02/2026"
   },
   {
     "UF": "SP",
@@ -1772,16 +1772,16 @@
     "INSTITUIÇÃO": "Hospital Memorial São Francisco",
     "INSCRIÇÕES": "18/11 a 31/12/2025",
     "PROVA_OBJETIVA": "29/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "30/01/2026",
+    "RESULTADO_FINAL": "06/02/2026"
   },
   {
     "UF": "RN",
     "INSTITUIÇÃO": "Hospital Rio Grande",
     "INSCRIÇÕES": "18/11 a 31/12/2025",
     "PROVA_OBJETIVA": "29/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "30/01/2026",
+    "RESULTADO_FINAL": "06/02/2026"
   },
   {
     "UF": "SP",
@@ -1965,7 +1965,7 @@
     "INSCRIÇÕES": "21/10 a 01/02/2026",
     "PROVA_OBJETIVA": "07/02/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "13/02/2026"
   },
   {
     "UF": "PR",
@@ -1996,8 +1996,8 @@
     "INSTITUIÇÃO": "Centro Oftalmológico Hospital Dia",
     "INSCRIÇÕES": "22/11/2025 a 02/02/2026",
     "PROVA_OBJETIVA": "08/02/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "08/02/2026 – 12h",
+    "RESULTADO_FINAL": "11/02/2026 a 12/02/2026"
   },
   {
     "UF": "GO",
@@ -2013,7 +2013,7 @@
     "INSCRIÇÕES": "19 e 23/01/2026",
     "PROVA_OBJETIVA": "08/02/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "20/02/2026"
   },
   {
     "UF": "PR",
@@ -2080,6 +2080,14 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "Secretaria Municipal de Saúde de Maricá",
+    "INSCRIÇÕES": "31/01 a 05/02/2026",
+    "PROVA_OBJETIVA": "08/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "COHR Hospital Dia Oftalmológico",
     "INSCRIÇÕES": "11/11/2025 a 15/01/2026",
@@ -2109,6 +2117,14 @@
     "INSCRIÇÕES": "21/01 a 03/02/2026",
     "PROVA_OBJETIVA": "09/02/2026",
     "GABARITO_PRELIMINAR": "11/02/2026",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "RS",
+    "INSTITUIÇÃO": "UFCSPA Suplementar",
+    "INSCRIÇÕES": "23/01 a 04/02/2026",
+    "PROVA_OBJETIVA": "11/02/2026",
+    "GABARITO_PRELIMINAR": "12/02/2026",
     "RESULTADO_FINAL": "-"
   },
   {
