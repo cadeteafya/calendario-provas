@@ -124,8 +124,8 @@
     "INSTITUIÇÃO": "IC/FUC – Acesso Direto",
     "INSCRIÇÕES": "29/08 a 01/10/2025",
     "PROVA_OBJETIVA": "01/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "08/11/2025",
+    "RESULTADO_FINAL": "19/12/2025"
   },
   {
     "UF": "RS",
@@ -180,7 +180,7 @@
     "INSTITUIÇÃO": "IUN Urologia",
     "INSCRIÇÕES": "10/10 a 02/11/2025",
     "PROVA_OBJETIVA": "07/11/2025",
-    "GABARITO_PRELIMINAR": "-",
+    "GABARITO_PRELIMINAR": "07/11/2025",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -188,8 +188,8 @@
     "INSTITUIÇÃO": "IC/FUC – Pré-Requisito",
     "INSCRIÇÕES": "10/09 a 25/09/2025",
     "PROVA_OBJETIVA": "08/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "08/11/2025",
+    "RESULTADO_FINAL": "19/12/2025"
   },
   {
     "UF": "ES",
@@ -364,8 +364,8 @@
     "INSTITUIÇÃO": "PSU-BA (SUS-BA)",
     "INSCRIÇÕES": "17/10 a 18/11/2025",
     "PROVA_OBJETIVA": "23/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "26/11/2025",
+    "RESULTADO_FINAL": "10/02/2026"
   },
   {
     "UF": "MT",
@@ -676,8 +676,8 @@
     "INSTITUIÇÃO": "USP-SP",
     "INSCRIÇÕES": "07 a 29/10/2025",
     "PROVA_OBJETIVA": "07/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "08/12/2025",
+    "RESULTADO_FINAL": "10/02/2026"
   },
   {
     "UF": "GO",
@@ -820,8 +820,8 @@
     "INSTITUIÇÃO": "Rede Américas",
     "INSCRIÇÕES": "02/11 a 30/11/2025",
     "PROVA_OBJETIVA": "10/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "10/12/2025, após as 14h",
+    "RESULTADO_FINAL": "04/02/2026"
   },
   {
     "UF": "SP",
@@ -956,8 +956,8 @@
     "INSTITUIÇÃO": "Centro Médico de Campinas (CMC)",
     "INSCRIÇÕES": "24/10 a 30/11/2025",
     "PROVA_OBJETIVA": "15/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "15/12/2025",
+    "RESULTADO_FINAL": "16/02/2026"
   },
   {
     "UF": "PR",
@@ -1492,8 +1492,8 @@
     "INSTITUIÇÃO": "SL Mandic",
     "INSCRIÇÕES": "05/12/2025 a 09/01/2026",
     "PROVA_OBJETIVA": "18/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "19/01/2026",
+    "RESULTADO_FINAL": "10/02/2026"
   },
   {
     "UF": "PI",
@@ -2201,6 +2201,14 @@
   },
   {
     "UF": "MG",
+    "INSTITUIÇÃO": "ASCOMCER",
+    "INSCRIÇÕES": "10/02 a 15/02/2026",
+    "PROVA_OBJETIVA": "21/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "MG",
     "INSTITUIÇÃO": "FELUMA – HUCM (Complementar)",
     "INSCRIÇÕES": "03 a 09/02/2026",
     "PROVA_OBJETIVA": "22/02/2026",
@@ -2220,6 +2228,14 @@
     "INSTITUIÇÃO": "Santa Casa de São Carlos – Infectologia",
     "INSCRIÇÕES": "21/01 a 17/02/2026",
     "PROVA_OBJETIVA": "25/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "AC",
+    "INSTITUIÇÃO": "Hospital Santa Juliana (HSJ)",
+    "INSCRIÇÕES": "29/01 a 02/03/2026",
+    "PROVA_OBJETIVA": "08/03/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
