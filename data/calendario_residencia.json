@@ -92,8 +92,8 @@
     "INSTITUIÇÃO": "GRUPO OPTY",
     "INSCRIÇÕES": "03/09 a 12/10/2025",
     "PROVA_OBJETIVA": "26/10/2025",
-    "GABARITO_PRELIMINAR": "26/10/2025",
-    "RESULTADO_FINAL": "02/12/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "ES",
@@ -180,7 +180,7 @@
     "INSTITUIÇÃO": "IUN Urologia",
     "INSCRIÇÕES": "10/10 a 02/11/2025",
     "PROVA_OBJETIVA": "07/11/2025",
-    "GABARITO_PRELIMINAR": "07/11/2025",
+    "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -269,7 +269,7 @@
     "INSCRIÇÕES": "10 a 31/09/2025",
     "PROVA_OBJETIVA": "14/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "24/11/2025"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -789,7 +789,7 @@
     "INSCRIÇÕES": "29/09 a 31/10/2025",
     "PROVA_OBJETIVA": "09/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "17/12/2025"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1244,8 +1244,8 @@
     "INSTITUIÇÃO": "Centro Universitário de Adamantina – FAI",
     "INSCRIÇÕES": "16/10/2025 a 04/01/2026",
     "PROVA_OBJETIVA": "14/01/2026",
-    "GABARITO_PRELIMINAR": "14/01/2026",
-    "RESULTADO_FINAL": "18/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
