@@ -2184,6 +2184,14 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "RR",
+    "INSTITUIÇÃO": "UERR",
+    "INSCRIÇÕES": "05 a 09/02/2026",
+    "PROVA_OBJETIVA": "19/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "RS",
     "INSTITUIÇÃO": "Hospital de Clínicas Ijuí",
     "INSCRIÇÕES": "15/01 à 15/02/2026",
@@ -2228,6 +2236,22 @@
     "INSTITUIÇÃO": "Santa Casa de São Carlos – Infectologia",
     "INSCRIÇÕES": "21/01 a 17/02/2026",
     "PROVA_OBJETIVA": "25/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "BH",
+    "INSTITUIÇÃO": "SCMBH Complementar",
+    "INSCRIÇÕES": "02 a 10/02/2026",
+    "PROVA_OBJETIVA": "01/03/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "ES",
+    "INSTITUIÇÃO": "Centro Médico Hospitalar de Vila Velha",
+    "INSCRIÇÕES": "13 a 20/02/2026",
+    "PROVA_OBJETIVA": "01/03/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
