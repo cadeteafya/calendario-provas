@@ -4,8 +4,8 @@
     "INSTITUIÇÃO": "FELUMA",
     "INSCRIÇÕES": "08/08 a 11/09/2025",
     "PROVA_OBJETIVA": "05/10/2025",
-    "GABARITO_PRELIMINAR": "06/10/2025",
-    "RESULTADO_FINAL": "12/12/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PR",
@@ -748,8 +748,8 @@
     "INSTITUIÇÃO": "SMS-Macaé",
     "INSCRIÇÕES": "10 a 21/11/2025",
     "PROVA_OBJETIVA": "07/12/2025",
-    "GABARITO_PRELIMINAR": "07/12/2025",
-    "RESULTADO_FINAL": "22/12/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1668,8 +1668,8 @@
     "INSTITUIÇÃO": "HRAC-USP",
     "INSCRIÇÕES": "19/12/2025 a 16/01/2026",
     "PROVA_OBJETIVA": "25/01/2026",
-    "GABARITO_PRELIMINAR": "25/01/2026 (20h)",
-    "RESULTADO_FINAL": "19/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "ES",
@@ -2136,9 +2136,25 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "BA",
+    "INSTITUIÇÃO": "Universidade Federal do Sul da Bahia (UFSB)",
+    "INSCRIÇÕES": "27/01 a 05/02/2026",
+    "PROVA_OBJETIVA": "11/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "ES",
     "INSTITUIÇÃO": "AEBES – Anestesiologia",
     "INSCRIÇÕES": "24/01 a 01/02/2026",
+    "PROVA_OBJETIVA": "12/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "ES",
+    "INSTITUIÇÃO": "SMS-Cariacica",
+    "INSCRIÇÕES": "06 a 10/02/2026",
     "PROVA_OBJETIVA": "12/02/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
@@ -2219,6 +2235,14 @@
     "UF": "MG",
     "INSTITUIÇÃO": "FELUMA – HUCM (Complementar)",
     "INSCRIÇÕES": "03 a 09/02/2026",
+    "PROVA_OBJETIVA": "22/02/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "MG",
+    "INSTITUIÇÃO": "Hospital Evangélico de Mantena",
+    "INSCRIÇÕES": "10 a 15/02/2026",
     "PROVA_OBJETIVA": "22/02/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
