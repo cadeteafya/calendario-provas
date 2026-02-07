@@ -45,7 +45,7 @@
     "INSCRIÇÕES": "18/09 a 22/10/2025",
     "PROVA_OBJETIVA": "25/10/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "14/11/2025"
   },
   {
     "UF": "SP",
@@ -108,8 +108,8 @@
     "INSTITUIÇÃO": "SES-RJ",
     "INSCRIÇÕES": "29/08 a 29/09/2025",
     "PROVA_OBJETIVA": "26/10/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "27/10/2025",
+    "RESULTADO_FINAL": "09/01/2026"
   },
   {
     "UF": "RS",
@@ -196,8 +196,8 @@
     "INSTITUIÇÃO": "HEVV",
     "INSCRIÇÕES": "01 a 17/10/2025",
     "PROVA_OBJETIVA": "08/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "09/11/2025",
+    "RESULTADO_FINAL": "02/12/2025"
   },
   {
     "UF": "PR",
@@ -516,8 +516,8 @@
     "INSTITUIÇÃO": "Hospital Adventista Silvestre",
     "INSCRIÇÕES": "15/09 a 19/11/2025",
     "PROVA_OBJETIVA": "30/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "02/12/2025",
+    "RESULTADO_FINAL": "23/02/2026"
   },
   {
     "UF": "SE",
@@ -564,8 +564,8 @@
     "INSTITUIÇÃO": "Santa Casa de Araçatuba",
     "INSCRIÇÕES": "21/09 a 16/11/2025",
     "PROVA_OBJETIVA": "02/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "03/12/2025 (após as 14h) até 05/12/2025 (14h)",
+    "RESULTADO_FINAL": "23/01/2026"
   },
   {
     "UF": "SP",
@@ -725,7 +725,7 @@
     "INSCRIÇÕES": "08/10 a 06/11/2025",
     "PROVA_OBJETIVA": "07/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "22/01/2026"
   },
   {
     "UF": "RJ",
@@ -853,7 +853,7 @@
     "INSCRIÇÕES": "01/10 a 28/11/2025",
     "PROVA_OBJETIVA": "12/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "17/12/2025"
   },
   {
     "UF": "SP",
@@ -917,7 +917,7 @@
     "INSCRIÇÕES": "12/09 a 10/10/2025",
     "PROVA_OBJETIVA": "14/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "30/01/2026"
   },
   {
     "UF": "SP",
@@ -2238,6 +2238,14 @@
     "PROVA_OBJETIVA": "22/02/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "MG",
+    "INSTITUIÇÃO": "PSU-MG complementar",
+    "INSCRIÇÕES": "12 a 13/02/2026",
+    "PROVA_OBJETIVA": "22/02/2026",
+    "GABARITO_PRELIMINAR": "22/02/2026",
+    "RESULTADO_FINAL": "26/02/2026"
   },
   {
     "UF": "MG",
