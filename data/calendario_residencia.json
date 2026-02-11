@@ -180,7 +180,7 @@
     "INSTITUIÇÃO": "IUN Urologia",
     "INSCRIÇÕES": "10/10 a 02/11/2025",
     "PROVA_OBJETIVA": "07/11/2025",
-    "GABARITO_PRELIMINAR": "-",
+    "GABARITO_PRELIMINAR": "07/11/2025",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -396,8 +396,8 @@
     "INSTITUIÇÃO": "FAMERP",
     "INSCRIÇÕES": "15 a 28/10/2025",
     "PROVA_OBJETIVA": "25/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "25/11/2025",
+    "RESULTADO_FINAL": "30/01/2026"
   },
   {
     "UF": "SP",
@@ -428,8 +428,8 @@
     "INSTITUIÇÃO": "Unimed-JP",
     "INSCRIÇÕES": "13/10 a 14/11/2025",
     "PROVA_OBJETIVA": "28/11/2025",
-    "GABARITO_PRELIMINAR": "01/12/2025",
-    "RESULTADO_FINAL": "27/12/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "MG",
@@ -468,16 +468,16 @@
     "INSTITUIÇÃO": "Hospital Santa Rosa",
     "INSCRIÇÕES": "08 a 16/11/2025",
     "PROVA_OBJETIVA": "29/11/2025",
-    "GABARITO_PRELIMINAR": "Das 14h do dia 01 até as 14h do dia 03/12/2025",
-    "RESULTADO_FINAL": "30/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
     "INSTITUIÇÃO": "UNIFESP",
     "INSCRIÇÕES": "17/09 a 18/10/2025",
     "PROVA_OBJETIVA": "30/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "a partir de 30/11/2025",
+    "RESULTADO_FINAL": "a partir de 05/02/2026"
   },
   {
     "UF": "AM",
@@ -948,8 +948,8 @@
     "INSTITUIÇÃO": "SMS-LRV",
     "INSCRIÇÕES": "07/11 a 03/12/2025",
     "PROVA_OBJETIVA": "14/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "15/12/2025 a 17/12/2025",
+    "RESULTADO_FINAL": "09/01/2026"
   },
   {
     "UF": "SP",
@@ -972,8 +972,8 @@
     "INSTITUIÇÃO": "SAFE Anestesiologia",
     "INSCRIÇÕES": "01/10 a 01/12/2025",
     "PROVA_OBJETIVA": "17/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "17/12/2025",
+    "RESULTADO_FINAL": "30/01/2026"
   },
   {
     "UF": "ES",
@@ -1132,8 +1132,8 @@
     "INSTITUIÇÃO": "Santa Casa de Ourinhos",
     "INSCRIÇÕES": "15/10 a 28/12/2025",
     "PROVA_OBJETIVA": "11/01/2026",
-    "GABARITO_PRELIMINAR": "Das 14h do dia 12/01/2026 até as 14h do dia 14/01/2026",
-    "RESULTADO_FINAL": "13/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "MA",
@@ -2248,6 +2248,14 @@
     "RESULTADO_FINAL": "26/02/2026"
   },
   {
+    "UF": "GO",
+    "INSTITUIÇÃO": "PSU-GO complementar",
+    "INSCRIÇÕES": "12 a 13/02/2026",
+    "PROVA_OBJETIVA": "22/02/2026",
+    "GABARITO_PRELIMINAR": "22/02/2026",
+    "RESULTADO_FINAL": "26/02/2026"
+  },
+  {
     "UF": "MG",
     "INSTITUIÇÃO": "Hospital Evangélico de Mantena",
     "INSCRIÇÕES": "10 a 15/02/2026",
@@ -2310,6 +2318,14 @@
     "PROVA_OBJETIVA": "08/03/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "BA",
+    "INSTITUIÇÃO": "SUS-BA 2026.2",
+    "INSCRIÇÕES": "06 a 23/02/2026",
+    "PROVA_OBJETIVA": "08/03/2026",
+    "GABARITO_PRELIMINAR": "08 a 09/03/2026",
+    "RESULTADO_FINAL": "13/03/2026"
   },
   {
     "UF": "AM",
