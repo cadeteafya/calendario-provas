@@ -396,8 +396,8 @@
     "INSTITUIÇÃO": "FAMERP",
     "INSCRIÇÕES": "15 a 28/10/2025",
     "PROVA_OBJETIVA": "25/11/2025",
-    "GABARITO_PRELIMINAR": "25/11/2025",
-    "RESULTADO_FINAL": "30/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -780,8 +780,8 @@
     "INSTITUIÇÃO": "HCMS",
     "INSCRIÇÕES": "06 a 23/11/2025",
     "PROVA_OBJETIVA": "08/12/2025",
-    "GABARITO_PRELIMINAR": "Das 14h de 09/12 até 14h de 11/12/2025",
-    "RESULTADO_FINAL": "05/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PR",
@@ -948,8 +948,8 @@
     "INSTITUIÇÃO": "SMS-LRV",
     "INSCRIÇÕES": "07/11 a 03/12/2025",
     "PROVA_OBJETIVA": "14/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "15/12/2025 a 17/12/2025",
+    "RESULTADO_FINAL": "09/01/2026"
   },
   {
     "UF": "SP",
