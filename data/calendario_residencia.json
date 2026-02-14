@@ -52,8 +52,8 @@
     "INSTITUIÇÃO": "HOS/BOS",
     "INSCRIÇÕES": "19/08 a 17/09/2025",
     "PROVA_OBJETIVA": "26/10/2025",
-    "GABARITO_PRELIMINAR": "27/10/2025",
-    "RESULTADO_FINAL": "19/12/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RS",
@@ -356,8 +356,8 @@
     "INSTITUIÇÃO": "Instituto Dante Pazzanese",
     "INSCRIÇÕES": "06/10 a 12/11/2025",
     "PROVA_OBJETIVA": "23/11/2025",
-    "GABARITO_PRELIMINAR": "23/11/2025",
-    "RESULTADO_FINAL": "09/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "BA",
@@ -396,8 +396,8 @@
     "INSTITUIÇÃO": "FAMERP",
     "INSCRIÇÕES": "15 a 28/10/2025",
     "PROVA_OBJETIVA": "25/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "25/11/2025",
+    "RESULTADO_FINAL": "30/01/2026"
   },
   {
     "UF": "SP",
@@ -772,16 +772,16 @@
     "INSTITUIÇÃO": "PUC-Campinas",
     "INSCRIÇÕES": "20/10 a 12/11/2025",
     "PROVA_OBJETIVA": "08/12/2025",
-    "GABARITO_PRELIMINAR": "08/12/2025 após às 16h",
-    "RESULTADO_FINAL": "04/02/2026 após às 16h"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "MS",
     "INSTITUIÇÃO": "HCMS",
     "INSCRIÇÕES": "06 a 23/11/2025",
     "PROVA_OBJETIVA": "08/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "Das 14h de 09/12 até 14h de 11/12/2025",
+    "RESULTADO_FINAL": "05/02/2026"
   },
   {
     "UF": "PR",
@@ -2334,6 +2334,14 @@
     "PROVA_OBJETIVA": "08/03/2026",
     "GABARITO_PRELIMINAR": "08 a 09/03/2026",
     "RESULTADO_FINAL": "13/03/2026"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "IAMSPE Complementar",
+    "INSCRIÇÕES": "28/02 a 04/03/2026",
+    "PROVA_OBJETIVA": "08/03/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "AM",
