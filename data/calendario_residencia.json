@@ -165,7 +165,7 @@
     "INSCRIÇÕES": "03 a 17/10/2025",
     "PROVA_OBJETIVA": "02/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "28/01/2026"
   },
   {
     "UF": "RJ",
@@ -476,8 +476,8 @@
     "INSTITUIÇÃO": "UNIFESP",
     "INSCRIÇÕES": "17/09 a 18/10/2025",
     "PROVA_OBJETIVA": "30/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "a partir de 30/11/2025",
+    "RESULTADO_FINAL": "a partir de 05/02/2026"
   },
   {
     "UF": "AM",
@@ -812,8 +812,8 @@
     "INSTITUIÇÃO": "Unimed Teresina",
     "INSCRIÇÕES": "10 a 30/11/2025",
     "PROVA_OBJETIVA": "10/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "11/12/2025",
+    "RESULTADO_FINAL": "14/01/2026"
   },
   {
     "UF": "RJ/SP/DF/MA",
@@ -1085,7 +1085,7 @@
     "INSCRIÇÕES": "17 a 24/11/2025",
     "PROVA_OBJETIVA": "09/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "05/02/2026"
   },
   {
     "UF": "SP",
@@ -1436,16 +1436,16 @@
     "INSTITUIÇÃO": "Santa Casa de Misericórdia de Maceió",
     "INSCRIÇÕES": "05/09 a 28/12/2025",
     "PROVA_OBJETIVA": "18/01/2026",
-    "GABARITO_PRELIMINAR": "19/01/2025",
-    "RESULTADO_FINAL": "18/02/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
     "INSTITUIÇÃO": "UNIP",
     "INSCRIÇÕES": "09/09 a 27/11/2025",
     "PROVA_OBJETIVA": "18/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "20/01/2026",
+    "RESULTADO_FINAL": "19/02/2026"
   },
   {
     "UF": "PA",
@@ -1612,8 +1612,8 @@
     "INSTITUIÇÃO": "Hospital Santo Amaro (HSA)",
     "INSCRIÇÕES": "24/10/2025 a 11/01/2026",
     "PROVA_OBJETIVA": "25/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "26/01/2026",
+    "RESULTADO_FINAL": "24/02/2026"
   },
   {
     "UF": "RS",
@@ -1965,7 +1965,7 @@
     "INSCRIÇÕES": "21/10 a 01/02/2026",
     "PROVA_OBJETIVA": "07/02/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "13/02/2026"
   },
   {
     "UF": "PR",
@@ -2101,7 +2101,7 @@
     "INSCRIÇÕES": "28/01 a 03/02/2026",
     "PROVA_OBJETIVA": "09/02/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "20/02/2026"
   },
   {
     "UF": "DF",
