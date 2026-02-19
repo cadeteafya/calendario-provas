@@ -43,7 +43,7 @@ GO,Instituto de Olhos de Goiânia,23/10 a 13/11/2025,22/11/2025,-,29/12/2025
 RS,AMRIGS,09/09 a 30/10/2025,23/11/2025,24/11/2025,-
 GO,PSU-GO,22/09 a 15/10/2025,23/11/2025,-,09/02/2026 (previsão)
 SP,Santa Casa de Misericórdia de Ribeirão Preto,05/09 a 09/10/2025,23/11/2025,25/11/2025,05/02/2026
-SP,Instituto Dante Pazzanese,06/10 a 12/11/2025,23/11/2025,23/11/2025,09/02/2026
+SP,Instituto Dante Pazzanese,06/10 a 12/11/2025,23/11/2025,-,-
 BA,PSU-BA (SUS-BA),17/10 a 18/11/2025,23/11/2025,26/11/2025,10/02/2026
 MT,HG/UNIC,20/09 a 09/11/2025,23/11/2025,-,15/12/2025 após 18h
 ES,SMS-Vitória,20/10 a 19/11/2025,24/11/2025,-,03/12/2025
@@ -71,10 +71,10 @@ RO,SES-RO,28/10 a 16/11/2025,30/11/2025,Das 8h de 01/12/2025 até as 19h de 03/1
 SP/RJ,Amil,03 a 17/11/2025,30/11/2025,-,-
 SP,Santa Casa de Araçatuba,21/09 a 16/11/2025,02/12/2025,03/12/2025 (após as 14h) até 05/12/2025 (14h),23/01/2026
 SP,UNIMAR,09/10 a 16/11/2025,02/12/2025,-,23/12/2025
-ES,Universidade Vila Velha (UVV),15/10 e 24/11/2025,02/12/2025,02/12/2025,17/12/2025
+ES,Universidade Vila Velha (UVV),15/10 e 24/11/2025,02/12/2025,-,-
 SP,Hcor,01/10 a 17/11/2025,02/12/2025,-,23/12/2025
 RJ,Hospital Plantadores de Cana (HPC),01/10 a 09/11/2025,02/12/2025,-,19/12/2025
-SP,Hospital Santa Marcelina,13/10 a 28/11/2025,04/12/2025,-,16/12/2025
+SP,Hospital Santa Marcelina,13/10 a 28/11/2025,04/12/2025,-,-
 RS,Hospital Materno Infantil Presidente Vargas (HMIPV),29/09 a 02/12/2025,04/12/2025,-,12/12/2025
 SP,UNESP (Áreas de Atuação),12 a 17/11/2025,04/12/2025,-,até 30/01/2026
 SP,Santa Casa de Campo Mourão,15/10/2025 à 20/11/2025,04/12/2025,-,20/01/2026
@@ -98,7 +98,7 @@ RS,UNIPAMPA,21/10 a 21/11/2025,08/12/2025,-,Até 16/01/2026
 SP,PUC-Campinas,20/10 a 12/11/2025,08/12/2025,08/12/2025 após às 16h,04/02/2026 após às 16h
 MS,HCMS,06 a 23/11/2025,08/12/2025,Das 14h de 09/12 até 14h de 11/12/2025,05/02/2026
 PR,Universidade Estadual de Maringá,29/09 a 31/10/2025,09/12/2025,-,17/12/2025
-SP,Hospital Edmundo Vasconcelos,07/11 a 01/12/2025,09/12/2025,09/12/2025,19/01/2026
+SP,Hospital Edmundo Vasconcelos,07/11 a 01/12/2025,09/12/2025,-,-
 AC,FUNDHACRE,05 a 26/11/2025,10/12/2025,-,22/01/2026
 PI,Unimed Teresina,10 a 30/11/2025,10/12/2025,11/12/2025,14/01/2026
 RJ/SP/DF/MA,Rede Américas,02/11 a 30/11/2025,10/12/2025,"10/12/2025, após as 14h",04/02/2026
@@ -179,7 +179,7 @@ RJ,Policlínica Botafogo,13 a 22/12/25,17/01/2026,-,-
 MT,UNIVAG,06/11/2025 a 04/01/2026,18/01/2026,19/01/2026,19/02/2026
 SP,Hospital Carlos Fernando Malzoni,05/09 a 28/12/2025,18/01/2026,19/01/2026,20/02/2026
 AL,Santa Casa de Misericórdia de Maceió,05/09 a 28/12/2025,18/01/2026,19/01/2025,18/02/2025
-SP,UNIP,09/09 a 27/11/2025,18/01/2026,20/01/2026,19/02/2026
+SP,UNIP,09/09 a 27/11/2025,18/01/2026,-,-
 PA,UEPA,16 a 30/10/2025,18/01/2026,09/02/2026,20/02/2026
 MS,SESAU Campo Grande,01 a 30/12/2025,18/01/2026,19/01/2026,13/02/2026
 RJ,SCM Barra Mansa,20/10 a 11/12/2025,18/01/2026,20 e 21/01/2026,13/02/2026
@@ -261,7 +261,7 @@ RJ,Hospital H.FOA,26/01 a 04/02/2026,08/02/2026,-,-
 MT,Hospital São Lucas do Rio Verde,24 a 26/01/2026,08/02/2026,-,-
 RJ,Secretaria Municipal de Saúde de Maricá,31/01 a 05/02/2026,08/02/2026,-,-
 SP,COHR Hospital Dia Oftalmológico,11/11/2025 a 15/01/2026,09/02/2026,-,-
-SP,USP-SP – edital complementar,28/01 a 03/02/2026,09/02/2026,-,20/02/2026
+SP,USP-SP – edital complementar,28/01 a 03/02/2026,09/02/2026,-,-
 DF,IMEB – Imagens Médicas de Brasília,01/12/2025 a 06/02/2026,09/02/2026,-,-
 RS,HCPA Complementar,21/01 a 03/02/2026,09/02/2026,11/02/2026,-
 RS,UFCSPA Suplementar,23/01 a 04/02/2026,11/02/2026,12/02/2026,-
@@ -289,6 +289,7 @@ BH,SCMBH Complementar,02 a 10/02/2026,01/03/2026,-,-
 ES,Centro Médico Hospitalar de Vila Velha,13 a 20/02/2026,01/03/2026,-,-
 SP,UNICAMP Complementar – vagas remanescentes,21 a 23/02/2026,01/03/2026,01/03/2026,12/03/2026
 SP,USP Bauru,26/02 a 02/03/2026,04/03/2026,-,-
+SP,UNESP Complementar – vagas remanescentes,02 a 03/03/2026,05/03/2026,-,-
 AC,Hospital Santa Juliana (HSJ),29/01 a 02/03/2026,08/03/2026,-,-
 BA,SUS-BA 2026.2,06 a 23/02/2026,08/03/2026,08 a 09/03/2026,13/03/2026
 SP,IAMSPE Complementar,28/02 a 04/03/2026,08/03/2026,-,-

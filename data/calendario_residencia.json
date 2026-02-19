@@ -356,8 +356,8 @@
     "INSTITUIÇÃO": "Instituto Dante Pazzanese",
     "INSCRIÇÕES": "06/10 a 12/11/2025",
     "PROVA_OBJETIVA": "23/11/2025",
-    "GABARITO_PRELIMINAR": "23/11/2025",
-    "RESULTADO_FINAL": "09/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "BA",
@@ -580,8 +580,8 @@
     "INSTITUIÇÃO": "Universidade Vila Velha (UVV)",
     "INSCRIÇÕES": "15/10 e 24/11/2025",
     "PROVA_OBJETIVA": "02/12/2025",
-    "GABARITO_PRELIMINAR": "02/12/2025",
-    "RESULTADO_FINAL": "17/12/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -605,7 +605,7 @@
     "INSCRIÇÕES": "13/10 a 28/11/2025",
     "PROVA_OBJETIVA": "04/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "16/12/2025"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RS",
@@ -796,8 +796,8 @@
     "INSTITUIÇÃO": "Hospital Edmundo Vasconcelos",
     "INSCRIÇÕES": "07/11 a 01/12/2025",
     "PROVA_OBJETIVA": "09/12/2025",
-    "GABARITO_PRELIMINAR": "09/12/2025",
-    "RESULTADO_FINAL": "19/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "AC",
@@ -1444,8 +1444,8 @@
     "INSTITUIÇÃO": "UNIP",
     "INSCRIÇÕES": "09/09 a 27/11/2025",
     "PROVA_OBJETIVA": "18/01/2026",
-    "GABARITO_PRELIMINAR": "20/01/2026",
-    "RESULTADO_FINAL": "19/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PA",
@@ -2101,7 +2101,7 @@
     "INSCRIÇÕES": "28/01 a 03/02/2026",
     "PROVA_OBJETIVA": "09/02/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "20/02/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "DF",
@@ -2316,6 +2316,14 @@
     "INSTITUIÇÃO": "USP Bauru",
     "INSCRIÇÕES": "26/02 a 02/03/2026",
     "PROVA_OBJETIVA": "04/03/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "UNESP Complementar – vagas remanescentes",
+    "INSCRIÇÕES": "02 a 03/03/2026",
+    "PROVA_OBJETIVA": "05/03/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
