@@ -4,8 +4,8 @@
     "INSTITUIÇÃO": "FELUMA",
     "INSCRIÇÕES": "08/08 a 11/09/2025",
     "PROVA_OBJETIVA": "05/10/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "06/10/2025",
+    "RESULTADO_FINAL": "12/12/2025"
   },
   {
     "UF": "PR",
@@ -140,8 +140,8 @@
     "INSTITUIÇÃO": "HIAE",
     "INSCRIÇÕES": "19/08 a 22/09/2025",
     "PROVA_OBJETIVA": "02/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "04/11/2025",
+    "RESULTADO_FINAL": "21/01/2025"
   },
   {
     "UF": "PR",
@@ -180,7 +180,7 @@
     "INSTITUIÇÃO": "IUN Urologia",
     "INSCRIÇÕES": "10/10 a 02/11/2025",
     "PROVA_OBJETIVA": "07/11/2025",
-    "GABARITO_PRELIMINAR": "-",
+    "GABARITO_PRELIMINAR": "07/11/2025",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -332,7 +332,7 @@
     "INSTITUIÇÃO": "AMRIGS",
     "INSCRIÇÕES": "09/09 a 30/10/2025",
     "PROVA_OBJETIVA": "23/11/2025",
-    "GABARITO_PRELIMINAR": "-",
+    "GABARITO_PRELIMINAR": "24/11/2025",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -381,7 +381,7 @@
     "INSCRIÇÕES": "20/10 a 19/11/2025",
     "PROVA_OBJETIVA": "24/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "03/12/2025"
   },
   {
     "UF": "ES",
@@ -564,8 +564,8 @@
     "INSTITUIÇÃO": "Santa Casa de Araçatuba",
     "INSCRIÇÕES": "21/09 a 16/11/2025",
     "PROVA_OBJETIVA": "02/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "03/12/2025 (após as 14h) até 05/12/2025 (14h)",
+    "RESULTADO_FINAL": "23/01/2026"
   },
   {
     "UF": "SP",
@@ -980,8 +980,8 @@
     "INSTITUIÇÃO": "Hospital Estadual Dr. Jayme Santos Neves (HEJSN)",
     "INSCRIÇÕES": "14/11 a 01/12/2025",
     "PROVA_OBJETIVA": "18/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "19 e 20/12/2025",
+    "RESULTADO_FINAL": "14/01/2026"
   },
   {
     "UF": "SP",
@@ -1020,8 +1020,8 @@
     "INSTITUIÇÃO": "UNIFACEF",
     "INSCRIÇÕES": "14/11 a 14/12/2025",
     "PROVA_OBJETIVA": "20/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "22/12/2025",
+    "RESULTADO_FINAL": "30/12/2025"
   },
   {
     "UF": "DF",
@@ -1244,8 +1244,8 @@
     "INSTITUIÇÃO": "Centro Universitário de Adamantina – FAI",
     "INSCRIÇÕES": "16/10/2025 a 04/01/2026",
     "PROVA_OBJETIVA": "14/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "14/01/2026",
+    "RESULTADO_FINAL": "18/02/2026"
   },
   {
     "UF": "SP",
@@ -1612,8 +1612,8 @@
     "INSTITUIÇÃO": "Hospital Santo Amaro (HSA)",
     "INSCRIÇÕES": "24/10/2025 a 11/01/2026",
     "PROVA_OBJETIVA": "25/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "26/01/2026",
+    "RESULTADO_FINAL": "24/02/2026"
   },
   {
     "UF": "RS",
@@ -2288,14 +2288,6 @@
     "RESULTADO_FINAL": "-"
   },
   {
-    "UF": "BH",
-    "INSTITUIÇÃO": "SCMBH Complementar",
-    "INSCRIÇÕES": "02 a 10/02/2026",
-    "PROVA_OBJETIVA": "01/03/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
-  },
-  {
     "UF": "ES",
     "INSTITUIÇÃO": "Centro Médico Hospitalar de Vila Velha",
     "INSCRIÇÕES": "13 a 20/02/2026",
@@ -2324,6 +2316,14 @@
     "INSTITUIÇÃO": "UNESP Complementar – vagas remanescentes",
     "INSCRIÇÕES": "02 a 03/03/2026",
     "PROVA_OBJETIVA": "05/03/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "BH",
+    "INSTITUIÇÃO": "SCMBH Complementar",
+    "INSCRIÇÕES": "02 a 10/02 e 20/02 a 04/03/2026",
+    "PROVA_OBJETIVA": "08/03/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
