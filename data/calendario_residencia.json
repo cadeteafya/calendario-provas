@@ -1189,7 +1189,7 @@
     "INSCRIÇÕES": "29/11 a 14/12/2025",
     "PROVA_OBJETIVA": "11/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "04/02/2026"
   },
   {
     "UF": "PR",
@@ -2342,6 +2342,14 @@
     "PROVA_OBJETIVA": "08/03/2026",
     "GABARITO_PRELIMINAR": "08 a 09/03/2026",
     "RESULTADO_FINAL": "13/03/2026"
+  },
+  {
+    "UF": "AL",
+    "INSTITUIÇÃO": "PSU-AL 2026.2",
+    "INSCRIÇÕES": "24/02 a 02/03/2026",
+    "PROVA_OBJETIVA": "08/03/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
