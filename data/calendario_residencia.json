@@ -20,8 +20,8 @@
     "INSTITUIÇÃO": "UNESC",
     "INSCRIÇÕES": "18/08 a 2/10/2025",
     "PROVA_OBJETIVA": "12/10/2025",
-    "GABARITO_PRELIMINAR": "12/10/2025",
-    "RESULTADO_FINAL": "até 26/10/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "CE",
@@ -932,7 +932,7 @@
     "INSTITUIÇÃO": "IFF/Fiocruz",
     "INSCRIÇÕES": "22/09 a 31/10/2025",
     "PROVA_OBJETIVA": "14/12/2025",
-    "GABARITO_PRELIMINAR": "-",
+    "GABARITO_PRELIMINAR": "16/12/2025",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -1028,7 +1028,7 @@
     "INSTITUIÇÃO": "SES-DF",
     "INSCRIÇÕES": "05/11 a 14/12/2025",
     "PROVA_OBJETIVA": "21/12/2025",
-    "GABARITO_PRELIMINAR": "21/12/2025",
+    "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -2372,6 +2372,22 @@
     "INSTITUIÇÃO": "CERMAM vagas remanescentes",
     "INSCRIÇÕES": "27/02/2026",
     "PROVA_OBJETIVA": "08/03/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "FAMERP vagas remanescentes",
+    "INSCRIÇÕES": "02 a 05/03/2026",
+    "PROVA_OBJETIVA": "09/03/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "12/03/2026 (a partir das 16h)"
+  },
+  {
+    "UF": "PR",
+    "INSTITUIÇÃO": "UEL vagas remanescentes",
+    "INSCRIÇÕES": "05 a 09/03/2026",
+    "PROVA_OBJETIVA": "10/03/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
