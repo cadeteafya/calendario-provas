@@ -597,7 +597,7 @@
     "INSCRIÇÕES": "01/10 a 09/11/2025",
     "PROVA_OBJETIVA": "02/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "19/12/2025"
   },
   {
     "UF": "SP",
@@ -1261,7 +1261,7 @@
     "INSCRIÇÕES": "10 a 30/12/2025",
     "PROVA_OBJETIVA": "14/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "12/02/2026"
   },
   {
     "UF": "DF",
@@ -1340,8 +1340,8 @@
     "INSTITUIÇÃO": "Grupo VIV",
     "INSCRIÇÕES": "28/10 a 07/12/2025",
     "PROVA_OBJETIVA": "17/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "24/01/2026",
+    "RESULTADO_FINAL": "20/02/2026"
   },
   {
     "UF": "SP",
@@ -1772,8 +1772,8 @@
     "INSTITUIÇÃO": "Hospital Memorial São Francisco",
     "INSCRIÇÕES": "18/11 a 31/12/2025",
     "PROVA_OBJETIVA": "29/01/2026",
-    "GABARITO_PRELIMINAR": "30/01/2026",
-    "RESULTADO_FINAL": "06/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RN",
@@ -1996,8 +1996,8 @@
     "INSTITUIÇÃO": "Centro Oftalmológico Hospital Dia",
     "INSCRIÇÕES": "22/11/2025 a 02/02/2026",
     "PROVA_OBJETIVA": "08/02/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "08/02/2026 – 12h",
+    "RESULTADO_FINAL": "11/02/2026 a 12/02/2026"
   },
   {
     "UF": "GO",
@@ -2392,10 +2392,34 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "GO",
+    "INSTITUIÇÃO": "PSU-GO suplementar",
+    "INSCRIÇÕES": "05 a 08/03/2026",
+    "PROVA_OBJETIVA": "10/03/2026",
+    "GABARITO_PRELIMINAR": "10/03/2026 a partir das 13h",
+    "RESULTADO_FINAL": "12/03/2026"
+  },
+  {
     "UF": "ES",
     "INSTITUIÇÃO": "HECI vagas remanescentes",
     "INSCRIÇÕES": "03 a 05/03/2026",
     "PROVA_OBJETIVA": "11/03/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "USP-RP vagas remanescentes (Radioterapia)",
+    "INSCRIÇÕES": "06 a 09/03/2026",
+    "PROVA_OBJETIVA": "12/03/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "USP-RP vagas remanescentes (R+)",
+    "INSCRIÇÕES": "06 a 09/03/2026",
+    "PROVA_OBJETIVA": "12/03/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
