@@ -180,7 +180,7 @@
     "INSTITUIÇÃO": "IUN Urologia",
     "INSCRIÇÕES": "10/10 a 02/11/2025",
     "PROVA_OBJETIVA": "07/11/2025",
-    "GABARITO_PRELIMINAR": "07/11/2025",
+    "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -1772,8 +1772,8 @@
     "INSTITUIÇÃO": "Hospital Memorial São Francisco",
     "INSCRIÇÕES": "18/11 a 31/12/2025",
     "PROVA_OBJETIVA": "29/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "30/01/2026",
+    "RESULTADO_FINAL": "06/02/2026"
   },
   {
     "UF": "RN",
@@ -2340,8 +2340,8 @@
     "INSTITUIÇÃO": "SUS-BA 2026.2",
     "INSCRIÇÕES": "06 a 23/02/2026",
     "PROVA_OBJETIVA": "08/03/2026",
-    "GABARITO_PRELIMINAR": "08 a 09/03/2026",
-    "RESULTADO_FINAL": "13/03/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "AL",
