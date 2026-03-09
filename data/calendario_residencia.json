@@ -180,7 +180,7 @@
     "INSTITUIÇÃO": "IUN Urologia",
     "INSCRIÇÕES": "10/10 a 02/11/2025",
     "PROVA_OBJETIVA": "07/11/2025",
-    "GABARITO_PRELIMINAR": "-",
+    "GABARITO_PRELIMINAR": "07/11/2025",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -420,8 +420,8 @@
     "INSTITUIÇÃO": "UFRB",
     "INSCRIÇÕES": "13/10 a 11/11/2025",
     "PROVA_OBJETIVA": "27/11/2025",
-    "GABARITO_PRELIMINAR": "28/11/2025",
-    "RESULTADO_FINAL": "19/12/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PB",
@@ -812,8 +812,8 @@
     "INSTITUIÇÃO": "Unimed Teresina",
     "INSCRIÇÕES": "10 a 30/11/2025",
     "PROVA_OBJETIVA": "10/12/2025",
-    "GABARITO_PRELIMINAR": "11/12/2025",
-    "RESULTADO_FINAL": "14/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RJ/SP/DF/MA",
@@ -980,8 +980,8 @@
     "INSTITUIÇÃO": "Hospital Estadual Dr. Jayme Santos Neves (HEJSN)",
     "INSCRIÇÕES": "14/11 a 01/12/2025",
     "PROVA_OBJETIVA": "18/12/2025",
-    "GABARITO_PRELIMINAR": "19 e 20/12/2025",
-    "RESULTADO_FINAL": "14/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1340,8 +1340,8 @@
     "INSTITUIÇÃO": "Grupo VIV",
     "INSCRIÇÕES": "28/10 a 07/12/2025",
     "PROVA_OBJETIVA": "17/01/2026",
-    "GABARITO_PRELIMINAR": "24/01/2026",
-    "RESULTADO_FINAL": "20/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -2252,8 +2252,8 @@
     "INSTITUIÇÃO": "PSU-GO complementar",
     "INSCRIÇÕES": "12 a 13/02/2026",
     "PROVA_OBJETIVA": "22/02/2026",
-    "GABARITO_PRELIMINAR": "22/02/2026",
-    "RESULTADO_FINAL": "26/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "MG",
@@ -2340,8 +2340,8 @@
     "INSTITUIÇÃO": "SUS-BA 2026.2",
     "INSCRIÇÕES": "06 a 23/02/2026",
     "PROVA_OBJETIVA": "08/03/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "08 a 09/03/2026",
+    "RESULTADO_FINAL": "13/03/2026"
   },
   {
     "UF": "AL",
