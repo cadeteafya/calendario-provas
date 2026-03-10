@@ -51,7 +51,7 @@ ES,Hospital Vitória Apart,06/10 a 14/11/2025,24/11/2025,-,22/12/2025
 SP,FAMERP,15 a 28/10/2025,25/11/2025,25/11/2025,30/01/2026
 SP,SMS-SJRP,23/10 a 05/11/2025,26/11/2025,27/11/2025,21/01/2026
 SP,Hospital Dr. Adolfo Bezerra de Menezes,25/09 a 26/10/2025,27/11/2025,-,15/01/2026
-BA,UFRB,13/10 a 11/11/2025,27/11/2025,-,-
+BA,UFRB,13/10 a 11/11/2025,27/11/2025,28/11/2025,19/12/2025
 PB,Unimed-JP,13/10 a 14/11/2025,28/11/2025,01/12/2025,27/12/2025
 MG,SCMBH,16/09 a 14/11/2025,29/11/2025,30/11/2025,14/01/2026
 RJ,Hospital Mário Kroeff,15/09 a 10/10/2025,29/11/2025,-,15/12/2025
@@ -100,7 +100,7 @@ MS,HCMS,06 a 23/11/2025,08/12/2025,Das 14h de 09/12 até 14h de 11/12/2025,05/02
 PR,Universidade Estadual de Maringá,29/09 a 31/10/2025,09/12/2025,-,17/12/2025
 SP,Hospital Edmundo Vasconcelos,07/11 a 01/12/2025,09/12/2025,09/12/2025,19/01/2026
 AC,FUNDHACRE,05 a 26/11/2025,10/12/2025,-,22/01/2026
-PI,Unimed Teresina,10 a 30/11/2025,10/12/2025,-,-
+PI,Unimed Teresina,10 a 30/11/2025,10/12/2025,11/12/2025,14/01/2026
 RJ/SP/DF/MA,Rede Américas,02/11 a 30/11/2025,10/12/2025,"10/12/2025, após as 14h",04/02/2026
 SP,FMJ,06/10 a 06/11/2025,10/12/2025,10/12/2025,19/02/2026
 SP,Nova Benê,30/10 a 30/11/2025,10/12/2025,"11/12/2025, após as 9h",29/01/2026
@@ -121,7 +121,7 @@ MT,SMS-LRV,07/11 a 03/12/2025,14/12/2025,15/12/2025 a 17/12/2025,09/01/2026
 SP,Centro Médico de Campinas (CMC),24/10 a 30/11/2025,15/12/2025,15/12/2025,16/02/2026
 PR,SMS-Maringá,27/10 a 28/11/2025,15/12/2025,-,-
 SP,SAFE Anestesiologia,01/10 a 01/12/2025,17/12/2025,17/12/2025,30/01/2026
-ES,Hospital Estadual Dr. Jayme Santos Neves (HEJSN),14/11 a 01/12/2025,18/12/2025,-,-
+ES,Hospital Estadual Dr. Jayme Santos Neves (HEJSN),14/11 a 01/12/2025,18/12/2025,19 e 20/12/2025,14/01/2026
 SP,Camp-Imagem Nuclear,15/11 a 16/12/2025,18/12/2025,-,30/12/2025
 SP,IAMSPE,30/10 a 24/11/2025,20/12/2025,20/12/2025,02/02/2026
 AC,Hospital do Rim,05/11 a 05/12/2025,20/12/2025,02/01/2026,-
@@ -166,7 +166,7 @@ SP,Instituto Maniglia – HIORP,01/12 a 19/12/2025,16/01/2026,-,-
 MT,Hospital Amecor,24/11 a 22/12/2025,16/01/2026,-,-
 SP,Santa Casa de Assis,09/12/2025 a 09/01/2026,16/01/2026,-,-
 GO,Hospital da Criança,26/12/2025 a 09/01/2026,16/01/2026,-,-
-Várias,Grupo VIV,28/10 a 07/12/2025,17/01/2026,-,-
+Várias,Grupo VIV,28/10 a 07/12/2025,17/01/2026,24/01/2026,20/02/2026
 SP,Instituto Prevent Senior,03/11/2025 a 05/01/2026,17/01/2026,-,26/01/2026
 SP,SCMSJC,31/10 a 22/12/2025,17/01/2026,18/01/2026,10/02/2026
 SP,CVV Francisca Júlia,03/11 a 22/12/2025,17/01/2026,18/01/2026,13/02/2026
@@ -280,7 +280,7 @@ PR,Hospital Olhos de Umuarama (HOU),19/12 a 16/02/2026,21/02/2026,-,-
 MG,ASCOMCER,10/02 a 15/02/2026,21/02/2026,-,-
 MG,FELUMA – HUCM (Complementar),03 a 09/02/2026,22/02/2026,-,-
 MG,PSU-MG complementar,12 a 13/02/2026,22/02/2026,22/02/2026,26/02/2026
-GO,PSU-GO complementar,12 a 13/02/2026,22/02/2026,-,-
+GO,PSU-GO complementar,12 a 13/02/2026,22/02/2026,22/02/2026,26/02/2026
 MG,Hospital Evangélico de Mantena,10 a 15/02/2026,22/02/2026,-,-
 RJ,Policlínica Regional Dr. Sérgio Arouca,02 a 13/02/2026,23/02/2026,-,27/02/2026
 MG,Santa Casa de Alfenas Complementar,17/02 a 22/02/2026,24/02/2026,-,-
@@ -299,7 +299,9 @@ AM,CERMAM vagas remanescentes,27/02/2026,08/03/2026,-,-
 SP,FAMERP vagas remanescentes,02 a 05/03/2026,09/03/2026,-,12/03/2026 (a partir das 16h)
 PR,UEL vagas remanescentes,05 a 09/03/2026,10/03/2026,-,-
 GO,PSU-GO suplementar,05 a 08/03/2026,10/03/2026,10/03/2026 a partir das 13h,12/03/2026
+RN,UFRN vagas remanescentes,04 a 08/03/2026,10/03/2026,-,-
 ES,HECI vagas remanescentes,03 a 05/03/2026,11/03/2026,-,-
 SP,USP-RP vagas remanescentes (Radioterapia),06 a 09/03/2026,12/03/2026,-,-
 SP,USP-RP vagas remanescentes (R+),06 a 09/03/2026,12/03/2026,-,-
+DF,SES-DF vagas remanescentes,07 a 10/03/2026,14/03/2026,-,-
 AM,Centro Universitário Metropolitano da Amazônia (UNIFAMAZ),26/11 a 17/12/2026,13/01/2027,-,-
