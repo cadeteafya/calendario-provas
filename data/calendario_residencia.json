@@ -116,8 +116,8 @@
     "INSTITUIÇÃO": "UFCSPA",
     "INSCRIÇÕES": "29/08 a 02/10/2025",
     "PROVA_OBJETIVA": "01/11/2025",
-    "GABARITO_PRELIMINAR": "03/11/2025",
-    "RESULTADO_FINAL": "20/01/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RS",
@@ -780,8 +780,8 @@
     "INSTITUIÇÃO": "HCMS",
     "INSCRIÇÕES": "06 a 23/11/2025",
     "PROVA_OBJETIVA": "08/12/2025",
-    "GABARITO_PRELIMINAR": "Das 14h de 09/12 até 14h de 11/12/2025",
-    "RESULTADO_FINAL": "05/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PR",
@@ -2384,14 +2384,6 @@
     "RESULTADO_FINAL": "12/03/2026 (a partir das 16h)"
   },
   {
-    "UF": "PR",
-    "INSTITUIÇÃO": "UEL vagas remanescentes",
-    "INSCRIÇÕES": "05 a 09/03/2026",
-    "PROVA_OBJETIVA": "10/03/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
-  },
-  {
     "UF": "GO",
     "INSTITUIÇÃO": "PSU-GO suplementar",
     "INSCRIÇÕES": "05 a 08/03/2026",
@@ -2412,6 +2404,14 @@
     "INSTITUIÇÃO": "HECI vagas remanescentes",
     "INSCRIÇÕES": "03 a 05/03/2026",
     "PROVA_OBJETIVA": "11/03/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "PR",
+    "INSTITUIÇÃO": "UEL vagas remanescentes",
+    "INSCRIÇÕES": "05 a 11/03/2026",
+    "PROVA_OBJETIVA": "12/03/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
