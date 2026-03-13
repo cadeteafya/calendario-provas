@@ -2388,8 +2388,8 @@
     "INSTITUIÇÃO": "PSU-GO suplementar",
     "INSCRIÇÕES": "05 a 08/03/2026",
     "PROVA_OBJETIVA": "10/03/2026",
-    "GABARITO_PRELIMINAR": "10/03/2026 a partir das 13h",
-    "RESULTADO_FINAL": "12/03/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RN",
@@ -2434,7 +2434,7 @@
   {
     "UF": "DF",
     "INSTITUIÇÃO": "SES-DF vagas remanescentes",
-    "INSCRIÇÕES": "07 a 10/03/2026",
+    "INSCRIÇÕES": "07 a 12/03/2026",
     "PROVA_OBJETIVA": "14/03/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
