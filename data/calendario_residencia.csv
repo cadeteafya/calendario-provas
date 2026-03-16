@@ -144,13 +144,13 @@ SP,Santa Casa de Ourinhos,15/10 a 28/12/2025,11/01/2026,Das 14h do dia 12/01/202
 MA,UEMA,20/10 a 21/11/2025,11/01/2026,11/01/2026,23/02/2026
 SP,Santa Casa de Adamantina,24/10 a 28/12/2025,11/01/2026,12/01/2026 (após 14h) até 13/01/2026 (23h59),20/02/2026
 MT,Hospital Regional Hilda Strenger Ribeiro,03/11 a 28/12/2025,11/01/2026,11/01/2026,20/01/2026
-SP,ISCMSJRP,03/11 a 04/12/2025,11/01/2026,-,-
+SP,ISCMSJRP,03/11 a 04/12/2025,11/01/2026,-,06/02/2026 (até o final do dia)
 GO,Hospital Ruy Azeredo,18/11 a 21/12/2025,11/01/2026,-,15/01/2026 – a partir das 15h00
 SP,Hospital Infantil Gonzaga,05/11 a 29/12/2025,11/01/2026,12/01/2026,06/02/2026
 PE,SES-PE,29/11 a 14/12/2025,11/01/2026,-,04/02/2026
 PR,Santa Casa de Maringá,01 a 30/12/2025,11/01/2026,-,02/02/2026
 PR,Hospital Vida,27/10/2025 a 08/01/2026,12/01/2026,-,06/02/2026
-PR,Hospital San Julian,31/10/2025 a 12/01/2025,13/01/2026,-,-
+PR,Hospital San Julian,31/10/2025 a 12/01/2025,13/01/2026,-,10/02/2026
 PR,Hoftalon Hospital de Olhos,24/11 a 29/12/25,13/01/2026,-,-
 SC,Hospital e Maternidade OASE,14/10/2025 a 04/01/2026,14/01/2026,15/01/2026 (após as 14h) até 17/01/2026 (até as 14h),10/02/2026
 PB,SOS Otorrino,10/11/2025 a 12/01/2026,14/01/2026,14/01/2026,até 19/01/2026
@@ -263,7 +263,7 @@ RJ,Secretaria Municipal de Saúde de Maricá,31/01 a 05/02/2026,08/02/2026,-,-
 SP,COHR Hospital Dia Oftalmológico,11/11/2025 a 15/01/2026,09/02/2026,-,-
 SP,USP-SP – edital complementar,28/01 a 03/02/2026,09/02/2026,-,20/02/2026
 DF,IMEB – Imagens Médicas de Brasília,01/12/2025 a 06/02/2026,09/02/2026,-,-
-RS,HCPA Complementar,21/01 a 03/02/2026,09/02/2026,11/02/2026,-
+RS,HCPA Complementar,21/01 a 03/02/2026,09/02/2026,-,-
 RS,UFCSPA Suplementar,23/01 a 04/02/2026,11/02/2026,12/02/2026,-
 MT,UNEMAT,29/01 a 06/02/2026,11/02/2026,-,-
 BA,Universidade Federal do Sul da Bahia (UFSB),27/01 a 05/02/2026,11/02/2026,-,-
