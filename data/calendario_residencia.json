@@ -156,8 +156,8 @@
     "INSTITUIÇÃO": "UERJ",
     "INSCRIÇÕES": "03/09 a 02/10/2025",
     "PROVA_OBJETIVA": "02/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "02/11/2025",
+    "RESULTADO_FINAL": "18/12/2025"
   },
   {
     "UF": "PA",
@@ -461,7 +461,7 @@
     "INSCRIÇÕES": "22/10 a 22/11/2025",
     "PROVA_OBJETIVA": "29/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "até o dia 21/12/2025"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "MT",
@@ -492,8 +492,8 @@
     "INSTITUIÇÃO": "PRMMT",
     "INSCRIÇÕES": "01/10 a 10/11/2025",
     "PROVA_OBJETIVA": "30/11/2025",
-    "GABARITO_PRELIMINAR": "30/11/2025",
-    "RESULTADO_FINAL": "19/12/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "MG",
@@ -508,8 +508,8 @@
     "INSTITUIÇÃO": "HRPP",
     "INSCRIÇÕES": "01/09 a 06/10/2025",
     "PROVA_OBJETIVA": "30/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "02/12/2025",
+    "RESULTADO_FINAL": "26/01/2026"
   },
   {
     "UF": "RJ",
@@ -540,8 +540,8 @@
     "INSTITUIÇÃO": "Hospital São Lucas de Ribeirão Preto",
     "INSCRIÇÕES": "18/09 a 16/11/2025",
     "PROVA_OBJETIVA": "30/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "01/12/2025 às 10h",
+    "RESULTADO_FINAL": "12/12/2025"
   },
   {
     "UF": "RO",
@@ -652,8 +652,8 @@
     "INSTITUIÇÃO": "ISCMSP",
     "INSCRIÇÕES": "01/10 a 04/11/2025",
     "PROVA_OBJETIVA": "06/12/2025",
-    "GABARITO_PRELIMINAR": "08/12/2025",
-    "RESULTADO_FINAL": "13/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "GO",
@@ -972,8 +972,8 @@
     "INSTITUIÇÃO": "SAFE Anestesiologia",
     "INSCRIÇÕES": "01/10 a 01/12/2025",
     "PROVA_OBJETIVA": "17/12/2025",
-    "GABARITO_PRELIMINAR": "17/12/2025",
-    "RESULTADO_FINAL": "30/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "ES",
@@ -2044,8 +2044,8 @@
     "INSTITUIÇÃO": "SES-GO (suplementar)",
     "INSCRIÇÕES": "08 a 19/01/2026",
     "PROVA_OBJETIVA": "08/02/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "09/02/2026",
+    "RESULTADO_FINAL": "04/03/2026"
   },
   {
     "UF": "SP",
