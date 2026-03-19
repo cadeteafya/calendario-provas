@@ -461,7 +461,7 @@
     "INSCRIÇÕES": "22/10 a 22/11/2025",
     "PROVA_OBJETIVA": "29/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "até o dia 21/12/2025"
   },
   {
     "UF": "MT",
@@ -492,8 +492,8 @@
     "INSTITUIÇÃO": "PRMMT",
     "INSCRIÇÕES": "01/10 a 10/11/2025",
     "PROVA_OBJETIVA": "30/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "30/11/2025",
+    "RESULTADO_FINAL": "19/12/2025"
   },
   {
     "UF": "MG",
@@ -652,8 +652,8 @@
     "INSTITUIÇÃO": "ISCMSP",
     "INSCRIÇÕES": "01/10 a 04/11/2025",
     "PROVA_OBJETIVA": "06/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "08/12/2025",
+    "RESULTADO_FINAL": "13/02/2026"
   },
   {
     "UF": "GO",
@@ -972,8 +972,8 @@
     "INSTITUIÇÃO": "SAFE Anestesiologia",
     "INSCRIÇÕES": "01/10 a 01/12/2025",
     "PROVA_OBJETIVA": "17/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "17/12/2025",
+    "RESULTADO_FINAL": "30/01/2026"
   },
   {
     "UF": "ES",
