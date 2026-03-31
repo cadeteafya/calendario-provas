@@ -165,7 +165,7 @@
     "INSCRIÇÕES": "03 a 17/10/2025",
     "PROVA_OBJETIVA": "02/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "28/01/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RJ",
@@ -332,7 +332,7 @@
     "INSTITUIÇÃO": "AMRIGS",
     "INSCRIÇÕES": "09/09 a 30/10/2025",
     "PROVA_OBJETIVA": "23/11/2025",
-    "GABARITO_PRELIMINAR": "-",
+    "GABARITO_PRELIMINAR": "24/11/2025",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -580,8 +580,8 @@
     "INSTITUIÇÃO": "Universidade Vila Velha (UVV)",
     "INSCRIÇÕES": "15/10 e 24/11/2025",
     "PROVA_OBJETIVA": "02/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "02/12/2025",
+    "RESULTADO_FINAL": "17/12/2025"
   },
   {
     "UF": "SP",
@@ -645,15 +645,15 @@
     "INSCRIÇÕES": "10/10 a 30/11/2025",
     "PROVA_OBJETIVA": "05/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "16/01/2026"
   },
   {
     "UF": "SP",
     "INSTITUIÇÃO": "ISCMSP",
     "INSCRIÇÕES": "01/10 a 04/11/2025",
     "PROVA_OBJETIVA": "06/12/2025",
-    "GABARITO_PRELIMINAR": "08/12/2025",
-    "RESULTADO_FINAL": "13/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "GO",
@@ -748,16 +748,16 @@
     "INSTITUIÇÃO": "SMS-Macaé",
     "INSCRIÇÕES": "10 a 21/11/2025",
     "PROVA_OBJETIVA": "07/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "07/12/2025",
+    "RESULTADO_FINAL": "22/12/2025"
   },
   {
     "UF": "SP",
     "INSTITUIÇÃO": "FAMEMA",
     "INSCRIÇÕES": "16/10 a 04/11/2025",
     "PROVA_OBJETIVA": "08/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "09/12/2025",
+    "RESULTADO_FINAL": "06/02/2026"
   },
   {
     "UF": "RS",
@@ -844,8 +844,8 @@
     "INSTITUIÇÃO": "HUSE",
     "INSCRIÇÕES": "29/10 a 07/11/2025",
     "PROVA_OBJETIVA": "11/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "11/12/2025",
+    "RESULTADO_FINAL": "16/01/2026"
   },
   {
     "UF": "SP",
@@ -1053,7 +1053,7 @@
     "INSCRIÇÕES": "10 a 21/11/2025",
     "PROVA_OBJETIVA": "05 e 06/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "11/02/2026"
   },
   {
     "UF": "SP",
@@ -1189,7 +1189,7 @@
     "INSCRIÇÕES": "29/11 a 14/12/2025",
     "PROVA_OBJETIVA": "11/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "04/02/2026"
   },
   {
     "UF": "PR",
@@ -1252,8 +1252,8 @@
     "INSTITUIÇÃO": "Santa Casa de São Carlos",
     "INSCRIÇÕES": "15/10/2025 a 04/01/2026",
     "PROVA_OBJETIVA": "14/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "14/01/2026",
+    "RESULTADO_FINAL": "13/02/2026"
   },
   {
     "UF": "SP",
@@ -1300,8 +1300,8 @@
     "INSTITUIÇÃO": "Hospital Santa Catarina",
     "INSCRIÇÕES": "27/11/2025 a 07/01/2026",
     "PROVA_OBJETIVA": "16/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "16/01/2026, após às 18h",
+    "RESULTADO_FINAL": "10/02/2026"
   },
   {
     "UF": "SP",
@@ -1340,8 +1340,8 @@
     "INSTITUIÇÃO": "Grupo VIV",
     "INSCRIÇÕES": "28/10 a 07/12/2025",
     "PROVA_OBJETIVA": "17/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "24/01/2026",
+    "RESULTADO_FINAL": "20/02/2026"
   },
   {
     "UF": "SP",
@@ -1420,16 +1420,16 @@
     "INSTITUIÇÃO": "UNIVAG",
     "INSCRIÇÕES": "06/11/2025 a 04/01/2026",
     "PROVA_OBJETIVA": "18/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "19/01/2026",
+    "RESULTADO_FINAL": "19/02/2026"
   },
   {
     "UF": "SP",
     "INSTITUIÇÃO": "Hospital Carlos Fernando Malzoni",
     "INSCRIÇÕES": "05/09 a 28/12/2025",
     "PROVA_OBJETIVA": "18/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "19/01/2026",
+    "RESULTADO_FINAL": "20/02/2026"
   },
   {
     "UF": "AL",
@@ -1492,8 +1492,8 @@
     "INSTITUIÇÃO": "SL Mandic",
     "INSCRIÇÕES": "05/12/2025 a 09/01/2026",
     "PROVA_OBJETIVA": "18/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "19/01/2026",
+    "RESULTADO_FINAL": "10/02/2026"
   },
   {
     "UF": "PI",
@@ -1516,7 +1516,7 @@
     "INSTITUIÇÃO": "IPEPO",
     "INSCRIÇÕES": "03/11 a 02/12/2025",
     "PROVA_OBJETIVA": "19/01/2026",
-    "GABARITO_PRELIMINAR": "-",
+    "GABARITO_PRELIMINAR": "20/01/2026",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -1533,7 +1533,7 @@
     "INSCRIÇÕES": "10/11 a 08/12/2025",
     "PROVA_OBJETIVA": "20/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "02/02/2026"
   },
   {
     "UF": "MG",
@@ -1733,7 +1733,7 @@
     "INSCRIÇÕES": "01/08/2025 a20/01/2026",
     "PROVA_OBJETIVA": "27/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "02/02/2026"
   },
   {
     "UF": "MG",
@@ -1757,7 +1757,7 @@
     "INSCRIÇÕES": "05 a 20/01/2026",
     "PROVA_OBJETIVA": "28/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "02/02/2026"
   },
   {
     "UF": "SE",
@@ -2101,7 +2101,7 @@
     "INSCRIÇÕES": "28/01 a 03/02/2026",
     "PROVA_OBJETIVA": "09/02/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "20/02/2026"
   },
   {
     "UF": "DF",
@@ -2164,8 +2164,8 @@
     "INSTITUIÇÃO": "Nova Benê",
     "INSCRIÇÕES": "25/01 a 05/02/2026",
     "PROVA_OBJETIVA": "12/02/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "12/02/2026 (após 14h) até 13/02/2026 às 23h59",
+    "RESULTADO_FINAL": "24/02/2026"
   },
   {
     "UF": "RO",
@@ -2244,16 +2244,16 @@
     "INSTITUIÇÃO": "PSU-MG complementar",
     "INSCRIÇÕES": "12 a 13/02/2026",
     "PROVA_OBJETIVA": "22/02/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "22/02/2026",
+    "RESULTADO_FINAL": "26/02/2026"
   },
   {
     "UF": "GO",
     "INSTITUIÇÃO": "PSU-GO complementar",
     "INSCRIÇÕES": "12 a 13/02/2026",
     "PROVA_OBJETIVA": "22/02/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "22/02/2026",
+    "RESULTADO_FINAL": "26/02/2026"
   },
   {
     "UF": "MG",
@@ -2269,7 +2269,7 @@
     "INSCRIÇÕES": "02 a 13/02/2026",
     "PROVA_OBJETIVA": "23/02/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "27/02/2026"
   },
   {
     "UF": "MG",
@@ -2300,8 +2300,8 @@
     "INSTITUIÇÃO": "UNICAMP Complementar – vagas remanescentes",
     "INSCRIÇÕES": "21 a 23/02/2026",
     "PROVA_OBJETIVA": "01/03/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "01/03/2026",
+    "RESULTADO_FINAL": "12/03/2026"
   },
   {
     "UF": "SP",
@@ -2388,8 +2388,8 @@
     "INSTITUIÇÃO": "PSU-GO suplementar",
     "INSCRIÇÕES": "05 a 08/03/2026",
     "PROVA_OBJETIVA": "10/03/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "10/03/2026 a partir das 13h",
+    "RESULTADO_FINAL": "12/03/2026"
   },
   {
     "UF": "RN",
