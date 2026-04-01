@@ -20,8 +20,8 @@
     "INSTITUIÇÃO": "UNESC",
     "INSCRIÇÕES": "18/08 a 2/10/2025",
     "PROVA_OBJETIVA": "12/10/2025",
-    "GABARITO_PRELIMINAR": "12/10/2025",
-    "RESULTADO_FINAL": "até 26/10/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "CE",
@@ -60,8 +60,8 @@
     "INSTITUIÇÃO": "HCPA",
     "INSCRIÇÕES": "27/08 a 29/09/2025",
     "PROVA_OBJETIVA": "26/10/2025",
-    "GABARITO_PRELIMINAR": "27/10/2025",
-    "RESULTADO_FINAL": "13/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -148,7 +148,7 @@
     "INSTITUIÇÃO": "AMP",
     "INSCRIÇÕES": "04/09 a 02/10/2025",
     "PROVA_OBJETIVA": "02/11/2025",
-    "GABARITO_PRELIMINAR": "03/11/2025",
+    "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -165,7 +165,7 @@
     "INSCRIÇÕES": "03 a 17/10/2025",
     "PROVA_OBJETIVA": "02/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "28/01/2026"
   },
   {
     "UF": "RJ",
@@ -276,8 +276,8 @@
     "INSTITUIÇÃO": "UNICAMP",
     "INSCRIÇÕES": "01 a 15/10/2025",
     "PROVA_OBJETIVA": "16/11/2025",
-    "GABARITO_PRELIMINAR": "16/11/2025",
-    "RESULTADO_FINAL": "23/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -316,8 +316,8 @@
     "INSTITUIÇÃO": "SMS-JP",
     "INSCRIÇÕES": "13 a 27/10/2025",
     "PROVA_OBJETIVA": "22/11/2025",
-    "GABARITO_PRELIMINAR": "22/11/2025",
-    "RESULTADO_FINAL": "20/12/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "GO",
@@ -652,8 +652,8 @@
     "INSTITUIÇÃO": "ISCMSP",
     "INSCRIÇÕES": "01/10 a 04/11/2025",
     "PROVA_OBJETIVA": "06/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "08/12/2025",
+    "RESULTADO_FINAL": "13/02/2026"
   },
   {
     "UF": "GO",
@@ -940,8 +940,8 @@
     "INSTITUIÇÃO": "SUS-SP",
     "INSCRIÇÕES": "16/10 a 04/11/2025",
     "PROVA_OBJETIVA": "14/12/2025",
-    "GABARITO_PRELIMINAR": "16/12/2025",
-    "RESULTADO_FINAL": "06/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "MT",
@@ -1189,7 +1189,7 @@
     "INSCRIÇÕES": "29/11 a 14/12/2025",
     "PROVA_OBJETIVA": "11/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "04/02/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PR",
@@ -1300,8 +1300,8 @@
     "INSTITUIÇÃO": "Hospital Santa Catarina",
     "INSCRIÇÕES": "27/11/2025 a 07/01/2026",
     "PROVA_OBJETIVA": "16/01/2026",
-    "GABARITO_PRELIMINAR": "16/01/2026, após às 18h",
-    "RESULTADO_FINAL": "10/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1565,7 +1565,7 @@
     "INSCRIÇÕES": "01/11/2025 a 16/01/2026",
     "PROVA_OBJETIVA": "24/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "04/02/2026 – Após as 17hs"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PB",
