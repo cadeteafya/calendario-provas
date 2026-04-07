@@ -140,8 +140,8 @@
     "INSTITUIÇÃO": "HIAE",
     "INSCRIÇÕES": "19/08 a 22/09/2025",
     "PROVA_OBJETIVA": "02/11/2025",
-    "GABARITO_PRELIMINAR": "04/11/2025",
-    "RESULTADO_FINAL": "21/01/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PR",
@@ -284,8 +284,8 @@
     "INSTITUIÇÃO": "PUC-SP",
     "INSCRIÇÕES": "13/10 a 07/11/2025",
     "PROVA_OBJETIVA": "16/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "17/11/2025",
+    "RESULTADO_FINAL": "22/01/2026"
   },
   {
     "UF": "PR",
@@ -332,7 +332,7 @@
     "INSTITUIÇÃO": "AMRIGS",
     "INSCRIÇÕES": "09/09 a 30/10/2025",
     "PROVA_OBJETIVA": "23/11/2025",
-    "GABARITO_PRELIMINAR": "-",
+    "GABARITO_PRELIMINAR": "24/11/2025",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -476,8 +476,8 @@
     "INSTITUIÇÃO": "UNIFESP",
     "INSCRIÇÕES": "17/09 a 18/10/2025",
     "PROVA_OBJETIVA": "30/11/2025",
-    "GABARITO_PRELIMINAR": "a partir de 30/11/2025",
-    "RESULTADO_FINAL": "a partir de 05/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "AM",
@@ -676,8 +676,8 @@
     "INSTITUIÇÃO": "USP-SP",
     "INSCRIÇÕES": "07 a 29/10/2025",
     "PROVA_OBJETIVA": "07/12/2025",
-    "GABARITO_PRELIMINAR": "08/12/2025",
-    "RESULTADO_FINAL": "10/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "GO",
@@ -940,8 +940,8 @@
     "INSTITUIÇÃO": "SUS-SP",
     "INSCRIÇÕES": "16/10 a 04/11/2025",
     "PROVA_OBJETIVA": "14/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "16/12/2025",
+    "RESULTADO_FINAL": "06/02/2026"
   },
   {
     "UF": "MT",
@@ -1053,7 +1053,7 @@
     "INSCRIÇÕES": "10 a 21/11/2025",
     "PROVA_OBJETIVA": "05 e 06/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "11/02/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1757,7 +1757,7 @@
     "INSCRIÇÕES": "05 a 20/01/2026",
     "PROVA_OBJETIVA": "28/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "02/02/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SE",
