@@ -148,7 +148,7 @@
     "INSTITUIÇÃO": "AMP",
     "INSCRIÇÕES": "04/09 a 02/10/2025",
     "PROVA_OBJETIVA": "02/11/2025",
-    "GABARITO_PRELIMINAR": "03/11/2025",
+    "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -341,7 +341,7 @@
     "INSCRIÇÕES": "22/09 a 15/10/2025",
     "PROVA_OBJETIVA": "23/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "09/02/2026 (previsão)"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -676,8 +676,8 @@
     "INSTITUIÇÃO": "USP-SP",
     "INSCRIÇÕES": "07 a 29/10/2025",
     "PROVA_OBJETIVA": "07/12/2025",
-    "GABARITO_PRELIMINAR": "08/12/2025",
-    "RESULTADO_FINAL": "10/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "GO",
@@ -780,8 +780,8 @@
     "INSTITUIÇÃO": "HCMS",
     "INSCRIÇÕES": "06 a 23/11/2025",
     "PROVA_OBJETIVA": "08/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "Das 14h de 09/12 até 14h de 11/12/2025",
+    "RESULTADO_FINAL": "05/02/2026"
   },
   {
     "UF": "PR",
@@ -972,8 +972,8 @@
     "INSTITUIÇÃO": "SAFE Anestesiologia",
     "INSCRIÇÕES": "01/10 a 01/12/2025",
     "PROVA_OBJETIVA": "17/12/2025",
-    "GABARITO_PRELIMINAR": "17/12/2025",
-    "RESULTADO_FINAL": "30/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "ES",
@@ -1484,8 +1484,8 @@
     "INSTITUIÇÃO": "SMS-Patos",
     "INSCRIÇÕES": "08/12 a 15/12/2025",
     "PROVA_OBJETIVA": "18/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "19/01/2026",
+    "RESULTADO_FINAL": "09/02/2026"
   },
   {
     "UF": "PR",
@@ -1612,8 +1612,8 @@
     "INSTITUIÇÃO": "Hospital Santo Amaro (HSA)",
     "INSCRIÇÕES": "24/10/2025 a 11/01/2026",
     "PROVA_OBJETIVA": "25/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "26/01/2026",
+    "RESULTADO_FINAL": "24/02/2026"
   },
   {
     "UF": "RS",
@@ -1860,8 +1860,8 @@
     "INSTITUIÇÃO": "USCS",
     "INSCRIÇÕES": "10/11/2025 a 12/01/2026",
     "PROVA_OBJETIVA": "01/02/2026",
-    "GABARITO_PRELIMINAR": "05/02/2026",
-    "RESULTADO_FINAL": "06/02/2026 (a partir das 17h)"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PR",
@@ -2252,8 +2252,8 @@
     "INSTITUIÇÃO": "PSU-GO complementar",
     "INSCRIÇÕES": "12 a 13/02/2026",
     "PROVA_OBJETIVA": "22/02/2026",
-    "GABARITO_PRELIMINAR": "22/02/2026",
-    "RESULTADO_FINAL": "26/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "MG",
