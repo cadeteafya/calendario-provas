@@ -60,8 +60,8 @@
     "INSTITUIÇÃO": "HCPA",
     "INSCRIÇÕES": "27/08 a 29/09/2025",
     "PROVA_OBJETIVA": "26/10/2025",
-    "GABARITO_PRELIMINAR": "27/10/2025",
-    "RESULTADO_FINAL": "13/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -148,7 +148,7 @@
     "INSTITUIÇÃO": "AMP",
     "INSCRIÇÕES": "04/09 a 02/10/2025",
     "PROVA_OBJETIVA": "02/11/2025",
-    "GABARITO_PRELIMINAR": "-",
+    "GABARITO_PRELIMINAR": "03/11/2025",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -261,7 +261,7 @@
     "INSCRIÇÕES": "01/09 a 03/10/2025",
     "PROVA_OBJETIVA": "14/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "12/12/2025"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PR",
@@ -325,7 +325,7 @@
     "INSCRIÇÕES": "23/10 a 13/11/2025",
     "PROVA_OBJETIVA": "22/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "29/12/2025"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RS",
@@ -661,7 +661,7 @@
     "INSCRIÇÕES": "16/10 a 14/11/2025",
     "PROVA_OBJETIVA": "06/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "29/12/2025"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RJ",
@@ -676,24 +676,24 @@
     "INSTITUIÇÃO": "USP-SP",
     "INSCRIÇÕES": "07 a 29/10/2025",
     "PROVA_OBJETIVA": "07/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "08/12/2025",
+    "RESULTADO_FINAL": "10/02/2026"
   },
   {
     "UF": "GO",
     "INSTITUIÇÃO": "Hospital de Olhos Aparecida (HOA)",
     "INSCRIÇÕES": "29/10 a 26/11/2025",
     "PROVA_OBJETIVA": "07/12/2025",
-    "GABARITO_PRELIMINAR": "08/12/2025, após as 14h",
-    "RESULTADO_FINAL": "05/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "GO",
     "INSTITUIÇÃO": "SES-GO",
     "INSCRIÇÕES": "01 a 23/10/2025",
     "PROVA_OBJETIVA": "07/12/2025",
-    "GABARITO_PRELIMINAR": "08/12/2025",
-    "RESULTADO_FINAL": "06/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "MG",
@@ -972,8 +972,8 @@
     "INSTITUIÇÃO": "SAFE Anestesiologia",
     "INSCRIÇÕES": "01/10 a 01/12/2025",
     "PROVA_OBJETIVA": "17/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "17/12/2025",
+    "RESULTADO_FINAL": "30/01/2026"
   },
   {
     "UF": "ES",
@@ -1189,7 +1189,7 @@
     "INSCRIÇÕES": "29/11 a 14/12/2025",
     "PROVA_OBJETIVA": "11/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "04/02/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PR",
@@ -1860,8 +1860,8 @@
     "INSTITUIÇÃO": "USCS",
     "INSCRIÇÕES": "10/11/2025 a 12/01/2026",
     "PROVA_OBJETIVA": "01/02/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "05/02/2026",
+    "RESULTADO_FINAL": "06/02/2026 (a partir das 17h)"
   },
   {
     "UF": "PR",
@@ -2044,8 +2044,8 @@
     "INSTITUIÇÃO": "SES-GO (suplementar)",
     "INSCRIÇÕES": "08 a 19/01/2026",
     "PROVA_OBJETIVA": "08/02/2026",
-    "GABARITO_PRELIMINAR": "09/02/2026",
-    "RESULTADO_FINAL": "04/03/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -2252,8 +2252,8 @@
     "INSTITUIÇÃO": "PSU-GO complementar",
     "INSCRIÇÕES": "12 a 13/02/2026",
     "PROVA_OBJETIVA": "22/02/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "22/02/2026",
+    "RESULTADO_FINAL": "26/02/2026"
   },
   {
     "UF": "MG",
@@ -2340,8 +2340,8 @@
     "INSTITUIÇÃO": "SUS-BA 2026.2",
     "INSCRIÇÕES": "06 a 23/02/2026",
     "PROVA_OBJETIVA": "08/03/2026",
-    "GABARITO_PRELIMINAR": "08 a 09/03/2026",
-    "RESULTADO_FINAL": "13/03/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "AL",
