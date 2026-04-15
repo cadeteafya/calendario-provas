@@ -348,8 +348,8 @@
     "INSTITUIÇÃO": "Santa Casa de Misericórdia de Ribeirão Preto",
     "INSCRIÇÕES": "05/09 a 09/10/2025",
     "PROVA_OBJETIVA": "23/11/2025",
-    "GABARITO_PRELIMINAR": "25/11/2025",
-    "RESULTADO_FINAL": "05/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1757,7 +1757,7 @@
     "INSCRIÇÕES": "05 a 20/01/2026",
     "PROVA_OBJETIVA": "28/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "02/02/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SE",

@@ -42,7 +42,7 @@ PB,SMS-JP,13 a 27/10/2025,22/11/2025,22/11/2025,20/12/2025
 GO,Instituto de Olhos de Goiânia,23/10 a 13/11/2025,22/11/2025,-,29/12/2025
 RS,AMRIGS,09/09 a 30/10/2025,23/11/2025,24/11/2025,-
 GO,PSU-GO,22/09 a 15/10/2025,23/11/2025,-,09/02/2026 (previsão)
-SP,Santa Casa de Misericórdia de Ribeirão Preto,05/09 a 09/10/2025,23/11/2025,25/11/2025,05/02/2026
+SP,Santa Casa de Misericórdia de Ribeirão Preto,05/09 a 09/10/2025,23/11/2025,-,-
 SP,Instituto Dante Pazzanese,06/10 a 12/11/2025,23/11/2025,23/11/2025,09/02/2026
 BA,PSU-BA (SUS-BA),17/10 a 18/11/2025,23/11/2025,26/11/2025,10/02/2026
 MT,HG/UNIC,20/09 a 09/11/2025,23/11/2025,-,15/12/2025 após 18h
@@ -218,7 +218,7 @@ RJ,CEPOA,22/10 a 29/12/2025,26/01/2026,-,02/02/2026 (19h)
 PR,DR PRIME,01/08/2025 a20/01/2026,27/01/2026,-,02/02/2026
 MG,Universidade Federal de Lavras (UFLA),30/12/2025 a15/01/2026,27/01/2026,-,-
 GO,Hospital Asmigo 2026/03,21 a 23/01/2026,27/01/2026,-,-
-MG,Santa Casa de Alfenas,05 a 20/01/2026,28/01/2026,-,02/02/2026
+MG,Santa Casa de Alfenas,05 a 20/01/2026,28/01/2026,-,-
 SE,Hospital de Amor Interestadual de Lagarto/SE,07 a 20/01/2026,28/01/2026,-,-
 RN,Hospital Memorial São Francisco,18/11 a 31/12/2025,29/01/2026,30/01/2026,06/02/2026
 RN,Hospital Rio Grande,18/11 a 31/12/2025,29/01/2026,30/01/2026,06/02/2026
