@@ -140,15 +140,15 @@
     "INSTITUIÇÃO": "HIAE",
     "INSCRIÇÕES": "19/08 a 22/09/2025",
     "PROVA_OBJETIVA": "02/11/2025",
-    "GABARITO_PRELIMINAR": "04/11/2025",
-    "RESULTADO_FINAL": "21/01/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PR",
     "INSTITUIÇÃO": "AMP",
     "INSCRIÇÕES": "04/09 a 02/10/2025",
     "PROVA_OBJETIVA": "02/11/2025",
-    "GABARITO_PRELIMINAR": "03/11/2025",
+    "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -261,7 +261,7 @@
     "INSCRIÇÕES": "01/09 a 03/10/2025",
     "PROVA_OBJETIVA": "14/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "12/12/2025"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PR",
@@ -276,8 +276,8 @@
     "INSTITUIÇÃO": "UNICAMP",
     "INSCRIÇÕES": "01 a 15/10/2025",
     "PROVA_OBJETIVA": "16/11/2025",
-    "GABARITO_PRELIMINAR": "16/11/2025",
-    "RESULTADO_FINAL": "23/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -348,8 +348,8 @@
     "INSTITUIÇÃO": "Santa Casa de Misericórdia de Ribeirão Preto",
     "INSCRIÇÕES": "05/09 a 09/10/2025",
     "PROVA_OBJETIVA": "23/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "25/11/2025",
+    "RESULTADO_FINAL": "05/02/2026"
   },
   {
     "UF": "SP",
@@ -364,8 +364,8 @@
     "INSTITUIÇÃO": "PSU-BA (SUS-BA)",
     "INSCRIÇÕES": "17/10 a 18/11/2025",
     "PROVA_OBJETIVA": "23/11/2025",
-    "GABARITO_PRELIMINAR": "26/11/2025",
-    "RESULTADO_FINAL": "10/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "MT",
@@ -404,8 +404,8 @@
     "INSTITUIÇÃO": "SMS-SJRP",
     "INSCRIÇÕES": "23/10 a 05/11/2025",
     "PROVA_OBJETIVA": "26/11/2025",
-    "GABARITO_PRELIMINAR": "27/11/2025",
-    "RESULTADO_FINAL": "21/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -540,8 +540,8 @@
     "INSTITUIÇÃO": "Hospital São Lucas de Ribeirão Preto",
     "INSCRIÇÕES": "18/09 a 16/11/2025",
     "PROVA_OBJETIVA": "30/11/2025",
-    "GABARITO_PRELIMINAR": "01/12/2025 às 10h",
-    "RESULTADO_FINAL": "12/12/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RO",
@@ -580,8 +580,8 @@
     "INSTITUIÇÃO": "Universidade Vila Velha (UVV)",
     "INSCRIÇÕES": "15/10 e 24/11/2025",
     "PROVA_OBJETIVA": "02/12/2025",
-    "GABARITO_PRELIMINAR": "02/12/2025",
-    "RESULTADO_FINAL": "17/12/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -676,8 +676,8 @@
     "INSTITUIÇÃO": "USP-SP",
     "INSCRIÇÕES": "07 a 29/10/2025",
     "PROVA_OBJETIVA": "07/12/2025",
-    "GABARITO_PRELIMINAR": "08/12/2025",
-    "RESULTADO_FINAL": "10/02/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "GO",
@@ -1757,7 +1757,7 @@
     "INSCRIÇÕES": "05 a 20/01/2026",
     "PROVA_OBJETIVA": "28/01/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "02/02/2026"
   },
   {
     "UF": "SE",
