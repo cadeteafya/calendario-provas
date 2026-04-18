@@ -12,8 +12,8 @@
     "INSTITUIÇÃO": "PUC-PR",
     "INSCRIÇÕES": "22/08 a 22/09/2025",
     "PROVA_OBJETIVA": "09/10/2025",
-    "GABARITO_PRELIMINAR": "09/10/2025",
-    "RESULTADO_FINAL": "18/12/2025"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "ES",
@@ -156,8 +156,8 @@
     "INSTITUIÇÃO": "UERJ",
     "INSCRIÇÕES": "03/09 a 02/10/2025",
     "PROVA_OBJETIVA": "02/11/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "02/11/2025",
+    "RESULTADO_FINAL": "18/12/2025"
   },
   {
     "UF": "PA",
@@ -261,7 +261,7 @@
     "INSCRIÇÕES": "01/09 a 03/10/2025",
     "PROVA_OBJETIVA": "14/11/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "12/12/2025"
   },
   {
     "UF": "PR",
@@ -589,7 +589,7 @@
     "INSCRIÇÕES": "01/10 a 17/11/2025",
     "PROVA_OBJETIVA": "02/12/2025",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "23/12/2025"
   },
   {
     "UF": "RJ",
@@ -756,8 +756,8 @@
     "INSTITUIÇÃO": "FAMEMA",
     "INSCRIÇÕES": "16/10 a 04/11/2025",
     "PROVA_OBJETIVA": "08/12/2025",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "09/12/2025",
+    "RESULTADO_FINAL": "06/02/2026"
   },
   {
     "UF": "RS",
@@ -1252,8 +1252,8 @@
     "INSTITUIÇÃO": "Santa Casa de São Carlos",
     "INSCRIÇÕES": "15/10/2025 a 04/01/2026",
     "PROVA_OBJETIVA": "14/01/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "14/01/2026",
+    "RESULTADO_FINAL": "13/02/2026"
   },
   {
     "UF": "SP",
@@ -1860,8 +1860,8 @@
     "INSTITUIÇÃO": "USCS",
     "INSCRIÇÕES": "10/11/2025 a 12/01/2026",
     "PROVA_OBJETIVA": "01/02/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "05/02/2026",
+    "RESULTADO_FINAL": "06/02/2026 (a partir das 17h)"
   },
   {
     "UF": "PR",
@@ -1909,7 +1909,7 @@
     "INSCRIÇÕES": "15/09/2025 a 26/01/2026",
     "PROVA_OBJETIVA": "02/02/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "18/02/2026"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RJ",
@@ -2381,7 +2381,7 @@
     "INSCRIÇÕES": "02 a 05/03/2026",
     "PROVA_OBJETIVA": "09/03/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "12/03/2026 (a partir das 16h)"
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "GO",
