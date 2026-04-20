@@ -276,8 +276,8 @@
     "INSTITUIÇÃO": "UNICAMP",
     "INSCRIÇÕES": "01 a 15/10/2025",
     "PROVA_OBJETIVA": "16/11/2025",
-    "GABARITO_PRELIMINAR": "16/11/2025",
-    "RESULTADO_FINAL": "23/01/2026"
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -1909,7 +1909,7 @@
     "INSCRIÇÕES": "15/09/2025 a 26/01/2026",
     "PROVA_OBJETIVA": "02/02/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "18/02/2026"
   },
   {
     "UF": "RJ",
