@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "UF": "PR",
+    "INSTITUIÇÃO": "AMP",
+    "INSCRIÇÕES": "a confirmar",
+    "PROVA_OBJETIVA": "01/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "RS",
+    "INSTITUIÇÃO": "UFCSPA",
+    "INSCRIÇÕES": "a confirmar",
+    "PROVA_OBJETIVA": "01/11/2026(aguardando confirmação)",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "RS",
+    "INSTITUIÇÃO": "AMRIGS",
+    "INSCRIÇÕES": "a confirmar",
+    "PROVA_OBJETIVA": "22/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  }
+]
