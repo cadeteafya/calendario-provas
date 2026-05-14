@@ -8,6 +8,14 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Hospital Sírio-Libanês",
+    "INSCRIÇÕES": "01/06 a 14/08/2026",
+    "PROVA_OBJETIVA": "27/09/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "PR",
     "INSTITUIÇÃO": "AMP",
     "INSCRIÇÕES": "a confirmar",
@@ -16,10 +24,10 @@
     "RESULTADO_FINAL": "-"
   },
   {
-    "UF": "RS",
-    "INSTITUIÇÃO": "UFCSPA",
+    "UF": "PR",
+    "INSTITUIÇÃO": "UEL",
     "INSCRIÇÕES": "a confirmar",
-    "PROVA_OBJETIVA": "01/11/2026",
+    "PROVA_OBJETIVA": "08/11/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
