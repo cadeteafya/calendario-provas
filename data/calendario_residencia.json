@@ -40,10 +40,26 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "MG",
+    "INSTITUIÇÃO": "PSU-MG",
+    "INSCRIÇÕES": "a confirmar",
+    "PROVA_OBJETIVA": "22/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "FAMEMA",
     "INSCRIÇÕES": "a confirmar",
     "PROVA_OBJETIVA": "08/12/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "UNIFESP",
+    "INSCRIÇÕES": "a confirmar",
+    "PROVA_OBJETIVA": "a confirmar",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   }
