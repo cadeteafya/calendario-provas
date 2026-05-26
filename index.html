@@ -98,6 +98,7 @@
         <th class="nowrap">UF</th>
         <th>INSTITUIÇÃO</th>
         <th class="nowrap">INSCRIÇÕES</th>
+        <th class="nowrap">TAXA</th>
         <th class="nowrap">PROVA OBJETIVA</th>
         <th class="nowrap">GABARITO PRELIMINAR</th>
         <th class="nowrap">RESULTADO FINAL</th>
@@ -217,6 +218,7 @@
             item.UF || '',
             item['INSTITUIÇÃO'] || '',
             item['INSCRIÇÕES'] || '',
+            item['TAXA'] || '-',
             item['PROVA_OBJETIVA'] || '',
             item['GABARITO_PRELIMINAR'] || '-',
             item['RESULTADO_FINAL'] || '-',
@@ -226,7 +228,7 @@
             const td = document.createElement('td');
             td.textContent = val;
             if (i === 0) td.className = 'colnum';                  // coluna #
-            if (i === 4 && isPastDateCell(val)) td.classList.add('past'); // PROVA OBJETIVA (índice 4)
+            if (i === 5 && isPastDateCell(val)) td.classList.add('past'); // PROVA OBJETIVA (índice 5)
             tr.appendChild(td);
           });
 
@@ -237,7 +239,7 @@
         if (count === 0){
           const tr = document.createElement('tr');
           const td = document.createElement('td');
-          td.colSpan = 7; td.className = 'muted';
+          td.colSpan = 8; td.className = 'muted';
           td.textContent = 'Sem registros para o(s) filtro(s) selecionado(s).';
           tr.appendChild(td);
           tbody.appendChild(tr);
@@ -330,7 +332,7 @@
       }
 
       function toCSV(rows){
-        const headers = ["#","UF","INSTITUIÇÃO","INSCRIÇÕES","PROVA OBJETIVA","GABARITO PRELIMINAR","RESULTADO FINAL"];
+        const headers = ["#","UF","INSTITUIÇÃO","INSCRIÇÕES","TAXA","PROVA OBJETIVA","GABARITO PRELIMINAR","RESULTADO FINAL"];
         const sep = ";";
         const esc = v => `"${String(v==null?"":v).replace(/"/g,'""')}"`;
         const lines = [];
@@ -341,6 +343,7 @@
             esc(r.UF||""),
             esc(r["INSTITUIÇÃO"]||""),
             esc(r["INSCRIÇÕES"]||""),
+            esc(r["TAXA"]||"-"),
             esc(r["PROVA_OBJETIVA"]||""),
             esc(r["GABARITO_PRELIMINAR"]||"-"),
             esc(r["RESULTADO_FINAL"]||"-"),

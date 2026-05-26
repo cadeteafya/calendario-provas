@@ -3,6 +3,7 @@
     "UF": "SC",
     "INSTITUIÇÃO": "Hospital Dom Joaquim",
     "INSCRIÇÕES": "05/06 a 05/07/2026",
+    "TAXA": "R$500",
     "PROVA_OBJETIVA": "12/07/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "28/07/2026"
@@ -11,16 +12,108 @@
     "UF": "SP",
     "INSTITUIÇÃO": "Santa Casa de Jahu",
     "INSCRIÇÕES": "04/06 a 12/07/2026",
+    "TAXA": "R$600",
     "PROVA_OBJETIVA": "22/07/2026",
     "GABARITO_PRELIMINAR": "22/07/2026",
     "RESULTADO_FINAL": "13/08/2026"
   },
   {
     "UF": "SP",
+    "INSTITUIÇÃO": "Santa Casa de Limeira",
+    "INSCRIÇÕES": "10/06 a 12/07/2026",
+    "TAXA": "R$480",
+    "PROVA_OBJETIVA": "22/07/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "RO",
+    "INSTITUIÇÃO": "Hospital de Amor Amazônia",
+    "INSCRIÇÕES": "11/06 a 12/07/2026",
+    "TAXA": "R$400",
+    "PROVA_OBJETIVA": "22/07/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "19/08/2026"
+  },
+  {
+    "UF": "SP",
     "INSTITUIÇÃO": "Santa Casa de Araçatuba",
     "INSCRIÇÕES": "05/06 a 26/07/2026",
+    "TAXA": "R$380",
     "PROVA_OBJETIVA": "06/08/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "26/08/2026"
+  },
+  {
+    "UF": "NAC",
+    "INSTITUIÇÃO": "ENAMED",
+    "INSCRIÇÕES": "08 a 22/06/2026",
+    "TAXA": "–",
+    "PROVA_OBJETIVA": "13/09/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Hospital Sírio-Libanês",
+    "INSCRIÇÕES": "01/06 a 14/08/2026",
+    "TAXA": "R$680",
+    "PROVA_OBJETIVA": "27/09/2026",
+    "GABARITO_PRELIMINAR": "29/09/2026",
+    "RESULTADO_FINAL": "29/01/2027"
+  },
+  {
+    "UF": "PR",
+    "INSTITUIÇÃO": "AMP",
+    "INSCRIÇÕES": "a confirmar",
+    "TAXA": "a confirmar",
+    "PROVA_OBJETIVA": "01/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "PR",
+    "INSTITUIÇÃO": "UEL",
+    "INSCRIÇÕES": "a confirmar",
+    "TAXA": "a confirmar",
+    "PROVA_OBJETIVA": "08/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "RS",
+    "INSTITUIÇÃO": "AMRIGS",
+    "INSCRIÇÕES": "a confirmar",
+    "TAXA": "a confirmar",
+    "PROVA_OBJETIVA": "22/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "MG",
+    "INSTITUIÇÃO": "PSU-MG",
+    "INSCRIÇÕES": "a confirmar",
+    "TAXA": "a confirmar",
+    "PROVA_OBJETIVA": "22/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "FAMEMA",
+    "INSCRIÇÕES": "a confirmar",
+    "TAXA": "a confirmar",
+    "PROVA_OBJETIVA": "08/12/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "UNIFESP",
+    "INSCRIÇÕES": "a confirmar",
+    "TAXA": "a confirmar",
+    "PROVA_OBJETIVA": "a confirmar",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   }
 ]

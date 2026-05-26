@@ -111,6 +111,7 @@ ALIASES = {
     "inscricoes": {"inscricoes", "inscricao", "periodo de inscricoes"},
     "prova": {"prova objetiva", "data da prova", "prova", "data prova"},
     "edital": {"edital", "link do edital"},
+    "taxa": {"taxa"},
 }
 
 def header_key(h_txt: str):
@@ -121,8 +122,8 @@ def header_key(h_txt: str):
                 return k
     return None
 
-def find_calendar_table(soup: BeautifulSoup):
-    candidates = []
+def find_all_calendar_tables(soup: BeautifulSoup):
+    results = []
     for tb in soup.find_all("table"):
         thead = tb.find("thead")
         tbody = tb.find("tbody")
@@ -138,11 +139,8 @@ def find_calendar_table(soup: BeautifulSoup):
         keys = set(filter(None, (header_key(h) for h in headers)))
         score = len({"uf", "selecao", "inscricoes", "prova"} & keys)
         if score >= 3:
-            candidates.append((score, tb, headers))
-    if not candidates:
-        return None, []
-    candidates.sort(key=lambda x: x[0], reverse=True)
-    return candidates[0][1], candidates[0][2]
+            results.append((tb, headers))
+    return results
 
 def _get_link(tag):
     a = tag.find("a", href=True)
@@ -175,6 +173,7 @@ def parse_main_table(table, headers_texts):
         uf = col_text("uf")
         selecao = col_text("selecao") or tds[1].get_text(strip=True)
         inscr = col_text("inscricoes")
+        taxa = col_text("taxa")
         prova = col_text("prova")
 
         # Link do edital (prioridade: EDITAL > INSTITUIÇÃO > 1º link da linha)
@@ -196,6 +195,7 @@ def parse_main_table(table, headers_texts):
             "UF": uf,
             "INSTITUIÇÃO": selecao,
             "INSCRIÇÕES": inscr,
+            "TAXA": taxa,
             "PROVA_OBJETIVA": prova,
             "_EDITAL_URL": edital_url,
         })
@@ -278,7 +278,7 @@ def parse_detail_page(edital_url: str) -> dict:
 # =========================
 
 def save_csv(data, path_csv):
-    keys = ["UF", "INSTITUIÇÃO", "INSCRIÇÕES", "PROVA_OBJETIVA", "GABARITO_PRELIMINAR", "RESULTADO_FINAL"]
+    keys = ["UF", "INSTITUIÇÃO", "INSCRIÇÕES", "TAXA", "PROVA_OBJETIVA", "GABARITO_PRELIMINAR", "RESULTADO_FINAL"]
     with open(path_csv, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=keys)
         w.writeheader()
@@ -311,13 +311,16 @@ def main():
         html = ""
 
     soup = BeautifulSoup(html or "", "lxml")
-    table, headers = find_calendar_table(soup)
-    if not table:
+    all_tables = find_all_calendar_tables(soup)
+    if not all_tables:
         title = soup.title.get_text(strip=True) if soup and soup.title else "(sem título)"
         print(f"[ERRO] Tabela do calendário não encontrada. HTML title: {title}", file=sys.stderr)
         rows = []
     else:
-        rows = parse_main_table(table, headers_texts=headers)
+        rows = []
+        for table, headers in all_tables:
+            rows.extend(parse_main_table(table, headers_texts=headers))
+        print(f"[INFO] {len(all_tables)} tabela(s) encontrada(s), {len(rows)} linha(s) brutas")
 
     # 2) Detalhes por edital (NÃO alteramos PROVA_OBJETIVA; só novos campos)
     for r in rows:
@@ -357,6 +360,7 @@ def main():
             (x.get("UF") or "").strip().upper(),
             (x.get("INSTITUIÇÃO") or "").strip().upper(),
             (x.get("INSCRIÇÕES") or "").strip(),
+            (x.get("TAXA") or "").strip(),
             (x.get("PROVA_OBJETIVA") or "").strip(),
         )
     unique_rows = []
