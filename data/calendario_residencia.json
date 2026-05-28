@@ -37,6 +37,15 @@
   },
   {
     "UF": "SP",
+    "INSTITUIÇÃO": "Santa Casa de São Carlos",
+    "INSCRIÇÕES": "12/06 a 12/07/2026",
+    "TAXA": "R$600",
+    "PROVA_OBJETIVA": "22/07/2026",
+    "GABARITO_PRELIMINAR": "22/07/2026",
+    "RESULTADO_FINAL": "17/08/2026"
+  },
+  {
+    "UF": "SP",
     "INSTITUIÇÃO": "Santa Casa de Araçatuba",
     "INSCRIÇÕES": "05/06 a 26/07/2026",
     "TAXA": "R$380",
