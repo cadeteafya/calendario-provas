@@ -65,8 +65,17 @@
   {
     "UF": "NAC",
     "INSTITUIÇÃO": "ENAMED",
-    "INSCRIÇÕES": "08 a 22/06/2026",
+    "INSCRIÇÕES": "15 a 29/06/2026",
     "TAXA": "–",
+    "PROVA_OBJETIVA": "13/09/2026",
+    "GABARITO_PRELIMINAR": "15/09/2026",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "NAC",
+    "INSTITUIÇÃO": "ENARE",
+    "INSCRIÇÕES": "15 a 29/06/2026(previsão)",
+    "TAXA": "a confirmar",
     "PROVA_OBJETIVA": "13/09/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
