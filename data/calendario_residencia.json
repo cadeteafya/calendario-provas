@@ -24,7 +24,7 @@
     "TAXA": "R$480",
     "PROVA_OBJETIVA": "22/07/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "14/08/2026"
   },
   {
     "UF": "RO",
@@ -43,6 +43,15 @@
     "PROVA_OBJETIVA": "22/07/2026",
     "GABARITO_PRELIMINAR": "22/07/2026",
     "RESULTADO_FINAL": "17/08/2026"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Visão Laser",
+    "INSCRIÇÕES": "14/06 a 12/07/2026",
+    "TAXA": "R$750",
+    "PROVA_OBJETIVA": "26/07/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "28/08/2026"
   },
   {
     "UF": "SP",
@@ -74,8 +83,8 @@
   {
     "UF": "NAC",
     "INSTITUIÇÃO": "ENARE",
-    "INSCRIÇÕES": "15 a 29/06/2026(previsão)",
-    "TAXA": "a confirmar",
+    "INSCRIÇÕES": "15 a 29/06/2026 (AD)15/06 a 15/07/2026 (R+)",
+    "TAXA": "R$330",
     "PROVA_OBJETIVA": "13/09/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
