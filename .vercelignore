@@ -1,0 +1,3 @@
+# Ignore Python scraper and requirements on Vercel to prevent automatic Python runtime detection
+scraper/
+requirements.txt
