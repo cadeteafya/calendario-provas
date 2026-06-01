@@ -23,39 +23,14 @@
       .header .logo { height: 44px; }
     }
 
-    .title-container {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      flex-wrap: wrap;
-    }
-
-    .title-container h2 {
-      margin: 0;
-    }
-
-    @media (max-width: 600px){
-      .title-container {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
-      }
-    }
-
     .btn-home {
       display: inline-flex;
       align-items: center;
-      gap: 8px;
+      gap: 6px;
       text-decoration: none;
       color: var(--fg);
       font-weight: 500;
-      font-size: 14px;
-      padding: 8px 16px;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      background: #fff;
       transition: all 0.2s ease;
-      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
     }
     
     .btn-home:hover {
@@ -115,13 +90,7 @@
 </head>
 <body>
   <div class="header">
-    <div class="title-container">
-      <h2>Calendário de Residência Médica — Lista Completa:</h2>
-      <a href="https://calendario-residencia.vercel.app/" class="btn-home" aria-label="Ir para o início">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-        Início
-      </a>
-    </div>
+    <h2>Calendário de Residência Médica — Lista Completa:</h2>
 
     <a href="https://educacaomedica.afya.com.br/" target="_blank" rel="noopener"
        aria-label="Abrir site Afya Educação Médica">
@@ -146,6 +115,10 @@
     <div id="activeChips"></div>
 
     <button class="btn" id="btnExport">Gerar Excel</button>
+    <a href="https://calendario-residencia.vercel.app/" class="btn btn-home" aria-label="Ir para o início">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      Início
+    </a>
   </div>
 
   <table id="tabela-calendario" aria-describedby="last-update">
