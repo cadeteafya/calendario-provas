@@ -24,20 +24,8 @@
     }
 
     .btn-home {
-      display: inline-flex;
-      align-items: center;
       gap: 6px;
-      text-decoration: none;
-      color: var(--fg);
       font-weight: 500;
-      transition: all 0.2s ease;
-    }
-    
-    .btn-home:hover {
-      background: var(--bg);
-      border-color: #bbb;
-      transform: translateY(-1px);
-      box-shadow: 0 2px 4px rgba(0,0,0,0.08);
     }
 
     .btn-home svg {
@@ -68,7 +56,31 @@
     .filters-wrap { display:flex; align-items:center; gap:10px; margin: 6px 0 14px; flex-wrap: wrap; }
     .filter-title { font-weight:600; }
     .dropdown { position: relative; display: inline-block; }
-    .btn { cursor: pointer; padding: 8px 12px; border: 1px solid var(--border); background:#fff; border-radius:8px; }
+    .btn {
+      font-family: inherit;
+      font-size: 14px;
+      cursor: pointer;
+      padding: 8px 12px;
+      border: 1px solid var(--border);
+      background: #fff;
+      border-radius: 8px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 38px;
+      box-sizing: border-box;
+      vertical-align: middle;
+      text-decoration: none;
+      color: var(--fg);
+      transition: all 0.2s ease;
+    }
+
+    .btn:hover {
+      background: var(--bg);
+      border-color: #bbb;
+      transform: translateY(-1px);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    }
     .panel {
       position: absolute; top: 42px; left: 0; min-width: 260px; max-height: 320px; overflow:auto;
       border: 1px solid var(--border); background:#fff; border-radius:10px; box-shadow:0 6px 24px rgba(0,0,0,.08); display:none; z-index: 20;
