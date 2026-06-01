@@ -24,7 +24,7 @@
     "TAXA": "R$480",
     "PROVA_OBJETIVA": "22/07/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "14/08/2026"
   },
   {
     "UF": "RO",
@@ -37,6 +37,24 @@
   },
   {
     "UF": "SP",
+    "INSTITUIÇÃO": "Santa Casa de São Carlos",
+    "INSCRIÇÕES": "12/06 a 12/07/2026",
+    "TAXA": "R$600",
+    "PROVA_OBJETIVA": "22/07/2026",
+    "GABARITO_PRELIMINAR": "22/07/2026",
+    "RESULTADO_FINAL": "17/08/2026"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Visão Laser",
+    "INSCRIÇÕES": "14/06 a 12/07/2026",
+    "TAXA": "R$750",
+    "PROVA_OBJETIVA": "26/07/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "28/08/2026"
+  },
+  {
+    "UF": "SP",
     "INSTITUIÇÃO": "Santa Casa de Araçatuba",
     "INSCRIÇÕES": "05/06 a 26/07/2026",
     "TAXA": "R$380",
@@ -45,10 +63,28 @@
     "RESULTADO_FINAL": "26/08/2026"
   },
   {
+    "UF": "PR",
+    "INSTITUIÇÃO": "UEL",
+    "INSCRIÇÕES": "29/06 a 22/07/2026",
+    "TAXA": "R$692",
+    "PROVA_OBJETIVA": "10/08/2026",
+    "GABARITO_PRELIMINAR": "10/08/2026",
+    "RESULTADO_FINAL": "20/08/2026"
+  },
+  {
     "UF": "NAC",
     "INSTITUIÇÃO": "ENAMED",
-    "INSCRIÇÕES": "08 a 22/06/2026",
+    "INSCRIÇÕES": "15 a 29/06/2026",
     "TAXA": "–",
+    "PROVA_OBJETIVA": "13/09/2026",
+    "GABARITO_PRELIMINAR": "15/09/2026",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "NAC",
+    "INSTITUIÇÃO": "ENARE",
+    "INSCRIÇÕES": "15 a 29/06/2026 (AD)15/06 a 15/07/2026 (R+)",
+    "TAXA": "R$330",
     "PROVA_OBJETIVA": "13/09/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
