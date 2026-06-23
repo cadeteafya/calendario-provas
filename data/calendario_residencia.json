@@ -1,5 +1,14 @@
 [
   {
+    "UF": "GO",
+    "INSTITUIÇÃO": "Hospital Asmigo",
+    "INSCRIÇÕES": "29/06 a 30/06/2026",
+    "TAXA": "R$720",
+    "PROVA_OBJETIVA": "02/07/2026",
+    "GABARITO_PRELIMINAR": "03/07/2026",
+    "RESULTADO_FINAL": "09/07/2026"
+  },
+  {
     "UF": "SC",
     "INSTITUIÇÃO": "Hospital Dom Joaquim",
     "INSCRIÇÕES": "05/06 a 05/07/2026",
@@ -56,11 +65,29 @@
   {
     "UF": "PE",
     "INSTITUIÇÃO": "SES-PE",
-    "INSCRIÇÕES": "a partir de 17/06/2026",
-    "TAXA": "a confirmar",
+    "INSCRIÇÕES": "17/06 a 20/06/2026",
+    "TAXA": "R$600",
     "PROVA_OBJETIVA": "26/07/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Santa Casa de Fernandópolis",
+    "INSCRIÇÕES": "29/06 a 19/07/2026",
+    "TAXA": "R$600",
+    "PROVA_OBJETIVA": "01/08/2026",
+    "GABARITO_PRELIMINAR": "05/08/2026",
+    "RESULTADO_FINAL": "24/08/2026"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Hospital e Maternidade SEPACO",
+    "INSCRIÇÕES": "08 a 06/07/2026",
+    "TAXA": "R$700",
+    "PROVA_OBJETIVA": "05/08/2026",
+    "GABARITO_PRELIMINAR": "05/08/2026",
+    "RESULTADO_FINAL": "24/08/2026"
   },
   {
     "UF": "SP",
@@ -70,6 +97,15 @@
     "PROVA_OBJETIVA": "06/08/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "26/08/2026"
+  },
+  {
+    "UF": "MS",
+    "INSTITUIÇÃO": "Santa Casa de Campo Grande",
+    "INSCRIÇÕES": "02 a 19/07/2026",
+    "TAXA": "R$680",
+    "PROVA_OBJETIVA": "08/08/2026",
+    "GABARITO_PRELIMINAR": "05/08/2026",
+    "RESULTADO_FINAL": "24/08/2026"
   },
   {
     "UF": "PR",
