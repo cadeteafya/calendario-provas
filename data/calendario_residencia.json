@@ -73,6 +73,15 @@
   },
   {
     "UF": "SP",
+    "INSTITUIÇÃO": "Casa de Saúde Santa Marcelina",
+    "INSCRIÇÕES": "08 a 19/07/2026",
+    "TAXA": "R$500",
+    "PROVA_OBJETIVA": "29/07/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "19/08/2026"
+  },
+  {
+    "UF": "SP",
     "INSTITUIÇÃO": "Santa Casa de Fernandópolis",
     "INSCRIÇÕES": "29/06 a 19/07/2026",
     "TAXA": "R$600",
