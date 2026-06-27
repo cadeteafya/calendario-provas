@@ -171,11 +171,29 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "RS",
+    "INSTITUIÇÃO": "UFCSPA",
+    "INSCRIÇÕES": "até 30/09/2026(previsão)",
+    "TAXA": "a confirmar",
+    "PROVA_OBJETIVA": "01/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "PR",
     "INSTITUIÇÃO": "UEL",
     "INSCRIÇÕES": "a confirmar",
     "TAXA": "a confirmar",
     "PROVA_OBJETIVA": "08/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "USP-RP",
+    "INSCRIÇÕES": "a confirmar",
+    "TAXA": "a confirmar",
+    "PROVA_OBJETIVA": "20/11/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
