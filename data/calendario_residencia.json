@@ -82,12 +82,30 @@
   },
   {
     "UF": "SP",
+    "INSTITUIÇÃO": "FMJ",
+    "INSCRIÇÕES": "30/06 a 23/07/2026",
+    "TAXA": "R$600",
+    "PROVA_OBJETIVA": "30/07/2026",
+    "GABARITO_PRELIMINAR": "31/07/2026",
+    "RESULTADO_FINAL": "07/08/2026"
+  },
+  {
+    "UF": "SP",
     "INSTITUIÇÃO": "Santa Casa de Fernandópolis",
     "INSCRIÇÕES": "29/06 a 19/07/2026",
     "TAXA": "R$600",
     "PROVA_OBJETIVA": "01/08/2026",
     "GABARITO_PRELIMINAR": "05/08/2026",
     "RESULTADO_FINAL": "24/08/2026"
+  },
+  {
+    "UF": "GO",
+    "INSTITUIÇÃO": "PSU-GO",
+    "INSCRIÇÕES": "a confirmar",
+    "TAXA": "a confirmar",
+    "PROVA_OBJETIVA": "02/08/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
@@ -128,7 +146,7 @@
   {
     "UF": "NAC",
     "INSTITUIÇÃO": "ENAMED",
-    "INSCRIÇÕES": "15 a 29/06/2026",
+    "INSCRIÇÕES": "15 a 01/07/2026",
     "TAXA": "–",
     "PROVA_OBJETIVA": "13/09/2026",
     "GABARITO_PRELIMINAR": "15/09/2026",
@@ -137,9 +155,18 @@
   {
     "UF": "NAC",
     "INSTITUIÇÃO": "ENARE",
-    "INSCRIÇÕES": "15 a 29/06/2026 (AD)15/06 a 15/07/2026 (R+)",
+    "INSCRIÇÕES": "15 a 05/07/2026 (AD)15/06 a 15/07/2026 (R+)",
     "TAXA": "R$330",
     "PROVA_OBJETIVA": "13/09/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "PR",
+    "INSTITUIÇÃO": "PUCPR",
+    "INSCRIÇÕES": "a confirmar",
+    "TAXA": "a confirmar",
+    "PROVA_OBJETIVA": "– 13/09/2026 (ENAMED – AD)– a confirmar (R+)",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
