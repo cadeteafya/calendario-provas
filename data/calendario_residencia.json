@@ -99,13 +99,22 @@
     "RESULTADO_FINAL": "24/08/2026"
   },
   {
-    "UF": "GO",
-    "INSTITUIÇÃO": "PSU-GO",
-    "INSCRIÇÕES": "a confirmar",
-    "TAXA": "a confirmar",
+    "UF": "MG",
+    "INSTITUIÇÃO": "PSU-MG",
+    "INSCRIÇÕES": "21 a 23/07/2026",
+    "TAXA": "R$270",
     "PROVA_OBJETIVA": "02/08/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "24/08/2026"
+  },
+  {
+    "UF": "GO",
+    "INSTITUIÇÃO": "PSU-GO",
+    "INSCRIÇÕES": "21 a 23/07/2026",
+    "TAXA": "R$270",
+    "PROVA_OBJETIVA": "02/08/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "24/08/2026"
   },
   {
     "UF": "SP",
@@ -178,6 +187,15 @@
     "PROVA_OBJETIVA": "13/09/2026 (ENAMED – AD)a confirmar (R+)",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "PR",
+    "INSTITUIÇÃO": "SMS-Curitiba",
+    "INSCRIÇÕES": "21/07 a 19/08/2026",
+    "TAXA": "R$500",
+    "PROVA_OBJETIVA": "20/09/2026",
+    "GABARITO_PRELIMINAR": "21/09/2026",
+    "RESULTADO_FINAL": "11/12/2026"
   },
   {
     "UF": "SP",
