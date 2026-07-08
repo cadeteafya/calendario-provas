@@ -117,6 +117,15 @@
     "RESULTADO_FINAL": "24/08/2026"
   },
   {
+    "UF": "GO",
+    "INSTITUIÇÃO": "HMCT",
+    "INSCRIÇÕES": "22 a 28/07/2026",
+    "TAXA": "R$720",
+    "PROVA_OBJETIVA": "02/08/2026",
+    "GABARITO_PRELIMINAR": "03/08/2026",
+    "RESULTADO_FINAL": "06/08/2026"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "Hospital e Maternidade SEPACO",
     "INSCRIÇÕES": "08 a 06/07/2026",
@@ -187,6 +196,15 @@
     "PROVA_OBJETIVA": "13/09/2026 (ENAMED – AD)a confirmar (R+)",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "PA",
+    "INSTITUIÇÃO": "CESUPA",
+    "INSCRIÇÕES": "10/07 a 30/09/26",
+    "TAXA": "R$500",
+    "PROVA_OBJETIVA": "13/09/2026(ENAMED – AD)08/11/2026 (R+)",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "até 15/02/2027"
   },
   {
     "UF": "PR",
