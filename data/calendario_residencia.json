@@ -171,6 +171,24 @@
     "RESULTADO_FINAL": "20/08/2026"
   },
   {
+    "UF": "SC",
+    "INSTITUIÇÃO": "HDJ-IMAS",
+    "INSCRIÇÕES": "22 a 25/07/2026",
+    "TAXA": "R$500",
+    "PROVA_OBJETIVA": "16/08/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "MA",
+    "INSTITUIÇÃO": "Hospital Aldenora Bello",
+    "INSCRIÇÕES": "01 a 31/07/2026",
+    "TAXA": "R$350",
+    "PROVA_OBJETIVA": "17/08/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "NAC",
     "INSTITUIÇÃO": "ENAMED",
     "INSCRIÇÕES": "15/06 a 01/07/2026",
