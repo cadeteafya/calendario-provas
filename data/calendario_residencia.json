@@ -234,6 +234,15 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "SE",
+    "INSTITUIÇÃO": "FBHC",
+    "INSCRIÇÕES": "03 a 09/08/2026",
+    "TAXA": "R$350",
+    "PROVA_OBJETIVA": "23/08/2026",
+    "GABARITO_PRELIMINAR": "23/08/2026",
+    "RESULTADO_FINAL": "01/09/2026"
+  },
+  {
     "UF": "NAC",
     "INSTITUIÇÃO": "ENAMED",
     "INSCRIÇÕES": "15/06 a 01/07/2026",
@@ -353,11 +362,11 @@
   {
     "UF": "PR",
     "INSTITUIÇÃO": "UEL",
-    "INSCRIÇÕES": "a confirmar",
-    "TAXA": "a confirmar",
+    "INSCRIÇÕES": "18 a 25/08/2026 (Ações Afirmativas)22/09 a 14/10/2026(Ampla Concorrência)",
+    "TAXA": "R$692",
     "PROVA_OBJETIVA": "08/11/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "08/11/2026",
+    "RESULTADO_FINAL": "18/12/2026"
   },
   {
     "UF": "SP",
