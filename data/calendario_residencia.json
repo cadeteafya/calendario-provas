@@ -292,7 +292,7 @@
     "INSTITUIÇÃO": "UNIPAMPA",
     "INSCRIÇÕES": "20/07 a 19/08/2026",
     "TAXA": "–",
-    "PROVA_OBJETIVA": "31/08/2026",
+    "PROVA_OBJETIVA": "31/08/2026/",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
@@ -430,6 +430,15 @@
     "PROVA_OBJETIVA": "01/11/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "HIAE",
+    "INSCRIÇÕES": "19/08 a 21/09/2026",
+    "TAXA": "R$800",
+    "PROVA_OBJETIVA": "02/11/2026",
+    "GABARITO_PRELIMINAR": "04/11/2026",
+    "RESULTADO_FINAL": "27/01/2027"
   },
   {
     "UF": "PR",
