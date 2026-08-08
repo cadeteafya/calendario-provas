@@ -244,6 +244,15 @@
   },
   {
     "UF": "PR",
+    "INSTITUIÇÃO": "PUCPR",
+    "INSCRIÇÕES": "21/08 a 21/09/2026",
+    "TAXA": "R$880",
+    "PROVA_OBJETIVA": "13/10/2026",
+    "GABARITO_PRELIMINAR": "13/10/2026",
+    "RESULTADO_FINAL": "22/12/2026"
+  },
+  {
+    "UF": "PR",
     "INSTITUIÇÃO": "Hospital do Trabalhador",
     "INSCRIÇÕES": "27/07 a 24/08/2026",
     "TAXA": "R$1.000",
@@ -262,12 +271,12 @@
   },
   {
     "UF": "SP",
-    "INSTITUIÇÃO": "PUCPR",
-    "INSCRIÇÕES": "21/08 a 21/09/2026",
-    "TAXA": "R$880",
-    "PROVA_OBJETIVA": "18/10/2026",
-    "GABARITO_PRELIMINAR": "18/10/2026",
-    "RESULTADO_FINAL": "22/12/2026"
+    "INSTITUIÇÃO": "UNITAU",
+    "INSCRIÇÕES": "19/08 a 25/10/2026",
+    "TAXA": "R$480",
+    "PROVA_OBJETIVA": "01/11/2026",
+    "GABARITO_PRELIMINAR": "01/11/2026",
+    "RESULTADO_FINAL": "04/12/2026"
   },
   {
     "UF": "PR",
