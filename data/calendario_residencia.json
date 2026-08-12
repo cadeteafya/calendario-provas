@@ -270,6 +270,24 @@
     "RESULTADO_FINAL": "08/12/2026"
   },
   {
+    "UF": "GO",
+    "INSTITUIÇÃO": "FUBOG",
+    "INSCRIÇÕES": "26/08 a 04/10/2026",
+    "TAXA": "R$600",
+    "PROVA_OBJETIVA": "23/10/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "01/12/2026"
+  },
+  {
+    "UF": "Vários",
+    "INSTITUIÇÃO": "Grupo Opty",
+    "INSCRIÇÕES": "26/08 a 04/10/2026",
+    "TAXA": "R$650 ou R$900",
+    "PROVA_OBJETIVA": "25/10/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "04/12/2026"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "UNITAU",
     "INSCRIÇÕES": "19/08 a 25/10/2026",
