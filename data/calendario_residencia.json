@@ -288,6 +288,15 @@
     "RESULTADO_FINAL": "04/12/2026"
   },
   {
+    "UF": "CE",
+    "INSTITUIÇÃO": "APEC",
+    "INSCRIÇÕES": "18/08 a 10/09/2026",
+    "TAXA": "R$700",
+    "PROVA_OBJETIVA": "25/10/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "UNITAU",
     "INSCRIÇÕES": "19/08 a 25/10/2026",
@@ -308,11 +317,11 @@
   {
     "UF": "RS",
     "INSTITUIÇÃO": "UFCSPA",
-    "INSCRIÇÕES": "até 30/09/2026(previsão)",
-    "TAXA": "a confirmar",
+    "INSCRIÇÕES": "28/08 a 30/09/2026",
+    "TAXA": "R$700",
     "PROVA_OBJETIVA": "01/11/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "04/11/2026",
+    "RESULTADO_FINAL": "25/01/2027"
   },
   {
     "UF": "SP",
