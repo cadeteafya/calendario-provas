@@ -317,11 +317,11 @@
   {
     "UF": "PR",
     "INSTITUIÇÃO": "AMP",
-    "INSCRIÇÕES": "a confirmar",
-    "TAXA": "a confirmar",
+    "INSCRIÇÕES": "03/09 a 01/10/2026",
+    "TAXA": "R$625 + taxa COREME",
     "PROVA_OBJETIVA": "01/11/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "até às 12h do dia 02/11/2026",
+    "RESULTADO_FINAL": "até 26/11/2026"
   },
   {
     "UF": "RS",
@@ -331,6 +331,15 @@
     "PROVA_OBJETIVA": "01/11/2026",
     "GABARITO_PRELIMINAR": "04/11/2026",
     "RESULTADO_FINAL": "25/01/2027"
+  },
+  {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "UERJ",
+    "INSCRIÇÕES": "02/09 a 01/10/2026",
+    "TAXA": "R$380",
+    "PROVA_OBJETIVA": "01/11/2026",
+    "GABARITO_PRELIMINAR": "01/11/2026",
+    "RESULTADO_FINAL": "22/01/2027"
   },
   {
     "UF": "SP",
