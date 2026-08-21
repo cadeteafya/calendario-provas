@@ -283,18 +283,9 @@
     "INSTITUIÇÃO": "Grupo Opty",
     "INSCRIÇÕES": "26/08 a 04/10/2026",
     "TAXA": "R$650 ou R$900",
-    "PROVA_OBJETIVA": "25/10/2026",
+    "PROVA_OBJETIVA": "24/10/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "04/12/2026"
-  },
-  {
-    "UF": "CE",
-    "INSTITUIÇÃO": "APEC",
-    "INSCRIÇÕES": "18/08 a 10/09/2026",
-    "TAXA": "R$700",
-    "PROVA_OBJETIVA": "25/10/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RS",
@@ -304,6 +295,15 @@
     "PROVA_OBJETIVA": "31/10/2026",
     "GABARITO_PRELIMINAR": "04/11/2026",
     "RESULTADO_FINAL": "15/01/2027"
+  },
+  {
+    "UF": "CE",
+    "INSTITUIÇÃO": "APEC",
+    "INSCRIÇÕES": "17/08 a 10/09/2026",
+    "TAXA": "R$700",
+    "PROVA_OBJETIVA": "01/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "até 31/01/2027"
   },
   {
     "UF": "SP",
@@ -439,6 +439,15 @@
     "PROVA_OBJETIVA": "08/12/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Santa Casa de Adamantina",
+    "INSCRIÇÕES": "05/09 a 06/12/2026",
+    "TAXA": "R$600",
+    "PROVA_OBJETIVA": "20/12/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "05/02/2027"
   },
   {
     "UF": "RJ",
