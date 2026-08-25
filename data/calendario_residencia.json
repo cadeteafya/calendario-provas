@@ -270,6 +270,15 @@
     "RESULTADO_FINAL": "08/12/2026"
   },
   {
+    "UF": "CE",
+    "INSTITUIÇÃO": "Instituto do Câncer do Ceará (ICC)",
+    "INSCRIÇÕES": "03 a 24/09/2026",
+    "TAXA": "R$350",
+    "PROVA_OBJETIVA": "18/10/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "08/12/2026"
+  },
+  {
     "UF": "GO",
     "INSTITUIÇÃO": "FUBOG",
     "INSCRIÇÕES": "26/08 a 04/10/2026",
@@ -379,12 +388,30 @@
   },
   {
     "UF": "SP",
+    "INSTITUIÇÃO": "FMJ",
+    "INSCRIÇÕES": "08/09 a 08/10/2026",
+    "TAXA": "R$650",
+    "PROVA_OBJETIVA": "20/11/2026",
+    "GABARITO_PRELIMINAR": "24/11/2026",
+    "RESULTADO_FINAL": "11/02/2027"
+  },
+  {
+    "UF": "SP",
     "INSTITUIÇÃO": "USP-RP",
     "INSCRIÇÕES": "a confirmar",
     "TAXA": "a confirmar",
     "PROVA_OBJETIVA": "20/11/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "SCMRP",
+    "INSCRIÇÕES": "08/09 a 08/10/2026",
+    "TAXA": "R$700",
+    "PROVA_OBJETIVA": "22/11/2026",
+    "GABARITO_PRELIMINAR": "24/11/2026",
+    "RESULTADO_FINAL": "30/01/2027"
   },
   {
     "UF": "RS",
