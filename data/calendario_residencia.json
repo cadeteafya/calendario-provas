@@ -450,6 +450,15 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "SP",
+    "INSTITUIÇÃO": "FAMERP",
+    "INSCRIÇÕES": "21/09 a 21/10/2026",
+    "TAXA": "R$950",
+    "PROVA_OBJETIVA": "24/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "29/01/2027"
+  },
+  {
     "UF": "GO",
     "INSTITUIÇÃO": "PSU-GO",
     "INSCRIÇÕES": "a confirmar",
@@ -477,6 +486,15 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "Instituto IMS",
+    "INSCRIÇÕES": "16/09 a 05/11/2026",
+    "TAXA": "R$850",
+    "PROVA_OBJETIVA": "06/12/2026",
+    "GABARITO_PRELIMINAR": "07/12/2026",
+    "RESULTADO_FINAL": "26/01/2027"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "USP-SP",
     "INSCRIÇÕES": "06 a 26/10/2026(previsão)",
@@ -492,6 +510,15 @@
     "TAXA": "a confirmar",
     "PROVA_OBJETIVA": "08/12/2026",
     "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "PR",
+    "INSTITUIÇÃO": "Hospital Angelina Caron",
+    "INSCRIÇÕES": "04/09 a 03/12/2026",
+    "TAXA": "R$700",
+    "PROVA_OBJETIVA": "19/12/2026",
+    "GABARITO_PRELIMINAR": "19/12/2026",
     "RESULTADO_FINAL": "-"
   },
   {
