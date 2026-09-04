@@ -273,10 +273,10 @@
     "UF": "RS",
     "INSTITUIÇÃO": "AMRIGS",
     "INSCRIÇÕES": "09/09 a 19/10/2026",
-    "TAXA": "a confirmar",
+    "TAXA": "vide edital",
     "PROVA_OBJETIVA": "22/11/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "24/11/2026",
+    "RESULTADO_FINAL": "18/12/2026"
   },
   {
     "UF": "MG",
@@ -358,6 +358,15 @@
     "PROVA_OBJETIVA": "08/12/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Centro Médico de Campinas",
+    "INSCRIÇÕES": "19/09 a 29/11/2026",
+    "TAXA": "R$580",
+    "PROVA_OBJETIVA": "14/12/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "05/02/2027"
   },
   {
     "UF": "PR",
