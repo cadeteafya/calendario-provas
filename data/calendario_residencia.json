@@ -226,6 +226,15 @@
   },
   {
     "UF": "SP",
+    "INSTITUIÇÃO": "PUC-SP",
+    "INSCRIÇÕES": "21/09 a 20/10/2026",
+    "TAXA": "R$800",
+    "PROVA_OBJETIVA": "01/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "26/01/2027"
+  },
+  {
+    "UF": "SP",
     "INSTITUIÇÃO": "HIAE",
     "INSCRIÇÕES": "19/08 a 21/09/2026",
     "TAXA": "R$800",
@@ -394,6 +403,15 @@
     "PROVA_OBJETIVA": "09 e 10/01/2027",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "17/02/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Santa Casa de Ourinhos",
+    "INSCRIÇÕES": "20/09 a 27/12/2026",
+    "TAXA": "R$600",
+    "PROVA_OBJETIVA": "10/01/2027",
+    "GABARITO_PRELIMINAR": "11/01/2027",
+    "RESULTADO_FINAL": "15/02/2027"
   },
   {
     "UF": "SP",
