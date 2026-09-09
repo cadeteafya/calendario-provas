@@ -315,6 +315,15 @@
     "RESULTADO_FINAL": "19/02/2027"
   },
   {
+    "UF": "SE",
+    "INSTITUIÇÃO": "FBHC",
+    "INSCRIÇÕES": "21/09 a 25/10/2026",
+    "TAXA": "R$450",
+    "PROVA_OBJETIVA": "29/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "14/01/2027"
+  },
+  {
     "UF": "GO",
     "INSTITUIÇÃO": "PSU-GO",
     "INSCRIÇÕES": "a confirmar",
@@ -412,6 +421,15 @@
     "PROVA_OBJETIVA": "10/01/2027",
     "GABARITO_PRELIMINAR": "11/01/2027",
     "RESULTADO_FINAL": "15/02/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "HAOC",
+    "INSCRIÇÕES": "22/09 a 10/12/2026",
+    "TAXA": "R$695",
+    "PROVA_OBJETIVA": "10/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "12/02/2027"
   },
   {
     "UF": "SP",
