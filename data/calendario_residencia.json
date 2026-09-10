@@ -270,6 +270,15 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "MG",
+    "INSTITUIÇÃO": "SCMBH",
+    "INSCRIÇÕES": "16/09 a 03/11/2026",
+    "TAXA": "R$412R$824",
+    "PROVA_OBJETIVA": "21/11/2026",
+    "GABARITO_PRELIMINAR": "22/11/2026",
+    "RESULTADO_FINAL": "12/01/2027"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "SCMRP",
     "INSCRIÇÕES": "08/09 a 08/10/2026",
@@ -357,6 +366,15 @@
     "TAXA": "R$850",
     "PROVA_OBJETIVA": "06/12/2026",
     "GABARITO_PRELIMINAR": "07/12/2026",
+    "RESULTADO_FINAL": "26/01/2027"
+  },
+  {
+    "UF": "MG",
+    "INSTITUIÇÃO": "IPSEMG",
+    "INSCRIÇÕES": "28/09 a 05/11/2026",
+    "TAXA": "R$220",
+    "PROVA_OBJETIVA": "06/12/2026",
+    "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "26/01/2027"
   },
   {
