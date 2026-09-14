@@ -91,6 +91,15 @@
   },
   {
     "UF": "PR",
+    "INSTITUIÇÃO": "Hospital Santa Rita",
+    "INSCRIÇÕES": "22/09 a 01/10/2026",
+    "TAXA": "R$650",
+    "PROVA_OBJETIVA": "11/10/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "03/11/2026"
+  },
+  {
+    "UF": "PR",
     "INSTITUIÇÃO": "PUCPR",
     "INSCRIÇÕES": "21/08 a 21/09/2026",
     "TAXA": "R$880",
@@ -333,6 +342,15 @@
     "RESULTADO_FINAL": "14/01/2027"
   },
   {
+    "UF": "PR",
+    "INSTITUIÇÃO": "Hospital Pequeno Príncipe",
+    "INSCRIÇÕES": "01/10 a 09/11/2026",
+    "TAXA": "R$550",
+    "PROVA_OBJETIVA": "29/11/2026 (AD)06/12/2026(R+)",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "18/12/2026"
+  },
+  {
     "UF": "GO",
     "INSTITUIÇÃO": "PSU-GO",
     "INSCRIÇÕES": "a confirmar",
@@ -430,6 +448,15 @@
     "PROVA_OBJETIVA": "20/12/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "05/02/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Sabará Hospital Infantil",
+    "INSCRIÇÕES": "28/09 a 10/12/2026",
+    "TAXA": "R$750",
+    "PROVA_OBJETIVA": "09/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "02/02/2027"
   },
   {
     "UF": "SP",
