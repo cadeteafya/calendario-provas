@@ -281,7 +281,7 @@
   {
     "UF": "MG",
     "INSTITUIÇÃO": "SCMBH",
-    "INSCRIÇÕES": "16/09 a 03/11/2026",
+    "INSCRIÇÕES": "21/09 a 04/11/2026",
     "TAXA": "R$412R$824",
     "PROVA_OBJETIVA": "21/11/2026",
     "GABARITO_PRELIMINAR": "22/11/2026",
@@ -313,6 +313,15 @@
     "PROVA_OBJETIVA": "22/11/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "MT",
+    "INSTITUIÇÃO": "PRMMT",
+    "INSCRIÇÕES": "28/09 a 30/10/2026",
+    "TAXA": "vide edital",
+    "PROVA_OBJETIVA": "22/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "16/12/2026"
   },
   {
     "UF": "SP",
@@ -423,6 +432,15 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "NAC",
+    "INSTITUIÇÃO": "Grupo VIV",
+    "INSCRIÇÕES": "30/09 a 08/11/2026",
+    "TAXA": "R$650 / R$950",
+    "PROVA_OBJETIVA": "13/12/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "02/02/2027"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "Centro Médico de Campinas",
     "INSCRIÇÕES": "19/09 a 29/11/2026",
@@ -484,6 +502,15 @@
     "PROVA_OBJETIVA": "10/01/2027",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "12/02/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "UNIP",
+    "INSCRIÇÕES": "29/09 a 27/11/2026",
+    "TAXA": "R$450",
+    "PROVA_OBJETIVA": "17/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "19/02/2027"
   },
   {
     "UF": "SP",
