@@ -65,7 +65,7 @@
   {
     "UF": "PR",
     "INSTITUIÇÃO": "SMS-Curitiba",
-    "INSCRIÇÕES": "21/07 a 19/08/2026",
+    "INSCRIÇÕES": "21/07 a 02/09/2026",
     "TAXA": "R$500",
     "PROVA_OBJETIVA": "20/09/2026",
     "GABARITO_PRELIMINAR": "21/09/2026",
@@ -104,8 +104,8 @@
     "INSCRIÇÕES": "21/08 a 21/09/2026",
     "TAXA": "R$880",
     "PROVA_OBJETIVA": "13/10/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "13/10/2026",
+    "RESULTADO_FINAL": "22/12/2026"
   },
   {
     "UF": "PR",
@@ -191,11 +191,11 @@
   {
     "UF": "CE",
     "INSTITUIÇÃO": "APEC",
-    "INSCRIÇÕES": "17/08 a 10/09/2026",
+    "INSCRIÇÕES": "17/08 a 30/09/2026",
     "TAXA": "R$700",
     "PROVA_OBJETIVA": "01/11/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "até 31/01/2027"
   },
   {
     "UF": "SP",
@@ -221,8 +221,8 @@
     "INSCRIÇÕES": "28/08 a 30/09/2026",
     "TAXA": "R$700",
     "PROVA_OBJETIVA": "01/11/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "04/11/2026",
+    "RESULTADO_FINAL": "25/01/2027"
   },
   {
     "UF": "RS",
@@ -339,7 +339,7 @@
     "TAXA": "vide edital",
     "PROVA_OBJETIVA": "22/11/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "16/12/2026"
   },
   {
     "UF": "PR",
@@ -348,7 +348,7 @@
     "TAXA": "R$900",
     "PROVA_OBJETIVA": "22/11/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "23/12/2026"
   },
   {
     "UF": "PB",
@@ -357,7 +357,7 @@
     "TAXA": "R$480",
     "PROVA_OBJETIVA": "22/11/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "20/12/2026"
   },
   {
     "UF": "SP",
@@ -367,6 +367,15 @@
     "PROVA_OBJETIVA": "24/11/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "29/01/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Hospital Bezerra de Menezes",
+    "INSCRIÇÕES": "21/10 a 09/11/2026",
+    "TAXA": "R$600",
+    "PROVA_OBJETIVA": "26/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "13/01/2027"
   },
   {
     "UF": "SP",
@@ -384,7 +393,7 @@
     "TAXA": "R$450",
     "PROVA_OBJETIVA": "29/11/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "14/01/2027"
   },
   {
     "UF": "PR",
@@ -393,7 +402,7 @@
     "TAXA": "R$550",
     "PROVA_OBJETIVA": "29/11/2026 (AD)06/12/2026(R+)",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "18/12/2026"
   },
   {
     "UF": "GO",
@@ -429,7 +438,7 @@
     "TAXA": "R$500",
     "PROVA_OBJETIVA": "05/12/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "até 18/12/2026"
   },
   {
     "UF": "RJ",
@@ -437,8 +446,8 @@
     "INSCRIÇÕES": "16/09 a 05/11/2026",
     "TAXA": "R$850",
     "PROVA_OBJETIVA": "06/12/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "07/12/2026",
+    "RESULTADO_FINAL": "26/01/2027"
   },
   {
     "UF": "MG",
@@ -474,7 +483,7 @@
     "TAXA": "R$700",
     "PROVA_OBJETIVA": "08/12/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "16/12/2026"
   },
   {
     "UF": "SP",
@@ -536,7 +545,7 @@
     "INSCRIÇÕES": "04/09 a 03/12/2026",
     "TAXA": "R$700",
     "PROVA_OBJETIVA": "19/12/2026",
-    "GABARITO_PRELIMINAR": "-",
+    "GABARITO_PRELIMINAR": "19/12/2026",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -555,7 +564,7 @@
     "TAXA": "R$750",
     "PROVA_OBJETIVA": "09/01/2027",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "02/02/2027"
   },
   {
     "UF": "SP",
@@ -581,8 +590,8 @@
     "INSCRIÇÕES": "20/09 a 27/12/2026",
     "TAXA": "R$600",
     "PROVA_OBJETIVA": "10/01/2027",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "11/01/2027",
+    "RESULTADO_FINAL": "15/02/2027"
   },
   {
     "UF": "SP",
@@ -591,7 +600,7 @@
     "TAXA": "R$695",
     "PROVA_OBJETIVA": "10/01/2027",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "12/02/2027"
   },
   {
     "UF": "SP",
@@ -610,6 +619,15 @@
     "PROVA_OBJETIVA": "17/01/2027",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "19/02/2027"
+  },
+  {
+    "UF": "AL",
+    "INSTITUIÇÃO": "Santa Casa de Maceió",
+    "INSCRIÇÕES": "04/10 a 27/12/2026",
+    "TAXA": "R$600",
+    "PROVA_OBJETIVA": "17/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "17/02/2027"
   },
   {
     "UF": "SP",
