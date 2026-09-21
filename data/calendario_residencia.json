@@ -262,6 +262,15 @@
   },
   {
     "UF": "PR",
+    "INSTITUIÇÃO": "HONPAR",
+    "INSCRIÇÕES": "05 a 23/10/2026",
+    "TAXA": "R$700",
+    "PROVA_OBJETIVA": "06/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "20/11/2026"
+  },
+  {
+    "UF": "PR",
     "INSTITUIÇÃO": "UEL",
     "INSCRIÇÕES": "18 a 25/08/2026 (Ações Afirmativas)22/09 a 14/10/2026(Ampla Concorrência)",
     "TAXA": "R$692",
@@ -277,6 +286,15 @@
     "PROVA_OBJETIVA": "08/11/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "29/01/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Hcor",
+    "INSCRIÇÕES": "02 a 26/10/2026",
+    "TAXA": "R$750",
+    "PROVA_OBJETIVA": "10/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "12/01/2027"
   },
   {
     "UF": "SP",
@@ -394,6 +412,15 @@
     "PROVA_OBJETIVA": "29/11/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "14/01/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Dante Pazzanese",
+    "INSCRIÇÕES": "05/10 a 11/11/2026",
+    "TAXA": "R$600",
+    "PROVA_OBJETIVA": "29/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "05/02/2027"
   },
   {
     "UF": "PR",
