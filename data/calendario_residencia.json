@@ -344,11 +344,11 @@
   {
     "UF": "MG",
     "INSTITUIÇÃO": "PSU-MG",
-    "INSCRIÇÕES": "a confirmar",
-    "TAXA": "a confirmar",
+    "INSCRIÇÕES": "06 a 15/10/2026",
+    "TAXA": "R$300",
     "PROVA_OBJETIVA": "22/11/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "28/01/2027"
   },
   {
     "UF": "MT",
@@ -450,6 +450,15 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "DF",
+    "INSTITUIÇÃO": "Hospital Santa Lúcia",
+    "INSCRIÇÕES": "06/10 a 09/11/2026",
+    "TAXA": "R$300",
+    "PROVA_OBJETIVA": "29/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "03/02/2027"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "Santa Casa de Araçatuba",
     "INSCRIÇÕES": "a confirmar",
@@ -466,6 +475,15 @@
     "PROVA_OBJETIVA": "05/12/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "até 18/12/2026"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "SCMSP",
+    "INSCRIÇÕES": "05/10 a 04/11/2026",
+    "TAXA": "R$680",
+    "PROVA_OBJETIVA": "05/12/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "RJ",
