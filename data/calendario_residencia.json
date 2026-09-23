@@ -261,6 +261,15 @@
     "RESULTADO_FINAL": "27/01/2027"
   },
   {
+    "UF": "ES",
+    "INSTITUIÇÃO": "HIFA",
+    "INSCRIÇÕES": "05 a 19/10/2026",
+    "TAXA": "R$500",
+    "PROVA_OBJETIVA": "02/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "18/12/2026"
+  },
+  {
     "UF": "PR",
     "INSTITUIÇÃO": "HONPAR",
     "INSCRIÇÕES": "05 a 23/10/2026",
@@ -308,11 +317,11 @@
   {
     "UF": "SP",
     "INSTITUIÇÃO": "USP-RP",
-    "INSCRIÇÕES": "a confirmar",
-    "TAXA": "a confirmar",
+    "INSCRIÇÕES": "06 a 26/10/2026",
+    "TAXA": "R$650R$800",
     "PROVA_OBJETIVA": "20/11/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "20/11/2026",
+    "RESULTADO_FINAL": "17/12/2026"
   },
   {
     "UF": "MG",
@@ -376,6 +385,15 @@
     "PROVA_OBJETIVA": "22/11/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "20/12/2026"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "FMABC",
+    "INSCRIÇÕES": "07/10 a 03/11/2026",
+    "TAXA": "R$700",
+    "PROVA_OBJETIVA": "22/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "12/02/2027"
   },
   {
     "UF": "SP",
@@ -482,8 +500,17 @@
     "INSCRIÇÕES": "05/10 a 04/11/2026",
     "TAXA": "R$680",
     "PROVA_OBJETIVA": "05/12/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "07/12/2026",
+    "RESULTADO_FINAL": "17/02/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "HRPP",
+    "INSCRIÇÕES": "07 a 26/10/2026",
+    "TAXA": "R$800",
+    "PROVA_OBJETIVA": "05/12/2026",
+    "GABARITO_PRELIMINAR": "08/12/2026",
+    "RESULTADO_FINAL": "16/02/2027"
   },
   {
     "UF": "RJ",
