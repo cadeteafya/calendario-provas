@@ -452,11 +452,11 @@
   {
     "UF": "GO",
     "INSTITUIÇÃO": "PSU-GO",
-    "INSCRIÇÕES": "a confirmar",
-    "TAXA": "a confirmar",
+    "INSCRIÇÕES": "07 a 20/10/2026",
+    "TAXA": "R$525",
     "PROVA_OBJETIVA": "29/11/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "01/02/2027"
   },
   {
     "UF": "BA",
@@ -475,6 +475,15 @@
     "PROVA_OBJETIVA": "29/11/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "03/02/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "UNIFESP",
+    "INSCRIÇÕES": "07 a 30/10/2026",
+    "TAXA": "R$726,00",
+    "PROVA_OBJETIVA": "29/11/2026",
+    "GABARITO_PRELIMINAR": "29/11/2026",
+    "RESULTADO_FINAL": "04/02/2027"
   },
   {
     "UF": "SP",
@@ -625,6 +634,15 @@
     "INSTITUIÇÃO": "Santa Casa de Adamantina",
     "INSCRIÇÕES": "05/09 a 06/12/2026",
     "TAXA": "R$600",
+    "PROVA_OBJETIVA": "20/12/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "05/02/2027"
+  },
+  {
+    "UF": "PR",
+    "INSTITUIÇÃO": "Hospital  Universitário Evangélico Mackenzie",
+    "INSCRIÇÕES": "07/10 a 05/11/2026",
+    "TAXA": "R$1.000",
     "PROVA_OBJETIVA": "20/12/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "05/02/2027"
