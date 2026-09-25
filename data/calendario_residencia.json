@@ -270,6 +270,15 @@
     "RESULTADO_FINAL": "18/12/2026"
   },
   {
+    "UF": "ES",
+    "INSTITUIÇÃO": "HECI",
+    "INSCRIÇÕES": "08 a 19/10/2026",
+    "TAXA": "R$500",
+    "PROVA_OBJETIVA": "02/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "18/12/2026"
+  },
+  {
     "UF": "PR",
     "INSTITUIÇÃO": "HONPAR",
     "INSCRIÇÕES": "05 a 23/10/2026",
@@ -578,11 +587,11 @@
   {
     "UF": "SP",
     "INSTITUIÇÃO": "FAMEMA",
-    "INSCRIÇÕES": "a confirmar",
-    "TAXA": "a confirmar",
+    "INSCRIÇÕES": "09 a 27/10/2026",
+    "TAXA": "R$600",
     "PROVA_OBJETIVA": "08/12/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "GABARITO_PRELIMINAR": "09/12/2026",
+    "RESULTADO_FINAL": "27/01/2027"
   },
   {
     "UF": "DF",
@@ -718,6 +727,24 @@
     "PROVA_OBJETIVA": "17/01/2027",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "17/02/2027"
+  },
+  {
+    "UF": "MT",
+    "INSTITUIÇÃO": "Hospital São Lucas",
+    "INSCRIÇÕES": "24/09 a 01/12/2026",
+    "TAXA": "R$750",
+    "PROVA_OBJETIVA": "17/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "06/02/2027"
+  },
+  {
+    "UF": "MT",
+    "INSTITUIÇÃO": "Santa Casa de São José dos Campos",
+    "INSCRIÇÕES": "24/09 a 01/12/2026",
+    "TAXA": "R$750",
+    "PROVA_OBJETIVA": "17/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "06/02/2027"
   },
   {
     "UF": "SP",
