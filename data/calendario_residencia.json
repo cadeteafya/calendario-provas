@@ -658,6 +658,15 @@
   },
   {
     "UF": "SP",
+    "INSTITUIÇÃO": "UNIFIPA",
+    "INSCRIÇÕES": "13/10 a 24/11/2026",
+    "TAXA": "R$590",
+    "PROVA_OBJETIVA": "07/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "18/02/2027"
+  },
+  {
+    "UF": "SP",
     "INSTITUIÇÃO": "Sabará Hospital Infantil",
     "INSCRIÇÕES": "28/09 a 10/12/2026",
     "TAXA": "R$750",
@@ -745,6 +754,15 @@
     "PROVA_OBJETIVA": "17/01/2027",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "06/02/2027"
+  },
+  {
+    "UF": "BA",
+    "INSTITUIÇÃO": "CEOQ",
+    "INSCRIÇÕES": "11/10/2026 a 03/01/2027",
+    "TAXA": "R$750",
+    "PROVA_OBJETIVA": "24/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "12/02/2027"
   },
   {
     "UF": "SP",
