@@ -342,6 +342,15 @@
     "RESULTADO_FINAL": "12/01/2027"
   },
   {
+    "UF": "SE",
+    "INSTITUIÇÃO": "Hospital Primavera",
+    "INSCRIÇÕES": "09/10 a 01/11/2026",
+    "TAXA": "R$450",
+    "PROVA_OBJETIVA": "21/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "05/01/2027"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "SCMRP",
     "INSCRIÇÕES": "08/09 a 08/10/2026",
@@ -421,6 +430,24 @@
     "PROVA_OBJETIVA": "26/11/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "13/01/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Hospital Vera Cruz",
+    "INSCRIÇÕES": "11/10 a 13/11/2026",
+    "TAXA": "R$650",
+    "PROVA_OBJETIVA": "27/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "12/02/2027"
+  },
+  {
+    "UF": "ES",
+    "INSTITUIÇÃO": "HEVV",
+    "INSCRIÇÕES": "01 a 30/10/2026",
+    "TAXA": "R$600",
+    "PROVA_OBJETIVA": "28/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "18/12/2026"
   },
   {
     "UF": "SP",
@@ -750,6 +777,24 @@
     "UF": "MT",
     "INSTITUIÇÃO": "Santa Casa de São José dos Campos",
     "INSCRIÇÕES": "24/09 a 01/12/2026",
+    "TAXA": "R$750",
+    "PROVA_OBJETIVA": "17/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "06/02/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "CVV",
+    "INSCRIÇÕES": "26/09 a 01/12/2026",
+    "TAXA": "R$750",
+    "PROVA_OBJETIVA": "17/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "20/02/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Santa Casa de Ituverava",
+    "INSCRIÇÕES": "26/09 a 01/12/2026",
     "TAXA": "R$750",
     "PROVA_OBJETIVA": "17/01/2027",
     "GABARITO_PRELIMINAR": "-",
