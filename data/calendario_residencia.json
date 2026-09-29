@@ -47,20 +47,11 @@
   {
     "UF": "AC",
     "INSTITUIÇÃO": "FUNDHACRE",
-    "INSCRIÇÕES": "a confirmar",
-    "TAXA": "a confirmar",
-    "PROVA_OBJETIVA": "13/09/2026(ENAMED – AD)a confirmar (R+)",
+    "INSCRIÇÕES": "28/10 a 24/11/2026",
+    "TAXA": "R$250R$350",
+    "PROVA_OBJETIVA": "13/09/2026(ENAMED – AD)10/12/2026 (R+)",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
-  },
-  {
-    "UF": "RJ",
-    "INSTITUIÇÃO": "Hospital Escola Álvaro Alvim",
-    "INSCRIÇÕES": "a confirmar",
-    "TAXA": "a confirmar",
-    "PROVA_OBJETIVA": "13/09/2026(ENAMED – AD)a confirmar (R+)",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "22/01/2027"
   },
   {
     "UF": "PR",
@@ -414,6 +405,15 @@
     "RESULTADO_FINAL": "12/02/2027"
   },
   {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "Hospital dos Plantadores de Cana",
+    "INSCRIÇÕES": "01/09 a 01/11/2026",
+    "TAXA": "R$600",
+    "PROVA_OBJETIVA": "24/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "11/12/2026"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "FAMERP",
     "INSCRIÇÕES": "21/09 a 21/10/2026",
@@ -439,6 +439,15 @@
     "PROVA_OBJETIVA": "27/11/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "12/02/2027"
+  },
+  {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "Hospital São José do Avaí",
+    "INSCRIÇÕES": "28/09 a 23/11/2026",
+    "TAXA": "R$400",
+    "PROVA_OBJETIVA": "27/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "04/12/2026"
   },
   {
     "UF": "ES",
@@ -595,6 +604,15 @@
   },
   {
     "UF": "SP",
+    "INSTITUIÇÃO": "SES-GO",
+    "INSCRIÇÕES": "05/10 a 03/11/2026",
+    "TAXA": "vide edital",
+    "PROVA_OBJETIVA": "06/12/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "17/02/2027"
+  },
+  {
+    "UF": "SP",
     "INSTITUIÇÃO": "UEM",
     "INSCRIÇÕES": "28/09 a 30/10/2026",
     "TAXA": "R$700",
@@ -619,6 +637,15 @@
     "PROVA_OBJETIVA": "08/12/2026",
     "GABARITO_PRELIMINAR": "09/12/2026",
     "RESULTADO_FINAL": "27/01/2027"
+  },
+  {
+    "UF": "MT",
+    "INSTITUIÇÃO": "Complexo Hospitalar Jardim Cuiabá",
+    "INSCRIÇÕES": "01/10 a 30/11/2026",
+    "TAXA": "R$400",
+    "PROVA_OBJETIVA": "08/12/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "22/12/2026"
   },
   {
     "UF": "DF",
