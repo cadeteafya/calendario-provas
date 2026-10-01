@@ -405,6 +405,15 @@
     "RESULTADO_FINAL": "12/02/2027"
   },
   {
+    "UF": "ES",
+    "INSTITUIÇÃO": "SMS-Vitória",
+    "INSCRIÇÕES": "26/10 a 18/11/2026",
+    "TAXA": "–",
+    "PROVA_OBJETIVA": "23/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "08/12/2026"
+  },
+  {
     "UF": "RJ",
     "INSTITUIÇÃO": "Hospital dos Plantadores de Cana",
     "INSCRIÇÕES": "01/09 a 01/11/2026",
@@ -673,6 +682,24 @@
     "PROVA_OBJETIVA": "12/12/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "PR",
+    "INSTITUIÇÃO": "SMS-Ivaiporã",
+    "INSCRIÇÕES": "23/09 a 19/11/2026",
+    "TAXA": "R$550",
+    "PROVA_OBJETIVA": "13/12/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "03/02/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "SUS-SP",
+    "INSCRIÇÕES": "20/10 a 05/11/2026",
+    "TAXA": "R$120",
+    "PROVA_OBJETIVA": "13/12/2026",
+    "GABARITO_PRELIMINAR": "15/12/2026",
+    "RESULTADO_FINAL": "12/02/2027"
   },
   {
     "UF": "NAC",
