@@ -414,6 +414,15 @@
     "RESULTADO_FINAL": "08/12/2026"
   },
   {
+    "UF": "ES",
+    "INSTITUIÇÃO": "Vitória Apart Hospital",
+    "INSCRIÇÕES": "05/10 a 13/11/2026",
+    "TAXA": "R$400",
+    "PROVA_OBJETIVA": "23/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "21/12/2026"
+  },
+  {
     "UF": "RJ",
     "INSTITUIÇÃO": "Hospital dos Plantadores de Cana",
     "INSCRIÇÕES": "01/09 a 01/11/2026",
@@ -533,11 +542,11 @@
   {
     "UF": "BA",
     "INSTITUIÇÃO": "SUS-BA",
-    "INSCRIÇÕES": "30/09 a 26/10/2026",
+    "INSCRIÇÕES": "até 26/10/2026",
     "TAXA": "R$755,60",
     "PROVA_OBJETIVA": "29/11/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "-"
+    "RESULTADO_FINAL": "15/02/2027"
   },
   {
     "UF": "DF",
@@ -673,6 +682,15 @@
     "PROVA_OBJETIVA": "08/12/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "22/12/2026"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Casa de Saúde Santa Marcelina",
+    "INSCRIÇÕES": "18/10 a 29/11/2026",
+    "TAXA": "R$500",
+    "PROVA_OBJETIVA": "10/12/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "21/01/2027"
   },
   {
     "UF": "DF",
@@ -817,6 +835,15 @@
     "PROVA_OBJETIVA": "12/01/2027",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "18/02/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "HUSF",
+    "INSCRIÇÕES": "15/10 a 23/11/2026",
+    "TAXA": "R$600",
+    "PROVA_OBJETIVA": "15/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "01/02/2027"
   },
   {
     "UF": "SP",
