@@ -405,6 +405,15 @@
     "RESULTADO_FINAL": "12/02/2027"
   },
   {
+    "UF": "SE",
+    "INSTITUIÇÃO": "FBHC",
+    "INSCRIÇÕES": "21/09 a 25/10/2026",
+    "TAXA": "R$450",
+    "PROVA_OBJETIVA": "22/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "14/01/2027"
+  },
+  {
     "UF": "ES",
     "INSTITUIÇÃO": "SMS-Vitória",
     "INSCRIÇÕES": "26/10 a 18/11/2026",
@@ -504,13 +513,13 @@
     "RESULTADO_FINAL": "19/02/2027"
   },
   {
-    "UF": "SE",
-    "INSTITUIÇÃO": "FBHC",
-    "INSCRIÇÕES": "21/09 a 25/10/2026",
-    "TAXA": "R$450",
-    "PROVA_OBJETIVA": "29/11/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "14/01/2027"
+    "UF": "SP",
+    "INSTITUIÇÃO": "IAMSPE",
+    "INSCRIÇÕES": "20/10 a 03/11/2026",
+    "TAXA": "R$550",
+    "PROVA_OBJETIVA": "28/11/2026",
+    "GABARITO_PRELIMINAR": "30/11/2026",
+    "RESULTADO_FINAL": "20/01/2027"
   },
   {
     "UF": "SP",
@@ -826,6 +835,15 @@
     "PROVA_OBJETIVA": "10/01/2027",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "12/02/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "USCS",
+    "INSCRIÇÕES": "19/10 a 06/12/2026",
+    "TAXA": "R$490",
+    "PROVA_OBJETIVA": "10/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "20/01/2027"
   },
   {
     "UF": "SP",
