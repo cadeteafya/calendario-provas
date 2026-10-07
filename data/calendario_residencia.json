@@ -414,6 +414,15 @@
     "RESULTADO_FINAL": "14/01/2027"
   },
   {
+    "UF": "SP",
+    "INSTITUIÇÃO": "AMIL",
+    "INSCRIÇÕES": "19/10 a 05/11/2026",
+    "TAXA": "R$500",
+    "PROVA_OBJETIVA": "22/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "28/01/2027"
+  },
+  {
     "UF": "ES",
     "INSTITUIÇÃO": "SMS-Vitória",
     "INSCRIÇÕES": "26/10 a 18/11/2026",
@@ -448,6 +457,15 @@
     "PROVA_OBJETIVA": "24/11/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "29/01/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "SMS-SJRP",
+    "INSCRIÇÕES": "14 a 28/10/2026",
+    "TAXA": "R$700",
+    "PROVA_OBJETIVA": "25/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "18/01/2027"
   },
   {
     "UF": "SP",
@@ -558,15 +576,6 @@
     "RESULTADO_FINAL": "15/02/2027"
   },
   {
-    "UF": "DF",
-    "INSTITUIÇÃO": "Hospital Santa Lúcia",
-    "INSCRIÇÕES": "06/10 a 09/11/2026",
-    "TAXA": "R$300",
-    "PROVA_OBJETIVA": "29/11/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "03/02/2027"
-  },
-  {
     "UF": "SP",
     "INSTITUIÇÃO": "UNIFESP",
     "INSCRIÇÕES": "07 a 30/10/2026",
@@ -657,6 +666,15 @@
     "RESULTADO_FINAL": "17/02/2027"
   },
   {
+    "UF": "DF",
+    "INSTITUIÇÃO": "Hospital Santa Lúcia",
+    "INSCRIÇÕES": "06/10 a 09/11/2026",
+    "TAXA": "R$300",
+    "PROVA_OBJETIVA": "06/12/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "03/02/2027"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "UEM",
     "INSCRIÇÕES": "28/09 a 30/10/2026",
@@ -711,6 +729,15 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "SP",
+    "INSTITUIÇÃO": "UNESP",
+    "INSCRIÇÕES": "20/10 a 06/11/2026",
+    "TAXA": "R$ 648,00",
+    "PROVA_OBJETIVA": "12/12/2026",
+    "GABARITO_PRELIMINAR": "14/12/2026",
+    "RESULTADO_FINAL": "02/02/2027"
+  },
+  {
     "UF": "PR",
     "INSTITUIÇÃO": "SMS-Ivaiporã",
     "INSCRIÇÕES": "23/09 a 19/11/2026",
@@ -762,6 +789,15 @@
     "TAXA": "R$700",
     "PROVA_OBJETIVA": "19/12/2026",
     "GABARITO_PRELIMINAR": "19/12/2026",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "PE",
+    "INSTITUIÇÃO": "SES-PE",
+    "INSCRIÇÕES": "a partir de 21/10/2026",
+    "TAXA": "aguardando divulgação",
+    "PROVA_OBJETIVA": "20/12/2026",
+    "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "-"
   },
   {
@@ -856,6 +892,24 @@
   },
   {
     "UF": "SP",
+    "INSTITUIÇÃO": "Hospital Carlos Fernando Malzoni",
+    "INSCRIÇÕES": "23/10 a 27/12/2026",
+    "TAXA": "R$550",
+    "PROVA_OBJETIVA": "13/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "19/02/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "FAI Adamantina",
+    "INSCRIÇÕES": "20/10 a 03/01/2027",
+    "TAXA": "R$600",
+    "PROVA_OBJETIVA": "14/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "18/02/2027"
+  },
+  {
+    "UF": "SP",
     "INSTITUIÇÃO": "HUSF",
     "INSCRIÇÕES": "15/10 a 23/11/2026",
     "TAXA": "R$600",
@@ -925,6 +979,15 @@
     "PROVA_OBJETIVA": "18/01/2027",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "04/02/2027"
+  },
+  {
+    "UF": "TO",
+    "INSTITUIÇÃO": "Hospital de Olhos Yano",
+    "INSCRIÇÕES": "05/10/2026 a 12/01/2027",
+    "TAXA": "vide edital",
+    "PROVA_OBJETIVA": "21/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "05/02/2027, após as 17h"
   },
   {
     "UF": "BA",
