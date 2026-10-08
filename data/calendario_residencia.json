@@ -675,6 +675,15 @@
     "RESULTADO_FINAL": "03/02/2027"
   },
   {
+    "UF": "MT",
+    "INSTITUIÇÃO": "HG Cuiabá/UNIC",
+    "INSCRIÇÕES": "06/10 a 02/12/2026",
+    "TAXA": "R$550",
+    "PROVA_OBJETIVA": "06/12/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "18/12/2026"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "UEM",
     "INSCRIÇÕES": "28/09 a 30/10/2026",
@@ -754,6 +763,15 @@
     "PROVA_OBJETIVA": "13/12/2026",
     "GABARITO_PRELIMINAR": "15/12/2026",
     "RESULTADO_FINAL": "12/02/2027"
+  },
+  {
+    "UF": "MS",
+    "INSTITUIÇÃO": "Hospital do Coração do MS",
+    "INSCRIÇÕES": "23/10 a 29/11/2026",
+    "TAXA": "R$650",
+    "PROVA_OBJETIVA": "13/12/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "11/02/2027"
   },
   {
     "UF": "NAC",
