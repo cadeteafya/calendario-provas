@@ -315,6 +315,24 @@
     "RESULTADO_FINAL": "25/01/2027"
   },
   {
+    "UF": "PB",
+    "INSTITUIÇÃO": "UNIFSM",
+    "INSCRIÇÕES": "01 a 31/10/2026",
+    "TAXA": "R$500",
+    "PROVA_OBJETIVA": "15/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "22/12/2026"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "UNINOVE",
+    "INSCRIÇÕES": "13/10 a 06/11/2026",
+    "TAXA": "R$350",
+    "PROVA_OBJETIVA": "16/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "01/12/2026"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "USP-RP",
     "INSCRIÇÕES": "06 a 26/10/2026",
@@ -487,6 +505,15 @@
   },
   {
     "UF": "SP",
+    "INSTITUIÇÃO": "Santa Casa de Campinas",
+    "INSCRIÇÕES": "19/10 a 24/11/2026 (Cirurgia Plástica)19/10/2026 a 25/01/2027 (Demais)",
+    "TAXA": "R$700",
+    "PROVA_OBJETIVA": "26/11/2026 (Cirurgia Plástica)29/01/2027(Demais)",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
     "INSTITUIÇÃO": "Hospital Vera Cruz",
     "INSCRIÇÕES": "11/10 a 13/11/2026",
     "TAXA": "R$650",
@@ -621,6 +648,15 @@
     "RESULTADO_FINAL": "16/02/2027"
   },
   {
+    "UF": "DF",
+    "INSTITUIÇÃO": "Hospital Santa Lúcia",
+    "INSCRIÇÕES": "06/10 a 09/11/2026",
+    "TAXA": "R$300",
+    "PROVA_OBJETIVA": "06/12/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "03/02/2027"
+  },
+  {
     "UF": "RJ",
     "INSTITUIÇÃO": "Instituto IMS",
     "INSCRIÇÕES": "16/09 a 05/11/2026",
@@ -664,15 +700,6 @@
     "PROVA_OBJETIVA": "06/12/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "17/02/2027"
-  },
-  {
-    "UF": "DF",
-    "INSTITUIÇÃO": "Hospital Santa Lúcia",
-    "INSCRIÇÕES": "06/10 a 09/11/2026",
-    "TAXA": "R$300",
-    "PROVA_OBJETIVA": "06/12/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "03/02/2027"
   },
   {
     "UF": "MT",
@@ -790,6 +817,15 @@
     "PROVA_OBJETIVA": "13/12/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "29/01/2027"
+  },
+  {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "Hospital Adventista Silvestre",
+    "INSCRIÇÕES": "13/10 a 04/12/2026",
+    "TAXA": "R$350",
+    "PROVA_OBJETIVA": "13/12/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "22/02/2027"
   },
   {
     "UF": "SP",
@@ -1042,5 +1078,14 @@
     "PROVA_OBJETIVA": "30/01/2027",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "23/02/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Instituto de Olhos Eduardo Paulino",
+    "INSCRIÇÕES": "10/10/2026 a 01/02/2027",
+    "TAXA": "R$650",
+    "PROVA_OBJETIVA": "12/02/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "24/02/2027"
   }
 ]
