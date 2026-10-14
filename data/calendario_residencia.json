@@ -54,6 +54,15 @@
     "RESULTADO_FINAL": "22/01/2027"
   },
   {
+    "UF": "SP",
+    "INSTITUIÇÃO": "UNIFAE",
+    "INSCRIÇÕES": "26/10/2026 a 22/01/2027",
+    "TAXA": "R$450",
+    "PROVA_OBJETIVA": "13/09/2026(ENAMED)",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "15/02/2027"
+  },
+  {
     "UF": "PR",
     "INSTITUIÇÃO": "SMS-Curitiba",
     "INSCRIÇÕES": "21/07 a 02/09/2026",
@@ -880,6 +889,15 @@
     "PROVA_OBJETIVA": "20/12/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "05/02/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Rede Mário Gatti",
+    "INSCRIÇÕES": "26/10 a 23/11/2026",
+    "TAXA": "R$600",
+    "PROVA_OBJETIVA": "20/12/2026",
+    "GABARITO_PRELIMINAR": "21/12/2026",
+    "RESULTADO_FINAL": "10/02/2027"
   },
   {
     "UF": "PR",
