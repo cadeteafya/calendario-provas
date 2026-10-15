@@ -128,11 +128,11 @@
   {
     "UF": "CE",
     "INSTITUIÇÃO": "Instituto do Câncer do Ceará (ICC)",
-    "INSCRIÇÕES": "03 a 24/09/2026",
+    "INSCRIÇÕES": "03/09 a 02/10/2026",
     "TAXA": "R$350",
     "PROVA_OBJETIVA": "18/10/2026",
     "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "08/12/2026"
+    "RESULTADO_FINAL": "18/01/2027"
   },
   {
     "UF": "ES",
@@ -979,6 +979,15 @@
     "PROVA_OBJETIVA": "12/01/2027",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "18/02/2027"
+  },
+  {
+    "UF": "PR",
+    "INSTITUIÇÃO": "Hospital San Julian",
+    "INSCRIÇÕES": "14/10/2026 a 11/01/2027",
+    "TAXA": "R$800",
+    "PROVA_OBJETIVA": "12/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "até 11/02/2027"
   },
   {
     "UF": "SP",
