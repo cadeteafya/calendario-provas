@@ -389,7 +389,7 @@
   {
     "UF": "MG",
     "INSTITUIÇÃO": "PSU-MG",
-    "INSCRIÇÕES": "06 a 15/10/2026",
+    "INSCRIÇÕES": "06 a 19/10/2026",
     "TAXA": "R$300",
     "PROVA_OBJETIVA": "22/11/2026",
     "GABARITO_PRELIMINAR": "-",
@@ -576,6 +576,15 @@
     "RESULTADO_FINAL": "20/01/2027"
   },
   {
+    "UF": "GO",
+    "INSTITUIÇÃO": "Instituto de Olhos de Goiânia",
+    "INSCRIÇÕES": "30/10 a 22/11/2026",
+    "TAXA": "R$600",
+    "PROVA_OBJETIVA": "28/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "04/02/2027"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "Dante Pazzanese",
     "INSCRIÇÕES": "05/10 a 11/11/2026",
@@ -619,6 +628,15 @@
     "PROVA_OBJETIVA": "29/11/2026",
     "GABARITO_PRELIMINAR": "29/11/2026",
     "RESULTADO_FINAL": "04/02/2027"
+  },
+  {
+    "UF": "PB",
+    "INSTITUIÇÃO": "Unimed-JP",
+    "INSCRIÇÕES": "16/10 a 04/11/2026",
+    "TAXA": "R$500",
+    "PROVA_OBJETIVA": "29/11/2026",
+    "GABARITO_PRELIMINAR": "01/12/2026",
+    "RESULTADO_FINAL": "20/12/2026"
   },
   {
     "UF": "SP",
