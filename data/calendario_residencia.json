@@ -675,6 +675,15 @@
     "RESULTADO_FINAL": "16/02/2027"
   },
   {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Instituto Penido Burnier",
+    "INSCRIÇÕES": "01/11 a 01/12/2026",
+    "TAXA": "R$870",
+    "PROVA_OBJETIVA": "05/12/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "Até 20/12/2026"
+  },
+  {
     "UF": "DF",
     "INSTITUIÇÃO": "Hospital Santa Lúcia",
     "INSCRIÇÕES": "06/10 a 09/11/2026",
@@ -817,6 +826,15 @@
     "PROVA_OBJETIVA": "12/12/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "22/01/2027"
+  },
+  {
+    "UF": "RO",
+    "INSTITUIÇÃO": "SES-RO",
+    "INSCRIÇÕES": "26/10 a 30/11/2026",
+    "TAXA": "R$200",
+    "PROVA_OBJETIVA": "12/12/2026",
+    "GABARITO_PRELIMINAR": "21/12/2026",
+    "RESULTADO_FINAL": "29/12/2026"
   },
   {
     "UF": "PR",
