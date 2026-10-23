@@ -451,6 +451,15 @@
   },
   {
     "UF": "ES",
+    "INSTITUIÇÃO": "EMESCAM",
+    "INSCRIÇÕES": "19/10 a 18/11/2026",
+    "TAXA": "R$650",
+    "PROVA_OBJETIVA": "22/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "22/12/2026"
+  },
+  {
+    "UF": "ES",
     "INSTITUIÇÃO": "SMS-Vitória",
     "INSCRIÇÕES": "26/10 a 18/11/2026",
     "TAXA": "–",
@@ -646,15 +655,6 @@
     "PROVA_OBJETIVA": "29/11/2026",
     "GABARITO_PRELIMINAR": "01/12/2026",
     "RESULTADO_FINAL": "20/12/2026"
-  },
-  {
-    "UF": "ES",
-    "INSTITUIÇÃO": "EMESCAM",
-    "INSCRIÇÕES": "19/10 a 23/11/2026",
-    "TAXA": "R$650",
-    "PROVA_OBJETIVA": "29/11/2026",
-    "GABARITO_PRELIMINAR": "-",
-    "RESULTADO_FINAL": "23/12/2026"
   },
   {
     "UF": "SP",
@@ -1197,6 +1197,15 @@
     "RESULTADO_FINAL": "17/02/2027"
   },
   {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "H. Olhos São Gonçalo",
+    "INSCRIÇÕES": "20/10 a 01/12/2026",
+    "TAXA": "R$750",
+    "PROVA_OBJETIVA": "17/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "20/02/2027"
+  },
+  {
     "UF": "PR",
     "INSTITUIÇÃO": "Hospital de Olhos do Paraná",
     "INSCRIÇÕES": "28/09 a 20/11/2026",
@@ -1258,5 +1267,14 @@
     "PROVA_OBJETIVA": "12/02/2027",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "24/02/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "UNILASER",
+    "INSCRIÇÕES": "26/10/2026 a 05/02/2027",
+    "TAXA": "R$850",
+    "PROVA_OBJETIVA": "13/02/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "25/02/2027"
   }
 ]
