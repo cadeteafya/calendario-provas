@@ -666,6 +666,15 @@
     "RESULTADO_FINAL": "22/01/2027"
   },
   {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Unesp Botucatu",
+    "INSCRIÇÕES": "11 a 16/11/2026",
+    "TAXA": "R$200",
+    "PROVA_OBJETIVA": "03/12/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "Até 02/02/2027"
+  },
+  {
     "UF": "PR",
     "INSTITUIÇÃO": "Hospital Cemil",
     "INSCRIÇÕES": "01/10 a 01/11/2026",
@@ -963,6 +972,15 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "GO",
+    "INSTITUIÇÃO": "Hospital de Olhos de Aparecida",
+    "INSCRIÇÕES": "08/11 a 06/12/2026",
+    "TAXA": "R$700",
+    "PROVA_OBJETIVA": "19/12/2026",
+    "GABARITO_PRELIMINAR": "21/12/2026, após as 14h",
+    "RESULTADO_FINAL": "05/02/2027"
+  },
+  {
     "UF": "PE",
     "INSTITUIÇÃO": "SES-PE",
     "INSCRIÇÕES": "21/10 a 11/11/2026",
@@ -1069,6 +1087,15 @@
     "PROVA_OBJETIVA": "10/01/2027",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "20/01/2027"
+  },
+  {
+    "UF": "AM",
+    "INSTITUIÇÃO": "CERMAM",
+    "INSCRIÇÕES": "10 a 30/11/2026",
+    "TAXA": "R$450",
+    "PROVA_OBJETIVA": "10/01/2027",
+    "GABARITO_PRELIMINAR": "10/01/2027",
+    "RESULTADO_FINAL": "18/02/2027"
   },
   {
     "UF": "SP",
