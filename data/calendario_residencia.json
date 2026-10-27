@@ -749,7 +749,7 @@
   {
     "UF": "SP",
     "INSTITUIÇÃO": "USP-SP",
-    "INSCRIÇÕES": "06 a 26/10/2026",
+    "INSCRIÇÕES": "06 a 28/10/2026",
     "TAXA": "R$620",
     "PROVA_OBJETIVA": "06/12/2026",
     "GABARITO_PRELIMINAR": "07/12/2026",
@@ -1015,6 +1015,15 @@
     "PROVA_OBJETIVA": "20/12/2026",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "05/02/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Hospital Santa Joana",
+    "INSCRIÇÕES": "10 a 27/11/2026",
+    "TAXA": "R$700",
+    "PROVA_OBJETIVA": "20/12/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "22/02/2027"
   },
   {
     "UF": "SP",
