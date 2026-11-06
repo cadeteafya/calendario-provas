@@ -558,6 +558,15 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "GO",
+    "INSTITUIÇÃO": "Hopital ASMIGO",
+    "INSCRIÇÕES": "23 e 24/11/2026",
+    "TAXA": "R$720",
+    "PROVA_OBJETIVA": "27/11/2026",
+    "GABARITO_PRELIMINAR": "30/11/2026",
+    "RESULTADO_FINAL": "03/12/2026"
+  },
+  {
     "UF": "ES",
     "INSTITUIÇÃO": "HEVV",
     "INSCRIÇÕES": "01 a 30/10/2026",
@@ -792,6 +801,15 @@
     "RESULTADO_FINAL": "20/01/2027"
   },
   {
+    "UF": "RR",
+    "INSTITUIÇÃO": "Hospital Ville Roy",
+    "INSCRIÇÕES": "26/10 a 13/11/2026",
+    "TAXA": "R$1.000",
+    "PROVA_OBJETIVA": "06/12/2026",
+    "GABARITO_PRELIMINAR": "07/12/2026",
+    "RESULTADO_FINAL": "20/01/2027"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "UEM",
     "INSCRIÇÕES": "28/09 a 30/10/2026",
@@ -981,6 +999,15 @@
     "RESULTADO_FINAL": "05/02/2027"
   },
   {
+    "UF": "CE",
+    "INSTITUIÇÃO": "Instituto Cearense de Oftalmologia",
+    "INSCRIÇÕES": "15 a 29/11/2026",
+    "TAXA": "R$880",
+    "PROVA_OBJETIVA": "14/12/2026",
+    "GABARITO_PRELIMINAR": "14/12/2026, após as 14h",
+    "RESULTADO_FINAL": "05/02/2027"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "Nova Benê",
     "INSCRIÇÕES": "04/11 a 06/12/2026",
@@ -1080,6 +1107,15 @@
     "RESULTADO_FINAL": "15/01/2027"
   },
   {
+    "UF": "SE",
+    "INSTITUIÇÃO": "HUSE",
+    "INSCRIÇÕES": "16 a 25/11/2026",
+    "TAXA": "R$400",
+    "PROVA_OBJETIVA": "07/01/2027",
+    "GABARITO_PRELIMINAR": "15/01/2027",
+    "RESULTADO_FINAL": "02/02/2027"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "Sabará Hospital Infantil",
     "INSCRIÇÕES": "28/09 a 10/12/2026",
@@ -1152,6 +1188,15 @@
     "RESULTADO_FINAL": "18/02/2027"
   },
   {
+    "UF": "MT",
+    "INSTITUIÇÃO": "Hospital Hilda",
+    "INSCRIÇÕES": "18/11 a 11/12/2026",
+    "TAXA": "R$600",
+    "PROVA_OBJETIVA": "10/01/2027",
+    "GABARITO_PRELIMINAR": "10/01/2027, após as 18h",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "Santa Casa de São Carlos",
     "INSCRIÇÕES": "03/10 a 27/12/2026",
@@ -1168,6 +1213,15 @@
     "PROVA_OBJETIVA": "12/01/2027",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "até 11/02/2027"
+  },
+  {
+    "UF": "SC",
+    "INSTITUIÇÃO": "Hospital e Maternidade OASE",
+    "INSCRIÇÕES": "21/11/2026 a 03/01/2027",
+    "TAXA": "R$580",
+    "PROVA_OBJETIVA": "12/01/2027",
+    "GABARITO_PRELIMINAR": "22/01/2027",
+    "RESULTADO_FINAL": "18/02/2027"
   },
   {
     "UF": "SP",
@@ -1222,6 +1276,15 @@
     "PROVA_OBJETIVA": "16/01/2027",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "05/02/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Santa Casa de Fernandópolis",
+    "INSCRIÇÕES": "20/11/2026 a 03/01/2027",
+    "TAXA": "R$600",
+    "PROVA_OBJETIVA": "16/01/2027",
+    "GABARITO_PRELIMINAR": "18/01/2027",
+    "RESULTADO_FINAL": "19/02/2027"
   },
   {
     "UF": "SP",
@@ -1369,6 +1432,15 @@
   },
   {
     "UF": "SP",
+    "INSTITUIÇÃO": "Hospital Pio XII",
+    "INSCRIÇÕES": "16/11/2026 a 03/01/2027",
+    "TAXA": "R$750",
+    "PROVA_OBJETIVA": "24/01/2027",
+    "GABARITO_PRELIMINAR": "25/01/2027",
+    "RESULTADO_FINAL": "18/02/2027"
+  },
+  {
+    "UF": "SP",
     "INSTITUIÇÃO": "Hospital CEMA",
     "INSCRIÇÕES": "a confirmar",
     "TAXA": "a confirmar",
@@ -1409,6 +1481,15 @@
     "INSCRIÇÕES": "26/10/2026 a 05/02/2027",
     "TAXA": "R$850",
     "PROVA_OBJETIVA": "13/02/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "25/02/2027"
+  },
+  {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "Policlínica Dr. Sérgio Arouca",
+    "INSCRIÇÕES": "04 a 29/01/2027",
+    "TAXA": "R$100",
+    "PROVA_OBJETIVA": "15/02/2027",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "25/02/2027"
   }
