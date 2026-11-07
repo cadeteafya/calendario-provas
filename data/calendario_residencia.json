@@ -1081,6 +1081,24 @@
   },
   {
     "UF": "SP",
+    "INSTITUIÇÃO": "Prefeitura de Morro Agudo",
+    "INSCRIÇÕES": "10/11 a 08/12/2026",
+    "TAXA": "R$120",
+    "PROVA_OBJETIVA": "20/12/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "15/01/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Hospital São Lucas de Ribeirão Preto",
+    "INSCRIÇÕES": "24/10 a 13/12/2026",
+    "TAXA": "R$800",
+    "PROVA_OBJETIVA": "20/12/2026",
+    "GABARITO_PRELIMINAR": "21/12/2026",
+    "RESULTADO_FINAL": "08/01/2027"
+  },
+  {
+    "UF": "SP",
     "INSTITUIÇÃO": "Hospital Santa Catarina Paulista",
     "INSCRIÇÕES": "09/11 a 21/12/2026",
     "TAXA": "R$600",
@@ -1393,6 +1411,15 @@
     "PROVA_OBJETIVA": "17/01/2027",
     "GABARITO_PRELIMINAR": "18/01/2027",
     "RESULTADO_FINAL": "19/02/2027"
+  },
+  {
+    "UF": "MT",
+    "INSTITUIÇÃO": "UNIVAG",
+    "INSCRIÇÕES": "22/11/2026 a 03/01/2027",
+    "TAXA": "R$600",
+    "PROVA_OBJETIVA": "17/01/2027",
+    "GABARITO_PRELIMINAR": "18/01/2027",
+    "RESULTADO_FINAL": "18/02/2027"
   },
   {
     "UF": "PR",
