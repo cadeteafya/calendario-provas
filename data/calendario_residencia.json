@@ -749,7 +749,7 @@
   {
     "UF": "MG",
     "INSTITUIÇÃO": "IPSEMG",
-    "INSCRIÇÕES": "28/09 a 05/11/2026",
+    "INSCRIÇÕES": "28/09 a 12/11/2026",
     "TAXA": "R$220",
     "PROVA_OBJETIVA": "06/12/2026",
     "GABARITO_PRELIMINAR": "-",
@@ -1015,6 +1015,15 @@
     "PROVA_OBJETIVA": "16/12/2026",
     "GABARITO_PRELIMINAR": "05/01/2027",
     "RESULTADO_FINAL": "04/02/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Hospital Edmundo Vasconcelos",
+    "INSCRIÇÕES": "11/11 a 04/12/2026",
+    "TAXA": "R$750",
+    "PROVA_OBJETIVA": "16/12/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "15/01/2027"
   },
   {
     "UF": "PR",
