@@ -1449,6 +1449,15 @@
     "RESULTADO_FINAL": "18/02/2027"
   },
   {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "SPBC",
+    "INSCRIÇÕES": "10/11 a 01/12/2026",
+    "TAXA": "R$750",
+    "PROVA_OBJETIVA": "17/01/2027",
+    "GABARITO_PRELIMINAR": "18/01/2027",
+    "RESULTADO_FINAL": "06/02/2027"
+  },
+  {
     "UF": "PR",
     "INSTITUIÇÃO": "Hospital de Olhos do Paraná",
     "INSCRIÇÕES": "28/09 a 20/11/2026",
@@ -1546,6 +1555,15 @@
     "PROVA_OBJETIVA": "13/02/2027",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "25/02/2027"
+  },
+  {
+    "UF": "PR",
+    "INSTITUIÇÃO": "Instituto Ofta Card",
+    "INSCRIÇÕES": "26/11/2026 a 01/02/2027",
+    "TAXA": "vide edital",
+    "PROVA_OBJETIVA": "13/02/2027",
+    "GABARITO_PRELIMINAR": "13/02/2027",
+    "RESULTADO_FINAL": "23/02/2027"
   },
   {
     "UF": "RJ",
