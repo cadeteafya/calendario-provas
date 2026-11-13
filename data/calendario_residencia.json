@@ -1055,7 +1055,7 @@
   {
     "UF": "PE",
     "INSTITUIÇÃO": "SES-PE",
-    "INSCRIÇÕES": "21/10 a 11/11/2026",
+    "INSCRIÇÕES": "21/10 a 16/11/2026",
     "TAXA": "R$600",
     "PROVA_OBJETIVA": "20/12/2026",
     "GABARITO_PRELIMINAR": "21/12/2026",
@@ -1179,6 +1179,15 @@
     "RESULTADO_FINAL": "21/01/2027"
   },
   {
+    "UF": "CE",
+    "INSTITUIÇÃO": "Unimed Fortaleza",
+    "INSCRIÇÕES": "09/11 a 14/12/2026",
+    "TAXA": "R$600",
+    "PROVA_OBJETIVA": "09/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "29/01/2027"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "Hospital IGESP",
     "INSCRIÇÕES": "13/09 a 27/12/2026",
@@ -1270,6 +1279,15 @@
   },
   {
     "UF": "SP",
+    "INSTITUIÇÃO": "Hospital Militar de Área de São Paulo",
+    "INSCRIÇÕES": "1º a 28/12/2026",
+    "TAXA": "R$450",
+    "PROVA_OBJETIVA": "13/01/2027",
+    "GABARITO_PRELIMINAR": "14/01/2027",
+    "RESULTADO_FINAL": "12/02/2027"
+  },
+  {
+    "UF": "SP",
     "INSTITUIÇÃO": "FAI Adamantina",
     "INSCRIÇÕES": "20/10 a 03/01/2027",
     "TAXA": "R$600",
@@ -1330,6 +1348,15 @@
     "PROVA_OBJETIVA": "16/01/2027",
     "GABARITO_PRELIMINAR": "18/01/2027",
     "RESULTADO_FINAL": "01/02/2027"
+  },
+  {
+    "UF": "MT",
+    "INSTITUIÇÃO": "Hospital H.Bento",
+    "INSCRIÇÕES": "16/11 a 11/12/2026",
+    "TAXA": "R$500",
+    "PROVA_OBJETIVA": "16/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "29/01/2027"
   },
   {
     "UF": "SP",
@@ -1456,6 +1483,15 @@
     "PROVA_OBJETIVA": "17/01/2027",
     "GABARITO_PRELIMINAR": "18/01/2027",
     "RESULTADO_FINAL": "06/02/2027"
+  },
+  {
+    "UF": "AC",
+    "INSTITUIÇÃO": "Hospital Oftalmológico Velloso",
+    "INSCRIÇÕES": "26/11/2026 a 12/01/2027",
+    "TAXA": "R$900",
+    "PROVA_OBJETIVA": "17/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "10/02/2027"
   },
   {
     "UF": "PR",
