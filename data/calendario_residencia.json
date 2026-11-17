@@ -567,6 +567,15 @@
     "RESULTADO_FINAL": "03/12/2026"
   },
   {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "Hospital Casa de Portugal",
+    "INSCRIÇÕES": "15/10 a 21/11/2026",
+    "TAXA": "R$350",
+    "PROVA_OBJETIVA": "27/11/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "ES",
     "INSTITUIÇÃO": "HEVV",
     "INSCRIÇÕES": "01 a 30/10/2026",
@@ -1153,6 +1162,15 @@
   },
   {
     "UF": "SP",
+    "INSTITUIÇÃO": "DIMEN Medicina Nuclear",
+    "INSCRIÇÕES": "18/11 a 23/12/2026",
+    "TAXA": "R$500",
+    "PROVA_OBJETIVA": "07/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
     "INSTITUIÇÃO": "Sabará Hospital Infantil",
     "INSCRIÇÕES": "28/09 a 10/12/2026",
     "TAXA": "R$750",
@@ -1240,6 +1258,15 @@
     "PROVA_OBJETIVA": "10/01/2027",
     "GABARITO_PRELIMINAR": "10/01/2027, após as 18h",
     "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "PB",
+    "INSTITUIÇÃO": "Prefeitura de Patos",
+    "INSCRIÇÕES": "16/11 a 07/12/2026",
+    "TAXA": "vide edital",
+    "PROVA_OBJETIVA": "10/01/2027",
+    "GABARITO_PRELIMINAR": "11/01/2027",
+    "RESULTADO_FINAL": "05/02/2027"
   },
   {
     "UF": "SP",
@@ -1495,6 +1522,24 @@
   },
   {
     "UF": "PR",
+    "INSTITUIÇÃO": "SMS Maringá",
+    "INSCRIÇÕES": "27/11 a 26/12/2026",
+    "TAXA": "vide edital",
+    "PROVA_OBJETIVA": "17/01/2027",
+    "GABARITO_PRELIMINAR": "18/01/2027",
+    "RESULTADO_FINAL": "18/02/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Santa Casa de Misericórdia de São Joaquim da Barra",
+    "INSCRIÇÕES": "16/11 a 01/12/2026",
+    "TAXA": "R$750",
+    "PROVA_OBJETIVA": "17/01/2027",
+    "GABARITO_PRELIMINAR": "18/01/2027",
+    "RESULTADO_FINAL": "06/02/2027"
+  },
+  {
+    "UF": "PR",
     "INSTITUIÇÃO": "Hospital de Olhos do Paraná",
     "INSCRIÇÕES": "28/09 a 20/11/2026",
     "TAXA": "R$3.000",
@@ -1564,6 +1609,15 @@
     "PROVA_OBJETIVA": "25/01/2027",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "04/02/2027"
+  },
+  {
+    "UF": "PB",
+    "INSTITUIÇÃO": "SOS Otorrino",
+    "INSCRIÇÕES": "12/11/2026 a 26/01/2027",
+    "TAXA": "R$480",
+    "PROVA_OBJETIVA": "29/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "SP",
