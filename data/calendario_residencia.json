@@ -1584,6 +1584,15 @@
     "RESULTADO_FINAL": "18/02/2027"
   },
   {
+    "UF": "sp",
+    "INSTITUIÇÃO": "USP Bauru",
+    "INSCRIÇÕES": "09/12/2026 a 15/01/2027",
+    "TAXA": "R$330",
+    "PROVA_OBJETIVA": "24/01/2027",
+    "GABARITO_PRELIMINAR": "25/01/2027",
+    "RESULTADO_FINAL": "18/02/2027"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "Hospital CEMA",
     "INSCRIÇÕES": "a confirmar",
@@ -1627,6 +1636,15 @@
     "PROVA_OBJETIVA": "30/01/2027",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "23/02/2027"
+  },
+  {
+    "UF": "TO",
+    "INSTITUIÇÃO": "SMS Palmas",
+    "INSCRIÇÕES": "08/12/2026 a 04/01/2027",
+    "TAXA": "R$350",
+    "PROVA_OBJETIVA": "31/01/2027",
+    "GABARITO_PRELIMINAR": "04/02/2027",
+    "RESULTADO_FINAL": "22/02/2027"
   },
   {
     "UF": "SP",
