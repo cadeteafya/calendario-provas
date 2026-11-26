@@ -18,6 +18,15 @@
     "RESULTADO_FINAL": "-"
   },
   {
+    "UF": "SC",
+    "INSTITUIÇÃO": "UNIFEBE",
+    "INSCRIÇÕES": "até 15/01/2027",
+    "TAXA": "R$200",
+    "PROVA_OBJETIVA": "13/09/2026(ENAMED E ENARE)",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "até 12/02/2027"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "UNIMAR",
     "INSCRIÇÕES": "17/06 a 08/12/2026",
@@ -1017,6 +1026,15 @@
     "RESULTADO_FINAL": "05/02/2027"
   },
   {
+    "UF": "RJ",
+    "INSTITUIÇÃO": "Hospital Unimed Campos",
+    "INSCRIÇÕES": "12/11 a 06/12/2026",
+    "TAXA": "R$500",
+    "PROVA_OBJETIVA": "14/12/2026",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "Nova Benê",
     "INSCRIÇÕES": "04/11 a 06/12/2026",
@@ -1042,6 +1060,15 @@
     "PROVA_OBJETIVA": "18/12/2026",
     "GABARITO_PRELIMINAR": "21/12/2026",
     "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "RN",
+    "INSTITUIÇÃO": "LMECC",
+    "INSCRIÇÕES": "19 a 29/11/2026",
+    "TAXA": "R$300",
+    "PROVA_OBJETIVA": "18/12/2026",
+    "GABARITO_PRELIMINAR": "26/01/2026",
+    "RESULTADO_FINAL": "10/02/2026"
   },
   {
     "UF": "PR",
@@ -1269,6 +1296,15 @@
     "RESULTADO_FINAL": "05/02/2027"
   },
   {
+    "UF": "MG",
+    "INSTITUIÇÃO": "UFSJ",
+    "INSCRIÇÕES": "09 a 23/11/2026",
+    "TAXA": "gratuita",
+    "PROVA_OBJETIVA": "10/01/2027",
+    "GABARITO_PRELIMINAR": "12/01/2027",
+    "RESULTADO_FINAL": "22/01/2027"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "Santa Casa de São Carlos",
     "INSCRIÇÕES": "03/10 a 27/12/2026",
@@ -1386,6 +1422,24 @@
     "RESULTADO_FINAL": "29/01/2027"
   },
   {
+    "UF": "PR",
+    "INSTITUIÇÃO": "Santa Casa de Londrina",
+    "INSCRIÇÕES": "11/12/2026 a 03/01/2027",
+    "TAXA": "R$830",
+    "PROVA_OBJETIVA": "16/01/2027",
+    "GABARITO_PRELIMINAR": "16/01/2027, após 18h",
+    "RESULTADO_FINAL": "12/02/2027"
+  },
+  {
+    "UF": "DF",
+    "INSTITUIÇÃO": "Hospital HOME",
+    "INSCRIÇÕES": "01/12/2026 a 08/01/2027",
+    "TAXA": "R$700",
+    "PROVA_OBJETIVA": "16/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "SP",
     "INSTITUIÇÃO": "UNIP",
     "INSCRIÇÕES": "29/09 a 27/11/2026",
@@ -1460,7 +1514,7 @@
   {
     "UF": "SP",
     "INSTITUIÇÃO": "Hospital São Francisco de Assis",
-    "INSCRIÇÕES": "23/10 a 01/12/2026",
+    "INSCRIÇÕES": "23/11 a 18/12/2026",
     "TAXA": "R$750",
     "PROVA_OBJETIVA": "17/01/2027",
     "GABARITO_PRELIMINAR": "18/01/2027",
@@ -1504,7 +1558,7 @@
   },
   {
     "UF": "RJ",
-    "INSTITUIÇÃO": "SPBC",
+    "INSTITUIÇÃO": "Sociedade Portuguesa de Beneficência de Campos",
     "INSCRIÇÕES": "10/11 a 01/12/2026",
     "TAXA": "R$750",
     "PROVA_OBJETIVA": "17/01/2027",
@@ -1537,6 +1591,51 @@
     "PROVA_OBJETIVA": "17/01/2027",
     "GABARITO_PRELIMINAR": "18/01/2027",
     "RESULTADO_FINAL": "06/02/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Hospital Dr. Arnaldo",
+    "INSCRIÇÕES": "17/11 a 18/12/2026",
+    "TAXA": "R$750",
+    "PROVA_OBJETIVA": "17/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "PI",
+    "INSTITUIÇÃO": "UESPI",
+    "INSCRIÇÕES": "07/12/2026 a 04/01/2027",
+    "TAXA": "R$300",
+    "PROVA_OBJETIVA": "17/01/2027",
+    "GABARITO_PRELIMINAR": "17/01/2027",
+    "RESULTADO_FINAL": "19/02/2027"
+  },
+  {
+    "UF": "CE",
+    "INSTITUIÇÃO": "Hospital Prontocardio",
+    "INSCRIÇÕES": "04 a 09/01/2027",
+    "TAXA": "R$300",
+    "PROVA_OBJETIVA": "17/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "ESMG",
+    "INSTITUIÇÃO": "Hospital MedSênior",
+    "INSCRIÇÕES": "05/12/2026 a 10/01/2027",
+    "TAXA": "R$450",
+    "PROVA_OBJETIVA": "17/01/2027",
+    "GABARITO_PRELIMINAR": "01/02/2027",
+    "RESULTADO_FINAL": "12/02/2027"
+  },
+  {
+    "UF": "SP",
+    "INSTITUIÇÃO": "Hospital Infantil Gonzaga",
+    "INSCRIÇÕES": "08/12/2026 a 13/01/2027",
+    "TAXA": "R$500",
+    "PROVA_OBJETIVA": "17/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   },
   {
     "UF": "PR",
@@ -1648,6 +1747,15 @@
   },
   {
     "UF": "SP",
+    "INSTITUIÇÃO": "Hospital de Olhos Redentora",
+    "INSCRIÇÕES": "04/12/2026 a 04/01/2027",
+    "TAXA": "R$600",
+    "PROVA_OBJETIVA": "31/01/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
+    "UF": "SP",
     "INSTITUIÇÃO": "Instituto de Olhos Eduardo Paulino",
     "INSCRIÇÕES": "10/10/2026 a 01/02/2027",
     "TAXA": "R$650",
@@ -1674,6 +1782,15 @@
     "RESULTADO_FINAL": "23/02/2027"
   },
   {
+    "UF": "SP",
+    "INSTITUIÇÃO": "IOVALE",
+    "INSCRIÇÕES": "13/11/2026 a 03/02/2027",
+    "TAXA": "R$400",
+    "PROVA_OBJETIVA": "13/02/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
+  },
+  {
     "UF": "RJ",
     "INSTITUIÇÃO": "Policlínica Dr. Sérgio Arouca",
     "INSCRIÇÕES": "04 a 29/01/2027",
@@ -1681,5 +1798,14 @@
     "PROVA_OBJETIVA": "15/02/2027",
     "GABARITO_PRELIMINAR": "-",
     "RESULTADO_FINAL": "25/02/2027"
+  },
+  {
+    "UF": "PR",
+    "INSTITUIÇÃO": "Hospital Olhos de Umuarama",
+    "INSCRIÇÕES": "19/11/2026 a 10/02/2027",
+    "TAXA": "R$890",
+    "PROVA_OBJETIVA": "20/02/2027",
+    "GABARITO_PRELIMINAR": "-",
+    "RESULTADO_FINAL": "-"
   }
 ]
